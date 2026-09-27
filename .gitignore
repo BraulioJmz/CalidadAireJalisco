@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+# Node / Next
+web/node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+web/*.tsbuildinfo
+.vercel
+# Sistema
+.DS_Store
+# La base anual pesa ~9 MB; se versiona el extracto data/raw/MIR_2024.csv
+BD_2024.xlsx
+
+# Carpeta temporal; se puede borrar
+_to_delete/
