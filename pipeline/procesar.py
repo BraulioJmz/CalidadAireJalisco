@@ -76,31 +76,76 @@ def evento(fecha: pd.Timestamp):
     return None, None
 
 
+# Tabla 12 de la NOM-172-SEMARNAT-2023: mensajes por categoría para tres grupos poblacionales (texto oficial).
+#   general            población en general
+#   menores_gestantes  menores de 12 años y personas gestantes
+#   sensibles          personas con enfermedades cardiovasculares o respiratorias y mayores de 60 años
+_INFORMATE = "Infórmate sobre la evolución de la calidad del aire."
+_MEDICO = "Si presentas algún síntoma o molestia o tienes dudas, busca el consejo de tu médico."
 MENSAJES = {
     "Buena": {
-        "general": "La calidad del aire es buena. Se pueden realizar actividades al aire libre con normalidad.",
-        "sensibles": "Sin restricciones.",
+        "general": "Disfruta las actividades al aire libre.",
+        "menores_gestantes": "Disfruta las actividades al aire libre.",
+        "sensibles": "Disfruta las actividades al aire libre.",
     },
     "Aceptable": {
-        "general": "Calidad del aire aceptable. Las actividades al aire libre pueden continuar.",
-        "sensibles": "Consideren reducir la actividad física intensa al aire libre.",
+        "general": f"Disfruta las actividades al aire libre. {_INFORMATE}",
+        "menores_gestantes": f"Disfruta las actividades al aire libre. {_INFORMATE}",
+        "sensibles": ("Es posible realizar actividades físicas al aire libre como trotar suave, caminar a paso rápido o moverse "
+                      "en bicicleta, monopatín/scooter, patines y patinetas. Reduce las actividades físicas vigorosas al aire libre "
+                      "como ejercicios aeróbicos, jugar fútbol, básquetbol, voleibol, atletismo, ciclismo deportivo o correr. "
+                      f"{_MEDICO} {_INFORMATE}"),
     },
     "Mala": {
-        "general": "Calidad del aire mala. Reduzcan la actividad física intensa al aire libre.",
-        "sensibles": "Eviten la actividad física al aire libre y trasladen las actividades a interiores.",
+        "general": ("Es posible realizar actividades al aire libre. Si presenta síntomas como tos o falta de aire, toma más "
+                    f"descansos y realiza actividades menos vigorosas. {_INFORMATE}"),
+        "menores_gestantes": ("Es posible realizar actividades físicas al aire libre como trotar suave, caminar a paso rápido o "
+                              "moverse en bicicleta, monopatín/scooter, patines y patinetas; aumenta los períodos de descanso. "
+                              "Reduce las actividades físicas vigorosas al aire libre como ejercicios aeróbicos, jugar fútbol, "
+                              "básquetbol, voleibol, atletismo, ciclismo deportivo, etc. Si se presentan síntomas respiratorios o "
+                              f"cardiacos, suspende la actividad y acude a tu médico. {_INFORMATE}"),
+        "sensibles": ("Reduce las actividades físicas vigorosas al aire libre como ejercicios aeróbicos, jugar fútbol, básquetbol, "
+                      "voleibol, atletismo, ciclismo deportivo o correr, trotar suave, caminar a paso rápido o moverse en "
+                      f"bicicleta, monopatín/scooter, patines y patinetas. {_MEDICO} {_INFORMATE}"),
     },
     "Muy Mala": {
-        "general": "Calidad del aire muy mala. Eviten la actividad física al aire libre.",
-        "sensibles": "Permanezcan en interiores.",
+        "general": ("Reduce las actividades físicas al aire libre y de preferencia realízalas en espacios interiores, siempre y "
+                    "cuando se trate de un espacio libre de humo de tabaco. Evita la actividad física vigorosa o prolongada al "
+                    f"aire libre. {_INFORMATE}"),
+        "menores_gestantes": ("Reduce las actividades físicas al aire libre y de preferencia realízalas en espacios interiores, "
+                              "siempre y cuando se trate de un espacio libre de humo de tabaco. Evita la actividad física "
+                              f"vigorosa o prolongada al aire libre. {_INFORMATE}"),
+        "sensibles": ("Es posible realizar actividades físicas en espacios interiores, siempre y cuando se trate de un espacio "
+                      "libre de humo de tabaco. Evita las actividades físicas vigorosas y moderadas, así como el tiempo de "
+                      f"estancia al aire libre. {_MEDICO} {_INFORMATE}"),
     },
     "Extremadamente Mala": {
-        "general": "Calidad del aire extremadamente mala. Permanezcan en interiores.",
-        "sensibles": "Permanezcan en interiores y sigan indicaciones de las autoridades.",
+        k: ("Permanece en espacios interiores en donde puedes realizar actividades físicas, reprograma tus actividades al "
+            f"aire libre y si presentas síntomas respiratorios y/o cardiacos acude al médico. {_INFORMATE}")
+        for k in ("general", "menores_gestantes", "sensibles")
     },
     "Sin datos": {
-        "general": "Sin información suficiente para estimar la calidad del aire en esta hora.",
+        "general": "Sin información suficiente para calcular el Índice AIRE Y SALUD en esta hora.",
+        "menores_gestantes": "",
         "sensibles": "",
     },
+}
+
+# Tabla 10 de la NOM-172-SEMARNAT-2023: descripción del riesgo por categoría.
+DESCRIPCION_RIESGO = {
+    "Buena": {"general": "El riesgo en salud es mínimo o nulo.", "sensible": "El riesgo en salud es mínimo o nulo."},
+    "Aceptable": {"general": "El riesgo en salud es mínimo.",
+                  "sensible": ("Personas que son sensibles al ozono (O3) o material particulado (PM10 y PM2.5) pueden "
+                               "experimentar irritación de ojos y síntomas respiratorios como tos, irritación de vías "
+                               "respiratorias, expectoración o flema, dificultad para respirar o sibilancias.")},
+    "Mala": {"general": "Es poco probable que se vea afectada.",
+             "sensible": "Incremento en el riesgo de tener síntomas respiratorios y/o disminución en la función pulmonar."},
+    "Muy Mala": {"general": "Se puede presentar daños a la salud.",
+                 "sensible": ("Pueden experimentar un agravamiento de asma, enfermedad pulmonar obstructiva crónica o evento "
+                              "cardiovascular e incremento en la probabilidad de muerte prematura en personas con enfermedad "
+                              "pulmonar obstructiva crónica y cardiaca.")},
+    "Extremadamente Mala": {"general": "Es más probable que cualquier persona se vea afectada por efectos graves a la salud.",
+                            "sensible": "Es más probable que cualquier persona se vea afectada por efectos graves a la salud."},
 }
 
 
@@ -251,7 +296,12 @@ def metodologia() -> pd.DataFrame:
         ("CO", "Promedio móvil 8 h (hora actual + 7 previas), ≥ 6 de 8 datos, 2 decimales (half-up). Diario = máximo del promedio 8 h."),
         ("PM10 / PM2.5", "NowCast 12 h con la función de referencia de la profesora (≥ 2 de las 3 horas recientes; W ≥ 0.5; "
                          "factor 0.714 PM10 / 0.694 PM2.5). Diario = promedio 24 h redondeado a entero."),
-        ("Bandas", "O3: 0.058/0.090/0.135/0.175 ppm · CO: 5/9/12/16 ppm · PM10: 45/60/132/213 µg/m³ · PM2.5: 15/33/79/130 µg/m³."),
+        ("Bandas", "Tablas 4 a 9 de la NOM. O3: 0.058/0.090/0.135/0.175 ppm · CO: 5/9/12/16 ppm · PM10: 45/60/132/213 µg/m³ · "
+                   "PM2.5: 15/33/79/130 µg/m³. Para partículas se usa la columna «a partir de enero de 2024», que corresponde al año de los datos."),
+        ("Redondeo", "Numeral 5.2.4: O3 a 3 decimales, CO a 2 y PM a entero; si la cifra siguiente es 5 o más, se sube. "
+                     "En marzo 2024 el redondeo interno de la función NowCast de referencia coincide con esta regla en todas las horas."),
+        ("Mensajes", "Tabla 12 de la NOM, textos oficiales para tres grupos: población en general; menores de 12 años y personas "
+                     "gestantes; personas con enfermedades cardiovasculares o respiratorias y mayores de 60 años."),
         ("Suficiencia diaria", "≥ 18 de 24 datos horarios válidos (75 %) por contaminante; si no cumple, no se calcula indicador."),
         ("Categoría global", "La más desfavorable entre los contaminantes con indicador (NO2 y SO2 no se miden en MIR)."),
         ("Contaminante responsable", "El de la categoría más desfavorable. Si empatan, el que está más cerca del límite superior "
@@ -312,6 +362,22 @@ def exportar_json(h, d, bitacora, perfil, periodo) -> None:
          "horas_mala_o_peor": int(r["horas_Mala"] + r["horas_Muy Mala"] + r["horas_Extremadamente Mala"])}
         for _, r in peores.iterrows()
     ]
+    # Máximos del periodo: cuándo ocurrieron y qué categoría horaria tenía esa hora
+    def extremo(col, fn="max", pol=None):
+        serie = h[col].dropna()
+        if serie.empty:
+            return None
+        ts = serie.idxmax() if fn == "max" else serie.idxmin()
+        empates = serie.index[serie == serie[ts]]  # todas las horas que alcanzan el mismo valor
+        return {"variable": col, "tipo": fn, "valor": _limpio(serie[ts]), "fecha_hora": ts.strftime("%Y-%m-%d %H:%M"),
+                "otras_horas": [t.strftime("%Y-%m-%d %H:%M") for t in empates if t != ts],
+                "categoria": h.at[ts, f"Cat_{pol}"] if pol else None, "cat_global": h.at[ts, "Cat_global"]}
+    numeralia["maximos"] = [m for m in [
+        extremo("PM10", pol=None), extremo("PM10_NowCast", pol="PM10"),
+        extremo("PM2.5", pol=None), extremo("PM2.5_NowCast", pol="PM2.5"),
+        extremo("O3", pol="O3"), extremo("CO_8h", pol="CO"),
+        extremo("ET"), extremo("ET", "min"), extremo("WS"),
+    ] if m]
     # Pérdida de información horario -> diario
     comp = d[d.Cat_global != N.SIN_DATOS]
     numeralia["horario_vs_diario"] = {
@@ -335,6 +401,7 @@ def exportar_json(h, d, bitacora, perfil, periodo) -> None:
         "bandas": N.BANDAS, "unidades": N.UNIDADES, "categorias": N.CATEGORIAS, "riesgo": N.RIESGO,
         "indicador_horario": N.INDICADOR_HORARIO, "indicador_diario": N.INDICADOR_DIARIO,
         "mensajes": MENSAJES,
+        "descripcion_riesgo": DESCRIPCION_RIESGO,
         "perfil": perfil,
         "bitacora": bitacora.to_dict("records"),
         "horario": horario,
@@ -393,7 +460,7 @@ def main() -> None:
     exportar_json(h, d, bit, perfil, periodo)
     DESC.mkdir(parents=True, exist_ok=True)
     for f in [f"MIR_{PERIODO}_horario.xlsx", f"MIR_{PERIODO}_diario.xlsx", "bitacora_limpieza.csv",
-              calculos.ruta_archivo1(PERIODO).name, calculos.ruta_archivo2(PERIODO).name]:
+              etl.ruta_limpio_periodo(PERIODO).name, calculos.ruta_archivo1(PERIODO).name, calculos.ruta_archivo2(PERIODO).name]:
         shutil.copy2(OUT / f, DESC / f)
 
     print(f"Periodo {PERIODO} | horas: {len(h)} | con categoría: {(h.Cat_global != N.SIN_DATOS).sum()}")

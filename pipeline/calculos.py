@@ -119,12 +119,12 @@ def calcular_diario(h: pd.DataFrame) -> pd.DataFrame:
             validos = int(grupo[col_origen].count())
             cumple = "Cumple" if validos >= N.SUFICIENCIA_DIARIA else "No cumple"
 
-            # 2. Indicador diario si cumple, con los decimales de la NOM (O3 3, CO 2, PM 0)
+            # 2. Indicador diario si cumple, con los decimales de la NOM (O3 3, CO 2, PM 0) y redondeo half-up
             indicador = np.nan
             serie = grupo[col_indicador]
             if cumple == "Cumple" and serie.notna().any():
                 valor = serie.mean() if tipo_calculo == "promedio_24h" else serie.max()
-                indicador = round(float(valor), N.DECIMALES[cont])
+                indicador = N.redondeo_mitad_arriba(float(valor), N.DECIMALES[cont])  # NOM 5.2.4: 5 sube
 
             # 3. Categoría diaria
             categoria = N.categoria(indicador, cont)

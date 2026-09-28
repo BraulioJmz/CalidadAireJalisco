@@ -2,7 +2,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ECharts } from "echarts/core";
 import { CATS, MES, MES_LARGO, ORD, PL, dec, dow, fmt, num, parseT, tLabel } from "@/lib/aire";
+import { momentosClave } from "@/lib/momentos";
 import type { HourRec, SimPayload } from "@/lib/types";
+import { MensajesNOM } from "./MensajesNOM";
 import { CatPill, Pol } from "./ui";
 import { EChart } from "./charts/EChart";
 import { useTokens, withAlpha, type Tokens } from "./charts/useTokens";
@@ -116,6 +118,12 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
     return out.reverse();
   }, [w, k, H, start]);
 
+  const momentos = useMemo(() => momentosClave(w, data.diario, data.unidades), [w, data.diario, data.unidades]);
+  const mi = momentos.findIndex((m) => m.k === k);
+  const irMomento = (i: number) => { const m = momentos[Math.max(0, Math.min(momentos.length - 1, i))]; if (m) { setPlaying(false); setK(m.k); } };
+  const siguiente = momentos.findIndex((m) => m.k > k);
+  const anterior = momentos.map((m) => m.k < k).lastIndexOf(true);
+
   if (!r) return null;
   const p = parseT(r.t);
   const g = r.Cat_global;
@@ -158,6 +166,34 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
         </div>
       </div>
 
+      {/* Recorrido guiado: los momentos clave como diapositivas */}
+      {momentos.length > 1 && (
+        <div className="card p-4 sm:p-5">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="eyebrow">Recorrido guiado · {momentos.length} momentos clave</p>
+            <div className="flex items-center gap-1.5">
+              <button type="button" disabled={anterior < 0} onClick={() => irMomento(anterior)}
+                className="rounded-lg border border-rule px-3 py-1.5 text-sm text-ink transition hover:border-ink-2 disabled:opacity-40">← Anterior</button>
+              <button type="button" disabled={siguiente < 0} onClick={() => irMomento(siguiente)}
+                className="rounded-lg border border-rule px-3 py-1.5 text-sm text-ink transition hover:border-ink-2 disabled:opacity-40">Siguiente →</button>
+            </div>
+          </div>
+          <ol className="mt-3 flex flex-wrap gap-1.5" aria-label="Momentos clave">
+            {momentos.map((m, i) => (
+              <li key={m.k}>
+                <button type="button" onClick={() => irMomento(i)} aria-current={i === mi ? "step" : undefined}
+                  className={`rounded-full border px-3 py-1 text-xs transition ${i === mi ? "border-ink bg-ink text-bg" : "border-rule text-ink-2 hover:border-ink-2 hover:text-ink"}`}>
+                  <span className="num">{i + 1}</span> · {m.titulo} <span className="num opacity-70">{tLabel(w[m.k].t)}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-3 min-h-[3rem] text-[0.95rem] leading-relaxed text-ink-2" aria-live="polite">
+            {mi >= 0 ? momentos[mi].texto : "Usa «Siguiente» para avanzar por los momentos clave, o reproduce la simulación hora por hora."}
+          </p>
+        </div>
+      )}
+
       {/* Estado actual */}
       <div className="grid gap-4 lg:grid-cols-[1.05fr_1fr]">
         <div className="card relative overflow-hidden p-5 sm:p-6">
@@ -175,9 +211,9 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
             {resp && <span className="text-sm text-ink-2">Define <b className="text-ink"><Pol p={resp} /></b> {fmt(ind, dec(resp))} {data.unidades[resp]}</span>}
             {r.Cambio_categoria && <span className="rounded-md bg-surface-2 px-2 py-1 text-xs font-medium text-ink-2">Cambio de categoría</span>}
           </div>
-          <div className="mt-5 space-y-2 border-l-2 pl-4 text-[0.95rem] text-ink-2" style={{ borderColor: tokens?.cat[g] }}>
-            <p><b className="text-ink">Comunidad en general.</b> {msg.general}</p>
-            {msg.sensibles && <p><b className="text-ink">Grupos sensibles</b> (personas con enfermedades respiratorias o cardiacas, niñas, niños y personas mayores). {msg.sensibles}</p>}
+          <div className="mt-5 border-l-2 pl-4" style={{ borderColor: tokens?.cat[g] }}>
+            <MensajesNOM m={msg} />
+            <p className="mt-2 text-xs text-muted">Mensajes de la NOM-172-SEMARNAT-2023, tabla 12.</p>
           </div>
         </div>
 
@@ -216,7 +252,7 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
             ["Procesamiento", pr === "CO" ? `Promedio de ${String(r.CO_datos_8h)}/8 h` : pr === "O3" ? "Valor horario" : `NowCast · W = ${fmt(r[`${pr}_W`], 2)}`, "Solo con horas ya recibidas"],
             ["Indicador", ind == null ? "No válido" : `${fmt(ind, dec(pr))} ${u}`, data.indicador_horario[pr]],
             ["Categoría", null, `Riesgo ${data.riesgo[g] ?? "—"}`],
-            ["Información", r.Cambio_categoria ? "Emitir aviso" : "Mantener aviso", msg.general],
+            ["Información", r.Cambio_categoria ? "Emitir aviso" : "Mantener aviso", data.descripcion_riesgo?.[g]?.general ?? msg.general],
           ].map(([k1, v, s], i) => (
             <li key={String(k1)} className={`card flex flex-col gap-1.5 p-3.5 ${i === 4 ? "col-span-2 md:col-span-1" : ""}`}>
               <span className="num text-[0.66rem] uppercase tracking-[0.12em] text-muted">{String(i + 1).padStart(2, "0")} · {k1}</span>

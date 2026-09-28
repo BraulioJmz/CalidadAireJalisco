@@ -17,19 +17,21 @@
   --accent-soft: #b8c7f1;
   --glow: rgba(44, 86, 207, 0.10);
 
-  /* Índice AIRE Y SALUD (NOM-172): colores semánticos, siempre acompañados de su nombre */
-  --c-buena: #3c9a4e;
-  --c-aceptable: #e9c31e;
-  --c-mala: #ee7c1d;
-  --c-muymala: #d2372e;
-  --c-extrema: #7a3a8d;
-  --c-sin: #c5ccd5;
-  --on-buena: #ffffff;
-  --on-aceptable: #241d00;
+  /* Índice AIRE Y SALUD: colores oficiales (NOM-172-SEMARNAT-2023, tablas 10 y 11, RGB).
+     Siempre acompañados del nombre de la categoría. Sin información = blanco (tabla 11, nota). */
+  --c-buena: #00e400;
+  --c-aceptable: #ffff00;
+  --c-mala: #ff7e00;
+  --c-muymala: #ff0000;
+  --c-extrema: #8f3f97;
+  --c-sin: #ffffff;
+  --c-sin-borde: #c5ccd5;
+  --on-buena: #0b1f0b;
+  --on-aceptable: #262400;
   --on-mala: #2a1400;
-  --on-muymala: #ffffff;
+  --on-muymala: #1f0000;
   --on-extrema: #ffffff;
-  --on-sin: #33404a;
+  --on-sin: #3c4a5e;
   --band-alpha: 0.16;
 
   --seq-0: #e6ecf6;
@@ -53,18 +55,20 @@
   --accent-soft: #2a3b70;
   --glow: rgba(125, 155, 255, 0.10);
 
-  --c-buena: #4baa5c;
-  --c-aceptable: #e2be2c;
-  --c-mala: #ef8834;
-  --c-muymala: #de5048;
-  --c-extrema: #9c5db1;
-  --c-sin: #3a4558;
-  --on-buena: #06170a;
-  --on-aceptable: #1e1800;
-  --on-mala: #231000;
-  --on-muymala: #ffffff;
+  /* Mismos colores oficiales de la NOM en modo oscuro */
+  --c-buena: #00e400;
+  --c-aceptable: #ffff00;
+  --c-mala: #ff7e00;
+  --c-muymala: #ff0000;
+  --c-extrema: #8f3f97;
+  --c-sin: #ffffff;
+  --c-sin-borde: #ffffff;
+  --on-buena: #0b1f0b;
+  --on-aceptable: #262400;
+  --on-mala: #2a1400;
+  --on-muymala: #1f0000;
   --on-extrema: #ffffff;
-  --on-sin: #d5dde2;
+  --on-sin: #33404a;
   --band-alpha: 0.2;
 
   --seq-0: #141d2e;
