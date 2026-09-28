@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { MapaJalisco } from "@/components/MapaJalisco";
 import { Observatorio } from "@/components/observatorio/Observatorio";
-import { getDescargas, getIndice, getPeriodo } from "@/lib/data";
+import { getDescargas, getIndice, getMapa, getPeriodo } from "@/lib/data";
 import { construirResumen } from "@/lib/resumen";
 import { ACADEMIA, ESTACION, SPRINTS } from "@/lib/site";
 
@@ -11,6 +12,7 @@ export default function Inicio() {
     return construirResumen(getPeriodo(periodo), s ? { slug: s.slug, numero: s.numero } : null, getDescargas(periodo));
   });
 
+  const mapa = getMapa();
   return (
     <>
       <Observatorio periodos={periodos} />
@@ -50,10 +52,22 @@ export default function Inicio() {
         </section>
 
         {/* Estación */}
-        <section aria-label="Estación" className="card grid gap-6 p-6 md:grid-cols-4">
-          {[["Estación", `${ESTACION.nombre} (${ESTACION.clave})`], ["Ubicación", `${ESTACION.coords} · ${ESTACION.altitud}`], ["Red", ESTACION.red], ["Mide", "O₃ · CO · PM₁₀ · PM₂.₅ · temperatura · viento"]].map(([k, v]) => (
-            <div key={k}><p className="eyebrow">{k}</p><p className="mt-1.5 text-sm text-ink">{v}</p></div>
-          ))}
+        <section aria-labelledby="estacion-t" className="space-y-5">
+          <div className="space-y-2">
+            <p className="eyebrow">Estación de monitoreo · Jalisco</p>
+            <h2 id="estacion-t" className="display text-[1.9rem] font-medium text-ink sm:text-[2.3rem]">{ESTACION.nombre} en la red de SEMADET</h2>
+          </div>
+          <div className="card grid gap-6 p-6 md:grid-cols-4">
+            {[["Estación", `${ESTACION.nombre} (${ESTACION.clave})`], ["Ubicación", `${ESTACION.coords} · ${ESTACION.altitud}`], ["Red", ESTACION.red], ["Mide", "O₃ · CO · PM₁₀ · PM₂.₅ · temperatura · viento"]].map(([k, v]) => (
+              <div key={k}><p className="eyebrow">{k}</p><p className="mt-1.5 text-sm text-ink">{v}</p></div>
+            ))}
+          </div>
+          {mapa && (
+            <figure className="space-y-2">
+              <div className="card p-4 sm:p-5"><MapaJalisco mapa={mapa} clave={ESTACION.clave} /></div>
+              <figcaption className="text-xs leading-relaxed text-muted">Jalisco, el Área Metropolitana de Guadalajara y las {mapa.zona.estaciones.length} estaciones de SEMADET. {mapa.fuente}</figcaption>
+            </figure>
+          )}
         </section>
       </div>
     </>

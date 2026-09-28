@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { catVar, onVar } from "@/lib/aire";
+import { catBg, onVar } from "@/lib/aire";
 
 /** Contaminante con subíndice real. */
 export function Pol({ p }: { p: string }) {
@@ -14,7 +14,7 @@ export function Pol({ p }: { p: string }) {
 export function CatPill({ c, size = "sm" }: { c: string; size?: "sm" | "md" | "lg" }) {
   const cls = size === "lg" ? "px-4 py-2 text-lg" : size === "md" ? "px-3 py-1.5 text-sm" : "px-2.5 py-1 text-xs";
   return (
-    <span className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-full font-semibold ${cls}`} style={{ background: catVar(c), color: onVar(c) }}>
+    <span className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-full font-semibold ${cls}`} style={{ ...catBg(c), color: onVar(c) }}>
       {c}
     </span>
   );
@@ -47,7 +47,7 @@ export function Legend() {
     <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-ink-2">
       {["Buena", "Aceptable", "Mala", "Muy Mala", "Extremadamente Mala", "Sin datos"].map((c) => (
         <span key={c} className="inline-flex items-center gap-1.5">
-          <i className="inline-block size-3 rounded-[3px]" style={{ background: catVar(c) }} />{c}
+          <i className="inline-block size-3 rounded-[3px]" style={catBg(c)} />{c}
         </span>
       ))}
     </div>

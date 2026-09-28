@@ -8,11 +8,17 @@ Cada sprint entrega un **boletín** (una ruta del sitio) y el sitio completo es 
 
 ```
 calidad-aire-miravalle/
-├─ pipeline/            Python NOM-172: limpieza, NowCast, CO 8 h, categorías, diarios
-├─ tests/               casos de NowCast de la profesora + reglas de categorías
-├─ data/
-│  ├─ raw/MIR_2024.csv  extracto anual de BD_2024.xlsx (estación MIR)
-│  └─ processed/AAAA-MM Excel horario, diario y bitácora por periodo
+├─ BD_2024.xlsx         base anual de SEMADET (no se versiona; solo lectura)
+├─ pipeline/
+│  ├─ etl.py            BD_<AÑO>.xlsx → año limpio y recorte del periodo (con 24 h de calentamiento)
+│  ├─ calculos.py       periodo limpio → Archivo1 (horario) y Archivo2 (diario), NOM-172
+│  ├─ procesar.py       orquesta los tres pasos y arma el JSON del sitio y los Excel
+│  ├─ nom172.py         NowCast de la profesora, CO 8 h, bandas y categorías
+│  └─ limpieza.py       perfil, control de calidad y bitácora
+├─ tests/               NowCast de la profesora, reglas de categorías y regresión de marzo
+├─ data/processed/
+│  ├─ miravalle_2024_clean.csv   año limpio (se versiona: permite correr sin BD_2024.xlsx)
+│  └─ AAAA-MM/          miravalle_<mes><año>_clean.csv, Archivo1, Archivo2, Excel y bitácora
 ├─ docs/sprints/        resumen y decisiones de cada entrega
 └─ web/                 sitio Next.js (dashboard)
    ├─ app/page.tsx              Observatorio: dashboard final, siempre con el último periodo
@@ -28,8 +34,9 @@ calidad-aire-miravalle/
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python pipeline/procesar.py --periodo 2024-03        # genera data/processed/2024-03 y web/data/periodos/2024-03.json
-python pipeline/procesar.py --bd BD_2024.xlsx        # opcional: re-extrae MIR desde la base anual
+python pipeline/procesar.py --periodo 2024-03        # ETL + cálculos + JSON del sitio (usa BD_2024.xlsx si está en la raíz)
+python pipeline/etl.py --periodo 2024-03             # solo el ETL
+python pipeline/calculos.py --periodo 2024-03        # solo Archivo1 y Archivo2
 python -m pytest tests
 ```
 

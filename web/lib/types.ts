@@ -1,3 +1,5 @@
+export type Mensaje = { general: string; menores_gestantes: string; sensibles: string };
+
 export type Valor = string | number | boolean | null;
 
 export type HourRec = {
@@ -35,6 +37,11 @@ export type PeriodoSim = {
   ranking: { inicio: string; cambios: number; peor: string; horas_mala: number; contaminantes: number }[];
 };
 
+export type Maximo = {
+  variable: string; tipo: "max" | "min"; valor: number; fecha_hora: string; otras_horas: string[];
+  categoria: string | null; cat_global: string;
+};
+
 export type Numeralia = {
   dias_mes: number;
   dias_con_categoria: number;
@@ -47,6 +54,7 @@ export type Numeralia = {
   suficiencia: Record<string, number>;
   dias_mas_desfavorables: { fecha: string; categoria: string; responsable: string; indicador: number; unidad: string; horas_mala_o_peor: number }[];
   horario_vs_diario: { dias_con_horas_peores: number; horas_peores_total: number; dias_peor_horaria_distinta: number; dias_responsable_distinto: number; cambios_categoria_total: number };
+  maximos?: Maximo[];
 };
 
 export type PeriodoData = {
@@ -58,7 +66,10 @@ export type PeriodoData = {
   riesgo: Record<string, string>;
   indicador_horario: Record<string, string>;
   indicador_diario: Record<string, string>;
-  mensajes: Record<string, { general: string; sensibles: string }>;
+  /** Tabla 12 de la NOM: mensajes para tres grupos poblacionales. */
+  mensajes: Record<string, Mensaje>;
+  /** Tabla 10 de la NOM: descripción del riesgo para la población en general y la sensible. */
+  descripcion_riesgo?: Record<string, { general: string; sensible: string }>;
   perfil: {
     registros: number; registros_esperados: number; timestamps_faltantes: string[]; duplicados: number;
     hora_convencion: string; hora_consistente: boolean; variables: Variable[];
@@ -81,4 +92,4 @@ export type IndicePeriodo = {
 
 /** Paquete de datos que reciben los componentes interactivos. */
 export type SimPayload = Pick<PeriodoData,
-  "horario" | "diario" | "periodo_simulacion" | "mensajes" | "riesgo" | "unidades" | "bandas" | "indicador_horario">;
+  "horario" | "diario" | "periodo_simulacion" | "mensajes" | "descripcion_riesgo" | "riesgo" | "unidades" | "bandas" | "indicador_horario">;

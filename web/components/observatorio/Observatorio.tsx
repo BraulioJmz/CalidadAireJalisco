@@ -2,9 +2,11 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { CalendarMonth } from "@/components/CalendarMonth";
+import { Descargas, Maximos } from "@/components/Evidencia";
 import { HourOfDayChart, ResponsibleChart } from "@/components/charts/DistributionCharts";
+import { MensajesNOM } from "@/components/MensajesNOM";
 import { CatPill, Kpi, Legend, Pol } from "@/components/ui";
-import { CATS, catVar, fmt, MES_LARGO, onVar, pct } from "@/lib/aire";
+import { CATS, catBg, catVar, fmt, MES_LARGO, onVar, pct } from "@/lib/aire";
 import {
   CATS_ALL, catsDelDia, fmtTramo, fmtTramos, franjasDelDia, hh, modaEn, responsableEn, tramos,
   type Franja, type ResumenPeriodo,
@@ -15,7 +17,7 @@ import { DayHourMatrix } from "./DayHourMatrix";
 
 const SECCIONES = [
   ["resumen", "Resumen"], ["planear", "Planear el día"], ["dia-por-dia", "Día por día"],
-  ["contaminantes", "Contaminantes"], ["evolucion", "Evolución"], ["datos", "Datos y limitaciones"],
+  ["contaminantes", "Contaminantes"], ["maximos", "Máximos"], ["evolucion", "Evolución"], ["datos", "Datos y limitaciones"],
 ] as const;
 
 const FRANJA: Record<Franja, { titulo: string; criterio: string }> = {
@@ -151,21 +153,22 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
                 <span className="text-sm text-ink-2"><b className="text-ink">{N.dias_por_categoria[v.pred]}</b> de {dt} días con categoría</span>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-ink-2">
-                <b className="text-ink">Mensaje para la comunidad:</b> {R.mensajes[v.pred]?.general}
-                {R.mensajes[v.pred]?.sensibles && <> <b className="text-ink">Grupos sensibles:</b> {R.mensajes[v.pred].sensibles}</>}
+                <b className="text-ink">Riesgo para la población en general:</b> {R.descripcion_riesgo[v.pred]?.general}
+                {R.descripcion_riesgo[v.pred]?.sensible && <> <b className="text-ink">Para la población sensible:</b> {R.descripcion_riesgo[v.pred].sensible}</>}
+                <span className="mt-1 block text-xs text-muted">NOM-172-SEMARNAT-2023, tabla 10.</span>
               </p>
               <div className="mt-5">
                 <div className="flex h-3 gap-[2px] overflow-hidden rounded-full">
                   {CATS_ALL.map((c) => {
                     const n = c === "Sin datos" ? N.dias_sin_datos.length : N.dias_por_categoria[c] ?? 0;
-                    return n ? <span key={c} title={`${c}: ${n} días`} style={{ width: `${(100 * n) / N.dias_mes}%`, background: catVar(c) }} /> : null;
+                    return n ? <span key={c} title={`${c}: ${n} días`} style={{ width: `${(100 * n) / N.dias_mes}%`, ...catBg(c) }} /> : null;
                   })}
                 </div>
                 <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-2">
                   {CATS.filter((c) => N.dias_por_categoria[c]).map((c) => (
-                    <span key={c} className="inline-flex items-center gap-1.5"><i className="size-2.5 rounded-[2px]" style={{ background: catVar(c) }} /><b className="num text-ink">{N.dias_por_categoria[c]}</b> {c}</span>
+                    <span key={c} className="inline-flex items-center gap-1.5"><i className="size-2.5 rounded-[2px]" style={catBg(c)} /><b className="num text-ink">{N.dias_por_categoria[c]}</b> {c}</span>
                   ))}
-                  {N.dias_sin_datos.length > 0 && <span className="inline-flex items-center gap-1.5"><i className="size-2.5 rounded-[2px]" style={{ background: catVar("Sin datos") }} /><b className="num text-ink">{N.dias_sin_datos.length}</b> sin datos</span>}
+                  {N.dias_sin_datos.length > 0 && <span className="inline-flex items-center gap-1.5"><i className="size-2.5 rounded-[2px]" style={catBg("Sin datos")} /><b className="num text-ink">{N.dias_sin_datos.length}</b> sin datos</span>}
                 </div>
               </div>
             </div>
@@ -228,10 +231,7 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
                       Más frecuente <CatPill c={moda} />
                       {resp && <span>· responsable habitual <b className="text-ink"><Pol p={resp} /></b></span>}
                     </div>
-                    <p className="mt-auto border-t border-rule pt-3 text-sm leading-relaxed text-ink-2">
-                      {R.mensajes[moda]?.general}
-                      {R.mensajes[moda]?.sensibles && <span className="block pt-1 text-muted">Grupos sensibles: {R.mensajes[moda].sensibles}</span>}
-                    </p>
+                    <MensajesNOM m={R.mensajes[moda]} className="mt-auto border-t border-rule pt-3" />
                   </>
                 )}
               </div>
@@ -340,6 +340,14 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
           </div>
         </Seccion>
 
+        {/* Máximos */}
+        {(N.maximos?.length ?? 0) > 0 && (
+          <Seccion id="maximos" eyebrow={`Máximos · ${R.nombre}`} titulo="¿Cuándo hubo máximos?">
+            <Maximos maximos={N.maximos!} />
+            <p className="text-xs text-muted">La concentración horaria y el indicador pueden tener su máximo en horas o días distintos: el NowCast y el promedio de 8 h ponderan las horas previas, así que responden más a un episodio sostenido que a un pico aislado.</p>
+          </Seccion>
+        )}
+
         {/* Evolución */}
         <Seccion id="evolucion" eyebrow="Evolución entre periodos" titulo="Días por categoría en cada periodo analizado">
           {periodos.length > 1 ? (
@@ -366,19 +374,18 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
                 {R.limitaciones.map((l) => <li key={l}>{l}</li>)}
                 {periodos.length === 1 && <li>Un solo periodo analizado: los patrones describen {R.nombre} y no se generalizan al año.</li>}
               </ul>
-              {R.descargas.length > 0 && (
-                <div className="border-t border-rule pt-3">
-                  <p className="eyebrow mb-2">Descargas</p>
-                  <ul className="flex flex-wrap gap-2">
-                    {R.descargas.map((d) => (
-                      <li key={d.href}><a href={d.href} download className="num inline-block rounded-full border border-rule px-3 py-1 text-xs text-ink hover:border-ink-2">{d.nombre}</a></li>
-                    ))}
-                  </ul>
-                </div>
-              )}
               {href && <Link href={`${href}#datos`} className="inline-block text-sm font-medium text-accent">Ver la bitácora de limpieza completa →</Link>}
             </div>
           </div>
+          {R.descargas.length > 0 && (
+            <div className="space-y-3">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <p className="text-sm font-semibold text-ink">Tablas procesadas y evidencia técnica</p>
+                {href && <Link href={`${href}#evidencia`} className="text-sm font-medium text-accent">Cómo reproducir el análisis →</Link>}
+              </div>
+              <Descargas items={R.descargas} />
+            </div>
+          )}
         </Seccion>
       </div>
     </>

@@ -1,5 +1,6 @@
 import { CATS } from "./aire";
-import type { DayRec, Numeralia, PeriodoData } from "./types";
+import type { Descarga } from "./data";
+import type { DayRec, Mensaje, Numeralia, PeriodoData } from "./types";
 
 /**
  * Resumen compacto de un periodo para el Observatorio.
@@ -18,7 +19,7 @@ export type ResumenPeriodo = {
   nombre: string;
   mes: number;
   sprint: { slug: string; numero: number } | null;
-  descargas: { nombre: string; href: string }[];
+  descargas: Descarga[];
   numeralia: Numeralia;
   categorias_por_hora: Record<string, number[]>;
   /** Horas en que cada contaminante fue responsable, por hora del día (0–23). */
@@ -27,7 +28,8 @@ export type ResumenPeriodo = {
   perfil_diurno: Record<string, (number | null)[]>;
   bandas: Record<string, number[]>;
   unidades: Record<string, string>;
-  mensajes: Record<string, { general: string; sensibles: string }>;
+  mensajes: Record<string, Mensaje>;
+  descripcion_riesgo: Record<string, { general: string; sensible: string }>;
   riesgo: Record<string, string>;
   disponibilidad: { variable: string; nombre: string; unidad: string; disponibilidad: number }[];
   ausentes: string[];
@@ -74,6 +76,7 @@ export function construirResumen(
     bandas: D.bandas,
     unidades: D.unidades,
     mensajes: D.mensajes,
+    descripcion_riesgo: D.descripcion_riesgo ?? {},
     riesgo: D.riesgo,
     disponibilidad: vars.map((v) => ({ variable: v.variable, nombre: v.nombre, unidad: v.unidad, disponibilidad: v.disponibilidad })),
     ausentes: vars.filter((v) => !v.validos).map((v) => v.nombre),

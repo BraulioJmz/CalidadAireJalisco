@@ -18,3 +18,6 @@ BD_2024.xlsx
 _to_delete/
 
 CLAUDE.md
+
+# Geometrías descargadas por pipeline/mapa.py (~14 MB)
+data/external/

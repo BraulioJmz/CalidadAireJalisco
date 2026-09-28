@@ -6,6 +6,11 @@ const KEY: Record<string, string> = {
 export const catVar = (c: string) => `var(--c-${KEY[c] ?? "sin"})`;
 export const onVar = (c: string) => `var(--on-${KEY[c] ?? "sin"})`;
 export const catKey = (c: string) => KEY[c] ?? "sin";
+/** Fondo de una categoría; "Sin datos" es blanco (NOM, tabla 11) y lleva un borde fino para verse sobre el fondo. */
+export const catBg = (c: string) => ({
+  background: catVar(c),
+  boxShadow: catKey(c) === "sin" ? "inset 0 0 0 1px var(--c-sin-borde)" : undefined,
+});
 
 /** Etiquetas con subíndices Unicode (para texto plano y gráficas). */
 export const PL: Record<string, string> = { PM10: "PM₁₀", "PM2.5": "PM₂.₅", O3: "O₃", CO: "CO", NO2: "NO₂", SO2: "SO₂", "": "—" };
