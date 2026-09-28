@@ -16,3 +16,10 @@ export function getUltimoPeriodo(): PeriodoData {
   const idx = getIndice();
   return getPeriodo(idx[idx.length - 1].periodo);
 }
+
+/** Archivos descargables del periodo en public/descargas/AAAA-MM (si existen). */
+export function getDescargas(periodo: string): { nombre: string; href: string }[] {
+  const dir = path.join(process.cwd(), "public", "descargas", periodo);
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).sort().map((f) => ({ nombre: f, href: `/descargas/${periodo}/${f}` }));
+}
