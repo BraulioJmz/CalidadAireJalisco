@@ -30,7 +30,7 @@ SIN_DATOS = "Sin datos"
 ORDEN = {c: i for i, c in enumerate(CATEGORIAS)}
 
 # Límites superiores de cada categoría (Buena, Aceptable, Mala, Muy Mala).
-# Partículas: límites vigentes desde enero de 2024 (los mismos usados en la Act. 5).
+# Partículas: columna «a partir de enero de 2024» de las tablas 4 y 5 de la NOM, la que corresponde a la fecha de los datos.
 BANDAS = {
     "O3": [0.058, 0.090, 0.135, 0.175],     # ppm, promedio horario
     "CO": [5, 9, 12, 16],                   # ppm, promedio móvil 8 h

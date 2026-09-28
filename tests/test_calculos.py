@@ -50,3 +50,4 @@ def test_decimales_diarios(resultados):
     o3 = d["Indicador_O3"].dropna()
     assert (o3 == o3.round(3)).all()                       # O3: 3 decimales
     assert d.loc[d["Fecha"] == "2024-03-07", "Cat_Global_Diaria"].item() == "Buena"
+

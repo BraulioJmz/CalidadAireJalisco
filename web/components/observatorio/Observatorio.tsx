@@ -11,7 +11,7 @@ import {
   CATS_ALL, catsDelDia, fmtTramo, fmtTramos, franjasDelDia, hh, modaEn, responsableEn, tramos,
   type Franja, type ResumenPeriodo,
 } from "@/lib/resumen";
-import { ESTACION } from "@/lib/site";
+import { ACADEMIA, ESTACION } from "@/lib/site";
 import { DiurnalChart, TrendChart } from "./charts";
 import { DayHourMatrix } from "./DayHourMatrix";
 
@@ -30,8 +30,6 @@ const DIURNO: { serie: string; nombre: string; pol?: string; variable?: string }
   { serie: "PM10_NowCast", nombre: "PM₁₀ · NowCast", pol: "PM10" },
   { serie: "PM2.5_NowCast", nombre: "PM₂.₅ · NowCast", pol: "PM2.5" },
   { serie: "O3", nombre: "O₃ · horario", pol: "O3" },
-  { serie: "ET", nombre: "Temperatura", variable: "ET" },
-  { serie: "WS", nombre: "Velocidad del viento", variable: "WS" },
 ];
 
 function Seccion({ id, eyebrow, titulo, children, aside }: { id: string; eyebrow: string; titulo: ReactNode; children: ReactNode; aside?: ReactNode }) {
@@ -126,6 +124,7 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
               <h1 className="display mt-3 text-[2.4rem] font-medium leading-[1.04] text-ink sm:text-5xl lg:text-[3.6rem]">
                 ¿Cómo está el aire que respira nuestra comunidad?
               </h1>
+              <p className="mt-4 max-w-2xl leading-relaxed text-ink-2">{ACADEMIA.descripcion}</p>
             </div>
             <div className="flex flex-col gap-1.5">
               {periodos.length > 1 ? <label htmlFor="periodo" className="eyebrow">Periodo analizado</label> : <p className="eyebrow">Periodo analizado</p>}
@@ -175,8 +174,8 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
 
             {/* KPIs */}
             <div className="grid grid-cols-2 gap-3">
-              <Kpi value={pct(N.horas_por_categoria.Buena, N.horas_con_categoria)} unit="% de horas"
-                label={`tuvo aire Bueno, pero solo ${N.dias_por_categoria.Buena} de ${dt} días (${pct(N.dias_por_categoria.Buena, dt)} %) quedó en Buena`} />
+              <Kpi value={pct(N.horas_por_categoria.Buena, N.horas_con_categoria)} unit="% de las horas"
+                label={`con calidad del aire Buena. Por día, solo ${N.dias_por_categoria.Buena} de ${dt} (${pct(N.dias_por_categoria.Buena, dt)} %) se clasificó como Buena: la categoría diaria refleja el peor contaminante del día.`} />
               <Kpi value={v.dom[1]} unit={`de ${dt} días`} label={<>el contaminante responsable de la categoría diaria fue <b className="text-ink"><Pol p={String(v.dom[0])} /></b></>} />
               <Kpi value={v.hMM} unit="horas" tone={v.hMM ? "alert" : undefined}
                 label={v.hMM ? `en Muy Mala o peor, entre las ${hh(v.horasMM[0])}:00 y las ${hh(v.horasMM[v.horasMM.length - 1])}:59` : "sin horas en Muy Mala o peor"} />
@@ -250,7 +249,7 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
                   {v.tarjetas[2].resp && <> El responsable más frecuente en esas horas fue <b className="text-ink"><Pol p={v.tarjetas[2].resp} /></b>.</>}</p>
               )}
               {v.F.buena.length > 0 && (
-                <p>De <b className="num text-ink">{fmtTramos(v.F.buena)}</b>, el aire fue Bueno en el <b className="text-ink">{v.pBuenaEnBuena} %</b> de los días.
+                <p>De <b className="num text-ink">{fmtTramos(v.F.buena)}</b>, la calidad del aire fue Buena en el <b className="text-ink">{v.pBuenaEnBuena} %</b> de los días.
                   {v.tarjetas[0].resp && <> Ahí el responsable habitual fue <b className="text-ink"><Pol p={v.tarjetas[0].resp} /></b>.</>}</p>
               )}
               <p>Las franjas describen lo que pasó en {R.nombre}; no son un pronóstico. La decisión de cada día se toma con el aviso por hora.</p>
@@ -318,7 +317,7 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
               <p className="text-xs leading-relaxed text-muted">Si un contaminante no cumple la suficiencia, ese día no tiene indicador ni categoría para él. {ESTACION.clave} no mide NO₂ ni SO₂.</p>
             </div>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2">
             {DIURNO.filter((s) => R.perfil_diurno[s.serie]).map((s) => (
               <div key={s.serie} className="card p-4">
                 <div className="flex items-baseline justify-between gap-2">
@@ -343,7 +342,7 @@ export function Observatorio({ periodos }: { periodos: ResumenPeriodo[] }) {
         {/* Máximos */}
         {(N.maximos?.length ?? 0) > 0 && (
           <Seccion id="maximos" eyebrow={`Máximos · ${R.nombre}`} titulo="¿Cuándo hubo máximos?">
-            <Maximos maximos={N.maximos!} />
+            <Maximos maximos={N.maximos!.filter((m) => !["ET", "WS"].includes(m.variable))} />
             <p className="text-xs text-muted">La concentración horaria y el indicador pueden tener su máximo en horas o días distintos: el NowCast y el promedio de 8 h ponderan las horas previas, así que responden más a un episodio sostenido que a un pico aislado.</p>
           </Seccion>
         )}

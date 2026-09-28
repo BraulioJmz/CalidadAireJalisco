@@ -213,7 +213,7 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
           </div>
           <div className="mt-5 border-l-2 pl-4" style={{ borderColor: tokens?.cat[g] }}>
             <MensajesNOM m={msg} />
-            <p className="mt-2 text-xs text-muted">Mensajes de la NOM-172-SEMARNAT-2023, tabla 12.</p>
+            <p className="mt-2 text-xs text-muted">Mensajes de la NOM-172-SEMARNAT-2023, tabla 12. En operación real, el aviso de cada hora se difunde a más tardar 15 minutos después de su cierre (numeral 5.1.2.3).</p>
           </div>
         </div>
 
@@ -274,14 +274,16 @@ export function SimulationPlayer({ data }: { data: SimPayload }) {
 
       <div className="grid gap-4 lg:grid-cols-2">
         <div className="card p-5">
-          <h3 className="mb-3 font-semibold text-ink">Cambios de categoría hasta esta hora</h3>
+          <h3 className="font-semibold text-ink">Avisos emitidos hasta esta hora</h3>
+          <p className="mb-3 text-xs text-muted">Cada cambio de categoría genera un aviso nuevo para la comunidad.</p>
           <div className="scroll-thin max-h-72 divide-y divide-[var(--rule)] overflow-auto text-sm">
             {events.length === 0 && <p className="text-muted">Todavía no hay cambios en este periodo.</p>}
             {events.map((e) => (
               <div key={e.t} className="grid grid-cols-[110px_1fr] items-center gap-3 py-2">
                 <span className="num text-xs text-ink-2">{tLabel(e.t)}</span>
                 <span className="flex flex-wrap items-center gap-1.5 text-ink-2"><span>{e.prev} →</span> <CatPill c={e.h.Cat_global} />
-                  {e.h.Responsable && <span>por <Pol p={e.h.Responsable} /> ({fmt(indicatorOf(e.h, e.h.Responsable), dec(e.h.Responsable))} {data.unidades[e.h.Responsable]})</span>}</span>
+                  {e.h.Responsable && <span>por <Pol p={e.h.Responsable} /> ({fmt(indicatorOf(e.h, e.h.Responsable), dec(e.h.Responsable))} {data.unidades[e.h.Responsable]})</span>}
+                  <span className="basis-full text-xs text-muted">Riesgo {data.riesgo[e.h.Cat_global] ?? "—"}{data.descripcion_riesgo?.[e.h.Cat_global] ? ` · ${data.descripcion_riesgo[e.h.Cat_global].general}` : ""}</span></span>
               </div>
             ))}
           </div>
