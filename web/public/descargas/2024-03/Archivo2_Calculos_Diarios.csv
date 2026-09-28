@@ -1,0 +1,32 @@
+Fecha,Validos_PM10,Suficiencia_PM10,Indicador_PM10,Cat_PM10,Validos_PM2.5,Suficiencia_PM2.5,Indicador_PM2.5,Cat_PM2.5,Validos_CO,Suficiencia_CO,Indicador_CO,Cat_CO,Validos_O3,Suficiencia_O3,Indicador_O3,Cat_O3,Cat_Global_Diaria,Responsable_Diario
+2024-03-01,24,Cumple,74.0,Mala,24,Cumple,25.0,Aceptable,24,Cumple,0.96,Buena,23,Cumple,0.054,Buena,Mala,PM10
+2024-03-02,24,Cumple,62.0,Mala,24,Cumple,21.0,Aceptable,24,Cumple,0.8,Buena,24,Cumple,0.06,Aceptable,Mala,PM10
+2024-03-03,24,Cumple,63.0,Mala,24,Cumple,28.0,Aceptable,24,Cumple,0.93,Buena,18,Cumple,0.051,Buena,Mala,PM10
+2024-03-04,24,Cumple,52.0,Aceptable,24,Cumple,16.0,Aceptable,22,Cumple,1.18,Buena,24,Cumple,0.05,Buena,Aceptable,PM10
+2024-03-05,24,Cumple,90.0,Mala,24,Cumple,29.0,Aceptable,24,Cumple,1.0,Buena,24,Cumple,0.073,Aceptable,Mala,PM10
+2024-03-06,12,No cumple,,Sin datos,12,No cumple,,Sin datos,24,Cumple,1.07,Buena,24,Cumple,0.064,Aceptable,Aceptable,O3
+2024-03-07,15,No cumple,,Sin datos,15,No cumple,,Sin datos,23,Cumple,0.98,Buena,24,Cumple,0.055,Buena,Buena,O3
+2024-03-08,24,Cumple,79.0,Mala,24,Cumple,25.0,Aceptable,24,Cumple,0.96,Buena,24,Cumple,0.054,Buena,Mala,PM10
+2024-03-09,24,Cumple,82.0,Mala,24,Cumple,25.0,Aceptable,24,Cumple,0.93,Buena,19,Cumple,0.061,Aceptable,Mala,PM10
+2024-03-10,24,Cumple,64.0,Mala,24,Cumple,28.0,Aceptable,24,Cumple,1.01,Buena,24,Cumple,0.07,Aceptable,Mala,PM10
+2024-03-11,24,Cumple,81.0,Mala,24,Cumple,28.0,Aceptable,23,Cumple,1.22,Buena,24,Cumple,0.063,Aceptable,Mala,PM10
+2024-03-12,18,Cumple,65.0,Mala,18,Cumple,21.0,Aceptable,24,Cumple,0.73,Buena,24,Cumple,0.07,Aceptable,Mala,PM10
+2024-03-13,23,Cumple,76.0,Mala,0,No cumple,,Sin datos,23,Cumple,0.89,Buena,24,Cumple,0.057,Buena,Mala,PM10
+2024-03-14,24,Cumple,79.0,Mala,8,No cumple,,Sin datos,23,Cumple,0.79,Buena,19,Cumple,0.051,Buena,Mala,PM10
+2024-03-15,24,Cumple,61.0,Mala,24,Cumple,20.0,Aceptable,23,Cumple,0.9,Buena,24,Cumple,0.048,Buena,Mala,PM10
+2024-03-16,19,Cumple,87.0,Mala,19,Cumple,35.0,Mala,18,Cumple,0.84,Buena,13,No cumple,,Sin datos,Mala,PM10
+2024-03-17,0,No cumple,,Sin datos,0,No cumple,,Sin datos,0,No cumple,,Sin datos,0,No cumple,,Sin datos,Sin datos,
+2024-03-18,14,No cumple,,Sin datos,14,No cumple,,Sin datos,14,No cumple,,Sin datos,15,No cumple,,Sin datos,Sin datos,
+2024-03-19,24,Cumple,59.0,Aceptable,24,Cumple,18.0,Aceptable,21,Cumple,0.81,Buena,24,Cumple,0.051,Buena,Aceptable,PM10
+2024-03-20,23,Cumple,48.0,Aceptable,24,Cumple,13.0,Buena,23,Cumple,0.73,Buena,24,Cumple,0.057,Buena,Aceptable,PM10
+2024-03-21,24,Cumple,64.0,Mala,24,Cumple,19.0,Aceptable,24,Cumple,0.51,Buena,24,Cumple,0.041,Buena,Mala,PM10
+2024-03-22,24,Cumple,60.0,Aceptable,20,Cumple,24.0,Aceptable,24,Cumple,0.88,Buena,24,Cumple,0.053,Buena,Aceptable,PM10
+2024-03-23,24,Cumple,74.0,Mala,24,Cumple,31.0,Aceptable,24,Cumple,1.08,Buena,24,Cumple,0.076,Aceptable,Mala,PM10
+2024-03-24,18,Cumple,46.0,Aceptable,18,Cumple,18.0,Aceptable,24,Cumple,0.63,Buena,24,Cumple,0.069,Aceptable,Aceptable,O3
+2024-03-25,24,Cumple,41.0,Buena,24,Cumple,14.0,Buena,24,Cumple,0.62,Buena,24,Cumple,0.065,Aceptable,Aceptable,O3
+2024-03-26,24,Cumple,78.0,Mala,24,Cumple,29.0,Aceptable,24,Cumple,0.96,Buena,24,Cumple,0.066,Aceptable,Mala,PM10
+2024-03-27,24,Cumple,77.0,Mala,24,Cumple,33.0,Aceptable,24,Cumple,1.05,Buena,24,Cumple,0.091,Mala,Mala,PM10
+2024-03-28,24,Cumple,78.0,Mala,18,Cumple,29.0,Aceptable,24,Cumple,1.01,Buena,24,Cumple,0.088,Aceptable,Mala,PM10
+2024-03-29,24,Cumple,58.0,Aceptable,0,No cumple,,Sin datos,24,Cumple,0.66,Buena,24,Cumple,0.076,Aceptable,Aceptable,PM10
+2024-03-30,24,Cumple,56.0,Aceptable,0,No cumple,,Sin datos,24,Cumple,0.77,Buena,24,Cumple,0.078,Aceptable,Aceptable,PM10
+2024-03-31,24,Cumple,57.0,Aceptable,0,No cumple,,Sin datos,24,Cumple,0.74,Buena,24,Cumple,0.058,Buena,Aceptable,PM10

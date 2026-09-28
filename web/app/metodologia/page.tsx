@@ -6,12 +6,12 @@ import { getIndice, getPeriodo } from "@/lib/data";
 export const metadata: Metadata = { title: "Metodología", description: "Cómo se calcula el Índice AIRE Y SALUD en el observatorio (NOM-172-SEMARNAT-2023)." };
 
 const PASOS = [
-  ["Extracción", "Se toma la estación MIR de BD_2024.xlsx (SEMADET) y se guarda el año completo en data/raw/MIR_2024.csv."],
+  ["Extracción (etl.py)", "Se toma la estación MIR de BD_2024.xlsx (SEMADET) sin modificar el original: se corrigen tipos, se revisan duplicados y huecos, y se guarda el año limpio y el recorte de cada periodo con sus 24 h de calentamiento."],
   ["Perfil y control de calidad", "Tipos, unidades, faltantes, duplicados, formato y atípicos. Los valores sospechosos se marcan y clasifican; solo se anula lo físicamente imposible."],
-  ["Indicadores horarios", "NowCast 12 h para PM₁₀ y PM₂.₅ (función de referencia sin cambios), promedio móvil 8 h para CO, valor horario para O₃."],
+  ["Indicadores horarios (calculos.py)", "NowCast 12 h para PM₁₀ y PM₂.₅ (función de referencia sin cambios), promedio móvil 8 h para CO, valor horario para O₃."],
   ["Categorías", "Cada indicador se clasifica con las bandas de la NOM; la categoría global es la más desfavorable y se registra el contaminante responsable."],
-  ["Indicadores diarios", "Suficiencia de 18 de 24 horas por contaminante; promedio 24 h (PM), máximo horario (O₃) y máximo del promedio 8 h (CO)."],
-  ["Publicación", "Se generan los Excel horario y diario, la bitácora y el JSON que usa este sitio."],
+  ["Indicadores diarios (calculos.py)", "Suficiencia de 18 de 24 horas por contaminante; promedio 24 h (PM), máximo horario (O₃) y máximo del promedio 8 h (CO). Se guardan en Archivo1 (horario) y Archivo2 (diario)."],
+  ["Publicación (procesar.py)", "A partir de Archivo1 y Archivo2 se generan los Excel horario y diario, la bitácora y el JSON que usa este sitio."],
 ];
 
 export default function Metodologia() {
@@ -76,11 +76,12 @@ export default function Metodologia() {
         <h2 className="display text-3xl font-medium text-ink">Cómo crece el proyecto</h2>
         <div className="grid gap-4 md:grid-cols-2">
           <pre className="card num overflow-x-auto p-5 text-xs leading-relaxed text-ink-2">{`calidad-aire-miravalle/
-├─ pipeline/      Python NOM-172 (--periodo AAAA-MM)
-├─ tests/         NowCast y reglas de categorías
-├─ data/
-│  ├─ raw/        MIR_2024.csv
-│  └─ processed/  un folder por periodo
+├─ BD_2024.xlsx   base original (solo lectura)
+├─ pipeline/      etl → calculos → procesar (--periodo AAAA-MM)
+├─ tests/         NowCast, reglas y regresión de marzo
+├─ data/processed/
+│  ├─ miravalle_2024_clean.csv   año limpio
+│  └─ AAAA-MM/    limpio, Archivo1, Archivo2, Excel
 └─ web/           este sitio (Next.js)
    ├─ app/page.tsx          observatorio (dashboard final)
    ├─ app/sprint-1/         boletín 1 (congelado)

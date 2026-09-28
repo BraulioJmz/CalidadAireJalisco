@@ -1,16 +1,22 @@
 """
 Pipeline reproducible NOM-172-SEMARNAT-2023 — estación Miravalle (MIR).
 
-Cada sprint procesa un periodo mensual con el mismo código:
+Orquesta los tres pasos con el mismo código para cada sprint:
+
+    1. etl.py       BD_<AÑO>.xlsx (raíz, solo lectura) -> data/processed/miravalle_<AÑO>_clean.csv
+                    y el recorte del periodo data/processed/<AAAA-MM>/miravalle_<mes><AÑO>_clean.csv
+    2. calculos.py  periodo limpio -> Archivo1_Calculos_Horarios.csv y Archivo2_Calculos_Diarios.csv
+    3. procesar.py  lee Archivo1 y Archivo2 y arma el JSON del sitio y los Excel descargables
 
     python pipeline/procesar.py --periodo 2024-03          # Sprint 1
     python pipeline/procesar.py --periodo 2024-04          # otro mes
-    python pipeline/procesar.py --bd BD_2024.xlsx          # re-extrae MIR desde la base anual
+    python pipeline/procesar.py --bd ruta/BD_2024.xlsx     # base anual en otra ruta
+
+Si BD_<AÑO>.xlsx no está en la raíz, se usa el año limpio ya versionado en data/processed.
 
 Salidas por periodo (AAAA-MM):
-    data/processed/<periodo>/MIR_<periodo>_horario.xlsx
-    data/processed/<periodo>/MIR_<periodo>_diario.xlsx
-    data/processed/<periodo>/bitacora_limpieza.csv
+    data/processed/<periodo>/Archivo1_Calculos_Horarios.csv, Archivo2_Calculos_Diarios.csv
+    data/processed/<periodo>/MIR_<periodo>_horario.xlsx, MIR_<periodo>_diario.xlsx, bitacora_limpieza.csv
     web/data/periodos/<periodo>.json      (insumo del sitio Next.js)
     web/data/periodos/index.json          (catálogo de periodos procesados)
     web/public/descargas/<periodo>/       (copias descargables)
@@ -25,12 +31,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import calculos
+import etl
 import limpieza as L
 import nom172 as N
 
-RAIZ = Path(__file__).resolve().parents[1]
-RAW = RAIZ / "data" / "raw" / "MIR_2024.csv"
-ESTACION = "MIR"
+RAIZ = etl.RAIZ
+ESTACION = etl.STATION_CODE
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
          "septiembre", "octubre", "noviembre", "diciembre"]
@@ -49,11 +56,8 @@ OUT = WEB = DESC = Path()
 
 def configurar(periodo: str) -> None:
     global PERIODO, INICIO, FIN, CALENTAMIENTO, OUT, WEB, DESC
-    ini = pd.Timestamp(periodo + "-01")
-    fin = ini + pd.offsets.MonthEnd(0) + pd.Timedelta(hours=23)
     PERIODO = periodo
-    INICIO, FIN = ini.strftime("%Y-%m-%d %H:%M"), fin.strftime("%Y-%m-%d %H:%M")
-    CALENTAMIENTO = (ini - pd.Timedelta(hours=24)).strftime("%Y-%m-%d %H:%M")  # NowCast 12 h y CO 8 h
+    INICIO, FIN, CALENTAMIENTO = etl.rango_periodo(periodo)  # calentamiento: NowCast 12 h y CO 8 h
     OUT = RAIZ / "data" / "processed" / periodo
     WEB = RAIZ / "web" / "data" / "periodos"
     DESC = RAIZ / "web" / "public" / "descargas" / periodo
@@ -100,52 +104,29 @@ MENSAJES = {
 }
 
 
-def extraer_de_bd(bd: Path) -> None:
-    """Extrae todo el año de la estación (así cada sprint solo cambia --periodo)."""
-    df = pd.read_excel(bd, sheet_name="Data")
-    df.columns = [c.strip() for c in df.columns]
-    m = df[df.STATION == ESTACION].copy()
-    m["DIA"], m["MES"] = m.DATE.dt.day, m.DATE.dt.month
-    m["PM2.5"] = pd.to_numeric(m["PM2.5"], errors="coerce")
-    RAW.parent.mkdir(parents=True, exist_ok=True)
-    m.to_csv(RAW, index=False)
+# Nombres de Archivo1/Archivo2 -> nombres que usan el JSON, los Excel y el sitio
+REN_HORARIO = {
+    "DATE": "FECHA_HORA", "NowCast_PM10": "PM10_NowCast", "NowCast_PM25": "PM2.5_NowCast",
+    "Cat_PM25": "Cat_PM2.5", "Cat_Global_Horaria": "Cat_global", "Responsable_Horario": "Responsable",
+    "Datos8h_CO": "CO_datos_8h", "Datos12h_PM10": "PM10_datos_12h", "Datos3h_PM10": "PM10_datos_3h",
+    "W_PM10": "PM10_W", "Datos12h_PM25": "PM2.5_datos_12h", "Datos3h_PM25": "PM2.5_datos_3h", "W_PM25": "PM2.5_W",
+}
+METEO_Y_BANDERAS = ["NO2", "SO2", "ET", "IT", "RH", "WS", "WD", "ATM",
+                    "flag_O3", "flag_CO", "flag_PM10", "flag_PM2.5", "flag_WS"]
 
 
-def calcular_horario(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.set_index("DATE").sort_index()
-    rejilla = pd.date_range(CALENTAMIENTO, FIN, freq="h")
-    df = df.reindex(rejilla)
-    df.index.name = "FECHA_HORA"
-    df["REGISTRO_EN_FUENTE"] = np.where(df["STATION"].notna(), "Sí", "No")
-    df["STATION"] = ESTACION
-
-    co = N.co_movil_8h(df["CO"])
-    df["CO_datos_8h"], df["CO_8h"] = co["n8"], co["CO_8h"]
-    for pm, flag in [("PM10", 0), ("PM2.5", 1)]:
-        nc = N.nowcast_serie(df[pm], flag)
-        df[f"{pm}_datos_12h"] = nc["n12"]
-        df[f"{pm}_datos_3h"] = nc["n3"]
-        df[f"{pm}_W"] = nc["W"]
-        df[f"{pm}_NowCast"] = pd.to_numeric(nc["NowCast"])
-
-    ind = {"O3": "O3", "CO": "CO_8h", "PM10": "PM10_NowCast", "PM2.5": "PM2.5_NowCast"}
-    for c, col in ind.items():
-        df[f"Cat_{c}"] = [N.categoria(v, c) for v in df[col]]
-
-    glob, resp = [], []
-    for _, r in df.iterrows():
-        cats = {c: r[f"Cat_{c}"] for c in ind}
-        vals = {c: r[col] for c, col in ind.items()}
-        g, p = N.peor_categoria(cats, vals)
-        glob.append(g)
-        resp.append(p)
-    df["Cat_global"], df["Responsable"] = glob, resp
+def leer_horario(limpio: pd.DataFrame) -> pd.DataFrame:
+    """Archivo1 (cálculos) + meteorología y banderas del periodo limpio -> tabla horaria del sitio."""
+    a1 = pd.read_csv(calculos.ruta_archivo1(PERIODO), parse_dates=["DATE"], keep_default_na=False, na_values=[""])
+    df = a1.rename(columns=REN_HORARIO).set_index("FECHA_HORA")
+    df["Responsable"] = df["Responsable"].fillna("")
+    meteo = limpio.set_index("DATE")[METEO_Y_BANDERAS]
+    df = df.join(meteo)
+    for c in [c for c in METEO_Y_BANDERAS if c.startswith("flag_")]:
+        df[c] = df[c].fillna("")
     df["Riesgo"] = df["Cat_global"].map(N.RIESGO).fillna("")
-
-    df = df.loc[INICIO:FIN].copy()
     prev = df["Cat_global"].shift()
     df["Cambio_categoria"] = (df["Cat_global"] != prev) & prev.notna()
-    df.loc[df.index[0], "Cambio_categoria"] = False
     df["Mensaje"] = df["Cat_global"].map(lambda c: MENSAJES[c]["general"])
     df["Sector_viento"] = df["WD"].map(L.sector_viento)
     df["FECHA"] = df.index.normalize()
@@ -153,29 +134,20 @@ def calcular_horario(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def calcular_diario(h: pd.DataFrame) -> pd.DataFrame:
+def leer_diario(h: pd.DataFrame) -> pd.DataFrame:
+    """Archivo2 (cálculos) + la perspectiva horaria y la meteorología de cada día -> tabla diaria del sitio."""
+    a2 = pd.read_csv(calculos.ruta_archivo2(PERIODO), parse_dates=["Fecha"], keep_default_na=False, na_values=[""])
     filas = []
-    for fecha, d in h.groupby("FECHA"):
+    for _, r in a2.iterrows():
+        fecha = r["Fecha"]
         fila = {"FECHA": fecha, "ESTACION": ESTACION, "dia_semana": DIAS[fecha.weekday()]}
-        cats, vals = {}, {}
         for c in ["PM2.5", "PM10", "O3", "CO"]:
-            n = int(d[c].notna().sum())
-            cumple = n >= N.SUFICIENCIA_DIARIA
-            valor = np.nan
-            if cumple:
-                if c in ("PM10", "PM2.5"):
-                    valor = round(float(d[c].mean()), 0)
-                elif c == "O3":
-                    valor = round(float(d[c].max()), 3)
-                elif c == "CO":
-                    valor = round(float(d["CO_8h"].max()), 2) if d["CO_8h"].notna().any() else np.nan
-            cat = N.categoria(valor, c)
-            fila.update({f"{c}_validos": n, f"{c}_suficiencia": "Cumple" if cumple else "No cumple",
-                         f"{c}_indicador": valor, f"{c}_categoria": cat})
-            cats[c], vals[c] = cat, valor
-        g, p = N.peor_categoria(cats, vals)
-        fila["Cat_global"], fila["Responsable"] = g, p
+            fila.update({f"{c}_validos": int(r[f"Validos_{c}"]), f"{c}_suficiencia": r[f"Suficiencia_{c}"],
+                         f"{c}_indicador": r[f"Indicador_{c}"], f"{c}_categoria": r[f"Cat_{c}"]})
+        g = r["Cat_Global_Diaria"]
+        fila["Cat_global"], fila["Responsable"] = g, r["Responsable_Diario"] if isinstance(r["Responsable_Diario"], str) else ""
         # Perspectiva horaria dentro del día
+        d = h[h["FECHA"] == fecha]
         horas = d["Cat_global"]
         fila["horas_con_categoria"] = int((horas != N.SIN_DATOS).sum())
         for cat in N.CATEGORIAS:
@@ -271,7 +243,8 @@ def exportar_excel(h: pd.DataFrame, d: pd.DataFrame, bitacora: pd.DataFrame, per
 
 def metodologia() -> pd.DataFrame:
     filas = [
-        ("Fuente", "SEMADET Jalisco, BD_2024.xlsx (hoja Data), estación Miravalle (MIR). Unidades de la hoja Param."),
+        ("Fuente", f"SEMADET Jalisco, BD_{PERIODO[:4]}.xlsx (hoja Data), estación Miravalle (MIR). Unidades de la hoja Param."),
+        ("Proceso", "etl.py (limpieza del año) → calculos.py (Archivo1 horario y Archivo2 diario) → procesar.py (JSON del sitio y Excel)."),
         ("Norma", "NOM-172-SEMARNAT-2023. Criterios validados en Actividades 5 y 6 (SFE, enero 2025)."),
         ("Periodo", f"{INICIO[:10]} a {FIN[:10]}, horas 0–23 (hora local). Las 24 h previas ({CALENTAMIENTO[:10]}) solo calientan las ventanas."),
         ("O3", "Indicador horario = concentración horaria (ppm, 3 decimales). Diario = máximo horario."),
@@ -386,15 +359,21 @@ def exportar_json(h, d, bitacora, perfil, periodo) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--periodo", default="2024-03", help="Mes a procesar, formato AAAA-MM")
-    ap.add_argument("--bd", type=Path, help="Ruta a BD_2024.xlsx para re-extraer la estación")
+    ap.add_argument("--bd", type=Path, help="Ruta a la base anual (por defecto BD_<AÑO>.xlsx en la raíz)")
     args = ap.parse_args()
     configurar(args.periodo)
-    if args.bd:
-        extraer_de_bd(args.bd)
 
-    crudo = L.cargar(RAW)
-    crudo = crudo[(crudo.DATE >= CALENTAMIENTO) & (crudo.DATE <= FIN)].copy()
-    perfil = L.perfil(crudo, INICIO, FIN)
+    # 1. ETL: si hay base anual se regenera el año limpio; si no, se usa el ya versionado
+    anio = int(PERIODO[:4])
+    bd = args.bd or etl.ruta_bd(anio)
+    if bd.exists():
+        etl.ejecutar(bd, anio)
+    else:
+        print(f"No se encontró {bd.name}; se usa {etl.ruta_limpio_anual(anio).relative_to(RAIZ)} tal como está.")
+    etl.exportar_periodo(PERIODO)
+
+    # 2. Cálculos NOM-172: Archivo1 (horario) y Archivo2 (diario)
+    limpio, bitacora, perfil = calculos.ejecutar(PERIODO)
     perfil["formato"] = [
         "En BD_2024.xlsx la columna PM2.5 es de tipo objeto: mezcla enteros y decimales y contiene al menos un valor "
         "guardado como texto (CEN, 2024-01-07 14:00). Se convierte a numérico con errors='coerce'.",
@@ -404,15 +383,17 @@ def main() -> None:
          if perfil["hora_consistente"] else "La columna HOUR no coincide con la hora de DATE en algunos registros; se usa DATE."),
         "Resolución de medición: ET, IT y ATM en enteros; WS con paso de 0.1 m/s; PM en enteros.",
     ]
-    limpio, bitacora = L.control_calidad(crudo, INICIO, FIN)
-    h = calcular_horario(limpio)
-    d = calcular_diario(h)
+
+    # 3. Sitio: el JSON se arma a partir de Archivo1 y Archivo2
+    h = leer_horario(limpio)
+    d = leer_diario(h)
     periodo = seleccionar_periodo(h)
     bit = pd.DataFrame(bitacora)
     exportar_excel(h, d, bit, perfil)
     exportar_json(h, d, bit, perfil, periodo)
     DESC.mkdir(parents=True, exist_ok=True)
-    for f in [f"MIR_{PERIODO}_horario.xlsx", f"MIR_{PERIODO}_diario.xlsx", "bitacora_limpieza.csv"]:
+    for f in [f"MIR_{PERIODO}_horario.xlsx", f"MIR_{PERIODO}_diario.xlsx", "bitacora_limpieza.csv",
+              calculos.ruta_archivo1(PERIODO).name, calculos.ruta_archivo2(PERIODO).name]:
         shutil.copy2(OUT / f, DESC / f)
 
     print(f"Periodo {PERIODO} | horas: {len(h)} | con categoría: {(h.Cat_global != N.SIN_DATOS).sum()}")
