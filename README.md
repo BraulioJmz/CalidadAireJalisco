@@ -87,5 +87,3 @@ Framework: Next.js (se detecta solo). Cada rama y cada pull request obtiene su p
 | 5. Entrega | merge a `main` y `git tag sprint-2 && git push --tags` |
 
 Las entregas pasadas no se tocan: su ruta y su tag quedan como evidencia de lo entregado.
-
-`scriptDiariosyHorarios.py` (raíz) es el análisis original del equipo; su versión integrada es `pipeline/reporte.py`.

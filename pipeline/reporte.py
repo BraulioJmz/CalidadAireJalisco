@@ -2,7 +2,7 @@
 Reporte de resultados en texto (para copiar al reporte en Word).
 
 Lee Archivo1 (horario) y Archivo2 (diario) del periodo, imprime el análisis en consola y lo guarda en
-data/processed/<AAAA-MM>/reporte_resultados_<AAAA-MM>.txt. Basado en scriptDiariosyHorarios.py del equipo.
+data/processed/<AAAA-MM>/reporte_resultados_<AAAA-MM>.txt. Basado en el script de análisis original del equipo.
 
 Uso (desde la raíz):
     python pipeline/reporte.py --periodo 2024-03
