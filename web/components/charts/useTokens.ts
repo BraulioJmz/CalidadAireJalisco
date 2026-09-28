@@ -40,8 +40,15 @@ export function useTokens(): Tokens | null {
   return t;
 }
 
+/** Convierte cualquier color CSS (#rgb, #rrggbb, nombre como "red") a rgba con la opacidad dada.
+ *  El CSS minificado puede reescribir los colores oficiales (p. ej. #ff0000 → red, #ffff00 → #ff0). */
 export function withAlpha(color: string, a: number) {
-  const h = color.replace("#", "");
+  let h = color.trim().replace("#", "");
+  if (/^[0-9a-f]{3}$/i.test(h)) h = h.split("").map((c) => c + c).join("");
+  if (!/^[0-9a-f]{6}$/i.test(h) && typeof document !== "undefined") {
+    const ctx = document.createElement("canvas").getContext("2d");
+    if (ctx) { ctx.fillStyle = color; h = String(ctx.fillStyle).replace("#", ""); }
+  }
   if (!/^[0-9a-f]{6}$/i.test(h)) return color;
   const n = parseInt(h, 16);
   return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;

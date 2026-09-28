@@ -29,6 +29,8 @@ const DESCARGAS: { patron: RegExp; titulo: string; descripcion: string; paso: nu
     descripcion: "Tabla procesada NOM-172 por hora: NowCast de PM₁₀ y PM₂.₅, CO 8 h, O₃, categorías, categoría global y contaminante responsable." },
   { patron: /^Archivo2_Calculos_Diarios\.csv$/, paso: 4, titulo: "Archivo 2 · cálculos diarios",
     descripcion: "Tabla procesada NOM-172 por día: datos válidos, suficiencia, indicador diario y categoría de cada contaminante, categoría global y responsable." },
+  { patron: /^reporte_resultados_.*\.txt$/, paso: 4.5, titulo: "Reporte de resultados en texto",
+    descripcion: "Numeralia lista para copiar al reporte: suficiencia, estadísticos de los indicadores, categorías por contaminante y globales, responsables, días más desfavorables y comparación horaria contra diaria." },
   { patron: /_horario\.xlsx$/, paso: 5, titulo: "Excel horario",
     descripcion: "Archivo 1 con meteorología, banderas de calidad y mensajes, más las hojas de perfil de variables, bitácora y metodología." },
   { patron: /_diario\.xlsx$/, paso: 6, titulo: "Excel diario",

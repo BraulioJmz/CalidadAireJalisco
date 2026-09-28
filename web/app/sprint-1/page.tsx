@@ -323,7 +323,7 @@ export default function Reporte1() {
                 contra los 24 casos de prueba; en {mes} de 2024 su redondeo coincide en todas las horas con la regla del numeral 5.2.4.
               </P>
               <Tabla n={4} titulo="Bandas del Índice AIRE Y SALUD aplicadas: límite superior de cada categoría (tablas 4 a 10 de la NOM)."
-                nota="Para PM₁₀ y PM₂.₅ la NOM define límites graduales; se aplica la columna «a partir de enero de 2024», que corresponde al año de los datos. Colores según la tabla 11 (RGB); el blanco indica estación sin información.">
+                nota="Para PM₁₀ y PM₂.₅ la NOM define límites graduales; se aplica la columna «a partir de enero de 2024», que corresponde a la fecha de los datos. Colores según la tabla 11 (RGB); el blanco indica estación sin información.">
                 <table className="w-full min-w-[640px] text-sm">
                   <thead className="bg-surface-2"><tr><th className={th}>Categoría</th><th className={th}>Riesgo</th>
                     {["O3", "CO", "PM10", "PM2.5"].map((p) => <th key={p} className={`${th} text-right`}>{PL[p]} <span className="normal-case">({D.unidades[p]})</span></th>)}</tr></thead>
@@ -352,6 +352,44 @@ export default function Reporte1() {
                 Criterio de selección del periodo representativo: {rec.criterio.charAt(0).toLowerCase() + rec.criterio.slice(1)}
               </P>
             </Sub>
+
+            <Sub n="3.4" titulo="Propuesta de visualización: agencia, audiencia y objetivo">
+              <P>
+                <b>Agencia.</b> {ACADEMIA.nombre} es una institución académica. A diferencia de una autoridad ambiental, no opera la red ni emite alertas oficiales:
+                usa los datos públicos de SEMADET para tomar decisiones internas y, por su carácter educativo, para explicar cómo se construye la información.
+              </P>
+              <P>
+                <b>Audiencia.</b> Su comunidad ({ACADEMIA.comunidad}), en particular quienes programan actividades al aire libre (educación física, entrenamientos,
+                ceremonias) y los grupos sensibles que define la NOM. Es una audiencia con formación académica que valora ver el método, no solo el resultado.
+              </P>
+              <P>
+                <b>Objetivo de comunicación.</b> Doble: (1) apoyar la decisión de cuándo y cómo realizar actividades al aire libre, lo que exige leer la calidad del aire
+                por hora del día; y (2) mostrar de forma trazable cómo una medición horaria se convierte en una categoría y un mensaje.
+              </P>
+              <Tabla n={5} titulo="Referentes consultados, elementos retomados y diferencias de la propuesta."
+                nota="Los referentes se consultaron el 27 de septiembre de 2026 como inspiración; no se copió su diseño.">
+                <table className="w-full min-w-[760px] text-sm">
+                  <thead className="bg-surface-2"><tr><th className={th}>Referente</th><th className={th}>Qué presenta</th><th className={th}>Qué retomamos</th><th className={th}>En qué nos diferenciamos y por qué</th></tr></thead>
+                  <tbody className="text-ink-2">
+                    {[
+                      ["SIMAJ, SEMADET (aire.jalisco.gob.mx)", "Mapa de estaciones con el Índice AIRE Y SALUD, la estación con mayor nivel destacada, recomendaciones por grupo de población, reporte diario y descarga de datos.",
+                        "El índice por estación, los colores oficiales, los mensajes por grupo y la ubicación en el AMG (Figura 1).",
+                        "SIMAJ informa el estado actual a toda la población de Jalisco. Nosotros analizamos un mes pasado de una sola estación para una comunidad académica, por lo que añadimos la simulación, la comparación horaria y diaria y la trazabilidad del cálculo."],
+                      ["SINAICA, INECC (sinaica.inecc.gob.mx)", "Mapa nacional con estaciones coloreadas por categoría, leyenda que asocia calidad del aire y riesgo a la salud, índice diario y leyenda de mantenimiento o sin información en blanco; datos históricos descargables.",
+                        "La leyenda que une categoría y riesgo, el blanco para «sin información» y la publicación de los datos procesados.",
+                        "SINAICA compara estaciones a escala nacional; nuestra decisión depende de la variación dentro del día en una estación, así que priorizamos la hora del día sobre el mapa."],
+                      ["RESPIRA (app.respira.org.mx)", "Al consultarla, la dirección no mostraba la aplicación (redirigía a una página de inicio de sesión ajena); por las coordenadas del enlace corresponde a Mexicali, Baja California.",
+                        "No fue posible revisar su diseño.", "—"],
+                    ].map((r) => <tr key={r[0]} className="border-t border-rule">{r.map((c, i) => <td key={i} className={`${td} ${i === 0 ? "font-medium text-ink" : ""}`}>{c}</td>)}</tr>)}
+                  </tbody>
+                </table>
+              </Tabla>
+              <Tabla n={6} titulo="Visualizaciones empleadas y justificación de su elección para la agencia.">
+                <table className="w-full min-w-[560px] text-sm">
+                  <tbody>{VISUALES.map(([t, d], i) => <tr key={t} className={i ? "border-t border-rule" : ""}><td className={`${td} w-56 font-medium text-ink`}>{t}</td><td className={`${td} text-ink-2`}>{d}</td></tr>)}</tbody>
+                </table>
+              </Tabla>
+            </Sub>
           </Seccion>
 
           {/* ======================= 4 ======================= */}
@@ -364,6 +402,26 @@ export default function Reporte1() {
               <Figura n={3} pie={<>Simulación de la llegada horaria de datos en la estación {ESTACION.clave}. Las franjas de color son las bandas de la NOM; la línea delgada es el dato horario y la gruesa, el indicador. Las flechas indican hacia dónde sopla el viento.</>} fuente="elaboración propia con datos de SEMADET.">
                 <SimulationPlayer data={sim} />
               </Figura>
+
+              <Tabla n={7} titulo="Elementos requeridos para la simulación y dónde se muestran en la Figura 3.">
+                <table className="w-full min-w-[640px] text-sm">
+                  <thead className="bg-surface-2"><tr><th className={th}>Elemento</th><th className={th}>Cómo se muestra</th></tr></thead>
+                  <tbody className="text-ink-2">
+                    {[
+                      ["Llegada progresiva de los datos", "La línea de tiempo de 72 h solo dibuja las horas ya recibidas y se completa al reproducir; los indicadores usan únicamente horas pasadas."],
+                      ["Fecha y hora", "Encabezado del aviso y eje de la línea de tiempo."],
+                      ["Concentración del contaminante", "Línea delgada de cada contaminante y paso 01 «Dato horario»."],
+                      ["Procesamiento", "Paso 02 y panel «Información disponible»: horas válidas en cada ventana (12, 3 y 8 h) y factor W del NowCast."],
+                      ["Indicador calculado", "Línea gruesa (NowCast, promedio de 8 h u O₃ horario) y paso 03."],
+                      ["Categoría de calidad del aire", "Franja superior con la categoría global de cada hora, bandas de la NOM de fondo y paso 04."],
+                      ["Cambios de categoría", "Marcas verticales en la franja superior, bitácora de avisos emitidos y recorrido guiado."],
+                      ["Variables meteorológicas", "Paneles de temperatura y de viento (velocidad y dirección con flechas)."],
+                      ["Información para el usuario", "Riesgo (tabla 10) y mensajes por grupo de población (tabla 12) de la NOM; paso 05."],
+                      ["Periodo representativo", `Selección automática (${fechaCorta(rec.inicio)} al ${fechaCorta(rec.fin)}) con el criterio de la sección 3.3; puede elegirse cualquier otro periodo del mes.`],
+                    ].map((r) => <tr key={r[0]} className="border-t border-rule"><td className={`${td} w-60 font-medium text-ink`}>{r[0]}</td><td className={td}>{r[1]}</td></tr>)}
+                  </tbody>
+                </table>
+              </Tabla>
 
               <div className="max-w-[72ch] space-y-5">
                 <P><b>¿Qué información estaba disponible en cada momento?</b> Solo la hora en curso y las anteriores. El NowCast de partículas exige datos en 2 de las 3 horas más recientes y el promedio de CO, en 6 de las últimas 8; la categoría diaria no existe hasta las 23:00. Cuando un indicador no puede calcularse, la categoría global se obtiene con los contaminantes restantes.</P>
@@ -383,7 +441,7 @@ export default function Reporte1() {
             </Sub>
 
             <Sub n="4.2" titulo="Análisis diario y numeralia">
-              <Tabla n={5} titulo={`Numeralia diaria de ${mes} de 2024.`}>
+              <Tabla n={8} titulo={`Numeralia diaria de ${mes} de 2024.`}>
                 <table className="w-full min-w-[480px] text-sm">
                   <tbody className="text-ink-2">
                     {([
@@ -402,7 +460,7 @@ export default function Reporte1() {
               <Figura n={4} pie="Calendario de categorías diarias. Cada día muestra su categoría, el contaminante responsable y su indicador; la tira inferior contiene las 24 categorías horarias. SS: Semana Santa. Al seleccionar un día se abre en la simulación." fuente="elaboración propia con datos de SEMADET.">
                 <div className="space-y-3"><Legend /><CalendarMonth diario={D.diario} horas={horas} unidades={D.unidades} /></div>
               </Figura>
-              <Tabla n={6} titulo="Días con las condiciones más desfavorables."
+              <Tabla n={9} titulo="Días con las condiciones más desfavorables."
                 nota="Orden: peor categoría diaria y, dentro de ella, cercanía del indicador al límite superior de la banda.">
                 <table className="w-full min-w-[600px] text-sm">
                   <thead className="bg-surface-2"><tr><th className={th}>Fecha</th><th className={th}>Categoría</th><th className={th}>Responsable</th><th className={`${th} text-right`}>Indicador diario</th><th className={`${th} text-right`}>Horas en Mala o peor</th></tr></thead>
@@ -440,7 +498,7 @@ export default function Reporte1() {
 
             <Sub n="4.4" titulo="Máximos y relación con la meteorología">
               {maximos.length > 0 && (
-                <Tabla n={7} titulo="Valores máximos y mínimos del periodo, con fecha, hora y categoría."
+                <Tabla n={10} titulo="Valores máximos y mínimos del periodo, con fecha, hora y categoría."
                   nota="La concentración horaria y el indicador pueden alcanzar su máximo en horas o días distintos, porque el NowCast y el promedio de 8 h ponderan las horas previas.">
                   <Maximos maximos={maximos} />
                 </Tabla>
@@ -510,12 +568,7 @@ export default function Reporte1() {
               <p className="text-[1.02rem] font-semibold text-ink">Descargas documentadas</p>
               <Descargas items={getDescargas(PERIODO)} />
             </div>
-            <Tabla n={8} titulo="Visualizaciones empleadas y justificación de su elección.">
-              <table className="w-full min-w-[560px] text-sm">
-                <tbody>{VISUALES.map(([t, d], i) => <tr key={t} className={i ? "border-t border-rule" : ""}><td className={`${td} w-56 font-medium text-ink`}>{t}</td><td className={`${td} text-ink-2`}>{d}</td></tr>)}</tbody>
-              </table>
-            </Tabla>
-            <p className="text-sm text-ink-2">Los criterios completos están en la <Link href="/metodologia" className="text-accent underline-offset-2 hover:underline">página de metodología</Link>.</p>
+            <p className="text-sm text-ink-2">La justificación de cada visualización está en la sección 3.4. Los criterios completos están en la <Link href="/metodologia" className="text-accent underline-offset-2 hover:underline">página de metodología</Link>.</p>
           </Seccion>
 
           {/* ======================= Referencias ======================= */}

@@ -1,0 +1,120 @@
+=================================================================
+ANÁLISIS DE RESULTADOS DIARIOS - ESTACIÓN MIRAVALLE (31 DÍAS)
+Periodo 2024-03 · NOM-172-SEMARNAT-2023
+=================================================================
+
+--------------------------------------------------
+1. EVALUACIÓN DE SUFICIENCIA DIARIA (≥ 18 de 24 horas válidas)
+--------------------------------------------------
+PM10  : 27 días Cumple (87.1%) | 4 días No cumple
+PM2.5 : 22 días Cumple (71.0%) | 9 días No cumple
+CO    : 29 días Cumple (93.5%) | 2 días No cumple
+O3    : 28 días Cumple (90.3%) | 3 días No cumple
+
+--------------------------------------------------
+2. ESTADÍSTICAS DE LOS INDICADORES DIARIOS
+--------------------------------------------------
+
+Indicador diario PM10 (µg/m³) · promedio 24 h:
+  - Días evaluados: 27
+  - Media mensual:  67.11
+  - Desv. estándar: 13.01
+  - Mínimo:         41.00
+  - Mediana (Q2):   64.00
+  - Máximo:         90.00
+
+Indicador diario PM2.5 (µg/m³) · promedio 24 h:
+  - Días evaluados: 22
+  - Media mensual:  24.14
+  - Desv. estándar: 6.15
+  - Mínimo:         13.00
+  - Mediana (Q2):   25.00
+  - Máximo:         35.00
+
+Indicador diario CO (ppm) · máximo del promedio móvil 8 h:
+  - Días evaluados: 29
+  - Media mensual:  0.88
+  - Desv. estándar: 0.17
+  - Mínimo:         0.51
+  - Mediana (Q2):   0.90
+  - Máximo:         1.22
+
+Indicador diario O3 (ppm) · máximo horario del día:
+  - Días evaluados: 28
+  - Media mensual:  0.063
+  - Desv. estándar: 0.012
+  - Mínimo:         0.041
+  - Mediana (Q2):   0.060
+  - Máximo:         0.091
+
+--------------------------------------------------
+3. CATEGORÍAS DIARIAS POR CONTAMINANTE
+--------------------------------------------------
+
+Distribución para PM10:
+  - Buena               : 1 día
+  - Aceptable           : 8 días
+  - Mala                : 18 días
+  - Sin datos           : 4 días
+
+Distribución para PM2.5:
+  - Buena               : 2 días
+  - Aceptable           : 19 días
+  - Mala                : 1 día
+  - Sin datos           : 9 días
+
+Distribución para CO:
+  - Buena               : 29 días
+  - Sin datos           : 2 días
+
+Distribución para O3:
+  - Buena               : 13 días
+  - Aceptable           : 14 días
+  - Mala                : 1 día
+  - Sin datos           : 3 días
+
+--------------------------------------------------
+4. CATEGORÍA GLOBAL DIARIA DE LA ESTACIÓN (PEOR CONDICIÓN)
+--------------------------------------------------
+  - Buena               : 1 día (3.2%)
+  - Aceptable           : 10 días (32.3%)
+  - Mala                : 18 días (58.1%)
+  - Sin datos           : 2 días (6.5%)
+
+--------------------------------------------------
+5. CONTAMINANTE RESPONSABLE DE LA CATEGORÍA DIARIA
+--------------------------------------------------
+  - PM10  : 25 días
+  - O3    : 4 días
+Días en Mala o peor: 18
+  - Responsable PM10: 18 días
+
+--------------------------------------------------
+6. DÍAS MÁS DESFAVORABLES (peor categoría y cercanía al límite superior)
+--------------------------------------------------
+  - 2024-03-05: Mala       por PM10  (90 µg/m³)
+  - 2024-03-16: Mala       por PM10  (87 µg/m³)
+  - 2024-03-09: Mala       por PM10  (82 µg/m³)
+  - 2024-03-11: Mala       por PM10  (81 µg/m³)
+  - 2024-03-08: Mala       por PM10  (79 µg/m³)
+
+--------------------------------------------------
+7. PERSPECTIVA HORARIA (ARCHIVO 1)
+--------------------------------------------------
+Horas del periodo: 744 | con categoría: 708 | sin datos: 36
+  - Buena               : 407 horas (57.5%)
+  - Aceptable           : 126 horas (17.8%)
+  - Mala                : 158 horas (22.3%)
+  - Muy Mala            : 17 horas (2.4%)
+Contaminante responsable por hora:
+  - PM10  : 402 horas (56.8%)
+  - O3    : 197 horas (27.8%)
+  - PM2.5 : 99 horas (14.0%)
+  - CO    : 10 horas (1.4%)
+Cambios de categoría horaria (incluye entradas y salidas de «Sin datos»): 154
+
+--------------------------------------------------
+8. COMPARACIÓN HORARIA VS DIARIA
+--------------------------------------------------
+Horas en Buena: 57.5% | Días en Buena: 3.4%
+Horas con una categoría peor que la de su día: 59

@@ -33,6 +33,7 @@ import pandas as pd
 
 import calculos
 import etl
+import reporte
 import limpieza as L
 import nom172 as N
 
@@ -297,7 +298,7 @@ def metodologia() -> pd.DataFrame:
         ("PM10 / PM2.5", "NowCast 12 h con la función de referencia de la profesora (≥ 2 de las 3 horas recientes; W ≥ 0.5; "
                          "factor 0.714 PM10 / 0.694 PM2.5). Diario = promedio 24 h redondeado a entero."),
         ("Bandas", "Tablas 4 a 9 de la NOM. O3: 0.058/0.090/0.135/0.175 ppm · CO: 5/9/12/16 ppm · PM10: 45/60/132/213 µg/m³ · "
-                   "PM2.5: 15/33/79/130 µg/m³. Para partículas se usa la columna «a partir de enero de 2024», que corresponde al año de los datos."),
+                   "PM2.5: 15/33/79/130 µg/m³. Para partículas se usa la columna «a partir de enero de 2024», que corresponde a la fecha de los datos."),
         ("Redondeo", "Numeral 5.2.4: O3 a 3 decimales, CO a 2 y PM a entero; si la cifra siguiente es 5 o más, se sube. "
                      "En marzo 2024 el redondeo interno de la función NowCast de referencia coincide con esta regla en todas las horas."),
         ("Mensajes", "Tabla 12 de la NOM, textos oficiales para tres grupos: población en general; menores de 12 años y personas "
@@ -458,8 +459,9 @@ def main() -> None:
     bit = pd.DataFrame(bitacora)
     exportar_excel(h, d, bit, perfil)
     exportar_json(h, d, bit, perfil, periodo)
+    reporte.generar(PERIODO)  # reporte de resultados en texto para el documento en Word
     DESC.mkdir(parents=True, exist_ok=True)
-    for f in [f"MIR_{PERIODO}_horario.xlsx", f"MIR_{PERIODO}_diario.xlsx", "bitacora_limpieza.csv",
+    for f in [reporte.ruta_reporte(PERIODO).name, f"MIR_{PERIODO}_horario.xlsx", f"MIR_{PERIODO}_diario.xlsx", "bitacora_limpieza.csv",
               etl.ruta_limpio_periodo(PERIODO).name, calculos.ruta_archivo1(PERIODO).name, calculos.ruta_archivo2(PERIODO).name]:
         shutil.copy2(OUT / f, DESC / f)
 
@@ -468,6 +470,7 @@ def main() -> None:
     print("Responsable diario:", d.Responsable.value_counts().to_dict())
     print("Periodo de simulación:", periodo["inicio"], "→", periodo["fin"], f"({periodo['cambios']} cambios)")
     print("Bitácora:", bit.clasificacion.value_counts().to_dict())
+    print(f"Reporte en texto para Word: {reporte.ruta_reporte(PERIODO).relative_to(RAIZ)}")
 
 
 if __name__ == "__main__":

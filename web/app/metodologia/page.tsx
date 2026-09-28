@@ -41,7 +41,7 @@ export default function Metodologia() {
 
       <section className="space-y-5">
         <h2 className="display text-3xl font-medium text-ink">Límites de cada categoría</h2>
-        <p className="text-ink-2">Límite superior de cada categoría por contaminante (partículas: límites vigentes desde enero de 2024).</p>
+        <p className="text-ink-2">Límite superior de cada categoría por contaminante (partículas: columna «a partir de enero de 2024» de la NOM, que corresponde a la fecha de los datos).</p>
         <div className="card scroll-thin overflow-x-auto">
           <table className="w-full text-sm">
             <thead className="bg-surface-2 text-left"><tr className="num text-[0.68rem] uppercase tracking-[0.1em] text-muted">
