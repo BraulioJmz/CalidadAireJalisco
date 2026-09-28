@@ -12,6 +12,7 @@ const PASOS = [
   ["Categorías", "Cada indicador se clasifica con las bandas de la NOM; la categoría global es la más desfavorable y se registra el contaminante responsable."],
   ["Indicadores diarios (calculos.py)", "Suficiencia de 18 de 24 horas por contaminante; promedio 24 h (PM), máximo horario (O₃) y máximo del promedio 8 h (CO). Se guardan en Archivo1 (horario) y Archivo2 (diario)."],
   ["Publicación (procesar.py)", "A partir de Archivo1 y Archivo2 se generan los Excel horario y diario, la bitácora y el JSON que usa este sitio."],
+  ["Reporte en texto (reporte.py)", "Numeralia del periodo en texto plano (suficiencia, estadísticos, categorías, responsables y comparación horaria contra diaria) para el documento del equipo."],
 ];
 
 export default function Metodologia() {
@@ -79,6 +80,7 @@ export default function Metodologia() {
 ├─ BD_2024.xlsx   base original (solo lectura)
 ├─ pipeline/      etl → calculos → procesar (--periodo AAAA-MM)
 ├─ tests/         NowCast, reglas y regresión de marzo
+├─ docs/sprints/  resumen y decisiones de cada entrega
 ├─ data/processed/
 │  ├─ miravalle_2024_clean.csv   año limpio
 │  └─ AAAA-MM/    limpio, Archivo1, Archivo2, Excel

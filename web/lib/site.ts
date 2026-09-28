@@ -31,7 +31,7 @@ export const SPRINTS: Sprint[] = [
     titulo: "Del dato horario a la información",
     periodo: "2024-03",
     resumen:
-      "Marzo 2024: preparación de datos, simulación en tiempo real, numeralia diaria e interpretación para la academia.",
+      "Reporte técnico de marzo 2024: preparación de datos, aplicación de la NOM-172, simulación horaria con recorrido guiado, numeralia diaria e interpretación para la academia.",
     estado: "entregado",
   },
   {
