@@ -1,0 +1,29 @@
+{
+  "archivos": [
+    {
+      "archivo": "00_LEEME.md",
+      "bytes": 1145,
+      "sha256": "fb9a7e65805b3ead8b977637fd03713b7a7ae1e871489aa9c303e036c07f1e46"
+    },
+    {
+      "archivo": "01_AUDITORIA_REVISION01.md",
+      "bytes": 9072,
+      "sha256": "14fbdbadacd08ca38f5284f920d445cb75e28a70ceca22019cc8639ae207fcd7"
+    },
+    {
+      "archivo": "02_ENCARGO_CODEX_REVISION02.md",
+      "bytes": 11217,
+      "sha256": "a6a52b8bdd350846b18f0fe8cb9b070a8f8c9f247c9564487c296b0360016937"
+    },
+    {
+      "archivo": "03_RUTA_DEL_REPORTE.md",
+      "bytes": 5032,
+      "sha256": "80c3b3bd947279e619fc7353e9a0ad8ed010bc4f5f9ecb8d7ba719e7e7e46575"
+    },
+    {
+      "archivo": "04_evidencia_auditoria.json",
+      "bytes": 28588,
+      "sha256": "c76a263a50b69b35c34919fea50486e7f7fc540f9435ecf84d6b0b5d6aeecf32"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "status": "REVISADO",
+  "fecha": "2026-10-23",
+  "browser_checks": 38,
+  "checks": [
+    "Inicio pausado",
+    "PM10 diciembre 2023 15/31",
+    "PM10 diciembre 2024 27/31",
+    "Selección sincronizada",
+    "Selección conserva el color",
+    "Tablas históricas de episodios conservadas",
+    "CO diciembre 2023 Buena 31/31",
+    "CO diciembre 2024 Buena 31/31",
+    "Buena cero no se interpreta como ausencia",
+    "CO usa estadístico y unidad propios",
+    "Febrero 2023: 28 fechas reales",
+    "Febrero 2024: 29 fechas reales",
+    "No se crea 29 febrero 2023",
+    "Día adicional explicado",
+    "Solo fecha real seleccionada en día adicional",
+    "Equivalencia explicada también al filtrar 2024",
+    "Filtro 2023 no recorre fechas 2024",
+    "Todo el año ofrece mes explícito",
+    "Mes explícito pausa y limpia temporizador",
+    "O3 enero 2023: 31 días sin indicador",
+    "O3 usa máximo horario, no promedio diario",
+    "Ausencia conserva conteos 0/24",
+    "Reproducción avanza también por día sin datos",
+    "Pausa detiene avance",
+    "Avance con teclado Enter",
+    "Seleccionar fecha con teclado Space",
+    "Cambio de contaminante pausa",
+    "Cambio de año pausa",
+    "Cambio de periodo pausa",
+    "Recorrido 2023 termina el 28 y no reinicia",
+    "Reproducir desactivado al final",
+    "Recorrido comparativo termina el 29 y no pasa a marzo",
+    "Abandonar episodios desmonta calendario",
+    "Regreso a episodios inicia pausado",
+    "Movimiento reducido desactiva reproducción",
+    "Activar movimiento reducido pausa",
+    "Movimiento reducido conserva controles manuales",
+    "Móvil sin desbordamiento horizontal del documento"
+  ],
+  "herramienta": "Playwright CLI con Edge aislado",
+  "viewports": [
+    [
+      1440,
+      1100
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "screenshots": {
+    "output/playwright/calendario_2026-10-23/calendario_diciembre_co_escritorio.png": "7ddbb02514b32dde9bcf2f0811a1a8fdc6438d8141a8a42397b52033b1ccbb12",
+    "output/playwright/calendario_2026-10-23/calendario_diciembre_pm10_escritorio.png": "2d423f5a1a8859b24c26c4e5517e440914b20f7648e1c587579ff14125654c45",
+    "output/playwright/calendario_2026-10-23/calendario_diciembre_pm10_movil.png": "1100c83f3d14e12ae823fde795c013b277d977f08df6e2f7f9103b5cb14cb95b",
+    "output/playwright/calendario_2026-10-23/calendario_febrero29_escritorio.png": "1423cb2d404a9ccaa62d95f704968e2eda3d6942eb89a88355cf5099ca1b16b0",
+    "output/playwright/calendario_2026-10-23/calendario_febrero29_movil.png": "22cbea2a57d111f6e4d117299438bfb8b0f2fc12c6e25731ba5825156432a1c5",
+    "output/playwright/calendario_2026-10-23/calendario_ozono_sin_datos_escritorio.png": "fd12341002879e6d2318b876984ba47791a118855bf053994f66dcdafdb1a9f5"
+  },
+  "code_hashes": {
+    "web/components/sprint2/ComparativeCalendar.tsx": "9e4c997f5edda9a86938c7878b460b8a550508035b94889ba54ad519cab66624",
+    "web/components/sprint2/Sprint2.tsx": "e8a7a9c92d2b5708f70674fadd7a4bdfa78dece9d4541103ba120f5717ef01c9",
+    "web/components/sprint2/sprint2.css": "1c1c10740b725a46ea25a0ccb3e54d229d2e7ead2d177aca0f520c03bc387e81",
+    "web/lib/calendar.ts": "879e9376238ff76f73fcc315e314f92d776c54a15ec2e805b68bad8724654113",
+    "web/lib/sprint2-contract.ts": "21c8998d48123d93dd2fd983ff109dd32a4d6850cdcfadc2e1f0fe416bdf018c",
+    "web/data/sprint2.json": "0a1d8823a6e4d5e07b45e395c1b3a6cbb825cab38d67c2df63ce93fe38934743",
+    "pipeline/exportar_sprint2_web.py": "d4d037d8858dfb0dea9e89f7c98d730094fe2da38a75aa8b0edc9ed602550218",
+    "output/playwright/calendario_2026-10-23/comprobar_navegador.js": "60133586e35c49d246c35e6614a255f4090083ff3759f6bbd817dc3fafe77217"
+  },
+  "capture_note": "Recortes de la aplicación. Encabezado fijo ocultado únicamente durante screenshot para evitar superposición; datos y controles sin modificar.",
+  "alcance": "Comprobaciones explícitas del calendario, no todas las combinaciones de filtros del dashboard."
+}

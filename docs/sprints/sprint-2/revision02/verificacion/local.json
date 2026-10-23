@@ -1,0 +1,64 @@
+{
+  "status": "APROBADO",
+  "scope": "Controles locales; no sustituye la comprobación del ZIP limpio",
+  "steps": [
+    {
+      "name": "npm_ci",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "ci",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "log": "npm_ci.txt"
+    },
+    {
+      "name": "contrato_web",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "scripts/validar-sprint2.mjs"
+      ],
+      "log": "contrato_web.txt"
+    },
+    {
+      "name": "tipos",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "run",
+        "lint"
+      ],
+      "log": "tipos.txt"
+    },
+    {
+      "name": "build",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "run",
+        "build"
+      ],
+      "log": "build.txt"
+    },
+    {
+      "name": "pipeline",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\Im_JVallejo\\Documents\\Administracion\\Ingenieria\\5to Semestre\\Analisis y Vizualizacion de la informacion\\Codex\\CalidadAireJalisco\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Im_JVallejo\\Documents\\Administracion\\Ingenieria\\5to Semestre\\Analisis y Vizualizacion de la informacion\\Codex\\CalidadAireJalisco\\pipeline\\verificar_sprint2.py"
+      ],
+      "log": "pipeline.txt"
+    }
+  ],
+  "tests": {
+    "tests": 73,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "input_signature": "f83ac80d2c78be229d6e3e9c64268c7d862606757773458067a31be6708c9a21"
+}

@@ -1,0 +1,37 @@
+test_all_distributions_reconcile (test_sprint2.DataRegressionTests.test_all_distributions_reconcile) ... ok
+test_annual_not_overclaimed (test_sprint2.DataRegressionTests.test_annual_not_overclaimed) ... ok
+test_calendar_731_days (test_sprint2.DataRegressionTests.test_calendar_731_days) ... ok
+test_december_same_days (test_sprint2.DataRegressionTests.test_december_same_days) ... ok
+test_global_requires_all_four (test_sprint2.DataRegressionTests.test_global_requires_all_four) ... ok
+test_march_old_day_partial (test_sprint2.DataRegressionTests.test_march_old_day_partial) ... ok
+test_meteorology_pair_counts (test_sprint2.DataRegressionTests.test_meteorology_pair_counts) ... ok
+test_no_leap_day_in_pairs (test_sprint2.DataRegressionTests.test_no_leap_day_in_pairs) ... ok
+test_ozone_missing_first_semester_2023 (test_sprint2.DataRegressionTests.test_ozone_missing_first_semester_2023) ... ok
+test_so2_no_valid_indicators (test_sprint2.DataRegressionTests.test_so2_no_valid_indicators) ... ok
+test_ties_recorded (test_sprint2.DataRegressionTests.test_ties_recorded) ... ok
+test_boundaries (test_sprint2.NormativeTests.test_boundaries) ... ok
+test_co_six_of_eight (test_sprint2.NormativeTests.test_co_six_of_eight) ... ok
+test_final_rounding_after_factor (test_sprint2.NormativeTests.test_final_rounding_after_factor) ... ok
+test_gap_keeps_age (test_sprint2.NormativeTests.test_gap_keeps_age) ... ok
+test_half_up_not_bankers (test_sprint2.NormativeTests.test_half_up_not_bankers) ... ok
+test_missing_not_good (test_sprint2.NormativeTests.test_missing_not_good) ... ok
+test_two_recent_required (test_sprint2.NormativeTests.test_two_recent_required) ... ok
+test_zero_window (test_sprint2.NormativeTests.test_zero_window) ... ok
+test_duplicate_rejected (test_sprint2.PreparationTests.test_duplicate_rejected) ... ok
+test_header_aliases_and_leap_year (test_sprint2.PreparationTests.test_header_aliases_and_leap_year) ... C:\Users\Im_JVallejo\Documents\Administracion\Ingenieria\5to Semestre\Analisis y Vizualizacion de la informacion\Codex\CalidadAireJalisco\.scratch\prototipo\pipeline\anual.py:61: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["SOURCE_ROW"] = df.SOURCE_ROW.fillna(False).astype(bool)
+ok
+test_missing_columns_are_not_zeros (test_sprint2.PreparationTests.test_missing_columns_are_not_zeros) ... C:\Users\Im_JVallejo\Documents\Administracion\Ingenieria\5to Semestre\Analisis y Vizualizacion de la informacion\Codex\CalidadAireJalisco\.scratch\prototipo\pipeline\anual.py:61: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["SOURCE_ROW"] = df.SOURCE_ROW.fillna(False).astype(bool)
+ok
+test_official_so2_and_outlier_preserved (test_sprint2.PreparationTests.test_official_so2_and_outlier_preserved) ... C:\Users\Im_JVallejo\Documents\Administracion\Ingenieria\5to Semestre\Analisis y Vizualizacion de la informacion\Codex\CalidadAireJalisco\.scratch\prototipo\pipeline\anual.py:61: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["SOURCE_ROW"] = df.SOURCE_ROW.fillna(False).astype(bool)
+ok
+test_source_mask_survives_reload (test_sprint2.PreparationTests.test_source_mask_survives_reload) ... C:\Users\Im_JVallejo\Documents\Administracion\Ingenieria\5to Semestre\Analisis y Vizualizacion de la informacion\Codex\CalidadAireJalisco\.scratch\prototipo\pipeline\anual.py:61: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["SOURCE_ROW"] = df.SOURCE_ROW.fillna(False).astype(bool)
+ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.109s
+
+OK

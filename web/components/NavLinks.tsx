@@ -4,7 +4,8 @@ import { usePathname } from "next/navigation";
 
 const LINKS = [
   { href: "/", label: "Observatorio", short: "Inicio" },
-  { href: "/sprint-1", label: "Reporte", short: "Reporte" },
+  { href: "/sprint-1", label: "Sprint 1", short: "S1" },
+  { href: "/sprint-2", label: "Sprint 2 · 2023–24", short: "S2" },
   { href: "/metodologia", label: "Metodología", short: "Método" },
 ];
 

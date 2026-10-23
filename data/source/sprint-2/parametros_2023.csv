@@ -1,0 +1,27 @@
+parametro,abreviatura,unidad
+Ozono,O3,ppm
+Monóxido de Nitrógeno,NO,ppm
+Bióxido de Nitrógeno,NO2,ppm
+Óxidos de Nitrógenos,NOx,ppm
+Bióxido de Azufre,SO2,ppm
+Monóxido de Carbono,CO,ppm
+Partículas suspendidas con diámetros menores a 10 micras,PM10,µg/m3
+Partículas suspendidas con diámetros menores a 2.5 micras,PM2.5,µg/m3
+"Temperatura Interna
+(Internal Temperature)",IT,°C
+"Temperatura Externa
+(External Temperature)",ET,°C
+"Humedad Relativa
+(Relative Humidity)",RH,%
+"Velocidad del viento
+(Wind Speed)",WS,m/s
+"Dirección del viento
+(Wind Direction)",WD,Grados
+"Precipitación Pluvial
+(Pluvial Precipitation)",PP,mm
+"Presión Atmosférica
+(Atmospheric Pressure)",ATM,mmHg
+"Radiación solar
+(Solar Radiation)",RS,W/m2
+"Índice UV
+(UV Index)",UVI,mW/m2

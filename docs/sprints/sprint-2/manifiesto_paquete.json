@@ -1,0 +1,194 @@
+{
+  "archivos": [
+    {
+      "archivo": "00_LEEME.md",
+      "bytes": 3059,
+      "sha256": "eea123724cde6cd4546e17c8f4529d59b75ac9924c8c4fa47a32d3afda23a144"
+    },
+    {
+      "archivo": "01_ENCARGO_CODEX.md",
+      "bytes": 7956,
+      "sha256": "bff36e294e98c8975d68509608c60ebc5b2b5a233ddd272407d0d92e5ff81d24"
+    },
+    {
+      "archivo": "02_fuentes/BD_2023.xlsx",
+      "bytes": 9418290,
+      "sha256": "f2a7f43b6e7c6aac276d58500b7fad2c7936ca8b29213330971ec952daadc5f6"
+    },
+    {
+      "archivo": "02_fuentes/BD_2024.xlsx",
+      "bytes": 9173689,
+      "sha256": "fe8e30b34cb64cfa3bfdaa52bcafb935c942b8e59de6132916497cf28a738e9c"
+    },
+    {
+      "archivo": "02_fuentes/Espinoza_2023_Calidad_datos_Python.pdf",
+      "bytes": 297883,
+      "sha256": "5fbc7b7dcc5f9f2961fcd11ea3a1100d2b0b5ed7ca414814b87f10d45543e40d"
+    },
+    {
+      "archivo": "02_fuentes/Guia_APA_7.pdf",
+      "bytes": 1358171,
+      "sha256": "5a5976c29e808c6b4666885dad15e10e7f242eb03dd423d7f1b79eb1ecc1a0b8"
+    },
+    {
+      "archivo": "02_fuentes/Informe_Nacional_Calidad_Aire_2023.pdf",
+      "bytes": 45487618,
+      "sha256": "6dd57ce1742337d6a7b04b16421bf339928fa2c57ae4856d3f12d4cf0735c56d"
+    },
+    {
+      "archivo": "02_fuentes/Integrantes_equipo.txt",
+      "bytes": 163,
+      "sha256": "0c92c14c0fa3f61e068ecd150267d7daa1f577e19cae055c72cd73378b215c06"
+    },
+    {
+      "archivo": "02_fuentes/NOM_172_SEMARNAT_2023_DOF.pdf",
+      "bytes": 430918,
+      "sha256": "7efe6c9217b107f894dce538b08d07d42caf849576e45ffb01354e67662218df"
+    },
+    {
+      "archivo": "02_fuentes/Protocolo_manejo_datos_calidad_aire.pdf",
+      "bytes": 5275281,
+      "sha256": "e1236b706dac457f25dfd909785e5da689161579d07440c2a30f1789910301bd"
+    },
+    {
+      "archivo": "02_fuentes/Requerimientos_entrega_reporte.docx",
+      "bytes": 60613,
+      "sha256": "8302fba823b29bebb8f799106b9c853d65724126fd50570e572ef4b9f47d7f77"
+    },
+    {
+      "archivo": "02_fuentes/Sprint1_entregado.pdf",
+      "bytes": 1352294,
+      "sha256": "dc2343de791b775dbbdc290dfb76df17cb393a742842c10384234b80a51ef7ce"
+    },
+    {
+      "archivo": "03_prototipo_analisis/config/sprint2.json",
+      "bytes": 8381,
+      "sha256": "dd9d7471eba7a774e416443366445fc24f789b928307dde2a4f8b4a9376360d0"
+    },
+    {
+      "archivo": "03_prototipo_analisis/data/source/MIR_2023.csv",
+      "bytes": 784636,
+      "sha256": "c00f318b6316fccfdb3bb8d10a95e1f0146ee5b2eaf5f877abb409fb318b2e49"
+    },
+    {
+      "archivo": "03_prototipo_analisis/data/source/MIR_2024.csv",
+      "bytes": 767986,
+      "sha256": "a05a38e4832dd1dbe10da9d1dc43eb14df330d85614bc56628371809d8ba03c6"
+    },
+    {
+      "archivo": "03_prototipo_analisis/pipeline/anual.py",
+      "bytes": 17907,
+      "sha256": "cf5cf15323b671f207531e936400d88cca57102aaeb255452751442677775154"
+    },
+    {
+      "archivo": "03_prototipo_analisis/pipeline/normativa.py",
+      "bytes": 2401,
+      "sha256": "890417954fa259d2fa904882add7e12903eb4e5e329467965b4f54554c5fd6fe"
+    },
+    {
+      "archivo": "03_prototipo_analisis/requirements_prototipo.txt",
+      "bytes": 57,
+      "sha256": "59f63e062811d7301d4b753d3a8848b04d03e0267888831d82df7327a74ccc8f"
+    },
+    {
+      "archivo": "03_prototipo_analisis/tests/test_sprint2.py",
+      "bytes": 5454,
+      "sha256": "16118f06a681ae5d3a04c81773929f942d80d001083b002dac5818f3530ac4fd"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2023_depurado.csv",
+      "bytes": 735795,
+      "sha256": "9a3a9edd18ac997ed78cc13ba23956a10e2d01dd56eead42c72ac3872474f2dd"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2023_diario.csv",
+      "bytes": 82172,
+      "sha256": "38a5815bbd2a0448de85bba983057ce29905c8b22beb5eeb93a1e46945aaf160"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2023_horario.csv",
+      "bytes": 1113126,
+      "sha256": "a03644acc79b4772f786ecbb96e452b8a6c2683f04f834f1a51a70a85f72a71a"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2024_depurado.csv",
+      "bytes": 767986,
+      "sha256": "a05a38e4832dd1dbe10da9d1dc43eb14df330d85614bc56628371809d8ba03c6"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2024_diario.csv",
+      "bytes": 85078,
+      "sha256": "78dca73d3f27b31b1566ea166836156e2f5c0f893fbe3b6584eee7487afc1296"
+    },
+    {
+      "archivo": "04_resultados_preliminares/MIR_2024_horario.csv",
+      "bytes": 1226690,
+      "sha256": "cccf9bf683c8699b8e7ede955f69f43360ed8b49c5e0ad5045e40024131410aa"
+    },
+    {
+      "archivo": "04_resultados_preliminares/annual.csv",
+      "bytes": 1242,
+      "sha256": "b680944e798cc4fe14b9e9a5240352fecde4988bdcfbf9bce9302a5beb007bfa"
+    },
+    {
+      "archivo": "04_resultados_preliminares/bitacora_calidad.csv",
+      "bytes": 1597880,
+      "sha256": "fa5de0a5c236d6c68228113bc18badb9ca51458e09fd2a2f329e5eac2830b873"
+    },
+    {
+      "archivo": "04_resultados_preliminares/comparacion_pareada.csv",
+      "bytes": 6693,
+      "sha256": "538403b8ac5361f7ab4ce9e599f1722742590e2e909c80bb593648efa5b077e7"
+    },
+    {
+      "archivo": "04_resultados_preliminares/coverage.csv",
+      "bytes": 12116,
+      "sha256": "0229b5b888e5bab85ae44d9bd3a8793b831665e212045ee7adbc4ece78fa17c6"
+    },
+    {
+      "archivo": "04_resultados_preliminares/monthly.csv",
+      "bytes": 17464,
+      "sha256": "4d674e240a9c40dca725b92a097ecdf654b5c73ad81e6b85367add068ee97a02"
+    },
+    {
+      "archivo": "04_resultados_preliminares/resumen.json",
+      "bytes": 1254545,
+      "sha256": "c3475a7e8170e75ef053129e21c6331e075995a6fa920afe8c76c8d5c1e3bf1c"
+    },
+    {
+      "archivo": "05_metodologia/consigna_sprint2.md",
+      "bytes": 2221,
+      "sha256": "fab2fe493f3539b259fa4463bece49356dddb3bb0e4dd8c5839d8157a443e54c"
+    },
+    {
+      "archivo": "05_metodologia/decisiones_metodologicas.md",
+      "bytes": 4884,
+      "sha256": "a91d84b398c1cb5d519d5048b1f7c59a152cf8c2933650960413dea24a0ad94d"
+    },
+    {
+      "archivo": "05_metodologia/hallazgos_preliminares.md",
+      "bytes": 1678,
+      "sha256": "3f7018cf9ffc2a1798dbb9b9d858572bbc8315a8b9ced8c89edf17e056ce873d"
+    },
+    {
+      "archivo": "05_metodologia/preguntas_visualizaciones.md",
+      "bytes": 1626,
+      "sha256": "e5410a68e156371d98571b74f7285233adb38e069a3c4c74c84b44173ebe739a"
+    },
+    {
+      "archivo": "06_verificacion/entorno.json",
+      "bytes": 518,
+      "sha256": "4136d3abc1396202dc929b26ef2782526b2d18eb0ec7a27ce5b40599e8376e15"
+    },
+    {
+      "archivo": "06_verificacion/pruebas_prototipo.txt",
+      "bytes": 3950,
+      "sha256": "226a4819ddf545f150ed9a03d62bea339142b00cd2e73580355ca8cf41bc54e0"
+    },
+    {
+      "archivo": "fuentes.json",
+      "bytes": 3114,
+      "sha256": "4f014829dc214167ffb6f7c4b2861b6b6e25f188b79562fcf6ce1ce4b837364e"
+    }
+  ]
+}

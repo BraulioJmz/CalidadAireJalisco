@@ -1,0 +1,25 @@
+caso,ventana,PM,referencia_docente,revision_nom,coincide
+PM_1,"[null, 3, 5, 9, 13, 11, 24, 39, 79, 227, 358, 442]",PM2.5,240.0,240.0,True
+PM_2,"[3, 5, 9, 13, 11, 24, 39, 79, 227, 358, 442, 421]",PM2.5,266.0,266.0,True
+PM_3,"[5, 9, 13, 11, 24, 39, 79, 227, 358, 442, 421, 362]",PM2.5,259.0,259.0,True
+PM_4,"[9, 13, 11, 24, 39, 79, 227, 358, 442, 421, 362, 312]",PM2.5,237.0,238.0,False
+PM_5,"[13, 11, 24, 39, 79, 227, 358, 442, 421, 362, 312, 222]",PM2.5,196.0,196.0,True
+PM_6,"[11, 24, 39, 79, 227, 358, 442, 421, 362, 312, 222, 143]",PM2.5,148.0,148.0,True
+PM_7,"[24, 39, 79, 227, 358, 442, 421, 362, 312, 222, 143, 132]",PM2.5,119.0,120.0,False
+PM_8,"[39, 79, 227, 358, 442, 421, 362, 312, 222, 143, 132, 121]",PM2.5,102.0,102.0,True
+PM_9,"[79, 227, 358, 442, 421, 362, 312, 222, 143, 132, 121, null]",PM2.5,102.0,102.0,True
+PM_10,"[227, 358, 442, 421, 362, 312, 222, 143, 132, 121, null, 4]",PM2.5,36.0,36.0,True
+PM_11,"[358, 442, 421, 362, 312, 222, 143, 132, 121, null, 4, null]",PM2.5,,,True
+PM_12,"[442, 421, 362, 312, 222, 143, 132, 121, null, 4, null, null]",PM2.5,,,True
+PM_13,"[421, 362, 312, 222, 143, 132, 121, null, 4, null, null, null]",PM2.5,,,True
+PM_14,"[362, 312, 222, 143, 132, 121, null, 4, null, null, null, 35]",PM2.5,,,True
+PM_15,"[312, 222, 143, 132, 121, null, 4, null, null, null, 2, null]",PM2.5,,,True
+PM_16,"[222, 143, 132, 121, null, 4, null, null, null, 2, null, null]",PM2.5,,,True
+PM_17,"[143, 132, 121, null, 4, null, null, null, 2, null, null, null]",PM2.5,,,True
+PM_18,"[132, 121, null, 4, null, null, null, 2, null, null, null, null]",PM2.5,,,True
+PM_19,"[121, null, 4, null, null, null, null, null, 2, null, null, 8]",PM2.5,,,True
+PM_20,"[null, 4, null, null, null, null, null, 2, null, null, 8, 32]",PM2.5,16.0,16.0,True
+PM_21,"[4, null, null, null, null, null, 2, null, null, 8, 32, 49]",PM2.5,26.0,26.0,True
+PM_22,"[null, null, null, null, null, 2, null, null, 8, 32, 49, 38]",PM2.5,26.0,26.0,True
+PM_23,"[null, null, null, null, 2, null, null, 8, 32, 49, 38, 39]",PM2.5,26.0,27.0,False
+PM_24,"[null, null, null, 2, null, null, 8, 32, 49, 38, 39, 48]",PM2.5,30.0,30.0,True

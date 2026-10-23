@@ -1,0 +1,58 @@
+{
+  "status": "REVISADO",
+  "fecha_local": "2026-10-22T11:48:48.099938-06:00",
+  "herramienta": "Playwright CLI con Microsoft Edge aislado",
+  "url": "http://127.0.0.1:3014/sprint-2",
+  "checks": [
+    "Escritorio 1440x1000: encabezado, unidades, n y paneles legibles",
+    "Móvil 390x844: ancho document=viewport=390; tablas/matrices se desplazan internamente",
+    "Selección PM10, PM2.5, O3 y CO",
+    "Diciembre CO: 1.202206 a 2.335489 y Buena 31/31 en ambos años",
+    "Todo el año: cobertura insuficiente y sin titular de mejora/deterioro anual",
+    "O3 enero 2023: Sin dato, 0/31 evaluables y 31/31 sin datos en gris",
+    "Categorías: denominadores calendario y determinantes con empates",
+    "Cobertura: matriz con horas utilizables/esperadas",
+    "Patrón horario: matriz mes-hora y tooltip/nombre accesible con numerador y denominador",
+    "Episodio 2023-12-31 a 2024-01-03: un intervalo de 4 días y contexto seleccionable",
+    "Meteorología: vista inicial con datos; selección O3/RH enero 2023 muestra insuficiencia",
+    "NO2: solo detalle exploratorio 2024, sin comparación con 2023",
+    "Navegación a Sprint 1 conservado",
+    "Portada: enlace a 2024 vs. 2023 y Sprint 2 en curso/PDF pendiente",
+    "Descargas reales de CSV y SVG verificadas por hash",
+    "Tema oscuro: contraste y leyendas observados"
+  ],
+  "downloads": [
+    {
+      "archivo": "monthly.csv",
+      "coincide": true
+    },
+    {
+      "archivo": "01_mensual_pm10.svg",
+      "coincide": true
+    }
+  ],
+  "console": {
+    "errores_aplicacion_observados": 0,
+    "aviso_preexistente": "404 favicon.ico; no relacionado con los datos ni la ruta nueva"
+  },
+  "alcance": "Revisión manual asistida por CLI; no prueba exhaustiva de todos los estados ni todas las combinaciones de filtros",
+  "capturas": {
+    "cobertura_anual_insuficiente.png": "4f3a238d25d97ca40d1259be4368207ed2fde24e020cc288962a6a384b0fcb85",
+    "cobertura_escritorio.png": "7e9504f3eb8cd0968bebaaa460b86c2a4406b7100f01e70bb264a6ad5b5ec744",
+    "cobertura_movil.png": "e219b49bf4d9e3de031611abb09f74bdf07cb649f6bbf4bc44d6b6ee8c571906",
+    "co_diciembre_escritorio.png": "dbc838140e4d1d438d0686b5478ed5967c0d517210b903b47e5da7bd2be6b253",
+    "episodio_cruce_escritorio.png": "ac458a7dc8f9f2ac0d99ae98bc6bb240fe895a0db0906558da8ed872696f08c7",
+    "inicio_con_sprint2.png": "59c7c647f8e77dfff59a46466edd9db5a44245ed76d9b626d6e416b9f158edf0",
+    "meteorologia_insuficiente.png": "f32d6ed15c48d1e04cd87818d6e2ba2242d651e03174facf43c113cb538a57d3",
+    "patron_horario_movil.png": "1b530b181c5c257ab26c69c36503889b74b198dbcca5ec0c9784b4aaa34da830",
+    "pm25_diciembre.png": "7b4f61b6ffa527cd61728cf03aa73265fc342f52ac10d5cff1ac7e3a86ee5a95",
+    "sprint2_escritorio.png": "47f1df9b550092c29b44d05402f2ffeecb777cb4e6f53ac8d72bb9da43322cc0",
+    "sprint2_movil.png": "1d63d8764f7045d78401062e7a92b12edd562b9659c75409175c7d637a5b1819",
+    "sprint2_oscuro.png": "0080aaf133314d27ae09bdfd2a233f810cf6ef5f3c2874d3e11a79fe2c7fdee5"
+  },
+  "codigo_web": {
+    "web/components/sprint2/Charts.tsx": "0835c0d492781811971823c6e6d89be80a35e0376389d1a77e50cf47775d2e10",
+    "web/components/sprint2/sprint2.css": "3af1f2280149860bb02df7269df7581cf43c71c9bf8e661b347fcc893d986b95",
+    "web/components/sprint2/Sprint2.tsx": "91f7601289e518013f1f4811770107d2558ce5bb1ca5ae573be10a8676cee814"
+  }
+}
