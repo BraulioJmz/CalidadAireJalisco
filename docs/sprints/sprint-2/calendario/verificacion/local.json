@@ -1,0 +1,64 @@
+{
+  "status": "APROBADO",
+  "scope": "Verificación local del calendario; extracción limpia se registra por separado",
+  "steps": [
+    {
+      "name": "npm_ci",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "ci",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "log": "npm_ci.txt"
+    },
+    {
+      "name": "contrato_y_recorrido",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "scripts/validar-sprint2.mjs"
+      ],
+      "log": "contrato_y_recorrido.txt"
+    },
+    {
+      "name": "tipos",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "run",
+        "lint"
+      ],
+      "log": "tipos.txt"
+    },
+    {
+      "name": "build",
+      "exit_code": 0,
+      "command": [
+        "npm.cmd",
+        "run",
+        "build"
+      ],
+      "log": "build.txt"
+    },
+    {
+      "name": "pruebas",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\Im_JVallejo\\Documents\\Administracion\\Ingenieria\\5to Semestre\\Analisis y Vizualizacion de la informacion\\Codex\\CalidadAireJalisco\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-W",
+        "error",
+        "-m",
+        "pytest",
+        "tests",
+        "-q"
+      ],
+      "log": "pruebas.txt"
+    }
+  ],
+  "protected_unchanged": 108,
+  "input_signature": "f49f95681a86b2e7212b6e8dc66f1816034c0ad98d9f12d3c4a5d5101ceed3a1"
+}

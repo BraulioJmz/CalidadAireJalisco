@@ -8,6 +8,28 @@ Cada sprint entrega un **reporte técnico** (una ruta del sitio) y el sitio comp
 
 **Estado:** Sprint 1 (marzo 2024) entregado → [`docs/sprints/sprint-1.md`](docs/sprints/sprint-1.md).
 
+**Sprint 2:** análisis retrospectivo MIR 2023–2024 en `/sprint-2`, con comparación pareada, categorías, cobertura, meteorología, calendario comparativo y figuras verificables. Se conservan los límites de cobertura e interpretación científica.
+Reproducción, salidas y verificación: [`docs/sprints/sprint-2/REPRODUCIR.md`](docs/sprints/sprint-2/REPRODUCIR.md).
+Decisiones y diferencias normativas: [`decisiones_metodologicas.md`](docs/sprints/sprint-2/decisiones_metodologicas.md).
+
+Desarrollo, Git y estructura vigente: [`docs/DESARROLLO.md`](docs/DESARROLLO.md).
+Calendario comparativo y recorrido temporal en Episodios: [reproducción y verificación](docs/sprints/sprint-2/calendario/REPRODUCIR_CALENDARIO.md), [complemento para el documento](docs/sprints/sprint-2/calendario/complemento_dashboard.md).
+La ruta pública `/metodologia` explica el análisis 2023–2024 y distingue reglas normativas de criterios adicionales del proyecto.
+
+La interfaz incluye un indicador deslizante entre sus siete vistas, entradas breves, revelado de líneas y barras, aparición de puntos y respuesta del calendario con avance y repetición voluntaria. Respeta movimiento reducido y teclado, sin interpolar concentraciones, conectar huecos ni animar valores desde cero. No necesita dependencias adicionales de animación.
+
+Para comprobar la versión actual, con Python instalado según el lock del Sprint 2:
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -W error -m pytest tests -q
+Set-Location web
+node scripts/validar-sprint2.mjs
+npm run lint
+npm run build
+```
+
+Los informes, firmas y capturas conservados identifican las revisiones históricas que ensayaron. No deben presentarse como verificación vigente de una interfaz posterior. Los originales de ambos años están en `data/source/sprint-2/originales/`, incluidos en Git para que un clon pueda reproducir el análisis; `.gitattributes` conserva los bytes de los recursos firmados sin conversión automática de saltos de línea. Los ZIP, entornos, compilaciones y credenciales quedan fuera del repositorio.
+
 ```
 calidad-aire-miravalle/
 ├─ BD_2024.xlsx         base anual de SEMADET (no se versiona; solo lectura)
@@ -28,7 +50,7 @@ calidad-aire-miravalle/
 └─ web/                 sitio Next.js (dashboard)
    ├─ app/page.tsx              Observatorio: dashboard final (todos los periodos, abre en el último)
    ├─ app/sprint-1/page.tsx     Reporte técnico 1 (marzo 2024), formato académico
-   ├─ app/metodologia/          criterios y cómo crece el proyecto
+   ├─ app/metodologia/          explicación pública del análisis 2023–2024
    ├─ components/               simulación con recorrido guiado, mapa, calendario, gráficas, tablas
    ├─ lib/site.ts               nombre de la academia y registro de sprints
    ├─ data/periodos/*.json      salida del pipeline que lee el sitio

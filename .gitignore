@@ -13,6 +13,8 @@ web/*.tsbuildinfo
 .DS_Store
 # La base anual pesa ~9 MB; se versiona el extracto data/raw/MIR_2024.csv
 BD_2024.xlsx
+# El original usado por Sprint 2 forma parte de la reproducción verificable.
+!data/source/sprint-2/originales/BD_2024.xlsx
 
 # Carpeta temporal; se puede borrar
 _to_delete/
@@ -21,3 +23,15 @@ CLAUDE.md
 
 # Geometrías descargadas por pipeline/mapa.py (~14 MB)
 data/external/
+
+# Ejecuciones de contraste y entorno temporal del Sprint 2
+.scratch/
+entregas/
+.playwright-cli/
+.ruff_cache/
+.mypy_cache/
+*.zip
+*.zip.sha256
+.env
+.env.*
+!.env.example

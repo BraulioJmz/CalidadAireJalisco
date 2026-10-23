@@ -1,0 +1,56 @@
+{
+  "estado": "REVISADO",
+  "fecha": "2026-10-23",
+  "herramienta": "Playwright CLI con Edge aislado",
+  "servidor": "producción local, puerto 3015",
+  "viewport_escritorio": [
+    1440,
+    1000
+  ],
+  "viewport_movil": [
+    390,
+    844
+  ],
+  "metodologia_ancho_documento": 390,
+  "metodologia_ancho_ventana": 390,
+  "navegacion_comprobada": [
+    "portada → metodología",
+    "metodología → Sprint 2 (móvil)",
+    "Sprint 2 → Sprint 1 desde evidencia"
+  ],
+  "descargas": [
+    {
+      "archivo": "monthly.csv",
+      "descarga_navegador_identica": true,
+      "sha256": "c83ab9498a47ae987cf64a8cad377d03580b932fcbd7b48921be3a5bb94f46e9"
+    },
+    {
+      "archivo": "figuras/01_mensual_pm10.svg",
+      "descarga_navegador_identica": true,
+      "sha256": "d6e79d56379467210b7b4d3884452b66b003cf18599da4f9c40e716526c9e15d"
+    }
+  ],
+  "tipos": "APROBADO",
+  "build": "APROBADO",
+  "contrato_typescript": "APROBADO; 4 mutaciones rechazadas",
+  "pytest": "73 passed, avisos como errores",
+  "avisos_consola": [
+    "404 preexistente favicon.ico",
+    "aviso de precarga CSS en portada"
+  ],
+  "errores_ejecucion_aplicacion_observados": 0,
+  "alcance": "Revisión de textos, navegación, descargas y adaptación de metodología; no repetición exhaustiva de filtros sin cambios.",
+  "capturas": {
+    "dashboard_escritorio.png": "aa1de01bbfc375fd58187cd6084573c73650cabd8eab0dad9f941ec670796e7f",
+    "dashboard_movil.png": "54d593417fb8b462585048ac6dd560474a5ffe20a781398b2c280140b792cdba",
+    "metodologia_escritorio.png": "977857dd578558471d48f15be0d5a41d18c81c31b6cfcb0799761c346a449d6f",
+    "metodologia_movil.png": "552aaffef11886114e9802a19713ccd96bb57268707e8726491eae602db1ac22",
+    "portada.png": "15a5efbf74f1e8235610681e8f1803e5830328f7fa4005764462329c2e6025b0"
+  },
+  "fuentes_editadas": {
+    "web/app/page.tsx": "4762197c0b81fc0b5aa474d2ae708c6d326a71b7f0c49da6555cbc62df92d700",
+    "web/app/metodologia/page.tsx": "7c522704bf440dd59793e86745399c1559c0facd7bda245151bc24c65c0d2ff9",
+    "web/lib/site.ts": "bc2dbd4866d70f64d8ac67f9a4a2871f9c4e9c0793f9bdfe586a368abf5b46ad",
+    "web/components/sprint2/Sprint2.tsx": "76eacad99fd598701b602f35538339959e42fb2cbfc932b3db0da49154d75c80"
+  }
+}

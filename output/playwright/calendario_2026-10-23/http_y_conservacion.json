@@ -1,0 +1,199 @@
+{
+  "status": "APROBADO",
+  "protected_unchanged": 108,
+  "exportacion_previa_sin_cambios_salvo_esquema_y_ampliaciones": true,
+  "downloads": 35,
+  "routes": [
+    {
+      "ruta": "/",
+      "status": 200
+    },
+    {
+      "ruta": "/metodologia",
+      "status": 200
+    },
+    {
+      "ruta": "/sprint-1",
+      "status": 200
+    },
+    {
+      "ruta": "/sprint-2",
+      "status": 200
+    },
+    {
+      "ruta": "/descargas/2024-03/Archivo1_Calculos_Horarios.csv",
+      "status": 200,
+      "sha256": "638cb3b5bf78b539cb061b5d2cc504f4a0e009df9b5aba63455c53754dedd483"
+    },
+    {
+      "ruta": "/descargas/2024-03/Archivo2_Calculos_Diarios.csv",
+      "status": 200,
+      "sha256": "f4ea8b58d31742cb96b693d9f938ffb59d5e79879b031f391a18425615de4d9e"
+    },
+    {
+      "ruta": "/descargas/2024-03/MIR_2024-03_diario.xlsx",
+      "status": 200,
+      "sha256": "518df5014b86e3d68dfdff95717c7bc05420d60789d4423730d2022cc667b22f"
+    },
+    {
+      "ruta": "/descargas/2024-03/MIR_2024-03_horario.xlsx",
+      "status": 200,
+      "sha256": "22d2230633b73fea510b23218272311d3f3328821ca0260299b17d7a5c301268"
+    },
+    {
+      "ruta": "/descargas/2024-03/bitacora_limpieza.csv",
+      "status": 200,
+      "sha256": "566fcd63f084ed3b3a2a81ae6d74c12a613658a1520d2b3ade2e6bc68b74fa37"
+    },
+    {
+      "ruta": "/descargas/2024-03/miravalle_marzo2024_clean.csv",
+      "status": 200,
+      "sha256": "10634b0e2c463a8627f13a74960d8bddd3fdc8b8e97ad4ea9dec3dcd65982a7c"
+    },
+    {
+      "ruta": "/descargas/2024-03/reporte_resultados_2024-03.txt",
+      "status": 200,
+      "sha256": "07e7ecec3e85e7b0c9d41b897d8fe64a79c8fd9733336683ea56a360c2e68ca4"
+    },
+    {
+      "ruta": "/descargas/sprint-2/MIR_2023_diario.csv",
+      "status": 200,
+      "sha256": "5c68226c0dd061b250456213ec91740b32798a71ba76ee1bcf85c88f5ee8cab9"
+    },
+    {
+      "ruta": "/descargas/sprint-2/MIR_2024_diario.csv",
+      "status": 200,
+      "sha256": "806d1cec2db15e534aa0d1da1f4bbc6c036292a3d85bac85624e846bb3024ac1"
+    },
+    {
+      "ruta": "/descargas/sprint-2/annual.csv",
+      "status": 200,
+      "sha256": "c14e1c666acab2cf3328e37bc9d5fd3617961b126cde5425639724d96b3caabf"
+    },
+    {
+      "ruta": "/descargas/sprint-2/bitacora_calidad.csv",
+      "status": 200,
+      "sha256": "aa47b3202c6296b7cb76d49e0a12c52fe048e626379de0c34738a1b49be73295"
+    },
+    {
+      "ruta": "/descargas/sprint-2/comparacion_pareada.csv",
+      "status": 200,
+      "sha256": "1c7978519b73d972a24ddbc95ec757a0af7b83c88a69a077ea66bb69c9b4f6bb"
+    },
+    {
+      "ruta": "/descargas/sprint-2/coverage.csv",
+      "status": 200,
+      "sha256": "ad855af40132a91869fec04510534c904659f6121af30ce776398839b885c883"
+    },
+    {
+      "ruta": "/descargas/sprint-2/dias_relevantes.csv",
+      "status": 200,
+      "sha256": "c20b1c7eea35d885be1cd7643cd3ccd9fc876b29bc348853b2eddddf411446e1"
+    },
+    {
+      "ruta": "/descargas/sprint-2/dominance.csv",
+      "status": 200,
+      "sha256": "ee6dcc8dc54de7edb12d68f746ab1dee0f1e205b7be4850c8c229fcffedb8b1d"
+    },
+    {
+      "ruta": "/descargas/sprint-2/episodios.csv",
+      "status": 200,
+      "sha256": "c0c50320c857add313d2b950a218b2eb85d46db7777883b3d35d0d373afb4a3a"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/01_mensual_pm10.png",
+      "status": 200,
+      "sha256": "8f344228f1f842a069157c9f590cf80cc7ccfebb20c31e2ededf85b95a447771"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/01_mensual_pm10.svg",
+      "status": 200,
+      "sha256": "d6e79d56379467210b7b4d3884452b66b003cf18599da4f9c40e716526c9e15d"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/02_diciembre_categorias.png",
+      "status": 200,
+      "sha256": "d3fd2ded76bff6b4b8ababdbdc94ed50296274ad75e807ed8c0f2cf3d6411edd"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/02_diciembre_categorias.svg",
+      "status": 200,
+      "sha256": "e6eded896ac48d0ddda55ffb7e3b8d21116f77020e2c702fc9eba08d37c605b4"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/03_cobertura.png",
+      "status": 200,
+      "sha256": "b834c8d916bf54e192b5277d7e8dc19cd497ab4186b509f90a24a7aff4a43cab"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/03_cobertura.svg",
+      "status": 200,
+      "sha256": "4be897c11909fe396c90cf0b4c06c91fb5d884868d9bbaf12b76073292a9950b"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/04_patron_horario.png",
+      "status": 200,
+      "sha256": "8145cd3f1ae56026a34a4e8bb7f4a443852f2c5a4e4aa736135c9f8bd678fcb8"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/04_patron_horario.svg",
+      "status": 200,
+      "sha256": "9253e9b8326431096cd843e677fe33b1a47e1cc3cd580a9b72cb3b6b37eb8f2c"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/05_episodio_cruce.png",
+      "status": 200,
+      "sha256": "3c5e287d1dda4c37e0a46cc35d624bf390427c4d80ce95ac28a49f45611b0db1"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/05_episodio_cruce.svg",
+      "status": 200,
+      "sha256": "5f5c0238bf324383ac73b7fc83db819de338ba4f66e4d44d355f13b974ac3bf2"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/06_meteorologia.png",
+      "status": 200,
+      "sha256": "5716f9deb06df2f1e4927c188f8b56482f1801498dbff4bf5c47f2cb0ce1bb95"
+    },
+    {
+      "ruta": "/descargas/sprint-2/figuras/06_meteorologia.svg",
+      "status": 200,
+      "sha256": "cfeb6011a2ef450e53e50c2bd0c578878df4cc97cc612d835a6ed911957799b8"
+    },
+    {
+      "ruta": "/descargas/sprint-2/horas_relevantes.csv",
+      "status": 200,
+      "sha256": "5e6906856cbd4fb25e01ff4f071f1429502e2c09364c88942ffec28232d68af7"
+    },
+    {
+      "ruta": "/descargas/sprint-2/meteorologia.csv",
+      "status": 200,
+      "sha256": "592308c8d68af5edf774d2cc34c659874de538749eed8ab051f0056d41b40984"
+    },
+    {
+      "ruta": "/descargas/sprint-2/monthly.csv",
+      "status": 200,
+      "sha256": "c83ab9498a47ae987cf64a8cad377d03580b932fcbd7b48921be3a5bb94f46e9"
+    },
+    {
+      "ruta": "/descargas/sprint-2/pares_diarios.csv",
+      "status": 200,
+      "sha256": "c24227257682c1891256d79d0fd00ff6310162e39d6fbb79610daeed0d4dca0b"
+    },
+    {
+      "ruta": "/descargas/sprint-2/pares_meteorologicos.csv",
+      "status": 200,
+      "sha256": "22a07fee55f68c1dfbcef2a59bafc4ffcf0a80fb324e4ef048edc580391bc9bf"
+    },
+    {
+      "ruta": "/descargas/sprint-2/profiles.csv",
+      "status": 200,
+      "sha256": "1260ff9d1909ac43bac00c57559ce50a8684738967baff729735a7c0fbbfce00"
+    },
+    {
+      "ruta": "/descargas/sprint-2/statistics.csv",
+      "status": 200,
+      "sha256": "a06b66567aa649e8046ff3d407ddfb7533494d8ce8ad506c85e484a40cab0978"
+    }
+  ]
+}

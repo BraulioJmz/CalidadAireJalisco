@@ -1,0 +1,2 @@
+{"contrato":"mir-s2-v2","dimensiones":"correctas","mutaciones_rechazadas":11}
+{"calendario":"APROBADO","casos":"fechas reales, febrero, pausa, selección, pasos y final de meses de 28/29/30/31 días"}

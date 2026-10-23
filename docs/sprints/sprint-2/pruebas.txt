@@ -1,0 +1,4 @@
+........................................................................ [ 98%]
+.                                                                        [100%]
+- generated xml file: C:\Users\Im_JVallejo\Documents\Administracion\Ingenieria\5to Semestre\Analisis y Vizualizacion de la informacion\Codex\CalidadAireJalisco\docs\sprints\sprint-2\pruebas.xml -
+73 passed in 4.57s

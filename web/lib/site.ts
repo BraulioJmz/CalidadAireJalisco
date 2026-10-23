@@ -21,6 +21,7 @@ export type Sprint = {
   periodo: string | null; // AAAA-MM procesado por el pipeline
   resumen: string;
   estado: "entregado" | "en curso" | "próximo";
+  etiquetaPublica?: string;
 };
 
 /** Registro de entregas. Cada sprint nuevo agrega su fila y su ruta app/sprint-N. */
@@ -37,12 +38,15 @@ export const SPRINTS: Sprint[] = [
   {
     slug: "sprint-2",
     numero: 2,
-    titulo: "Siguiente periodo",
+    titulo: "2024 frente a 2023",
     periodo: null,
-    resumen: "Se amplía el rango de tiempo con el mismo pipeline (--periodo AAAA-MM).",
-    estado: "próximo",
+    resumen: "Análisis retrospectivo de Miravalle en 2023–2024: concentraciones, categorías, cobertura y meteorología con bandas de referencia comunes de 2024.",
+    estado: "en curso",
+    etiquetaPublica: "Análisis 2023–2024",
   },
 ];
+
+export const REPOSITORIO = "https://github.com/BraulioJmz/CalidadAireJalisco";
 
 export const ESTACION = {
   clave: "MIR",

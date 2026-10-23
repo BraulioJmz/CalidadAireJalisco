@@ -1,0 +1,9 @@
+# Los insumos, resultados y evidencias firmados deben conservar sus bytes.
+# No cambia atributos ni archivos de la entrega histórica del Sprint 1.
+config/fuentes_sprint2.json -text whitespace=cr-at-eol
+data/source/sprint-2/** -text whitespace=cr-at-eol
+data/processed/sprint-2/** -text whitespace=cr-at-eol
+docs/sprints/sprint-2/** -text whitespace=cr-at-eol
+web/data/sprint2.json -text whitespace=cr-at-eol
+web/public/descargas/sprint-2/** -text whitespace=cr-at-eol
+output/playwright/** -text whitespace=cr-at-eol

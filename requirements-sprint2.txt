@@ -1,0 +1,9 @@
+# Entorno fijado para reproducir revisión 01 con Python 3.12.
+numpy==2.3.5
+pandas==2.2.3
+openpyxl==3.1.5
+scipy==1.17.0
+xlsxwriter==3.2.5
+pytest==8.4.2
+# Figuras científicas reproducibles de la revisión 02; no cambia el cálculo anual.
+matplotlib==3.10.8

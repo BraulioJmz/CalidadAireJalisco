@@ -1,0 +1,1 @@
+{"contrato":"mir-s2-v1","dimensiones":"correctas","mutaciones_rechazadas":4}
