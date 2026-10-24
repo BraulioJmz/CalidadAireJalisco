@@ -1,5 +1,5 @@
 "use client";
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { REPOSITORIO } from "@/lib/site";
 import type { Sprint2Data, PolS2, EventS2, EpisodeS2 } from "@/lib/sprint2-contract";
@@ -17,6 +17,82 @@ function Panel({ title, question, children, note }: { title: string; question: s
 function Table({ children, label }: { children: ReactNode; label: string }) { return <div className="s2-scroll" tabIndex={0} role="region" aria-label={label}><table className="s2-table">{children}</table></div>; }
 function Select({ label, value, change, children }: { label: string; value: string | number; change: (v: string) => void; children: ReactNode }) { return <label className="s2-select"><span>{label}</span><select value={value} onChange={e => change(e.target.value)}>{children}</select></label>; }
 function Status({ children }: { children: ReactNode }) { return <div className="s2-status" role="status">{children}</div>; }
+function WeatherBuddy() {
+  const [raining, setRaining] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+  const [bouncing, setBouncing] = useState(false);
+  const [top, setTop] = useState(0);
+  const topRef = useRef(top);
+  const directionRef = useRef(1);
+
+  useEffect(() => {
+    let timer: number | undefined;
+    let frame: number | undefined;
+    let lastTime = performance.now();
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const getBounds = () => ({ min: window.innerHeight * 0.12, max: window.innerHeight - 96 });
+    if (topRef.current === 0) {
+      topRef.current = getBounds().min;
+      setTop(topRef.current);
+    }
+    const move = (time: number) => {
+      const elapsed = Math.min(time - lastTime, 50);
+      lastTime = time;
+      const bounds = getBounds();
+      const next = topRef.current + directionRef.current * elapsed * 0.11;
+      if (next >= bounds.max || next <= bounds.min) {
+        topRef.current = Math.max(bounds.min, Math.min(bounds.max, next));
+        directionRef.current *= -1;
+        setBouncing(true);
+        window.setTimeout(() => setBouncing(false), 360);
+      } else {
+        topRef.current = next;
+      }
+      setTop(topRef.current);
+      if (scrolling) frame = window.requestAnimationFrame(move);
+    };
+    const onScroll = () => {
+      setRaining(true);
+      setScrolling(true);
+      if (!reducedMotion && frame === undefined) {
+        lastTime = performance.now();
+        frame = window.requestAnimationFrame(move);
+      }
+      if (timer !== undefined) window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        setRaining(false);
+        setScrolling(false);
+        if (frame !== undefined) {
+          window.cancelAnimationFrame(frame);
+          frame = undefined;
+        }
+      }, 1100);
+    };
+    const onResize = () => {
+      const bounds = getBounds();
+      topRef.current = Math.max(bounds.min, Math.min(bounds.max, topRef.current));
+      setTop(topRef.current);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onResize);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onResize);
+      if (timer !== undefined) window.clearTimeout(timer);
+      if (frame !== undefined) window.cancelAnimationFrame(frame);
+    };
+  }, [scrolling]);
+
+  return <div className={`s2-weather-buddy${raining ? " is-raining" : ""}${bouncing ? " is-bouncing" : ""}`} style={{ top: `${top}px` }} aria-hidden="true">
+    <span className="s2-cloud">
+      <i />
+      <b />
+      <em />
+      <span className="s2-cloud-face"><i /><i /></span>
+    </span>
+    <span className="s2-rain"><i /><i /><i /></span>
+  </div>;
+}
 
 export function Sprint2({ data }: { data: Sprint2Data }) {
   const [pol, setPol] = useState<PolS2>("PM10");
@@ -44,6 +120,17 @@ export function Sprint2({ data }: { data: Sprint2Data }) {
   const meteo = data.meteorology.find(r => r.year === meteoYear && r.month === meteoMonth && r.pollutant === pol && r.variable === meteoVar)!;
   const catPol = scope === "principal" ? pol : scope;
   const quarterly = data.comparisons.find(r => r.pollutant === pol && r.month === 0)!;
+  const annualAvailable = data.determinants.find(r => r.year === 2024 && r.month === 0 && r.scope === "AVAILABLE");
+  const priority = data.pollutants
+    .filter(p => p.key !== "NO2" && p.key !== "SO2")
+    .map(p => ({ pollutant: p, days: annualAvailable?.counts[p.key] ?? 0 }))
+    .sort((a, b) => b.days - a.days)[0];
+  const december = (pollutant: string, year: number) => data.periods.find(r => r.pollutant === pollutant && r.year === year && r.month === 12)!;
+  const decemberComparison = data.comparisons.find(r => r.pollutant === "PM10" && r.month === 12)!;
+  const crossYearEpisode = data.episodes
+    .filter(r => r.crossYear)
+    .sort((a, b) => b.days - a.days)[0];
+  const categoryName = (category: number) => data.categories[category]?.name ?? "Sin categoría";
   const rankings = years.map(y => {
     const eligible = population === "pares"
       ? data.comparisons.filter(r => r.pollutant === pol && r.month > 0 && r.comparable).map(r => ({ month: r.month, value: r[y === 2023 ? "a" : "b"], n: r.n }))
@@ -53,6 +140,7 @@ export function Sprint2({ data }: { data: Sprint2Data }) {
   });
 
   return <div className="s2 mx-auto max-w-7xl px-4 pb-20 pt-8 sm:px-6 lg:px-8">
+    <WeatherBuddy />
     <header className="s2-heading">
       <div><p className="eyebrow">Academia Miravalle · estación MIR · Sprint 2</p><h1 className="display">2024 frente a 2023</h1><p className="s2-intro">Dos años, una referencia común. Explora qué cambió en las fechas evaluadas y dónde la cobertura limita la comparación.</p></div>
       <div className="s2-edition"><b>Análisis retrospectivo</b><span>Bandas de referencia 2024</span><span>Concentraciones, categorías y cobertura</span></div>
@@ -66,6 +154,63 @@ export function Sprint2({ data }: { data: Sprint2Data }) {
       <Select label="Periodo" value={month} change={v => setMonth(Number(v))}><option value={0}>Todo el año</option>{data.months.map((m, i) => <option value={i + 1} key={m}>{m}</option>)}</Select>
       <div className="s2-filter-caption">{selected.label}<br /><b>{periodName} · {selected.unit}</b></div>
     </div>
+
+    <section className="s2-executive" aria-labelledby="resumen-ejecutivo">
+      <div className="s2-section-heading">
+        <div><p className="eyebrow">Lectura rápida · 2024</p><h2 id="resumen-ejecutivo" className="display s2-title">Resumen ejecutivo de la estación</h2></div>
+        <p className="s2-detail">Indicadores calculados con los resultados anuales y los criterios de cobertura del proyecto.</p>
+      </div>
+      <div className="s2-executive-grid">
+        <article className="card s2-executive-card s2-executive-priority">
+          <span className="s2-executive-label">Contaminante prioritario</span>
+          <strong>{priority?.pollutant.label ?? "Sin datos"}</strong>
+          <p>{priority ? `${priority.days} días con este contaminante como determinante del máximo disponible.` : "No hay determinantes anuales disponibles."}</p>
+          <small>Prioridad estadística; no identifica una fuente emisora.</small>
+        </article>
+        <article className="card s2-executive-card">
+          <span className="s2-executive-label">Diciembre · categorías</span>
+          <strong>{december("PM10", 2024).bad} días</strong>
+          <p>PM₁₀ en Mala o peor en 2024, frente a {december("PM10", 2023).bad} en 2023.</p>
+          <small>{decemberComparison.n}/{decemberComparison.expected} fechas pareadas · {decemberComparison.comparable ? "comparación suficiente" : "comparación condicionada"}</small>
+        </article>
+        <article className="card s2-executive-card">
+          <span className="s2-executive-label">Episodio para revisar</span>
+          <strong>{crossYearEpisode ? `${crossYearEpisode.days} días` : "Sin episodio"}</strong>
+          <p>{crossYearEpisode ? `${crossYearEpisode.start} → ${crossYearEpisode.end} · ${crossYearEpisode.pollutant}` : "No se identificó un episodio que cruce el año."}</p>
+          <small>{crossYearEpisode ? `${categoryName(crossYearEpisode.max_category)} · ${crossYearEpisode.n_raw_hours}/${crossYearEpisode.expected_hours} lecturas` : "Selección reproducible del pipeline."}</small>
+        </article>
+        <article className="card s2-executive-card s2-executive-caution">
+          <span className="s2-executive-label">Nivel de lectura</span>
+          <strong>Condicionada</strong>
+          <p>La cobertura y la disponibilidad cambian entre contaminantes y meses.</p>
+          <small>Interpretar cambios únicamente con sus pares y denominadores.</small>
+        </article>
+      </div>
+    </section>
+
+    <section className="s2-highlights" aria-labelledby="hallazgos-destacados">
+      <div className="s2-section-heading">
+        <div><p className="eyebrow">Evidencia para la agencia</p><h2 id="hallazgos-destacados" className="display s2-title">Hallazgos destacados</h2></div>
+        <p className="s2-detail">Los hallazgos describen los datos; no atribuyen causas.</p>
+      </div>
+      <div className="s2-highlights-grid">
+        <article>
+          <b>Partículas en diciembre</b>
+          <p>PM₁₀ pasó de {december("PM10", 2023).bad} a {december("PM10", 2024).bad} días Mala o peor. PM₂.₅ pasó de {december("PM2.5", 2023).bad} a {december("PM2.5", 2024).bad}.</p>
+          <small>Conteos sobre días evaluables; el porcentaje de cambio de concentración para PM₁₀ fue {f(decemberComparison.change_pct)} %.</small>
+        </article>
+        <article>
+          <b>CO se comportó distinto</b>
+          <p>CO registró {december("CO", 2024).counts[0]} días en Buena durante diciembre de 2024, frente a {december("CO", 2023).counts[0]} en 2023.</p>
+          <small>Un cambio de concentración no equivale por sí solo a un cambio de riesgo.</small>
+        </article>
+        <article>
+          <b>Prioridad de revisión</b>
+          <p>{priority?.pollutant.label ?? "El contaminante disponible"} concentra la mayor frecuencia de determinantes del máximo anual disponible.</p>
+          <small>Conviene contrastar los periodos relevantes con bitácoras, calibración y condiciones meteorológicas.</small>
+        </article>
+      </div>
+    </section>
 
     <Motion signal={`${pol}-${year}-${month}`} preset="detail" className="s2-kpis">
       {years.map(y => { const r = period(y); return <section key={y} className="card s2-kpi" aria-label={`Indicadores ${y}`}>
