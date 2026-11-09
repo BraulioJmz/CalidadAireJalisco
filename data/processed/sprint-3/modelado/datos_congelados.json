@@ -1,0 +1,97 @@
+{
+  "prepared_utc": "2026-11-09T02:33:37.753570+00:00",
+  "protocol_sha256": "3833f883b244954690a43e2f933bb9c5920a0829a0a3750530678772cc4ecd08",
+  "features": [
+    "pm10_lag_0",
+    "pm10_lag_1",
+    "pm10_lag_2",
+    "pm10_lag_3",
+    "pm10_lag_4",
+    "pm10_lag_5",
+    "pm10_lag_6",
+    "pm10_lag_7",
+    "pm10_lag_8",
+    "pm10_lag_9",
+    "pm10_lag_10",
+    "pm10_lag_11",
+    "pm10_lag_12",
+    "pm10_lag_13",
+    "pm10_lag_14",
+    "pm10_lag_15",
+    "pm10_lag_16",
+    "pm10_lag_17",
+    "pm10_lag_18",
+    "pm10_lag_19",
+    "pm10_lag_20",
+    "pm10_lag_21",
+    "pm10_lag_22",
+    "pm10_lag_23",
+    "pm10_mean_3h",
+    "pm10_std_3h",
+    "pm10_min_3h",
+    "pm10_max_3h",
+    "pm10_mean_6h",
+    "pm10_std_6h",
+    "pm10_min_6h",
+    "pm10_max_6h",
+    "pm10_mean_12h",
+    "pm10_std_12h",
+    "pm10_min_12h",
+    "pm10_max_12h",
+    "pm10_mean_24h",
+    "pm10_std_24h",
+    "pm10_min_24h",
+    "pm10_max_24h",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "annual_sin",
+    "annual_cos",
+    "weekend"
+  ],
+  "sources_manifest_sha256": "fde54c5d9248117aa876ba656ddd9368ba34caa5fc82466d85dc6ff095371b98",
+  "initial_windows": 53608,
+  "boundary_excluded": 3,
+  "comparison_windows": 53605,
+  "comparison_counts": {
+    "test": 6225,
+    "train": 41844,
+    "validation": 5536
+  },
+  "final_refit_n": 47380,
+  "high_diagnostic": {
+    "population": "Horas PM10 utilizables únicas 2015–2022",
+    "n": 52973,
+    "expected": 70128,
+    "train_p90": 114.0,
+    "quantile_method": "linear"
+  },
+  "boundary_origins": [
+    {
+      "origin": "2023-12-31 21:00:00",
+      "partition": "validation",
+      "target_3": "2024-01-01 00:00:00"
+    },
+    {
+      "origin": "2023-12-31 22:00:00",
+      "partition": "validation",
+      "target_3": "2024-01-01 01:00:00"
+    },
+    {
+      "origin": "2023-12-31 23:00:00",
+      "partition": "validation",
+      "target_3": "2024-01-01 02:00:00"
+    }
+  ],
+  "files_sha256": {
+    "pm10_horario.csv": "24eb987e5097074652f149ddb72ca6fb57ea73a3040c085e21b0b51ce66d5df8",
+    "features.npy": "b47a5f38aa83f5f52d754eb5b7917cc465a4470660e0d55efb434bd421dcd2f0",
+    "targets.npy": "3a140531196ae78b1af8de2e54c03c223760d2b22424df4b2c90364de1d0a053",
+    "origenes.csv": "ac7b341d45ef2533c5e18e5ee2d347e84d93e71e3bf2b0c9d1cb5d851496ce62",
+    "auditoria_muestras.csv": "c43c369a781ebeae5b85b238700f3acce48696d840acbd7415d4df7723b61d06",
+    "conciliacion_mensual.csv": "5bd8bbde8859eda73e13bfcbe3881c10aa4fe5e5a60414716ef9032920ae904a",
+    "eda_perfiles_train.csv": "439ee53906991decf8875f585d7e3eb48ead0bea2f31b77f90b8710f83af5f09",
+    "eda_acf_train.csv": "6f0e3954c0a2b8c368440f3b32490a8934e8100d06778731305c057af8919644"
+  }
+}

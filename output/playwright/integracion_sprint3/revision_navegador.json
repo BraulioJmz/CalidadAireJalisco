@@ -1,0 +1,288 @@
+{
+  "verified_utc": "2026-11-09T05:11:37.565789+00:00",
+  "url": "http://127.0.0.1:3033/",
+  "browser": "Microsoft Edge · Playwright CLI",
+  "checks_passed": 84,
+  "runs": {
+    "escritorio": {
+      "status": "APROBADO",
+      "checks": 45,
+      "names": [
+        "Seis hallazgos trazables",
+        "Portada sin detalle horario ni predicciones",
+        "Entrada visible de panel",
+        "Indicador deslizante con posición intermedia",
+        "Panel termina legible",
+        "2020 no se presenta suficiente por total anual",
+        "Huecos por insuficiencia no se conectan",
+        "Revelado visible de líneas",
+        "Coordenadas finales constantes durante entrada",
+        "Meteorología ausente no se convierte en correlación cero",
+        "Diciembre pareado 31/31",
+        "Cambio pareado diciembre 65.2%",
+        "Tarjetas muestran transición intermedia",
+        "Febrero 2023/2024 usa 28 fechas posibles",
+        "CO Buena 31/31: código 0 válido",
+        "Detalle diario con entrada visible y color preservado",
+        "O3 enero 2023 ausente, sin verde",
+        "29 febrero 2024 conservado",
+        "Sin fecha inexistente en febrero 2023",
+        "Episodio cruzado conserva fin real",
+        "Tres fechas objetivo reales visibles",
+        "Predicciones visibles concuerdan con congeladas",
+        "No se inventan pronósticos para origen no evaluado",
+        "Contexto anterior cruza año sin salto",
+        "N global idéntico entre modelos y horizontes",
+        "R² negativos de altas conservados",
+        "Filtro por fecha objetivo usa 268 puntos julio",
+        "Métricas mensuales exactas con referencias",
+        "Horizonte +3 aplicado a gráficas",
+        "Cambios rápidos conservan un panel y selección",
+        "Sin animaciones encoladas al terminar",
+        "Movimiento reducido: estados finales sin transiciones",
+        "Control manual utilizable con movimiento reducido",
+        "Teclado Fin selecciona método",
+        "Teclado Inicio selecciona resumen",
+        "Teclado flecha y foco visible",
+        "Descarga real de métricas",
+        "Ruta conservada /sprint-1",
+        "Ruta conservada /sprint-2",
+        "Ruta conservada /sprint-3",
+        "Ruta conservada /observatorio-mensual",
+        "Ruta conservada /metodologia",
+        "Sin errores de navegador o recursos",
+        "Consultas de datos del mismo origen",
+        "Sin detalle horario de toda la década"
+      ],
+      "animations": {
+        "tabs": {
+          "initial": "matrix(1, 0, 0, 1, 0, 0)",
+          "mid": {
+            "opacity": 0.728585,
+            "marker": "matrix(1, 0, 0, 1, 63.8113, 0)"
+          },
+          "final": {
+            "opacity": 1,
+            "marker": "matrix(1, 0, 0, 1, 100, 0)"
+          }
+        },
+        "lines": {
+          "midClip": "inset(0px 55.4806% 0px 0px)",
+          "finalClip": "none",
+          "geometryFixed": true
+        },
+        "cards": {
+          "mid": 0.712437,
+          "final": 1
+        },
+        "calendar": {
+          "before": "rgb(0, 228, 0)",
+          "after": "rgb(0, 228, 0)",
+          "mid": 0.685306,
+          "final": 1
+        }
+      },
+      "snapshots": [
+        {
+          "name": "resumen",
+          "excerpt": "- tabpanel \"01Resumen\":\n  - paragraph: Lecturas que orientan la exploración\n  - heading \"Lo que muestran los datos. Y lo que aún no permiten afirmar.\" [level=2]\n  - article:\n    - "
+        },
+        {
+          "name": "historico",
+          "excerpt": "- tabpanel \"02Histórico y cobertura\":\n  - paragraph: ¿Qué muestran las concentraciones observadas y qué cobertura las sustenta?\n  - heading \"Evolución de PM₁₀\" [level=2]\n  - text: "
+        },
+        {
+          "name": "tab-2",
+          "excerpt": "- tabpanel \"03Comparar periodos\":\n  - paragraph: ¿Qué cambia al observar días equivalentes y qué comparación permite su cobertura?\n  - heading \"Comparar las mismas fechas\" [level=2"
+        },
+        {
+          "name": "tab-3",
+          "excerpt": "- tabpanel \"04Episodios y calendario\":\n  - paragraph: ¿Cómo se distribuyen los días favorables, desfavorables y sin información?\n  - heading \"El mes, día por día\" [level=2]\n  - tex"
+        },
+        {
+          "name": "tab-0",
+          "excerpt": "- tabpanel \"01Resumen\":\n  - paragraph: Lecturas que orientan la exploración\n  - heading \"Lo que muestran los datos. Y lo que aún no permiten afirmar.\" [level=2]\n  - article:\n    - "
+        },
+        {
+          "name": "episodio52",
+          "excerpt": "- tabpanel \"04Episodios y calendario\":\n  - paragraph: ¿Cómo se distribuyen los días favorables, desfavorables y sin información?\n  - heading \"El mes, día por día\" [level=2]\n  - tex"
+        },
+        {
+          "name": "tab-4",
+          "excerpt": "- tabpanel \"05Predicción PM₁₀\":\n  - text: Evaluación retrospectiva de 2024 · C05 congelado\n  - paragraph: 6,225 orígenes comunes / 8,784 horas (70.9 %), frente a 8,051 horas con PM"
+        },
+        {
+          "name": "tab-5",
+          "excerpt": "- tabpanel \"06Evaluación\":\n  - text: Evaluación retrospectiva de 2024 · C05 congelado\n  - paragraph: 6,225 orígenes comunes / 8,784 horas (70.9 %), frente a 8,051 horas con PM10 ob"
+        },
+        {
+          "name": "tab-3",
+          "excerpt": "- tabpanel \"04Episodios y calendario\":\n  - paragraph: ¿Cómo se distribuyen los días favorables, desfavorables y sin información?\n  - heading \"El mes, día por día\" [level=2]\n  - tex"
+        },
+        {
+          "name": "tab-6",
+          "excerpt": "- tabpanel \"07Método y fuentes\":\n  - paragraph: ¿Qué se calculó, con qué reglas y para qué población?\n  - heading \"Método y límites de lectura\" [level=2]\n  - heading \"Observaciones"
+        }
+      ],
+      "errors": [],
+      "uniqueDataRequests": [
+        "http://127.0.0.1:3033/datos/sprint-3/historico/PM10.json",
+        "http://127.0.0.1:3033/datos/sprint-3/cobertura.json",
+        "http://127.0.0.1:3033/datos/sprint-3/meteorologia/2024-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/meteorologia/2018-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/comparaciones/2023-2024.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2024-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/episodios/PM10.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2024-11.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2024-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/episodios/CO.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2023-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2023-11.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2023-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2023-01.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2022-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2023-01.json",
+        "http://127.0.0.1:3033/datos/sprint-3/episodios/O3.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2024-01.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2024-01.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2024-02.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2024-02.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2024-03.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2023-02.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2023-02.json",
+        "http://127.0.0.1:3033/datos/sprint-3/calendario/2021-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2021-11.json",
+        "http://127.0.0.1:3033/datos/sprint-3/horas/2021-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/predicciones/2024-12.json",
+        "http://127.0.0.1:3033/datos/sprint-3/predicciones/2024-01.json",
+        "http://127.0.0.1:3033/datos/sprint-3/metricas.json",
+        "http://127.0.0.1:3033/datos/sprint-3/evaluacion/h1-m0.json",
+        "http://127.0.0.1:3033/datos/sprint-3/evaluacion/h1-m7.json",
+        "http://127.0.0.1:3033/datos/sprint-3/evaluacion/h3-m7.json"
+      ]
+    },
+    "movil": {
+      "status": "APROBADO",
+      "checks": 27,
+      "names": [
+        "Emulación móvil con pantalla táctil",
+        "Portada móvil sin desbordamiento",
+        "Histórico móvil sin desbordamiento",
+        "Barras con revelado intermedio móvil",
+        "Proporciones y colores de barras constantes",
+        "Puntos con entrada intermedia y coordenadas fijas",
+        "Tabla de cobertura permite desplazamiento horizontal",
+        "SO2 2023 excluido también en interfaz",
+        "NO2 2024 conserva advertencia exploratoria",
+        "Comparación móvil sin desbordamiento",
+        "Dos años bisiestos comparan 29 fechas",
+        "Calendario móvil sin desbordamiento",
+        "Selección táctil del día",
+        "Avance manual de fecha en móvil",
+        "Febrero móvil conserva 29 días y detalle",
+        "Fin de mes conserva límite manual",
+        "Predicción móvil sin desbordamiento",
+        "Cambio táctil de origen disponible",
+        "Tabla predictiva desplazable sin ensanchar página",
+        "Evaluación móvil sin desbordamiento",
+        "Evaluación móvil filtra objetivos y horizonte",
+        "Tema oscuro conserva legibilidad y datos",
+        "Movimiento reducido cancela entrada de puntos",
+        "Fuentes móvil sin desbordamiento",
+        "Fuentes y descargas permanecen accesibles",
+        "Teclado también navega pestañas fuera del ancho visible",
+        "Sin errores en navegador móvil"
+      ],
+      "animations": {
+        "categories": {
+          "mid": {
+            "clip": "inset(0px 59.5409% 0px 0px)",
+            "values": [
+              [
+                99.6875,
+                "rgb(0, 228, 0)"
+              ],
+              [
+                68.796875,
+                "rgb(255, 255, 0)"
+              ],
+              [
+                113.796875,
+                "rgb(255, 126, 0)"
+              ],
+              [
+                3.515625,
+                "rgb(255, 0, 0)"
+              ],
+              [
+                36.15625,
+                "rgba(0, 0, 0, 0)"
+              ]
+            ]
+          },
+          "final": {
+            "clip": "none",
+            "values": [
+              [
+                99.6875,
+                "rgb(0, 228, 0)"
+              ],
+              [
+                68.796875,
+                "rgb(255, 255, 0)"
+              ],
+              [
+                113.796875,
+                "rgb(255, 126, 0)"
+              ],
+              [
+                3.515625,
+                "rgb(255, 0, 0)"
+              ],
+              [
+                36.15625,
+                "rgba(0, 0, 0, 0)"
+              ]
+            ]
+          }
+        },
+        "points": {
+          "midOpacity": 1,
+          "midClip": "inset(0px 74.2714% 0px 0px)",
+          "finalOpacity": 1,
+          "finalClip": "none",
+          "fixed": true
+        }
+      },
+      "errors": [],
+      "screenshots": [
+        "calendario_movil",
+        "prediccion_movil",
+        "evaluacion_movil_oscuro"
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "conservacion_sprint2": {
+      "status": "APROBADO",
+      "checks": 12,
+      "names": [
+        "S2 inicia pausado",
+        "S2 sin avance al entrar",
+        "S2 reproducción por acción del usuario",
+        "S2 pausa manual",
+        "S2 fin del mes y botón de repetición",
+        "S2 no reinicia automáticamente",
+        "S2 repetición reinicia en día 1 al pulsar",
+        "S2 29 febrero sin encabezado imposible",
+        "S2 cambio de filtro pausa y limpia temporizador",
+        "S2 salida de vista cancela el recorrido",
+        "S2 movimiento reducido desactiva automático",
+        "S2 controles manuales con movimiento reducido"
+      ]
+    }
+  },
+  "mobile_is_emulated": true
+}

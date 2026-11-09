@@ -1,0 +1,921 @@
+{
+  "schema": "mir-s3-inventario-v1",
+  "ventana": [
+    2015,
+    2024
+  ],
+  "variables": [
+    "O3",
+    "NO",
+    "NO2",
+    "NOX",
+    "SO2",
+    "CO",
+    "PM10",
+    "PM2.5",
+    "IT",
+    "ET",
+    "RH",
+    "WS",
+    "WD",
+    "PP",
+    "ATM",
+    "RS",
+    "UVI"
+  ],
+  "scope": "Inventario y diagnóstico; sin modelos, imputación, normativa nueva ni cambios de interfaz",
+  "books": [
+    {
+      "year": 2015,
+      "path": "data/source/sprint-3/originales/BD_2015.xlsx",
+      "sha256": "908158a36697dd8b89dda9feb2657aa31aad12d0f0fe9c65b2021326780976b7",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2015-01-01T00:00:00",
+      "date_max": "2015-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2016,
+      "path": "data/source/sprint-3/originales/BD_2016.xlsx",
+      "sha256": "091384fbeefe7eba2926e663d4ef5cba2b9375468a8b289e2ebf39635d2f8de3",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8784
+      },
+      "rows_MIR": 8784,
+      "expected_hours": 8784,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2016-01-01T00:00:00",
+      "date_max": "2016-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8783
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2017,
+      "path": "data/source/sprint-3/originales/BD_2017.xlsx",
+      "sha256": "3bfd7d0b03d5280ebf94c19f9a6eec20cfe544f3fdeef0802e377ce09dcc314e",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2017-01-01T00:00:00",
+      "date_max": "2017-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2018,
+      "path": "data/source/sprint-3/originales/BD_2018.xlsx",
+      "sha256": "a7578410cb57c467d93d7a441ef25e1b37689e63534e9b15a05e73194a37e361",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2018-01-01T00:00:00",
+      "date_max": "2018-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2019,
+      "path": "data/source/sprint-3/originales/BD_2019.xlsx",
+      "sha256": "070245aa1f35f98f764f86f2ee6af9b53b81b89d7687f851ff76f98c7bca6d6f",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2019-01-01T00:00:00",
+      "date_max": "2019-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2020,
+      "path": "data/source/sprint-3/originales/BD_2020.xlsx",
+      "sha256": "d27d488a7406138e8e25e8a8faccd58a3e572cfa466d790d7a1f04521d9d1ce8",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8784
+      },
+      "rows_MIR": 8784,
+      "expected_hours": 8784,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2020-01-01T00:00:00",
+      "date_max": "2020-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8783
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2021,
+      "path": "data/source/sprint-3/originales/BD_2021.xlsx",
+      "sha256": "b6526e5a10062f22e58086f994a4a46c07b1a329e22859398643db49abe44daa",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2021-01-01T00:00:00",
+      "date_max": "2021-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2022,
+      "path": "data/source/sprint-3/originales/BD_2022.xlsx",
+      "sha256": "4f61ffec7b7257770d8cf41bdeea8a50fd49c340484de4907e55cb0af06fc7ed",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2022-01-01T00:00:00",
+      "date_max": "2022-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0
+      },
+      "formula_counts_MIR": {},
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2023,
+      "path": "data/source/sprint-2/originales/BD_2023.xlsx",
+      "sha256": "f2a7f43b6e7c6aac276d58500b7fad2c7936ca8b29213330971ec952daadc5f6",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml",
+          "declared_dimension": "A1:V87601"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml",
+          "declared_dimension": "A1:Z1000"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "dia ",
+        "mes ",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "DIA",
+        "MES",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8760
+      },
+      "rows_MIR": 8760,
+      "expected_hours": 8760,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2023-01-01T00:00:00",
+      "date_max": "2023-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8759
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0,
+        "DIA": 0,
+        "MES": 0
+      },
+      "formula_counts_MIR": {
+        "DIA": 8760,
+        "MES": 8760
+      },
+      "uncached_formulas_MIR": {}
+    },
+    {
+      "year": 2024,
+      "path": "data/source/sprint-2/originales/BD_2024.xlsx",
+      "sha256": "fe8e30b34cb64cfa3bfdaa52bcafb935c942b8e59de6132916497cf28a738e9c",
+      "sheets": [
+        {
+          "name": "Data",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet1.xml"
+        },
+        {
+          "name": "Param",
+          "state": "visible",
+          "xml": "xl/worksheets/sheet2.xml"
+        }
+      ],
+      "data_sheet": "Data",
+      "header_row": 1,
+      "headers_original": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "DIA",
+        "MES ",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "headers_normalized": [
+        "STATION",
+        "DATE",
+        "HOUR",
+        "DIA",
+        "MES",
+        "O3",
+        "NO",
+        "NO2",
+        "NOX",
+        "SO2",
+        "CO",
+        "PM10",
+        "PM2.5",
+        "IT",
+        "ET",
+        "RH",
+        "WS",
+        "WD",
+        "PP",
+        "ATM",
+        "RS",
+        "UVI"
+      ],
+      "epoch": "1899-12-30T00:00:00",
+      "MIR_names": {
+        "MIR": 8784
+      },
+      "rows_MIR": 8784,
+      "expected_hours": 8784,
+      "missing_timestamp_hours": 0,
+      "duplicate_timestamp_extra_rows": 0,
+      "duplicate_exact_extra_rows": 0,
+      "duplicate_timestamps": [],
+      "invalid_dates": 0,
+      "outside_year": 0,
+      "unaligned_dates": 0,
+      "date_min": "2024-01-01T00:00:00",
+      "date_max": "2024-12-31T23:00:00",
+      "step_counts": {
+        "1:00:00": 8783
+      },
+      "auxiliary_mismatches": {
+        "HOUR": 0,
+        "DIA": 0,
+        "MES": 0
+      },
+      "formula_counts_MIR": {
+        "DIA": 8784,
+        "MES": 8784
+      },
+      "uncached_formulas_MIR": {}
+    }
+  ],
+  "preservation": {
+    "base_commit": "527af8a4781df65ede43b746dffdddb330915740",
+    "files_checked": 263,
+    "changed": []
+  },
+  "rules": {
+    "coverage_denominator": "Todas las horas del año local codificado, incluido 29 de febrero. Sin inferir UTC/DST.",
+    "numeric": "Finito, clave de hora única y fecha del año alineada a hora. No se cuentan dos veces duplicados; se descartan claves ambiguas.",
+    "usable_basic": "Numérico más plausibilidad mínima: contaminantes y WS/PP/RS/UVI >=0, RH 0..100, WD 0..360, ATM>0; ET/IT finitas. SO2 2023 excluido por evidencia previa. No acredita calibración.",
+    "75_percent": "Descriptor exploratorio de meses, no suficiencia normativa ni selección automática de entrenamiento.",
+    "periods": "Intervalos >=24 horas consecutivas; los huecos se preservan. Ventanas de 24 horas pasadas y 3 futuras se cuentan sobre rejilla global sin imputar."
+  }
+}

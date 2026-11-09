@@ -1,0 +1,455 @@
+[
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM10",
+    "variable": "ET",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 17.895833333333,
+        "y": 66.083333333333
+      },
+      {
+        "date": "2023-01-29",
+        "x": 20.5125,
+        "y": 54.791666666667
+      },
+      {
+        "date": "2023-01-30",
+        "x": 20.608333333333,
+        "y": 62.875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 20.625,
+        "y": 64.708333333333
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM10",
+    "variable": "RH",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 49.9875,
+        "y": 66.083333333333
+      },
+      {
+        "date": "2023-01-29",
+        "x": 41.516666666667,
+        "y": 54.791666666667
+      },
+      {
+        "date": "2023-01-30",
+        "x": 42.9,
+        "y": 62.875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 43.208333333333,
+        "y": 64.708333333333
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM10",
+    "variable": "WS",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 3.129166666667,
+        "y": 66.083333333333
+      },
+      {
+        "date": "2023-01-29",
+        "x": 2.525,
+        "y": 54.791666666667
+      },
+      {
+        "date": "2023-01-30",
+        "x": 1.7,
+        "y": 62.875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 2.1,
+        "y": 64.708333333333
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM2.5",
+    "variable": "ET",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 17.895833333333,
+        "y": 34.894736842105
+      },
+      {
+        "date": "2023-01-29",
+        "x": 20.5125,
+        "y": 21.347826086957
+      },
+      {
+        "date": "2023-01-30",
+        "x": 20.608333333333,
+        "y": 26.217391304348
+      },
+      {
+        "date": "2023-01-31",
+        "x": 20.625,
+        "y": 23.125
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM2.5",
+    "variable": "RH",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 49.9875,
+        "y": 34.894736842105
+      },
+      {
+        "date": "2023-01-29",
+        "x": 41.516666666667,
+        "y": 21.347826086957
+      },
+      {
+        "date": "2023-01-30",
+        "x": 42.9,
+        "y": 26.217391304348
+      },
+      {
+        "date": "2023-01-31",
+        "x": 43.208333333333,
+        "y": 23.125
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "PM2.5",
+    "variable": "WS",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 3.129166666667,
+        "y": 34.894736842105
+      },
+      {
+        "date": "2023-01-29",
+        "x": 2.525,
+        "y": 21.347826086957
+      },
+      {
+        "date": "2023-01-30",
+        "x": 1.7,
+        "y": 26.217391304348
+      },
+      {
+        "date": "2023-01-31",
+        "x": 2.1,
+        "y": 23.125
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "O3",
+    "variable": "ET",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "O3",
+    "variable": "RH",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "O3",
+    "variable": "WS",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "CO",
+    "variable": "ET",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 17.895833333333,
+        "y": 1.288875
+      },
+      {
+        "date": "2023-01-29",
+        "x": 20.5125,
+        "y": 1.374
+      },
+      {
+        "date": "2023-01-30",
+        "x": 20.608333333333,
+        "y": 1.327875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 20.625,
+        "y": 1.00275
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "CO",
+    "variable": "RH",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 49.9875,
+        "y": 1.288875
+      },
+      {
+        "date": "2023-01-29",
+        "x": 41.516666666667,
+        "y": 1.374
+      },
+      {
+        "date": "2023-01-30",
+        "x": 42.9,
+        "y": 1.327875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 43.208333333333,
+        "y": 1.00275
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "CO",
+    "variable": "WS",
+    "n": 4,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": [
+      {
+        "date": "2023-01-28",
+        "x": 3.129166666667,
+        "y": 1.288875
+      },
+      {
+        "date": "2023-01-29",
+        "x": 2.525,
+        "y": 1.374
+      },
+      {
+        "date": "2023-01-30",
+        "x": 1.7,
+        "y": 1.327875
+      },
+      {
+        "date": "2023-01-31",
+        "x": 2.1,
+        "y": 1.00275
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO2",
+    "variable": "ET",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO2",
+    "variable": "RH",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO2",
+    "variable": "WS",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "SO2",
+    "variable": "ET",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "SO2",
+    "variable": "RH",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "SO2",
+    "variable": "WS",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO",
+    "variable": "ET",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO",
+    "variable": "RH",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NO",
+    "variable": "WS",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NOX",
+    "variable": "ET",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NOX",
+    "variable": "RH",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "pollutant": "NOX",
+    "variable": "WS",
+    "n": 0,
+    "expected": 31,
+    "rho": null,
+    "status": "pares_insuficientes_o_constantes",
+    "points": []
+  }
+]

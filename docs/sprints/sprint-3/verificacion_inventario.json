@@ -1,0 +1,16 @@
+{
+  "checks_passed": 1272,
+  "sources_sha256_crc_verified": 10,
+  "verification_runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "annual_rows": 170,
+  "monthly_rows": 2040,
+  "horizon_rows": 170,
+  "sprint2_raw_numeric_comparisons": 34,
+  "historical_files_verified": 263,
+  "historical_changes": [],
+  "scope": "Cotejos de datos y conservación. No acredita calibración, entrenamiento ni despliegue."
+}

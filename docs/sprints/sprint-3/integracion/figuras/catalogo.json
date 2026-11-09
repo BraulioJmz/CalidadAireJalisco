@@ -1,0 +1,63 @@
+{
+  "figures": [
+    {
+      "name": "01_cobertura",
+      "graph_ids": [
+        "historico-cobertura"
+      ],
+      "sources_sha256": {
+        "data\\processed\\sprint-3\\cobertura_anual.csv": "0ce6751aa02ed89ac09a47738e5041d3db84611bc63e3bc14890d08b40549190"
+      },
+      "period": "2015–2024",
+      "population": "Horas utilizables / todas las horas del año, por variable",
+      "limitation": "Cobertura básica no acredita validez instrumental; NO₂ 2024 exploratorio.",
+      "png_sha256": "a6729fb1be4012bcaf26757ecf1c7cee356b260b4ea4b1339014eb2e45099a6a",
+      "svg_sha256": "aa8a3c8b9cb3d72125f14bf6dbf9d00746bec0de1cc301091beea15df9a5eb16"
+    },
+    {
+      "name": "02_perfiles_pm10",
+      "graph_ids": [
+        "historico-horas"
+      ],
+      "sources_sha256": {
+        "data\\processed\\sprint-3\\historico\\perfiles.csv": "3c65947afad8fdde7fdddce8b4b997f262b5ae46b99fb305b1747445366f3af4"
+      },
+      "period": "2015–2024",
+      "population": "PM10 horario utilizable agrupado por hora y mes; n visible",
+      "limitation": "No es comparación pareada ni identificación de fuentes o mecanismos.",
+      "png_sha256": "10ad8aab1cca563b9fab40a46f437607d629f3f995eeefacce1b86189406be28",
+      "svg_sha256": "a1636a27f2cd1a655390fac4d0db2d35630135d4c6092ebd0b8eb7e2984b371c"
+    },
+    {
+      "name": "03_diciembre",
+      "graph_ids": [
+        "comparacion-periodos"
+      ],
+      "sources_sha256": {
+        "data\\processed\\sprint-3\\historico\\diario.csv": "7cedb2b44a26982418156f9833bb13a8221461c91d971889ee813c94b8d869d5",
+        "data\\processed\\sprint-3\\historico\\comparaciones.json": "37b0c0d6b49a273c08adc7d18dfc0adcddf4be8829cc90230169af4e9579d41d"
+      },
+      "period": "Diciembre 2023 y 2024",
+      "population": "31 fechas pareadas; días con base suficiente por contaminante",
+      "limitation": "Referencias retrospectivas; parear fechas no controla meteorología ni actividades.",
+      "png_sha256": "f66bafa8707b85b35ddbd2f4ad0131eccb8a835d19fff3336f5b8f2ee0d3086f",
+      "svg_sha256": "e0d41b475725b8646119fab2228e643c7c6bc844251db1d173ef9c7fc91317ff"
+    },
+    {
+      "name": "04_episodio",
+      "graph_ids": [
+        "episodios-secuencia"
+      ],
+      "sources_sha256": {
+        "data\\processed\\sprint-3\\historico\\diario.csv": "7cedb2b44a26982418156f9833bb13a8221461c91d971889ee813c94b8d869d5",
+        "data\\processed\\sprint-3\\historico\\episodios.json": "34e91f2bb841b6c7a4f621e10a5c328feeb11445bfb50b0fb86e05f06ed64159"
+      },
+      "period": "2021-12-04 — 2022-01-24",
+      "population": "Días con promedio diario PM10 suficiente, mínimo 18 lecturas",
+      "limitation": "Episodio del proyecto con bandas de 2024, sin atribución causal ni aprobación instrumental.",
+      "png_sha256": "0a78c1b813ff7a0e9b0e68512d428c0a1d29999e476c8f46501f23d1bd0b7883",
+      "svg_sha256": "a85acbcb06976f8b5cdf6827b8b9fdb98908a10fcb5e07f94d553b8383daf619"
+    }
+  ],
+  "model_figure_reference": "docs/sprints/sprint-3/modelado/figuras/05_error_firmado.png"
+}

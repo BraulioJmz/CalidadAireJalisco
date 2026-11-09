@@ -1,0 +1,3818 @@
+{
+  "episodes": [
+    {
+      "pollutant": "NO2",
+      "start": "2024-12-05",
+      "end": "2024-12-06",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 0.128,
+      "n_hours": 48,
+      "expected_hours": 48
+    }
+  ],
+  "peaks": [
+    {
+      "pollutant": "NO2",
+      "year": 2015,
+      "date": "2015-02-23T10:00:00",
+      "value": 0.08605,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2015,
+      "date": "2015-02-04T19:00:00",
+      "value": 0.08293,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2015,
+      "date": "2015-11-23T19:00:00",
+      "value": 0.07703,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2016,
+      "date": "2016-02-15T20:00:00",
+      "value": 0.09833,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2016,
+      "date": "2016-12-17T10:00:00",
+      "value": 0.09352,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2016,
+      "date": "2016-02-18T21:00:00",
+      "value": 0.093,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2017,
+      "date": "2017-01-11T11:00:00",
+      "value": 0.081,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2017,
+      "date": "2017-02-08T19:00:00",
+      "value": 0.078,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2017,
+      "date": "2017-01-03T20:00:00",
+      "value": 0.075,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2018,
+      "date": "2018-01-13T09:00:00",
+      "value": 0.061,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2018,
+      "date": "2018-01-16T20:00:00",
+      "value": 0.057,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2018,
+      "date": "2018-01-15T19:00:00",
+      "value": 0.056,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2019,
+      "date": "2019-12-06T10:00:00",
+      "value": 0.056,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2019,
+      "date": "2019-12-02T19:00:00",
+      "value": 0.045,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2019,
+      "date": "2019-12-10T09:00:00",
+      "value": 0.04,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2020,
+      "date": "2020-12-09T19:00:00",
+      "value": 0.091,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2020,
+      "date": "2020-12-17T10:00:00",
+      "value": 0.086,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2020,
+      "date": "2020-11-25T10:00:00",
+      "value": 0.085,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2021,
+      "date": "2021-01-04T09:00:00",
+      "value": 0.092,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2021,
+      "date": "2021-11-10T12:00:00",
+      "value": 0.092,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2021,
+      "date": "2021-12-10T10:00:00",
+      "value": 0.087,
+      "exploratory": false
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2024,
+      "date": "2024-12-05T11:00:00",
+      "value": 0.128,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2024,
+      "date": "2024-12-06T19:00:00",
+      "value": 0.111,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NO2",
+      "year": 2024,
+      "date": "2024-11-27T21:00:00",
+      "value": 0.109,
+      "exploratory": true
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2015-01-12T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.05052,
+      "robust_z": 3.576590718783437,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-01-12T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03832,
+      "robust_z": 3.714184907686113,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-11T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.05455,
+      "robust_z": 4.821607211307939,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-11T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.04822,
+      "robust_z": 4.488168228119616,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-11T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.0443,
+      "robust_z": 4.993059058145091,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-11T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.04088,
+      "robust_z": 3.6622689345780604,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-13T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03347,
+      "robust_z": 3.9061971626056478,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-13T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.0369,
+      "robust_z": 4.409786456764425,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-17T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.05122,
+      "robust_z": 4.376843997633273,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-17T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.04708,
+      "robust_z": 4.332200790836995,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-17T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.0387,
+      "robust_z": 4.062726976108408,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-02-23T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.08605,
+      "robust_z": 3.5513006684478094,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-02T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.05102,
+      "robust_z": 4.001130090178143,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-02T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.03268,
+      "robust_z": 3.6514897006185003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-04T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.05332,
+      "robust_z": 4.293833627309495,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-05T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.0286,
+      "robust_z": 4.126,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-05T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03557,
+      "robust_z": 5.117999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-05T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.0333,
+      "robust_z": 4.021230832891257,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-05T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.04112,
+      "robust_z": 4.887999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.02843,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.03738,
+      "robust_z": 5.811999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03748,
+      "robust_z": 5.781917837873113,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03118,
+      "robust_z": 4.642,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.02928,
+      "robust_z": 3.8600000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-10T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.03225,
+      "robust_z": 3.8135430623779363,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-16T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.02685,
+      "robust_z": 3.7760000000000002,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-03-30T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.02833,
+      "robust_z": 3.572,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-04-04T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.04113,
+      "robust_z": 5.552,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-04-04T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.04467,
+      "robust_z": 6.37,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-04-05T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.0321,
+      "robust_z": 4.095999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-04-07T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.05902,
+      "robust_z": 3.7385613491728944,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-04-07T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04285,
+      "robust_z": 4.198203354179267,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-09T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04553,
+      "robust_z": 5.838620010905849,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-09T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0576,
+      "robust_z": 7.803365386085647,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-12T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04033,
+      "robust_z": 4.850633546320413,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-12T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.03332,
+      "robust_z": 4.064,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-12T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.0383,
+      "robust_z": 4.957,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-12T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.03883,
+      "robust_z": 5.354,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-12T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.04225,
+      "robust_z": 6.563000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.03518,
+      "robust_z": 5.276,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.0306,
+      "robust_z": 4.353,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03592,
+      "robust_z": 5.652,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.03165,
+      "robust_z": 4.465,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.03513,
+      "robust_z": 4.8100000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-13T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.06053,
+      "robust_z": 9.506,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-18T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04547,
+      "robust_z": 5.827220167083708,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-18T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0489,
+      "robust_z": 6.325262210406459,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-21T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.0041,
+      "robust_z": -3.504,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-22T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.03422,
+      "robust_z": 4.4319999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-27T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.03027,
+      "robust_z": 3.8379999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-28T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.03302,
+      "robust_z": 4.7170000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-29T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.04582,
+      "robust_z": 6.752,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-29T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.03115,
+      "robust_z": 4.343,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-30T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.0333,
+      "robust_z": 4.0600000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-05-30T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.03795,
+      "robust_z": 4.887,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-03T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.277,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-15T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.03847,
+      "robust_z": 4.693662167416543,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-15T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03445,
+      "robust_z": 4.298,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-20T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03597,
+      "robust_z": 3.846783957413899,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-20T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03533,
+      "robust_z": 4.543,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-26T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.04882,
+      "robust_z": 6.564,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-06-26T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.05805,
+      "robust_z": 4.490627586463815,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-03T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03142,
+      "robust_z": 3.53486658649207,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-03T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.03925,
+      "robust_z": 3.695839777953946,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-04T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.03298,
+      "robust_z": 3.921821633362464,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-04T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03097,
+      "robust_z": 3.78,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-06T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03572,
+      "robust_z": 4.356484225514553,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-28T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.03897,
+      "robust_z": 3.6946190991654966,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-30T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.05325,
+      "robust_z": 5.911536789723761,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-07-30T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.05223,
+      "robust_z": 3.7280592407746473,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-17T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.0356,
+      "robust_z": 3.9899999999999998,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-17T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03072,
+      "robust_z": 3.636,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-26T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.03477,
+      "robust_z": 3.8040000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-29T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.04093,
+      "robust_z": 3.8760000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-31T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03092,
+      "robust_z": 3.676,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-08-31T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03022,
+      "robust_z": 3.562,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-01T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.04252,
+      "robust_z": 3.6166811704222135,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-01T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.04355,
+      "robust_z": 4.544740263654131,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-01T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04965,
+      "robust_z": 7.13,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-01T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0308,
+      "robust_z": 3.636,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-08T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03065,
+      "robust_z": 3.6060000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-08T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.036,
+      "robust_z": 4.723999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-09T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.02935,
+      "robust_z": 3.5860000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-09-29T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03258,
+      "robust_z": 3.8249999999999993,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-08T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.03503,
+      "robust_z": 3.8239999999999994,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-13T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.04318,
+      "robust_z": 5.454000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-21T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.05505,
+      "robust_z": 4.283565184958051,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-21T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.05803,
+      "robust_z": 4.69056073931787,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-21T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.05053,
+      "robust_z": 3.913404440050447,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-21T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.0425,
+      "robust_z": 3.82717479171393,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-10-22T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.0373,
+      "robust_z": 4.278,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-11-11T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04338,
+      "robust_z": 3.611505241253697,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-11-27T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03572,
+      "robust_z": 3.723893830259751,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-11-27T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03528,
+      "robust_z": 3.5860000000000003,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2015-12-01T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.02157,
+      "robust_z": 3.6699999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2015
+    },
+    {
+      "date": "2016-01-01T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.08092,
+      "robust_z": 3.7457024000933354,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-04T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04832,
+      "robust_z": 6.307184977996484,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-04T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03767,
+      "robust_z": 3.521768545664054,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04295,
+      "robust_z": 5.238743863427363,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.04318,
+      "robust_z": 5.452275936731059,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.04025,
+      "robust_z": 5.5779914136854645,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 5.064,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.0271,
+      "robust_z": 3.5679999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-21T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.06955,
+      "robust_z": 5.17339000891062,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-22T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.06992,
+      "robust_z": 5.215832454659997,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-01-23T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.06223,
+      "robust_z": 3.591089375819475,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-03T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.07967,
+      "robust_z": 4.568025092770336,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-03T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.06698,
+      "robust_z": 10.126,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-03T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.06395,
+      "robust_z": 9.42,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-03T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.05275,
+      "robust_z": 7.21,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-03T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.05013,
+      "robust_z": 6.229503621317633,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-16T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.06432,
+      "robust_z": 3.859191573519887,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-02-23T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.01397,
+      "robust_z": -4.08481070476001,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-03-20T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.05118,
+      "robust_z": 4.166425777109711,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-03-23T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.00605,
+      "robust_z": -4.052,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.06982,
+      "robust_z": 3.592342726296591,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0767,
+      "robust_z": 8.114523630261449,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.05763,
+      "robust_z": 9.751,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.03095,
+      "robust_z": 4.552,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.05112,
+      "robust_z": 4.233836052054909,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.05357,
+      "robust_z": 4.184619343099221,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.04198,
+      "robust_z": 4.6756474318808365,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-06T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.04887,
+      "robust_z": 6.789999999999998,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-07T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.03862,
+      "robust_z": 4.222496946312384,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-07T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.0446,
+      "robust_z": 4.714103895037507,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-21T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.0354,
+      "robust_z": 3.726638442770229,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-27T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0601,
+      "robust_z": 5.973692538997302,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-30T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.0434,
+      "robust_z": 4.5381497838697005,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-04-30T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.04555,
+      "robust_z": 6.126,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-01T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.03288,
+      "robust_z": 5.0009999999999994,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-01T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.03702,
+      "robust_z": 4.4239999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-02T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.03975,
+      "robust_z": 6.235,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-02T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.04093,
+      "robust_z": 6.5409999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-02T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.03955,
+      "robust_z": 6.335,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-02T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.06772,
+      "robust_z": 4.788484101031912,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-02T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.05572,
+      "robust_z": 8.514,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-07T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0389,
+      "robust_z": 5.149999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-09T08:00:00",
+      "pollutant": "NO2",
+      "value": 0.01368,
+      "robust_z": -4.187966008634589,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-13T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.03092,
+      "robust_z": 3.51,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-21T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.0895,
+      "robust_z": 10.889999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-23T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03138,
+      "robust_z": 3.645999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-05-30T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0307,
+      "robust_z": 3.5100000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-14T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.05597,
+      "robust_z": 4.871469678188246,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-14T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.04462,
+      "robust_z": 4.731317964826666,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-18T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.0438,
+      "robust_z": 6.283999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-18T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.05015,
+      "robust_z": 6.438820755546952,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-18T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.04898,
+      "robust_z": 6.585340114657556,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-18T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.05678,
+      "robust_z": 4.551720712656578,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-22T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.03122,
+      "robust_z": 3.932,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-23T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.03845,
+      "robust_z": 3.715052278386961,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-23T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.03707,
+      "robust_z": 5.101999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-24T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.02788,
+      "robust_z": 3.5709999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-24T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03755,
+      "robust_z": 4.42,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-25T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.0339,
+      "robust_z": 4.865,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-25T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.03178,
+      "robust_z": 4.4110000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-06-25T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.0318,
+      "robust_z": 4.355,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-05T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03973,
+      "robust_z": 4.856000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-05T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03798,
+      "robust_z": 3.885365075166776,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-09T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04765,
+      "robust_z": 5.0578479914331345,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-09T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03635,
+      "robust_z": 4.180000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-26T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.03842,
+      "robust_z": 3.5206752235395617,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-26T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03583,
+      "robust_z": 4.0760000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-26T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.04107,
+      "robust_z": 4.397447740223946,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-27T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03823,
+      "robust_z": 4.556,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-27T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03653,
+      "robust_z": 3.645067384444156,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-28T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.0316,
+      "robust_z": 3.6960000000000006,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-28T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03418,
+      "robust_z": 4.091,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-28T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03868,
+      "robust_z": 4.763,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-28T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03622,
+      "robust_z": 4.0280000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-07-28T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.03835,
+      "robust_z": 3.984000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-03T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.04237,
+      "robust_z": 3.5639999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-10T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.04883,
+      "robust_z": 3.899075428820469,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-11T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03963,
+      "robust_z": 5.335999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-12T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.0367,
+      "robust_z": 4.750000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-12T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03793,
+      "robust_z": 4.962,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-12T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.0472,
+      "robust_z": 6.8839999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-13T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.04714,
+      "robust_z": 6.837999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-13T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03505,
+      "robust_z": 4.385999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-25T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03512,
+      "robust_z": 4.433999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-25T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.03208,
+      "robust_z": 3.6799999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-26T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.03353,
+      "robust_z": 3.7259999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-08-31T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.0445,
+      "robust_z": 3.9899999999999998,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-10-31T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.03545,
+      "robust_z": 3.7640000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-10-31T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.04527,
+      "robust_z": 3.645629595584353,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-02T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.04717,
+      "robust_z": 3.6842054659099555,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-17T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.0336,
+      "robust_z": 3.544,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-22T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.0523,
+      "robust_z": 4.431535400276033,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-22T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.04445,
+      "robust_z": 4.144196712877125,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-22T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03513,
+      "robust_z": 3.746132888505745,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-23T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.0626,
+      "robust_z": 5.932022402999345,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-23T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.0772,
+      "robust_z": 9.281306567030262,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-23T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04063,
+      "robust_z": 4.912,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-28T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.04952,
+      "robust_z": 4.026549587890518,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-28T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.04831,
+      "robust_z": 4.749669813244487,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-28T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.03483,
+      "robust_z": 3.752,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-11-29T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.04672,
+      "robust_z": 3.6186502085094228,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-07T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.08003,
+      "robust_z": 3.9883246517977637,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-07T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04517,
+      "robust_z": 3.9746776897727933,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-12T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.09035,
+      "robust_z": 4.7351856644370836,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-12T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.07555,
+      "robust_z": 8.279515772314593,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-12T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.03598,
+      "robust_z": 3.512895708945225,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-13T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.08548,
+      "robust_z": 9.686594184415977,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-13T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.04817,
+      "robust_z": 5.765510053608155,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-14T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.08113,
+      "robust_z": 4.06793193027676,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-17T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.09352,
+      "robust_z": 4.964599366962921,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-17T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.0596,
+      "robust_z": 6.019404929110455,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-24T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04292,
+      "robust_z": 3.6558532761546543,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2016-12-24T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.04407,
+      "robust_z": 5.007862899127597,
+      "action": "conservar_y_revisar",
+      "source_year": 2016
+    },
+    {
+      "date": "2017-01-10T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-01-11T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.051,
+      "robust_z": 3.541076487252121,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-01-20T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.007,
+      "robust_z": -3.541076487252125,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-01-21T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.005,
+      "robust_z": -4.215567246728716,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-08T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.068,
+      "robust_z": 5.620756328971627,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-10T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.057,
+      "robust_z": 3.5972840505418406,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-13T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.06,
+      "robust_z": 8.178200458653716,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-18T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.008,
+      "robust_z": -3.85423291129483,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-19T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.004,
+      "robust_z": -4.625079493553796,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-19T06:00:00",
+      "pollutant": "NO2",
+      "value": 0.008,
+      "robust_z": -4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-02-19T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.009,
+      "robust_z": -3.9505887340771983,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-07T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.059,
+      "robust_z": 7.419398354242547,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-07T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.051,
+      "robust_z": 7.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-09T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-11T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.009,
+      "robust_z": -3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-14T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-22T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.055,
+      "robust_z": 6.7449075947659525,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-27T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-28T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-30T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.054,
+      "robust_z": 6.576284904896803,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-30T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-03-31T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-05T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.5651654429477184,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-05T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.067,
+      "robust_z": 3.920477539457712,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-05T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-05T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 5.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-07T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.7578770885124597,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-23T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.012,
+      "robust_z": -3.777148253068935,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-26T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.008,
+      "robust_z": -3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-27T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.072,
+      "robust_z": 4.342034264130583,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-04-27T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.051,
+      "robust_z": 5.246039240373517,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-05-20T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-05-20T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-05-30T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-03T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-10T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.6999999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-12T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-19T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 3.97200113913995,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-20T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.5000000000000004,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-20T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-06-20T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-07-13T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-07-26T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-07-26T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-01T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-08T04:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-09T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-10T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 3.709699177121274,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-10T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-10T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-18T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-21T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-22T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-22T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-22T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 3.541076487252123,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-24T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-08-26T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-10-17T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 6.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-10-21T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-10-27T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 4.552812626467015,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-10-28T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-11-25T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.036,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-11-25T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 4.200000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-11-28T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 3.912046404964254,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-11-29T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 3.7771482530689346,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-12-13T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-12-20T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.061,
+      "robust_z": 5.39592607581276,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-12-22T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2017-12-22T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 3.709699177121273,
+      "action": "conservar_y_revisar",
+      "source_year": 2017
+    },
+    {
+      "date": "2018-01-10T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-01-13T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.058,
+      "robust_z": 4.598800632794967,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-01-13T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 4.199999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-01-22T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-02-03T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.5651654429477175,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-02-03T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 3.8783218669904236,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-02-07T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 4.528723670771423,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-02-07T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 3.5651654429477184,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-03-01T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 6.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-03-01T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.200000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-03-02T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-04-19T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.036,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-04-19T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-06T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-09T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-09T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-10T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.199999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-10T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-10T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-11T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-11T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.026,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-11T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 3.8221143037007055,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-05-11T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 3.85423291129483,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-07-19T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 5.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-07-25T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-07-25T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 5.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-07-25T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-07-25T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-11T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-20T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 4.721435316336164,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-23T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 3.5651654429477158,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-22T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-22T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-24T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 4.215567246728719,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-24T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.047,
+      "robust_z": 3.6422501011736133,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T01:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 4.215567246728719,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 4.799999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 3.7096991771212755,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-29T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 3.5410764872521256,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2019-11-15T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-04T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-06T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 3.5073519492782954,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-24T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 3.541076487252124,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2020-01-20T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.299878591663295,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-20T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-20T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-21T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.024,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-23T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-23T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.85423291129483,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-24T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.026,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-24T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.047,
+      "robust_z": 4.991231620126804,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-24T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 5.492281898595132,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-31T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 6.6485517719835805,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-31T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.041,
+      "robust_z": 5.480237420747336,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-31T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 4.586537164440847,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-31T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 7.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-31T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.041,
+      "robust_z": 6.552195949201211,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-06T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.047,
+      "robust_z": 4.721435316336166,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-06T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 8.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-06T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-06T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-06T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.041,
+      "robust_z": 5.3959260758127625,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-06T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.026,
+      "robust_z": 3.6999999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-06T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.6999999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-05T08:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 6.937619240330694,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-05T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.036,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-05T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 5.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-06T04:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 6.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-06T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-08T06:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-08T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-18T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-18T08:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.817791139118538,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-18T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.027,
+      "robust_z": 3.9505887340771997,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-19T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 6.799999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-19T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.062,
+      "robust_z": 8.599757183326592,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-08-19T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 5.492281898595133,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-17T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 6.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-17T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.052,
+      "robust_z": 5.126129772022124,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-24T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 3.9120464049642525,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 3.854232911294831,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.033,
+      "robust_z": 4.336012025206686,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.031,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.7000000000000006,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-25T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-26T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.661521265730089,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-26T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-26T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 3.777148253068933,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.661521265730089,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 7.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.05,
+      "robust_z": 7.900000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T19:00:00",
+      "pollutant": "NO2",
+      "value": 0.077,
+      "robust_z": 8.4985835694051,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.076,
+      "robust_z": 6.182831961868791,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.071,
+      "robust_z": 5.106858607465647,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.076,
+      "robust_z": 6.485488071890339,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-28T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.064,
+      "robust_z": 7.4193983542425475,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-29T00:00:00",
+      "pollutant": "NO2",
+      "value": 0.041,
+      "robust_z": 4.196831392298815,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-29T02:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-29T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.025,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-30T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.025,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-30T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.052,
+      "robust_z": 3.9950606522844487,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-09-30T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 4.856333468231485,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-11-28T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.077,
+      "robust_z": 4.384189936597871,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-05T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.015,
+      "robust_z": -3.5651654429477184,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-07T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 4.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-07T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 4.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-08T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-08T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-12-08T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 3.899999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2021-01-13T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.047,
+      "robust_z": 4.946265569495032,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-14T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -4.890058006205315,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-15T05:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -4.890058006205315,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-21T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -6.166772658071728,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-09T08:00:00",
+      "pollutant": "NO2",
+      "value": 0.026,
+      "robust_z": -3.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-09T20:00:00",
+      "pollutant": "NO2",
+      "value": 0.039,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-13T21:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -3.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-13T22:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-13T23:00:00",
+      "pollutant": "NO2",
+      "value": 0.0,
+      "robust_z": -3.7578770885124593,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 4.0469445568595726,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.042,
+      "robust_z": 5.800000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.036,
+      "robust_z": 4.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-14T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.028,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-28T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-10-29T03:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 3.8783218669904205,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-10T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.092,
+      "robust_z": 16.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-10T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.055,
+      "robust_z": 9.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-10T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-10T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.029,
+      "robust_z": 3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-25T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.082,
+      "robust_z": 3.533046835353595,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-25T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.057,
+      "robust_z": 5.058680696074465,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-11-25T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-09T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2024-08-17T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-30T18:00:00",
+      "pollutant": "NO2",
+      "value": 0.001,
+      "robust_z": -3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.03,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-27T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.038,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-27T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.035,
+      "robust_z": 3.541076487252127,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.047,
+      "robust_z": 3.507351949278294,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.037,
+      "robust_z": 4.199999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.05,
+      "robust_z": 3.9120464049642516,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.061,
+      "robust_z": 4.1218879745791925,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.053,
+      "robust_z": 4.316740860650208,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.043,
+      "robust_z": 5.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.04,
+      "robust_z": 5.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.034,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T07:00:00",
+      "pollutant": "NO2",
+      "value": 0.065,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T08:00:00",
+      "pollutant": "NO2",
+      "value": 0.082,
+      "robust_z": 4.901299518863259,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T09:00:00",
+      "pollutant": "NO2",
+      "value": 0.088,
+      "robust_z": 9.038176176986372,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T10:00:00",
+      "pollutant": "NO2",
+      "value": 0.063,
+      "robust_z": 9.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 6.800000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T12:00:00",
+      "pollutant": "NO2",
+      "value": 0.048,
+      "robust_z": 6.800000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 5.8999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.044,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.045,
+      "robust_z": 6.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T16:00:00",
+      "pollutant": "NO2",
+      "value": 0.046,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T17:00:00",
+      "pollutant": "NO2",
+      "value": 0.053,
+      "robust_z": 6.166772658071725,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.07,
+      "robust_z": 4.5528126264670155,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.067,
+      "robust_z": 4.046944556859569,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-04T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.064,
+      "robust_z": 4.000000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T11:00:00",
+      "pollutant": "NO2",
+      "value": 0.128,
+      "robust_z": 5.845586582130495,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.068,
+      "robust_z": 4.800000000000002,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-07T14:00:00",
+      "pollutant": "NO2",
+      "value": 0.066,
+      "robust_z": 4.400000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-07T15:00:00",
+      "pollutant": "NO2",
+      "value": 0.069,
+      "robust_z": 3.87832186699042,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-15T13:00:00",
+      "pollutant": "NO2",
+      "value": 0.003,
+      "robust_z": -4.143300379641942,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    }
+  ]
+}

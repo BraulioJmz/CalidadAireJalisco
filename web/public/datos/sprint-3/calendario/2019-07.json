@@ -1,0 +1,2451 @@
+[
+  {
+    "date": "2019-07-01",
+    "pollutants": {
+      "PM10": {
+        "value": 33.0,
+        "exact": 33.458333333333336,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.093,
+        "exact": 0.093,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.11,
+        "exact": 1.1075,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.011,
+        "exact": 0.011,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.003,
+        "exact": 0.0025000000000000005,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.883333333333336,
+        "n": 24
+      },
+      "RH": {
+        "mean": 61.93333333333334,
+        "n": 24
+      },
+      "WS": {
+        "mean": 1.8375000000000001,
+        "n": 24
+      },
+      "WD": {
+        "mean": 181.25308275019898,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-02",
+    "pollutants": {
+      "PM10": {
+        "value": 24.0,
+        "exact": 24.041666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.115,
+        "exact": 0.115,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.85,
+        "exact": 0.8475,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0024000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.495833333333334,
+        "n": 24
+      },
+      "RH": {
+        "mean": 58.854166666666664,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.75,
+        "n": 24
+      },
+      "WD": {
+        "mean": 245.04037804114301,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-03",
+    "pollutants": {
+      "PM10": {
+        "value": 23.0,
+        "exact": 23.25,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.129,
+        "exact": 0.129,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.92,
+        "exact": 0.91875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.558333333333334,
+        "n": 24
+      },
+      "RH": {
+        "mean": 61.44166666666666,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.0708333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 185.8993438966168,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-04",
+    "pollutants": {
+      "PM10": {
+        "value": 28.0,
+        "exact": 28.0,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.091,
+        "exact": 0.091,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.82,
+        "exact": 0.8225,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0022000000000000006,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 24.979166666666668,
+        "n": 24
+      },
+      "RH": {
+        "mean": 56.324999999999996,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.3874999999999997,
+        "n": 24
+      },
+      "WD": {
+        "mean": 221.11671031167435,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-05",
+    "pollutants": {
+      "PM10": {
+        "value": 22.0,
+        "exact": 21.666666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.114,
+        "exact": 0.114,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.85,
+        "exact": 0.85125,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0023,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 24.270833333333332,
+        "n": 24
+      },
+      "RH": {
+        "mean": 59.89166666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.629166666666667,
+        "n": 24
+      },
+      "WD": {
+        "mean": 103.43168415168878,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-06",
+    "pollutants": {
+      "PM10": {
+        "value": 29.0,
+        "exact": 29.375,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.097,
+        "exact": 0.097,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.92,
+        "exact": 0.91625,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0022000000000000006,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 25.833333333333332,
+        "n": 24
+      },
+      "RH": {
+        "mean": 58.0625,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.1666666666666665,
+        "n": 24
+      },
+      "WD": {
+        "mean": 181.00367153289977,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-07",
+    "pollutants": {
+      "PM10": {
+        "value": 26.0,
+        "exact": 26.083333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.087,
+        "exact": 0.087,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.71,
+        "exact": 0.70875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0024000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 25.412499999999998,
+        "n": 24
+      },
+      "RH": {
+        "mean": 54.5,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.3041666666666667,
+        "n": 24
+      },
+      "WD": {
+        "mean": 205.45735522450804,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-08",
+    "pollutants": {
+      "PM10": {
+        "value": 30.0,
+        "exact": 29.916666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.12,
+        "exact": 0.12,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.94,
+        "exact": 0.935,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0016000000000000005,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 24.441666666666666,
+        "n": 24
+      },
+      "RH": {
+        "mean": 64.46249999999999,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.808333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 209.85159935911628,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-09",
+    "pollutants": {
+      "PM10": {
+        "value": 31.0,
+        "exact": 31.333333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.117,
+        "exact": 0.117,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.09,
+        "exact": 1.0875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.017,
+        "exact": 0.017,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0021000000000000003,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.504166666666666,
+        "n": 24
+      },
+      "RH": {
+        "mean": 65.07083333333334,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.3333333333333335,
+        "n": 24
+      },
+      "WD": {
+        "mean": 193.68270243123857,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-10",
+    "pollutants": {
+      "PM10": {
+        "value": 20.0,
+        "exact": 19.916666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.149,
+        "exact": 0.149,
+        "category": 3.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.12,
+        "exact": 1.12,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.016,
+        "exact": 0.016,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0018000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 25.041666666666668,
+        "n": 24
+      },
+      "RH": {
+        "mean": 65.40833333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.908333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 230.8863612154716,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-11",
+    "pollutants": {
+      "PM10": {
+        "value": 21.0,
+        "exact": 21.083333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.097,
+        "exact": 0.097,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.1,
+        "exact": 1.1025,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.013,
+        "exact": 0.013,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0016000000000000005,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.724999999999998,
+        "n": 24
+      },
+      "RH": {
+        "mean": 70.77083333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.225,
+        "n": 24
+      },
+      "WD": {
+        "mean": 224.03138753249263,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-12",
+    "pollutants": {
+      "PM10": {
+        "value": 15.0,
+        "exact": 15.25,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.064,
+        "exact": 0.064,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.09,
+        "exact": 1.09375,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.012,
+        "exact": 0.012,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.65833333333333,
+        "n": 24
+      },
+      "RH": {
+        "mean": 72.90416666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.6291666666666664,
+        "n": 24
+      },
+      "WD": {
+        "mean": 226.63724547346865,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-13",
+    "pollutants": {
+      "PM10": {
+        "value": 14.0,
+        "exact": 14.416666666666666,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.096,
+        "exact": 0.096,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.75,
+        "exact": 0.75,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0018000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.366666666666664,
+        "n": 24
+      },
+      "RH": {
+        "mean": 70.17916666666666,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.6875,
+        "n": 24
+      },
+      "WD": {
+        "mean": 234.52318828322785,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-14",
+    "pollutants": {
+      "PM10": {
+        "value": 12.0,
+        "exact": 12.217391304347826,
+        "category": 0.0,
+        "n": 23,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.121,
+        "exact": 0.121,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.73,
+        "exact": 0.7275,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0019000000000000004,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.55,
+        "n": 24
+      },
+      "RH": {
+        "mean": 77.20416666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.3249999999999997,
+        "n": 24
+      },
+      "WD": {
+        "mean": 189.69930376868768,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-15",
+    "pollutants": {
+      "PM10": {
+        "value": 16.0,
+        "exact": 15.916666666666666,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.085,
+        "exact": 0.085,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.05,
+        "exact": 1.04625,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.011,
+        "exact": 0.011,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0023,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.175,
+        "n": 24
+      },
+      "RH": {
+        "mean": 79.25416666666668,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.6333333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 141.057534072291,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-16",
+    "pollutants": {
+      "PM10": {
+        "value": 16.0,
+        "exact": 15.875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.095,
+        "exact": 0.095,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.12,
+        "exact": 1.11625,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0022000000000000006,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.65833333333333,
+        "n": 24
+      },
+      "RH": {
+        "mean": 68.32083333333334,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.591666666666667,
+        "n": 24
+      },
+      "WD": {
+        "mean": 164.01737393052235,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-17",
+    "pollutants": {
+      "PM10": {
+        "value": 21.0,
+        "exact": 20.875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.101,
+        "exact": 0.101,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.05,
+        "exact": 1.0475,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.013,
+        "exact": 0.013,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.28333333333333,
+        "n": 24
+      },
+      "RH": {
+        "mean": 67.7625,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.329166666666667,
+        "n": 24
+      },
+      "WD": {
+        "mean": 183.5373847565866,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-18",
+    "pollutants": {
+      "PM10": {
+        "value": 21.0,
+        "exact": 20.708333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.111,
+        "exact": 0.111,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.13,
+        "exact": 1.1325,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.012,
+        "exact": 0.012,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0018000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.358333333333334,
+        "n": 24
+      },
+      "RH": {
+        "mean": 71.60833333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 1.8583333333333334,
+        "n": 24
+      },
+      "WD": {
+        "mean": 196.08678743172874,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-19",
+    "pollutants": {
+      "PM10": {
+        "value": 16.0,
+        "exact": 16.458333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.098,
+        "exact": 0.098,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.84,
+        "exact": 0.84,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.009,
+        "exact": 0.009,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0016000000000000005,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.170833333333334,
+        "n": 24
+      },
+      "RH": {
+        "mean": 71.85833333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.6999999999999997,
+        "n": 24
+      },
+      "WD": {
+        "mean": 167.73778207435444,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-20",
+    "pollutants": {
+      "PM10": {
+        "value": 13.0,
+        "exact": 13.208333333333334,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.088,
+        "exact": 0.088,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.86,
+        "exact": 0.8575,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0015000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 21.400000000000002,
+        "n": 24
+      },
+      "RH": {
+        "mean": 78.02499999999999,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.029166666666667,
+        "n": 24
+      },
+      "WD": {
+        "mean": 162.43988821343558,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-21",
+    "pollutants": {
+      "PM10": {
+        "value": 10.0,
+        "exact": 10.375,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.082,
+        "exact": 0.082,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.76,
+        "exact": 0.755,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.007,
+        "exact": 0.007,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0012999999999999997,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 21.266666666666666,
+        "n": 24
+      },
+      "RH": {
+        "mean": 77.20416666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.5166666666666666,
+        "n": 24
+      },
+      "WD": {
+        "mean": 195.96888337666797,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-22",
+    "pollutants": {
+      "PM10": {
+        "value": 14.0,
+        "exact": 14.375,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.104,
+        "exact": 0.104,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.98,
+        "exact": 0.98,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.008,
+        "exact": 0.008,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0016000000000000005,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.320833333333336,
+        "n": 24
+      },
+      "RH": {
+        "mean": 74.25,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.6458333333333335,
+        "n": 24
+      },
+      "WD": {
+        "mean": 231.50997180984962,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-23",
+    "pollutants": {
+      "PM10": {
+        "value": 25.0,
+        "exact": 24.73913043478261,
+        "category": 0.0,
+        "n": 23,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.088,
+        "exact": 0.088,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.86,
+        "exact": 0.86,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.013,
+        "exact": 0.013,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0024000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 23.195833333333336,
+        "n": 24
+      },
+      "RH": {
+        "mean": 65.82916666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.6875,
+        "n": 24
+      },
+      "WD": {
+        "mean": 135.95439439677344,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-24",
+    "pollutants": {
+      "PM10": {
+        "value": 18.0,
+        "exact": 18.291666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.07,
+        "exact": 0.07,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.96,
+        "exact": 0.95625,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.011,
+        "exact": 0.011,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0022000000000000006,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.354166666666668,
+        "n": 24
+      },
+      "RH": {
+        "mean": 75.65833333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.2083333333333335,
+        "n": 24
+      },
+      "WD": {
+        "mean": 175.98811035487313,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-25",
+    "pollutants": {
+      "PM10": {
+        "value": 20.0,
+        "exact": 19.958333333333332,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.104,
+        "exact": 0.104,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.94,
+        "exact": 0.935,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.012,
+        "exact": 0.012,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0022000000000000006,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.425,
+        "n": 24
+      },
+      "RH": {
+        "mean": 75.475,
+        "n": 24
+      },
+      "WS": {
+        "mean": 1.7958333333333334,
+        "n": 24
+      },
+      "WD": {
+        "mean": 182.2625607237179,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-26",
+    "pollutants": {
+      "PM10": {
+        "value": 23.0,
+        "exact": 22.5,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.075,
+        "exact": 0.075,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 0.99,
+        "exact": 0.9875,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.013,
+        "exact": 0.013,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.002,
+        "exact": 0.0018000000000000002,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.8,
+        "n": 24
+      },
+      "RH": {
+        "mean": 70.67083333333333,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.2583333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 164.0678972196618,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-27",
+    "pollutants": {
+      "PM10": {
+        "value": 25.0,
+        "exact": 24.666666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.093,
+        "exact": 0.093,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.52,
+        "exact": 1.51625,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.013,
+        "exact": 0.013,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0011,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.541666666666668,
+        "n": 24
+      },
+      "RH": {
+        "mean": 74.55416666666666,
+        "n": 24
+      },
+      "WS": {
+        "mean": 1.5250000000000001,
+        "n": 24
+      },
+      "WD": {
+        "mean": 148.61791493821053,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-28",
+    "pollutants": {
+      "PM10": {
+        "value": 24.0,
+        "exact": 23.5,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.085,
+        "exact": 0.085,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.91,
+        "exact": 1.91125,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0008000000000000001,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 24.120833333333334,
+        "n": 24
+      },
+      "RH": {
+        "mean": 68.82916666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.4,
+        "n": 24
+      },
+      "WD": {
+        "mean": 215.1107030370284,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-29",
+    "pollutants": {
+      "PM10": {
+        "value": 19.0,
+        "exact": 18.916666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.13,
+        "exact": 0.13,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.34,
+        "exact": 1.335,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0006999999999999999,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 21.6125,
+        "n": 24
+      },
+      "RH": {
+        "mean": 74.80833333333334,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.908333333333333,
+        "n": 24
+      },
+      "WD": {
+        "mean": 228.63180628749316,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-30",
+    "pollutants": {
+      "PM10": {
+        "value": 19.0,
+        "exact": 18.791666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.08,
+        "exact": 0.08,
+        "category": 1.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.71,
+        "exact": 1.7125,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.012,
+        "exact": 0.012,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0009999999999999998,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 22.6875,
+        "n": 24
+      },
+      "RH": {
+        "mean": 71.54166666666667,
+        "n": 24
+      },
+      "WS": {
+        "mean": 2.7916666666666665,
+        "n": 24
+      },
+      "WD": {
+        "mean": 181.33235790786873,
+        "n": 24
+      }
+    }
+  },
+  {
+    "date": "2019-07-31",
+    "pollutants": {
+      "PM10": {
+        "value": 23.0,
+        "exact": 23.166666666666668,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "PM2.5": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "O3": {
+        "value": 0.101,
+        "exact": 0.101,
+        "category": 2.0,
+        "n": 24,
+        "indN": 24
+      },
+      "CO": {
+        "value": 1.38,
+        "exact": 1.38,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "NO2": {
+        "value": 0.01,
+        "exact": 0.01,
+        "category": 0.0,
+        "n": 24,
+        "indN": 24
+      },
+      "SO2": {
+        "value": 0.001,
+        "exact": 0.0008000000000000001,
+        "category": 0.0,
+        "n": 22,
+        "indN": 22
+      },
+      "NO": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      },
+      "NOX": {
+        "value": null,
+        "exact": null,
+        "category": null,
+        "n": 0,
+        "indN": 0
+      }
+    },
+    "weather": {
+      "ET": {
+        "mean": 24.379166666666666,
+        "n": 24
+      },
+      "RH": {
+        "mean": 63.862500000000004,
+        "n": 24
+      },
+      "WS": {
+        "mean": 3.1041666666666665,
+        "n": 24
+      },
+      "WD": {
+        "mean": 202.83401745372097,
+        "n": 24
+      }
+    }
+  }
+]

@@ -1,0 +1,1132 @@
+{
+  "episodes": [],
+  "peaks": [
+    {
+      "pollutant": "NO",
+      "year": 2024,
+      "date": "2024-12-05T07:00:00",
+      "value": 0.254,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NO",
+      "year": 2024,
+      "date": "2024-11-27T06:00:00",
+      "value": 0.236,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NO",
+      "year": 2024,
+      "date": "2024-12-29T08:00:00",
+      "value": 0.23,
+      "exploratory": true
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2024-08-16T20:00:00",
+      "pollutant": "NO",
+      "value": 0.033,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-16T21:00:00",
+      "pollutant": "NO",
+      "value": 0.036,
+      "robust_z": 6.599999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-16T23:00:00",
+      "pollutant": "NO",
+      "value": 0.043,
+      "robust_z": 8.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T20:00:00",
+      "pollutant": "NO",
+      "value": 0.059,
+      "robust_z": 11.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T21:00:00",
+      "pollutant": "NO",
+      "value": 0.066,
+      "robust_z": 12.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T19:00:00",
+      "pollutant": "NO",
+      "value": 0.062,
+      "robust_z": 12.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T20:00:00",
+      "pollutant": "NO",
+      "value": 0.111,
+      "robust_z": 21.599999999999998,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T21:00:00",
+      "pollutant": "NO",
+      "value": 0.122,
+      "robust_z": 23.799999999999997,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T22:00:00",
+      "pollutant": "NO",
+      "value": 0.096,
+      "robust_z": 18.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T23:00:00",
+      "pollutant": "NO",
+      "value": 0.065,
+      "robust_z": 12.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T00:00:00",
+      "pollutant": "NO",
+      "value": 0.062,
+      "robust_z": 12.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T01:00:00",
+      "pollutant": "NO",
+      "value": 0.019,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T21:00:00",
+      "pollutant": "NO",
+      "value": 0.024,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T22:00:00",
+      "pollutant": "NO",
+      "value": 0.047,
+      "robust_z": 8.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T23:00:00",
+      "pollutant": "NO",
+      "value": 0.099,
+      "robust_z": 19.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T00:00:00",
+      "pollutant": "NO",
+      "value": 0.058,
+      "robust_z": 11.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T01:00:00",
+      "pollutant": "NO",
+      "value": 0.026,
+      "robust_z": 4.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T02:00:00",
+      "pollutant": "NO",
+      "value": 0.025,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T05:00:00",
+      "pollutant": "NO",
+      "value": 0.02,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-25T05:00:00",
+      "pollutant": "NO",
+      "value": 0.022,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-26T05:00:00",
+      "pollutant": "NO",
+      "value": 0.045,
+      "robust_z": 8.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-26T06:00:00",
+      "pollutant": "NO",
+      "value": 0.054,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-02T22:00:00",
+      "pollutant": "NO",
+      "value": 0.026,
+      "robust_z": 4.199999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-06T19:00:00",
+      "pollutant": "NO",
+      "value": 0.041,
+      "robust_z": 7.033975063113064,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-09T20:00:00",
+      "pollutant": "NO",
+      "value": 0.034,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T05:00:00",
+      "pollutant": "NO",
+      "value": 0.047,
+      "robust_z": 8.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T06:00:00",
+      "pollutant": "NO",
+      "value": 0.086,
+      "robust_z": 6.239039525158505,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T07:00:00",
+      "pollutant": "NO",
+      "value": 0.086,
+      "robust_z": 4.721435316336166,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-14T04:00:00",
+      "pollutant": "NO",
+      "value": 0.035,
+      "robust_z": 6.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-16T00:00:00",
+      "pollutant": "NO",
+      "value": 0.022,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T05:00:00",
+      "pollutant": "NO",
+      "value": 0.038,
+      "robust_z": 6.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T18:00:00",
+      "pollutant": "NO",
+      "value": 0.067,
+      "robust_z": 12.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T19:00:00",
+      "pollutant": "NO",
+      "value": 0.122,
+      "robust_z": 22.64361835385712,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T20:00:00",
+      "pollutant": "NO",
+      "value": 0.079,
+      "robust_z": 14.799999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-18T08:00:00",
+      "pollutant": "NO",
+      "value": 0.036,
+      "robust_z": 3.8783218669904205,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-22T19:00:00",
+      "pollutant": "NO",
+      "value": 0.032,
+      "robust_z": 5.2995702530303905,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-22T20:00:00",
+      "pollutant": "NO",
+      "value": 0.028,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-23T22:00:00",
+      "pollutant": "NO",
+      "value": 0.033,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-24T20:00:00",
+      "pollutant": "NO",
+      "value": 0.029,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-30T06:00:00",
+      "pollutant": "NO",
+      "value": 0.058,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T01:00:00",
+      "pollutant": "NO",
+      "value": 0.05,
+      "robust_z": 6.669964177046332,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T02:00:00",
+      "pollutant": "NO",
+      "value": 0.068,
+      "robust_z": 12.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T03:00:00",
+      "pollutant": "NO",
+      "value": 0.062,
+      "robust_z": 11.080919619972633,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T04:00:00",
+      "pollutant": "NO",
+      "value": 0.048,
+      "robust_z": 8.5,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T01:00:00",
+      "pollutant": "NO",
+      "value": 0.03,
+      "robust_z": 3.6722274682614633,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T02:00:00",
+      "pollutant": "NO",
+      "value": 0.04,
+      "robust_z": 7.200000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T04:00:00",
+      "pollutant": "NO",
+      "value": 0.032,
+      "robust_z": 5.300000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-10T01:00:00",
+      "pollutant": "NO",
+      "value": 0.039,
+      "robust_z": 5.021208987214654,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-11T20:00:00",
+      "pollutant": "NO",
+      "value": 0.081,
+      "robust_z": 3.541076487252125,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-12T01:00:00",
+      "pollutant": "NO",
+      "value": 0.029,
+      "robust_z": 3.5223406328222198,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T01:00:00",
+      "pollutant": "NO",
+      "value": 0.057,
+      "robust_z": 7.719172025121035,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T02:00:00",
+      "pollutant": "NO",
+      "value": 0.047,
+      "robust_z": 8.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T03:00:00",
+      "pollutant": "NO",
+      "value": 0.029,
+      "robust_z": 4.721435316336166,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T05:00:00",
+      "pollutant": "NO",
+      "value": 0.082,
+      "robust_z": 3.561311210036423,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T08:00:00",
+      "pollutant": "NO",
+      "value": 0.065,
+      "robust_z": 3.6898612136072564,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T07:00:00",
+      "pollutant": "NO",
+      "value": 0.178,
+      "robust_z": 3.5281055111083446,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T08:00:00",
+      "pollutant": "NO",
+      "value": 0.102,
+      "robust_z": 6.625879813681847,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T09:00:00",
+      "pollutant": "NO",
+      "value": 0.042,
+      "robust_z": 6.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-18T02:00:00",
+      "pollutant": "NO",
+      "value": 0.027,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-18T19:00:00",
+      "pollutant": "NO",
+      "value": 0.055,
+      "robust_z": 4.336012025206683,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-19T01:00:00",
+      "pollutant": "NO",
+      "value": 0.042,
+      "robust_z": 5.470869493532384,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-19T03:00:00",
+      "pollutant": "NO",
+      "value": 0.029,
+      "robust_z": 4.721435316336166,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-19T04:00:00",
+      "pollutant": "NO",
+      "value": 0.025,
+      "robust_z": 3.900000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-23T23:00:00",
+      "pollutant": "NO",
+      "value": 0.142,
+      "robust_z": 3.806054999903645,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-24T00:00:00",
+      "pollutant": "NO",
+      "value": 0.126,
+      "robust_z": 4.124029215085468,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-24T01:00:00",
+      "pollutant": "NO",
+      "value": 0.056,
+      "robust_z": 7.569285189681792,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T00:00:00",
+      "pollutant": "NO",
+      "value": 0.114,
+      "robust_z": 3.661521265730088,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T01:00:00",
+      "pollutant": "NO",
+      "value": 0.12,
+      "robust_z": 17.162042657793368,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T02:00:00",
+      "pollutant": "NO",
+      "value": 0.028,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-26T20:00:00",
+      "pollutant": "NO",
+      "value": 0.094,
+      "robust_z": 4.271774810018437,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T04:00:00",
+      "pollutant": "NO",
+      "value": 0.023,
+      "robust_z": 3.5000000000000004,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T08:00:00",
+      "pollutant": "NO",
+      "value": 0.065,
+      "robust_z": 3.6898612136072564,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T09:00:00",
+      "pollutant": "NO",
+      "value": 0.038,
+      "robust_z": 5.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T10:00:00",
+      "pollutant": "NO",
+      "value": 0.025,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T01:00:00",
+      "pollutant": "NO",
+      "value": 0.082,
+      "robust_z": 11.46634291110212,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T02:00:00",
+      "pollutant": "NO",
+      "value": 0.067,
+      "robust_z": 12.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T03:00:00",
+      "pollutant": "NO",
+      "value": 0.052,
+      "robust_z": 9.15380316432522,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T04:00:00",
+      "pollutant": "NO",
+      "value": 0.07,
+      "robust_z": 12.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T05:00:00",
+      "pollutant": "NO",
+      "value": 0.091,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T07:00:00",
+      "pollutant": "NO",
+      "value": 0.205,
+      "robust_z": 4.2285382228725,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T08:00:00",
+      "pollutant": "NO",
+      "value": 0.17,
+      "robust_z": 12.021805889494612,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T09:00:00",
+      "pollutant": "NO",
+      "value": 0.099,
+      "robust_z": 17.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T10:00:00",
+      "pollutant": "NO",
+      "value": 0.052,
+      "robust_z": 9.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T11:00:00",
+      "pollutant": "NO",
+      "value": 0.038,
+      "robust_z": 6.800000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T12:00:00",
+      "pollutant": "NO",
+      "value": 0.03,
+      "robust_z": 5.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T13:00:00",
+      "pollutant": "NO",
+      "value": 0.025,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T14:00:00",
+      "pollutant": "NO",
+      "value": 0.024,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T15:00:00",
+      "pollutant": "NO",
+      "value": 0.022,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T16:00:00",
+      "pollutant": "NO",
+      "value": 0.022,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T17:00:00",
+      "pollutant": "NO",
+      "value": 0.023,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T18:00:00",
+      "pollutant": "NO",
+      "value": 0.033,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-01T08:00:00",
+      "pollutant": "NO",
+      "value": 0.205,
+      "robust_z": 5.2768982947286585,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-05T19:00:00",
+      "pollutant": "NO",
+      "value": 0.058,
+      "robust_z": 4.316740860650212,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-14T21:00:00",
+      "pollutant": "NO",
+      "value": 0.106,
+      "robust_z": 7.419398354242544,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-14T22:00:00",
+      "pollutant": "NO",
+      "value": 0.144,
+      "robust_z": 3.6919494202929415,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-20T10:00:00",
+      "pollutant": "NO",
+      "value": 0.057,
+      "robust_z": 3.70969917712127,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-20T18:00:00",
+      "pollutant": "NO",
+      "value": 0.057,
+      "robust_z": 6.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-20T19:00:00",
+      "pollutant": "NO",
+      "value": 0.079,
+      "robust_z": 7.1496020504519135,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T19:00:00",
+      "pollutant": "NO",
+      "value": 0.052,
+      "robust_z": 3.5073519492782967,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T20:00:00",
+      "pollutant": "NO",
+      "value": 0.111,
+      "robust_z": 6.660596249831378,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T21:00:00",
+      "pollutant": "NO",
+      "value": 0.105,
+      "robust_z": 7.323042531460173,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T18:00:00",
+      "pollutant": "NO",
+      "value": 0.056,
+      "robust_z": 6.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T19:00:00",
+      "pollutant": "NO",
+      "value": 0.119,
+      "robust_z": 12.545528126264676,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T20:00:00",
+      "pollutant": "NO",
+      "value": 0.085,
+      "robust_z": 4.468501281532443,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T21:00:00",
+      "pollutant": "NO",
+      "value": 0.091,
+      "robust_z": 5.974061012506984,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T22:00:00",
+      "pollutant": "NO",
+      "value": 0.153,
+      "robust_z": 4.011445043202908,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-23T21:00:00",
+      "pollutant": "NO",
+      "value": 0.129,
+      "robust_z": 9.63558227823707,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-25T10:00:00",
+      "pollutant": "NO",
+      "value": 0.057,
+      "robust_z": 3.70969917712127,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-25T11:00:00",
+      "pollutant": "NO",
+      "value": 0.045,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T19:00:00",
+      "pollutant": "NO",
+      "value": 0.053,
+      "robust_z": 3.642250101173616,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T20:00:00",
+      "pollutant": "NO",
+      "value": 0.083,
+      "robust_z": 4.299878591663295,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T21:00:00",
+      "pollutant": "NO",
+      "value": 0.164,
+      "robust_z": 13.008036075620046,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T00:00:00",
+      "pollutant": "NO",
+      "value": 0.191,
+      "robust_z": 4.005649204238556,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T01:00:00",
+      "pollutant": "NO",
+      "value": 0.173,
+      "robust_z": 4.293709468863204,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T02:00:00",
+      "pollutant": "NO",
+      "value": 0.155,
+      "robust_z": 6.969737847924817,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T03:00:00",
+      "pollutant": "NO",
+      "value": 0.09,
+      "robust_z": 3.6790405062359737,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T06:00:00",
+      "pollutant": "NO",
+      "value": 0.236,
+      "robust_z": 5.608923157752737,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T10:00:00",
+      "pollutant": "NO",
+      "value": 0.057,
+      "robust_z": 3.70969917712127,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T21:00:00",
+      "pollutant": "NO",
+      "value": 0.125,
+      "robust_z": 9.250158987107588,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T18:00:00",
+      "pollutant": "NO",
+      "value": 0.068,
+      "robust_z": 8.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T02:00:00",
+      "pollutant": "NO",
+      "value": 0.1,
+      "robust_z": 3.8783218669904227,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T03:00:00",
+      "pollutant": "NO",
+      "value": 0.115,
+      "robust_z": 5.211974050500963,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T17:00:00",
+      "pollutant": "NO",
+      "value": 0.039,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T18:00:00",
+      "pollutant": "NO",
+      "value": 0.047,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-03T19:00:00",
+      "pollutant": "NO",
+      "value": 0.091,
+      "robust_z": 4.840463097420272,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-03T20:00:00",
+      "pollutant": "NO",
+      "value": 0.182,
+      "robust_z": 3.5410764872521256,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-04T19:00:00",
+      "pollutant": "NO",
+      "value": 0.089,
+      "robust_z": 4.681759389308132,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T09:00:00",
+      "pollutant": "NO",
+      "value": 0.117,
+      "robust_z": 3.502163558820783,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T10:00:00",
+      "pollutant": "NO",
+      "value": 0.093,
+      "robust_z": 4.224442125142886,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T11:00:00",
+      "pollutant": "NO",
+      "value": 0.072,
+      "robust_z": 5.3959260758127625,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T12:00:00",
+      "pollutant": "NO",
+      "value": 0.047,
+      "robust_z": 4.805746661270741,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T13:00:00",
+      "pollutant": "NO",
+      "value": 0.036,
+      "robust_z": 4.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T14:00:00",
+      "pollutant": "NO",
+      "value": 0.032,
+      "robust_z": 3.8000000000000007,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T18:00:00",
+      "pollutant": "NO",
+      "value": 0.046,
+      "robust_z": 4.721435316336168,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T19:00:00",
+      "pollutant": "NO",
+      "value": 0.076,
+      "robust_z": 3.6501852865792213,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-10T19:00:00",
+      "pollutant": "NO",
+      "value": 0.085,
+      "robust_z": 4.364351973083853,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-11T01:00:00",
+      "pollutant": "NO",
+      "value": 0.15,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-29T08:00:00",
+      "pollutant": "NO",
+      "value": 0.23,
+      "robust_z": 3.723188992310807,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    }
+  ]
+}

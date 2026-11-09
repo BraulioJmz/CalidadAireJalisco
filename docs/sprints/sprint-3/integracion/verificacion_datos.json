@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-11-09T05:09:58.055492+00:00",
+  "checks_passed": 118525,
+  "before_files": 353,
+  "protected_files_unchanged": 349,
+  "authorized_ui_changes": [
+    "web/app/metodologia/page.tsx",
+    "web/app/page.tsx",
+    "web/components/NavLinks.tsx",
+    "web/lib/site.ts"
+  ],
+  "C05_unchanged": true,
+  "prediction_origins": 6225,
+  "prediction_horizons_checked": 18675,
+  "summary_bytes": 21776,
+  "same_origin_queries": true,
+  "historical_source_manifest_sha256": "fde54c5d9248117aa876ba656ddd9368ba34caa5fc82466d85dc6ff095371b98"
+}

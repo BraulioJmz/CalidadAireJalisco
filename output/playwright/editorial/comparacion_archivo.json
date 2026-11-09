@@ -1,0 +1,435 @@
+{
+  "reference_commit": "527af8a4781df65ede43b746dffdddb330915740",
+  "method": "Cuerpo y CSS sin cambios frente a HEAD. Navegación de referencia normalizada a las cuatro entradas de HEAD antes de capturar. Comparación de texto, tipografía, color, fondo y rectángulos de títulos, navegación, seis tarjetas y seis párrafos.",
+  "identical": true,
+  "routes": [
+    "/sprint-1",
+    "/sprint-2"
+  ],
+  "reference": {
+    "/sprint-1": {
+      "h1": {
+        "text": "Del dato horario a la información: calidad del aire en la estación Miravalle, Jalisco, durante marzo de 2024",
+        "font": "\"Newsreader Variable\", \"Iowan Old Style\", Georgia, serif",
+        "fontSize": "48px",
+        "lineHeight": "51.84px",
+        "color": "rgb(15, 27, 45)",
+        "background": "rgba(0, 0, 0, 0)",
+        "x": 232.5,
+        "y": 162.78125,
+        "width": 896,
+        "height": 155.484375
+      },
+      "nav": [
+        {
+          "text": "InicioObservatorio",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 838.96875,
+          "y": 14.484375,
+          "width": 106.0625,
+          "height": 32
+        },
+        {
+          "text": "S1Sprint 1",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(244, 246, 249)",
+          "background": "rgb(15, 27, 45)",
+          "x": 949.03125,
+          "y": 14.484375,
+          "width": 71.484375,
+          "height": 32
+        },
+        {
+          "text": "S2Sprint 2 · 2023–24",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 1024.515625,
+          "y": 14.484375,
+          "width": 144.484375,
+          "height": 32
+        },
+        {
+          "text": "MétodoMetodología",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 1173,
+          "y": 14.484375,
+          "width": 103.5,
+          "height": 32
+        }
+      ],
+      "cards": [
+        {
+          "text": "VariableUnidadVálidosDisponibilidadMínMedianaMáxO₃ Ozonoppm68391.8%0.0000.0280.091NO Monóxido de nitrógenoppm00.0%———NO₂ Dióxido de nitrógenoppm00.0%———NOX Óxidos de nitrógenoppm00.0%———SO₂ Dióxido de",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 399.5,
+          "y": 2655.71875,
+          "width": 856,
+          "height": 666.53125
+        },
+        {
+          "text": "12345678910111213141516171819202122232425262728293031O₃COPM₁₀PM₂.₅ETWSWD0 h1–11 h12–17 h18–23 h24 h· 18 h = mínimo para el indicador diario",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 419.5,
+          "y": 3605.4375,
+          "width": 816,
+          "height": 271.3125
+        },
+        {
+          "text": "Fecha y horaVariableValorClasificaciónDetalle2024-03-07 17:00PM₂.₅0RevisarValor cero. Cero exacto poco probable en zona urbana; no altera la categoría (Buena).2024-03-05 20:00O₃0.001Valor bajo plausib",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 415.5,
+          "y": 4662.34375,
+          "width": 824,
+          "height": 420
+        },
+        {
+          "text": "PeriodoRecomendado · 26 mar – 28 mar1 – 3 de marzo2 – 4 de marzo3 – 5 de marzo4 – 6 de marzo5 – 7 de marzo6 – 8 de marzo7 – 9 de marzo8 – 10 de marzo9 – 11 de marzo10 – 12 de marzo11 – 13 de marzo12 –",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 419.5,
+          "y": 8607.625,
+          "width": 816,
+          "height": 116
+        },
+        {
+          "text": "Recorrido guiado · 7 momentos clave← AnteriorSiguiente →1 · Inicio del periodo 26 mar 00:002 · Sube a Muy Mala 27 mar 08:003 · Cambia a O₃ 27 mar 13:004 · Máximo de ozono 27 mar 14:005 · Regresa a Bue",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 419.5,
+          "y": 8743.625,
+          "width": 816,
+          "height": 264.109375
+        },
+        {
+          "text": "Aviso para la comunidad · en pausa27 mar 2024 · 08:00 miéMuy MalaRiesgo Muy altoDefine PM10 141 µg/m³Cambio de categoríaPoblación en general · Menores de 12 años y personas gestantesReduce las activid",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 419.5,
+          "y": 9027.734375,
+          "width": 409.75,
+          "height": 740.296875
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "Reporte técnico núm. 1 · Sprint 1 · Observatorio de Calidad del Aire",
+          "font": "GeistMono, ui-monospace, SFMono-Regular, \"Roboto Mono\", Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, ui-monospace, Menlo, monospace",
+          "fontSize": "11.2px",
+          "lineHeight": "16.8px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 232.5,
+          "y": 125.984375,
+          "width": 960,
+          "height": 16.796875
+        },
+        {
+          "text": "Equipo 3 · Análisis y Visualización de la Información · Universidad de Guadalajara",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 232.5,
+          "y": 338.265625,
+          "width": 960,
+          "height": 24
+        },
+        {
+          "text": "Estación Miravalle (MIR), red de monitoreo de SEMADET · Periodo: 1 al 31 de marzo de 2024 · Norma: NOM-172-SEMARNAT-2023",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 232.5,
+          "y": 366.265625,
+          "width": 960,
+          "height": 20
+        },
+        {
+          "text": "Resumen. Este reporte documenta un proceso reproducible para convertir los registros horarios de la estación Miravalle en información del Índice AIRE Y SALUD. Se prepararon 744 registros horarios de 1",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16.32px",
+          "lineHeight": "28.56px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 254.5,
+          "y": 426.265625,
+          "width": 826.625,
+          "height": 199.828125
+        },
+        {
+          "text": "Palabras clave: calidad del aire; Índice AIRE Y SALUD; NOM-172-SEMARNAT-2023; NowCast; PM₁₀; Área Metropolitana de Guadalajara.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 254.5,
+          "y": 638.09375,
+          "width": 826.625,
+          "height": 40
+        },
+        {
+          "text": "Contenido",
+          "font": "GeistMono, ui-monospace, SFMono-Regular, \"Roboto Mono\", Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, ui-monospace, Menlo, monospace",
+          "fontSize": "11.2px",
+          "lineHeight": "16px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 168.5,
+          "y": 783.09375,
+          "width": 190,
+          "height": 16
+        }
+      ]
+    },
+    "/sprint-2": {
+      "h1": {
+        "text": "2024 frente a 2023",
+        "font": "\"Newsreader Variable\", \"Iowan Old Style\", Georgia, serif",
+        "fontSize": "72px",
+        "lineHeight": "77.04px",
+        "color": "rgb(15, 27, 45)",
+        "background": "rgba(0, 0, 0, 0)",
+        "x": 104.5,
+        "y": 137.171875,
+        "width": 650,
+        "height": 77.03125
+      },
+      "nav": [
+        {
+          "text": "InicioObservatorio",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 838.96875,
+          "y": 14.484375,
+          "width": 106.0625,
+          "height": 32
+        },
+        {
+          "text": "S1Sprint 1",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 949.03125,
+          "y": 14.484375,
+          "width": 71.484375,
+          "height": 32
+        },
+        {
+          "text": "S2Sprint 2 · 2023–24",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(244, 246, 249)",
+          "background": "rgb(15, 27, 45)",
+          "x": 1024.515625,
+          "y": 14.484375,
+          "width": 144.484375,
+          "height": 32
+        },
+        {
+          "text": "MétodoMetodología",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 1173,
+          "y": 14.484375,
+          "width": 103.5,
+          "height": 32
+        }
+      ],
+      "cards": [
+        {
+          "text": "Contaminante principalPM₁₀ · µg/m³PM₂.₅ · µg/m³O₃ · ppmCO · ppmAñoAmbos años20232024PeriodoTodo el añoEneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembrePM₁₀Diciembre · µg/m³",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 104.5,
+          "y": 318.765625,
+          "width": 1216,
+          "height": 107
+        },
+        {
+          "text": "Contaminante prioritarioPM₁₀276 días con este contaminante como determinante del máximo disponible.Prioridad estadística; no identifica una fuente emisora.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 104.5,
+          "y": 544.78125,
+          "width": 292,
+          "height": 205.15625
+        },
+        {
+          "text": "Diciembre · categorías27 díasPM₁₀ en Mala o peor en 2024, frente a 15 en 2023.31/31 fechas pareadas · comparación suficiente",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 412.5,
+          "y": 544.78125,
+          "width": 292,
+          "height": 205.15625
+        },
+        {
+          "text": "Episodio para revisar4 días2023-12-31 → 2024-01-03 · PM10Mala · 96/96 lecturas",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 720.5,
+          "y": 544.78125,
+          "width": 292,
+          "height": 205.15625
+        },
+        {
+          "text": "Nivel de lecturaCondicionadaLa cobertura y la disponibilidad cambian entre contaminantes y meses.Interpretar cambios únicamente con sus pares y denominadores.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 1028.5,
+          "y": 544.78125,
+          "width": 292,
+          "height": 205.15625
+        },
+        {
+          "text": "2023≥75 % de días evaluables31 / 31 díasDías evaluables de PM₁₀48.39 %Mala o peor · 15/31 evaluables60.95 µg/m³Media de promedios diarios de 24 h",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "color": "rgb(15, 27, 45)",
+          "background": "rgb(255, 255, 255)",
+          "x": 104.5,
+          "y": 1084.4375,
+          "width": 394.65625,
+          "height": 301.203125
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "Academia Miravalle · estación MIR · Sprint 2",
+          "font": "GeistMono, ui-monospace, SFMono-Regular, \"Roboto Mono\", Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, ui-monospace, Menlo, monospace",
+          "fontSize": "11.2px",
+          "lineHeight": "16.8px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 104.5,
+          "y": 109.984375,
+          "width": 650,
+          "height": 16.796875
+        },
+        {
+          "text": "Dos años, una referencia común. Explora qué cambió en las fechas evaluadas y dónde la cobertura limita la comparación.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "16.64px",
+          "lineHeight": "28.288px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 104.5,
+          "y": 230.203125,
+          "width": 650,
+          "height": 56.5625
+        },
+        {
+          "text": "Lectura rápida · 2024",
+          "font": "GeistMono, ui-monospace, SFMono-Regular, \"Roboto Mono\", Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, ui-monospace, Menlo, monospace",
+          "fontSize": "11.2px",
+          "lineHeight": "16.8px",
+          "color": "rgb(105, 118, 138)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 104.5,
+          "y": 460.953125,
+          "width": 473.40625,
+          "height": 16.796875
+        },
+        {
+          "text": "Indicadores calculados con los resultados anuales y los criterios de cobertura del proyecto.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "12.48px",
+          "lineHeight": "21.216px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 930.5,
+          "y": 483.953125,
+          "width": 390,
+          "height": 42.4375
+        },
+        {
+          "text": "276 días con este contaminante como determinante del máximo disponible.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "12.8px",
+          "lineHeight": "20.48px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 125.5,
+          "y": 641.515625,
+          "width": 250,
+          "height": 40.9375
+        },
+        {
+          "text": "PM₁₀ en Mala o peor en 2024, frente a 15 en 2023.",
+          "font": "GeistSans, \"GeistSans Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+          "fontSize": "12.8px",
+          "lineHeight": "20.48px",
+          "color": "rgb(60, 74, 94)",
+          "background": "rgba(0, 0, 0, 0)",
+          "x": 433.5,
+          "y": 641.515625,
+          "width": 250,
+          "height": 40.9375
+        }
+      ]
+    }
+  }
+}

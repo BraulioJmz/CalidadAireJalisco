@@ -1,0 +1,171 @@
+{
+  "schema": "mir-s3-pm10-protocolo-v1",
+  "registered_utc": "2026-11-09T02:29:31.212547+00:00",
+  "target": "Concentración horaria observada PM10",
+  "unit": "µg/m³",
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "context_hours": 24,
+  "partitions": {
+    "train": [
+      "2015-01-01T00:00:00",
+      "2023-01-01T00:00:00"
+    ],
+    "validation": [
+      "2023-01-01T00:00:00",
+      "2024-01-01T00:00:00"
+    ],
+    "test": [
+      "2024-01-01T00:00:00",
+      "2025-01-01T00:00:00"
+    ]
+  },
+  "exposure_2024": "Explorado descriptivamente en Sprint 2 y en inventario; evaluación retrospectiva, no prueba ciega. Sus métricas predictivas no eligen decisiones.",
+  "sample_rule": "24 horas t-23..t más t+1,t+2,t+3 observadas en rejilla real; orígenes idénticos en modelos y horizontes. Se excluyen objetivos que crucen particiones. El reajuste 2015–2023 recupera las ventanas de frontera interna de 2022 si son completas.",
+  "quality_rule": "Finito y PM10 >=0; ceros válidos, sin imputar ni eliminar picos altos; respeta inventario y procedencia.",
+  "features": [
+    "pm10_lag_0",
+    "pm10_lag_1",
+    "pm10_lag_2",
+    "pm10_lag_3",
+    "pm10_lag_4",
+    "pm10_lag_5",
+    "pm10_lag_6",
+    "pm10_lag_7",
+    "pm10_lag_8",
+    "pm10_lag_9",
+    "pm10_lag_10",
+    "pm10_lag_11",
+    "pm10_lag_12",
+    "pm10_lag_13",
+    "pm10_lag_14",
+    "pm10_lag_15",
+    "pm10_lag_16",
+    "pm10_lag_17",
+    "pm10_lag_18",
+    "pm10_lag_19",
+    "pm10_lag_20",
+    "pm10_lag_21",
+    "pm10_lag_22",
+    "pm10_lag_23",
+    "pm10_mean_3h",
+    "pm10_std_3h",
+    "pm10_min_3h",
+    "pm10_max_3h",
+    "pm10_mean_6h",
+    "pm10_std_6h",
+    "pm10_min_6h",
+    "pm10_max_6h",
+    "pm10_mean_12h",
+    "pm10_std_12h",
+    "pm10_min_12h",
+    "pm10_max_12h",
+    "pm10_mean_24h",
+    "pm10_std_24h",
+    "pm10_min_24h",
+    "pm10_max_24h",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "annual_sin",
+    "annual_cos",
+    "weekend"
+  ],
+  "feature_rules": "Rezagos de hora real; resúmenes poblacionales ddof=0 de pasado incl. t; ciclos en hora/24, día semanal/7, fracción del año de origen (365/366). Sin escalado, selección aprendida ni meteorología.",
+  "baselines": {
+    "persistencia": "y(t) para todos los horizontes",
+    "diaria": "y(t+h-24), disponible en contexto para h=1,2,3"
+  },
+  "family": "HistGradientBoostingRegressor",
+  "fixed_parameters": {
+    "loss": "squared_error",
+    "min_samples_leaf": 30,
+    "l2_regularization": 1.0,
+    "max_bins": 255,
+    "max_features": 1.0,
+    "categorical_features": null,
+    "early_stopping": false,
+    "validation_fraction": null,
+    "warm_start": false,
+    "random_state": 20261108
+  },
+  "candidates": [
+    {
+      "id": "C01",
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.05,
+      "max_iter": 150
+    },
+    {
+      "id": "C02",
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.05,
+      "max_iter": 300
+    },
+    {
+      "id": "C03",
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "max_iter": 150
+    },
+    {
+      "id": "C04",
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "max_iter": 300
+    },
+    {
+      "id": "C05",
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.05,
+      "max_iter": 150
+    },
+    {
+      "id": "C06",
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.05,
+      "max_iter": 300
+    },
+    {
+      "id": "C07",
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "max_iter": 150
+    },
+    {
+      "id": "C08",
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "max_iter": 300
+    }
+  ],
+  "selection": "Media aritmética del MAE de h1,h2,h3 en 2023. Desempate sobre MAE redondeado a 8 decimales: menos hojas, menos iteraciones, menor learning_rate, id.",
+  "high_diagnostic": {
+    "quantile": 0.9,
+    "method": "linear",
+    "population": "Horas PM10 utilizables únicas de 2015–2022, sin ponderar por ventanas ni horizontes",
+    "rule": "observado >= percentil; fijo tras entrenamiento inicial, no normativo"
+  },
+  "signed_error": "predicho - observado; positivo = sobreestimación",
+  "prediction_postprocessing": "Ninguno: sin recortes, calibración posterior ni ajustes usando validación o test.",
+  "eda": "Solo PM10 de 2015–2022: perfil horario, mensual y autocorrelación por fechas reales; n y esperados visibles.",
+  "metrics": "MAE, RMSE, R² (negativos conservados; no definido con n<2 o varianza observada cero), sesgo, n, meses por fecha objetivo y estrato alto.",
+  "training_metric_warning": "Las métricas de entrenamiento son en muestra y optimistas.",
+  "threads": 4,
+  "source_manifest_sha256": "fde54c5d9248117aa876ba656ddd9368ba34caa5fc82466d85dc6ff095371b98",
+  "initial_inventory_windows": 53608,
+  "library_versions": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "sources_docs": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+    "https://scikit-learn.org/stable/modules/ensemble.html#histogram-based-gradient-boosting"
+  ]
+}

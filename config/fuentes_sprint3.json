@@ -1,0 +1,196 @@
+{
+  "ventana": [
+    2015,
+    2024
+  ],
+  "estacion": "MIR / Miravalle",
+  "nota": "Originales sin edición; 2023–2024 reutilizados sin duplicar ni fingir fecha de descarga.",
+  "fuentes": [
+    {
+      "year": 2015,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2015.xlsx",
+      "sha256": "908158a36697dd8b89dda9feb2657aa31aad12d0f0fe9c65b2021326780976b7",
+      "bytes": 7583568,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2015.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2015.xlsx",
+      "descargado_en_utc": "2026-11-08T21:58:00.368288+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:57:38.331456+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7583568",
+        "Last-Modified": "Tue, 14 Oct 2025 20:15:24 GMT",
+        "ETag": "\"016f645473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2016,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2016.xlsx",
+      "sha256": "091384fbeefe7eba2926e663d4ef5cba2b9375468a8b289e2ebf39635d2f8de3",
+      "bytes": 7619590,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2016.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2016.xlsx",
+      "descargado_en_utc": "2026-11-08T21:58:41.518671+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:58:01.203286+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7619590",
+        "Last-Modified": "Tue, 14 Oct 2025 20:15:46 GMT",
+        "ETag": "\"051353473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2017,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2017.xlsx",
+      "sha256": "3bfd7d0b03d5280ebf94c19f9a6eec20cfe544f3fdeef0802e377ce09dcc314e",
+      "bytes": 7368147,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2017.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2017.xlsx",
+      "descargado_en_utc": "2026-11-08T21:59:15.105358+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:58:41.541736+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7368147",
+        "Last-Modified": "Tue, 14 Oct 2025 20:17:30 GMT",
+        "ETag": "\"0291091473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2018,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2018.xlsx",
+      "sha256": "a7578410cb57c467d93d7a441ef25e1b37689e63534e9b15a05e73194a37e361",
+      "bytes": 7066529,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2018.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2018.xlsx",
+      "descargado_en_utc": "2026-11-08T21:59:48.570375+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:59:15.107956+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7066529",
+        "Last-Modified": "Tue, 14 Oct 2025 20:17:58 GMT",
+        "ETag": "\"09fc0a1473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2019,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2019.xlsx",
+      "sha256": "070245aa1f35f98f764f86f2ee6af9b53b81b89d7687f851ff76f98c7bca6d6f",
+      "bytes": 7131653,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2019.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2019.xlsx",
+      "descargado_en_utc": "2026-11-08T22:00:28.357360+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:59:48.574383+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7131653",
+        "Last-Modified": "Tue, 14 Oct 2025 20:18:24 GMT",
+        "ETag": "\"0e83fb1473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2020,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2020.xlsx",
+      "sha256": "d27d488a7406138e8e25e8a8faccd58a3e572cfa466d790d7a1f04521d9d1ce8",
+      "bytes": 7192461,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2020.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2020.xlsx",
+      "descargado_en_utc": "2026-11-08T22:01:15.810061+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:00:28.366903+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7192461",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:04 GMT",
+        "ETag": "\"06c17c9473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2021,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2021.xlsx",
+      "sha256": "b6526e5a10062f22e58086f994a4a46c07b1a329e22859398643db49abe44daa",
+      "bytes": 7082633,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2021.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2021.xlsx",
+      "descargado_en_utc": "2026-11-08T22:01:59.895616+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:01:15.819595+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7082633",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:28 GMT",
+        "ETag": "\"08865d7473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2022,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2022.xlsx",
+      "sha256": "4f61ffec7b7257770d8cf41bdeea8a50fd49c340484de4907e55cb0af06fc7ed",
+      "bytes": 6304644,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2022.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2022.xlsx",
+      "descargado_en_utc": "2026-11-08T22:02:36.785266+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:01:59.901605+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "6304644",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:54 GMT",
+        "ETag": "\"0d1e4e6473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2023,
+      "status": "disponible",
+      "path": "data/source/sprint-2/originales/BD_2023.xlsx",
+      "sha256": "f2a7f43b6e7c6aac276d58500b7fad2c7936ca8b29213330971ec952daadc5f6",
+      "bytes": 9418290,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2023.xlsx",
+      "url_patron_solicitado": "https://aire.jalisco.gob.mx/reportes/BD_2023.xlsx",
+      "descargado_en_utc": null,
+      "origen": "Descarga oficial de SEMADET",
+      "reutilizado_sprint2": true,
+      "nota_fecha": "Fecha de descarga original no acreditada; no se sustituye por la fecha de inventario."
+    },
+    {
+      "year": 2024,
+      "status": "disponible",
+      "path": "data/source/sprint-2/originales/BD_2024.xlsx",
+      "sha256": "fe8e30b34cb64cfa3bfdaa52bcafb935c942b8e59de6132916497cf28a738e9c",
+      "bytes": 9173689,
+      "url": null,
+      "url_patron_solicitado": "https://aire.jalisco.gob.mx/reportes/BD_2024.xlsx",
+      "descargado_en_utc": null,
+      "origen": "Archivo suministrado en la conversación/asignatura",
+      "reutilizado_sprint2": true,
+      "nota_fecha": "Fecha de descarga original no acreditada; no se sustituye por la fecha de inventario."
+    }
+  ]
+}

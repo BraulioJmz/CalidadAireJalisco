@@ -1,0 +1,1157 @@
+[
+  {
+    "pollutant": "PM10",
+    "year": 2015,
+    "date": "2015-01-28T22:00:00",
+    "value": 471.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2015,
+    "date": "2015-01-29T23:00:00",
+    "value": 391.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2015,
+    "date": "2015-01-01T06:00:00",
+    "value": 390.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2016,
+    "date": "2016-11-09T06:00:00",
+    "value": 488.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2016,
+    "date": "2016-01-02T06:00:00",
+    "value": 403.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2016,
+    "date": "2016-03-08T17:00:00",
+    "value": 318.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2017,
+    "date": "2017-01-10T23:00:00",
+    "value": 969.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2017,
+    "date": "2017-01-19T01:00:00",
+    "value": 953.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2017,
+    "date": "2017-09-18T12:00:00",
+    "value": 675.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2018,
+    "date": "2018-12-25T08:00:00",
+    "value": 640.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2018,
+    "date": "2018-04-10T09:00:00",
+    "value": 417.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2018,
+    "date": "2018-07-25T14:00:00",
+    "value": 396.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2019,
+    "date": "2019-01-01T03:00:00",
+    "value": 421.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2019,
+    "date": "2019-05-31T21:00:00",
+    "value": 372.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2019,
+    "date": "2019-01-02T10:00:00",
+    "value": 358.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2020,
+    "date": "2020-12-30T03:00:00",
+    "value": 355.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2020,
+    "date": "2020-12-20T02:00:00",
+    "value": 315.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2020,
+    "date": "2020-01-09T09:00:00",
+    "value": 303.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2021,
+    "date": "2021-12-25T08:00:00",
+    "value": 632.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2021,
+    "date": "2021-12-15T03:00:00",
+    "value": 548.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2021,
+    "date": "2021-12-24T03:00:00",
+    "value": 548.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2022,
+    "date": "2022-10-17T15:00:00",
+    "value": 635.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2022,
+    "date": "2022-04-26T22:00:00",
+    "value": 532.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2022,
+    "date": "2022-12-25T05:00:00",
+    "value": 507.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2023,
+    "date": "2023-01-01T07:00:00",
+    "value": 415.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2023,
+    "date": "2023-01-17T08:00:00",
+    "value": 397.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2023,
+    "date": "2023-12-23T00:00:00",
+    "value": 344.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2024,
+    "date": "2024-12-25T09:00:00",
+    "value": 597.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2024,
+    "date": "2024-11-27T01:00:00",
+    "value": 511.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM10",
+    "year": 2024,
+    "date": "2024-11-23T01:00:00",
+    "value": 495.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2018,
+    "date": "2018-12-25T05:00:00",
+    "value": 550.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2018,
+    "date": "2018-12-31T23:00:00",
+    "value": 184.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2018,
+    "date": "2018-12-22T02:00:00",
+    "value": 179.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2019,
+    "date": "2019-12-08T02:00:00",
+    "value": 136.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2019,
+    "date": "2019-12-25T06:00:00",
+    "value": 136.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2019,
+    "date": "2019-12-14T02:00:00",
+    "value": 132.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2020,
+    "date": "2020-01-09T09:00:00",
+    "value": 162.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2020,
+    "date": "2020-01-14T08:00:00",
+    "value": 126.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2020,
+    "date": "2020-05-28T08:00:00",
+    "value": 112.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2021,
+    "date": "2021-12-25T08:00:00",
+    "value": 325.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2021,
+    "date": "2021-12-15T02:00:00",
+    "value": 194.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2021,
+    "date": "2021-12-23T06:00:00",
+    "value": 191.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2022,
+    "date": "2022-12-25T05:00:00",
+    "value": 417.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2022,
+    "date": "2022-04-26T22:00:00",
+    "value": 399.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2022,
+    "date": "2022-01-01T06:00:00",
+    "value": 280.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2023,
+    "date": "2023-01-17T08:00:00",
+    "value": 222.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2023,
+    "date": "2023-12-25T05:00:00",
+    "value": 203.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2023,
+    "date": "2023-02-14T07:00:00",
+    "value": 152.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2024,
+    "date": "2024-12-25T09:00:00",
+    "value": 470.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2024,
+    "date": "2024-01-01T07:00:00",
+    "value": 287.4,
+    "exploratory": false
+  },
+  {
+    "pollutant": "PM2.5",
+    "year": 2024,
+    "date": "2024-12-31T23:00:00",
+    "value": 283.0,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2015,
+    "date": "2015-05-27T15:00:00",
+    "value": 0.109,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2015,
+    "date": "2015-05-14T15:00:00",
+    "value": 0.103,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2015,
+    "date": "2015-04-07T15:00:00",
+    "value": 0.093,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2016,
+    "date": "2016-06-13T17:00:00",
+    "value": 0.089,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2016,
+    "date": "2016-08-12T16:00:00",
+    "value": 0.088,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2016,
+    "date": "2016-06-14T17:00:00",
+    "value": 0.085,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2017,
+    "date": "2017-06-12T16:00:00",
+    "value": 0.2,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2017,
+    "date": "2017-07-17T16:00:00",
+    "value": 0.17,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2017,
+    "date": "2017-05-31T15:00:00",
+    "value": 0.16,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2018,
+    "date": "2018-07-04T14:00:00",
+    "value": 0.195,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2018,
+    "date": "2018-07-25T14:00:00",
+    "value": 0.133,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2018,
+    "date": "2018-07-23T15:00:00",
+    "value": 0.122,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2019,
+    "date": "2019-09-09T16:00:00",
+    "value": 0.225,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2019,
+    "date": "2019-08-17T14:00:00",
+    "value": 0.162,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2019,
+    "date": "2019-09-04T14:00:00",
+    "value": 0.156,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2020,
+    "date": "2020-10-23T15:00:00",
+    "value": 0.117,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2020,
+    "date": "2020-08-03T11:00:00",
+    "value": 0.114,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2020,
+    "date": "2020-06-09T15:00:00",
+    "value": 0.112,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2021,
+    "date": "2021-06-08T14:00:00",
+    "value": 0.109,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2021,
+    "date": "2021-02-23T16:00:00",
+    "value": 0.101,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2021,
+    "date": "2021-04-14T14:00:00",
+    "value": 0.098,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2022,
+    "date": "2022-07-11T15:00:00",
+    "value": 0.13,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2022,
+    "date": "2022-08-27T15:00:00",
+    "value": 0.122,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2022,
+    "date": "2022-12-10T15:00:00",
+    "value": 0.118,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2023,
+    "date": "2023-08-08T14:00:00",
+    "value": 0.147,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2023,
+    "date": "2023-11-08T15:00:00",
+    "value": 0.144,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2023,
+    "date": "2023-08-12T14:00:00",
+    "value": 0.117,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2024,
+    "date": "2024-02-24T16:00:00",
+    "value": 0.153,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2024,
+    "date": "2024-02-21T16:00:00",
+    "value": 0.146,
+    "exploratory": false
+  },
+  {
+    "pollutant": "O3",
+    "year": 2024,
+    "date": "2024-06-17T14:00:00",
+    "value": 0.144,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2015,
+    "date": "2015-02-04T08:00:00",
+    "value": 6.345,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2015,
+    "date": "2015-01-27T07:00:00",
+    "value": 5.744,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2015,
+    "date": "2015-01-13T08:00:00",
+    "value": 5.479,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2016,
+    "date": "2016-01-01T07:00:00",
+    "value": 7.409,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2016,
+    "date": "2016-02-07T22:00:00",
+    "value": 6.393,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2016,
+    "date": "2016-01-20T08:00:00",
+    "value": 5.796,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2017,
+    "date": "2017-12-25T00:00:00",
+    "value": 5.983,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2017,
+    "date": "2017-12-10T21:00:00",
+    "value": 5.396,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2017,
+    "date": "2017-12-22T22:00:00",
+    "value": 5.386,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2018,
+    "date": "2018-12-24T22:00:00",
+    "value": 6.26,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2018,
+    "date": "2018-01-19T07:00:00",
+    "value": 5.002,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2018,
+    "date": "2018-12-31T22:00:00",
+    "value": 4.637,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2019,
+    "date": "2019-04-10T08:00:00",
+    "value": 3.37,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2019,
+    "date": "2019-04-11T08:00:00",
+    "value": 3.34,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2019,
+    "date": "2019-12-22T22:00:00",
+    "value": 3.17,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2020,
+    "date": "2020-12-19T22:00:00",
+    "value": 6.16,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2020,
+    "date": "2020-12-24T20:00:00",
+    "value": 4.63,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2020,
+    "date": "2020-02-07T07:00:00",
+    "value": 4.32,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2021,
+    "date": "2021-12-23T21:00:00",
+    "value": 5.73,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2021,
+    "date": "2021-12-16T06:00:00",
+    "value": 5.19,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2021,
+    "date": "2021-11-26T03:00:00",
+    "value": 4.89,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2022,
+    "date": "2022-01-01T05:00:00",
+    "value": 4.4,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2022,
+    "date": "2022-03-03T08:00:00",
+    "value": 4.06,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2022,
+    "date": "2022-01-22T08:00:00",
+    "value": 3.98,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2023,
+    "date": "2023-01-01T07:00:00",
+    "value": 5.324,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2023,
+    "date": "2023-01-17T07:00:00",
+    "value": 4.991,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2023,
+    "date": "2023-01-20T07:00:00",
+    "value": 4.4,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2024,
+    "date": "2024-12-25T08:00:00",
+    "value": 5.431,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2024,
+    "date": "2024-12-31T22:00:00",
+    "value": 5.314,
+    "exploratory": false
+  },
+  {
+    "pollutant": "CO",
+    "year": 2024,
+    "date": "2024-12-03T20:00:00",
+    "value": 4.958,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2015,
+    "date": "2015-02-23T10:00:00",
+    "value": 0.08605,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2015,
+    "date": "2015-02-04T19:00:00",
+    "value": 0.08293,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2015,
+    "date": "2015-11-23T19:00:00",
+    "value": 0.07703,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2016,
+    "date": "2016-02-15T20:00:00",
+    "value": 0.09833,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2016,
+    "date": "2016-12-17T10:00:00",
+    "value": 0.09352,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2016,
+    "date": "2016-02-18T21:00:00",
+    "value": 0.093,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2017,
+    "date": "2017-01-11T11:00:00",
+    "value": 0.081,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2017,
+    "date": "2017-02-08T19:00:00",
+    "value": 0.078,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2017,
+    "date": "2017-01-03T20:00:00",
+    "value": 0.075,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2018,
+    "date": "2018-01-13T09:00:00",
+    "value": 0.061,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2018,
+    "date": "2018-01-16T20:00:00",
+    "value": 0.057,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2018,
+    "date": "2018-01-15T19:00:00",
+    "value": 0.056,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2019,
+    "date": "2019-12-06T10:00:00",
+    "value": 0.056,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2019,
+    "date": "2019-12-02T19:00:00",
+    "value": 0.045,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2019,
+    "date": "2019-12-10T09:00:00",
+    "value": 0.04,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2020,
+    "date": "2020-12-09T19:00:00",
+    "value": 0.091,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2020,
+    "date": "2020-12-17T10:00:00",
+    "value": 0.086,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2020,
+    "date": "2020-11-25T10:00:00",
+    "value": 0.085,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2021,
+    "date": "2021-01-04T09:00:00",
+    "value": 0.092,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2021,
+    "date": "2021-11-10T12:00:00",
+    "value": 0.092,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2021,
+    "date": "2021-12-10T10:00:00",
+    "value": 0.087,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2024,
+    "date": "2024-12-05T11:00:00",
+    "value": 0.128,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2024,
+    "date": "2024-12-06T19:00:00",
+    "value": 0.111,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NO2",
+    "year": 2024,
+    "date": "2024-11-27T21:00:00",
+    "value": 0.109,
+    "exploratory": true
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2015,
+    "date": "2015-01-15T08:00:00",
+    "value": 0.02403,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2015,
+    "date": "2015-02-04T08:00:00",
+    "value": 0.0232,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2015,
+    "date": "2015-02-06T22:00:00",
+    "value": 0.02068,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2016,
+    "date": "2016-02-08T20:00:00",
+    "value": 0.01933,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2016,
+    "date": "2016-01-12T08:00:00",
+    "value": 0.01815,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2016,
+    "date": "2016-01-21T21:00:00",
+    "value": 0.0174,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2017,
+    "date": "2017-05-19T08:00:00",
+    "value": 0.0197,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2017,
+    "date": "2017-06-03T08:00:00",
+    "value": 0.0191,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2017,
+    "date": "2017-05-06T08:00:00",
+    "value": 0.018,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2018,
+    "date": "2018-12-07T09:00:00",
+    "value": 0.02,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2018,
+    "date": "2018-11-18T09:00:00",
+    "value": 0.0186,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2018,
+    "date": "2018-11-27T08:00:00",
+    "value": 0.0182,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2019,
+    "date": "2019-12-03T21:00:00",
+    "value": 0.0111,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2019,
+    "date": "2019-12-08T06:00:00",
+    "value": 0.0088,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2019,
+    "date": "2019-01-04T08:00:00",
+    "value": 0.0075,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2020,
+    "date": "2020-12-29T08:00:00",
+    "value": 0.0177,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2020,
+    "date": "2020-12-16T09:00:00",
+    "value": 0.0133,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2020,
+    "date": "2020-12-18T08:00:00",
+    "value": 0.0133,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2021,
+    "date": "2021-12-16T10:00:00",
+    "value": 0.02,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2021,
+    "date": "2021-12-18T07:00:00",
+    "value": 0.019,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2021,
+    "date": "2021-03-08T07:00:00",
+    "value": 0.015,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2022,
+    "date": "2022-12-25T05:00:00",
+    "value": 0.023,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2022,
+    "date": "2022-11-25T09:00:00",
+    "value": 0.021,
+    "exploratory": false
+  },
+  {
+    "pollutant": "SO2",
+    "year": 2022,
+    "date": "2022-12-16T08:00:00",
+    "value": 0.02,
+    "exploratory": false
+  },
+  {
+    "pollutant": "NO",
+    "year": 2024,
+    "date": "2024-12-05T07:00:00",
+    "value": 0.254,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NO",
+    "year": 2024,
+    "date": "2024-11-27T06:00:00",
+    "value": 0.236,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NO",
+    "year": 2024,
+    "date": "2024-12-29T08:00:00",
+    "value": 0.23,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NOX",
+    "year": 2024,
+    "date": "2024-12-05T07:00:00",
+    "value": 0.343,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NOX",
+    "year": 2024,
+    "date": "2024-11-27T06:00:00",
+    "value": 0.317,
+    "exploratory": true
+  },
+  {
+    "pollutant": "NOX",
+    "year": 2024,
+    "date": "2024-12-29T08:00:00",
+    "value": 0.308,
+    "exploratory": true
+  }
+]
