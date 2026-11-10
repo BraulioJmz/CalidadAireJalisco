@@ -1,0 +1,626 @@
+{
+  "schema": "academia-miravalle-v1",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "findings": [
+    {
+      "id": "H01",
+      "title": "Una rejilla completa puede ocultar mediciones ausentes",
+      "detail": "PM₁₀ tiene 2,100 / 8,784 horas utilizables en 2016 (23.9 %).",
+      "figure": "historico-cobertura",
+      "period": "2016",
+      "population": "Horas esperadas y PM10 del inventario",
+      "limitation": "No permite sostener un cambio anual representativo.",
+      "view": 1
+    },
+    {
+      "id": "H02",
+      "title": "PM₂.₅ empieza con una historia fragmentada",
+      "detail": "No hay mediciones numéricas de PM₂.₅ en 2015–2017. La cobertura mejora en 2022–2024.",
+      "figure": "historico-cobertura",
+      "period": "2015–2024",
+      "population": "Horas crudas PM2.5",
+      "limitation": "Ausencia de mediciones no significa aire favorable; no se rellena.",
+      "view": 1
+    },
+    {
+      "id": "H03",
+      "title": "El perfil horario de PM₁₀ tiene un máximo matutino",
+      "detail": "La media observada más alta aparece a las 08:00: 94.4 µg/m³, con 2,892 / 3,653 observaciones.",
+      "figure": "historico-horas",
+      "period": "2015–2024",
+      "population": "PM10 crudo observado, agrupado por hora",
+      "limitation": "Mezcla años y estaciones con cobertura desigual; no identifica fuentes emisoras.",
+      "view": 1
+    },
+    {
+      "id": "H04",
+      "title": "Diciembre de 2024 registra más días desfavorables de PM₁₀",
+      "detail": "15 / 31 frente a 27 / 31 días Mala o peor. La media diaria pareada cambia +65.2 % (31 / 31 pares).",
+      "figure": "comparacion-periodos",
+      "period": "Diciembre 2023 y 2024",
+      "population": "Fechas mes/día coincidentes con base diaria suficiente",
+      "limitation": "Referencia retrospectiva de 2024; el pareamiento no controla meteorología ni actividades.",
+      "view": 2
+    },
+    {
+      "id": "H05",
+      "title": "C05 mejora el error global y aún subestima los picos",
+      "detail": "En 2024, MAE de 16.21, 20.73 y 22.80 µg/m³ a +1, +2 y +3 h; subestimación en concentraciones altas.",
+      "figure": "evaluacion-error",
+      "period": "2024",
+      "population": "6,225 orígenes comunes; 70.9 % de las horas del año",
+      "limitation": "Evaluación retrospectiva; no acredita operación en tiempo real ni validez instrumental.",
+      "view": 5
+    },
+    {
+      "id": "H06",
+      "title": "Una secuencia desfavorable cruza de 2021 a 2022",
+      "detail": "52 días consecutivos de PM₁₀ Mala o peor: 2021-12-04 a 2022-01-24.",
+      "figure": "episodios-secuencia",
+      "period": "2021-12-04 — 2022-01-24",
+      "population": "Categorías de promedio diario PM10 con al menos 18 lecturas",
+      "limitation": "Criterio de episodio del proyecto y bandas retrospectivas; no demuestra una fuente o causa del evento.",
+      "view": 3
+    }
+  ],
+  "pollutants": [
+    {
+      "key": "PM10",
+      "slug": "PM10",
+      "label": "PM₁₀",
+      "unit": "µg/m³",
+      "statistic": "Promedio diario de partículas (24 h)",
+      "categoryApplicable": true
+    },
+    {
+      "key": "PM2.5",
+      "slug": "PM25",
+      "label": "PM₂.₅",
+      "unit": "µg/m³",
+      "statistic": "Promedio diario de partículas (24 h)",
+      "categoryApplicable": true
+    },
+    {
+      "key": "O3",
+      "slug": "O3",
+      "label": "O₃",
+      "unit": "ppm",
+      "statistic": "Máximo horario del día",
+      "categoryApplicable": true
+    },
+    {
+      "key": "CO",
+      "slug": "CO",
+      "label": "CO",
+      "unit": "ppm",
+      "statistic": "Máximo diario del promedio móvil de 8 h",
+      "categoryApplicable": true
+    },
+    {
+      "key": "NO2",
+      "slug": "NO2",
+      "label": "NO₂",
+      "unit": "ppm",
+      "statistic": "Máximo horario del día",
+      "categoryApplicable": true
+    },
+    {
+      "key": "SO2",
+      "slug": "SO2",
+      "label": "SO₂",
+      "unit": "ppm",
+      "statistic": "Máximo horario del día",
+      "categoryApplicable": true
+    },
+    {
+      "key": "NO",
+      "slug": "NO",
+      "label": "NO",
+      "unit": "ppm",
+      "statistic": "Media diaria descriptiva (proyecto)",
+      "categoryApplicable": false
+    },
+    {
+      "key": "NOX",
+      "slug": "NOX",
+      "label": "NOX",
+      "unit": "ppm",
+      "statistic": "Media diaria descriptiva (proyecto)",
+      "categoryApplicable": false
+    }
+  ],
+  "categories": [
+    {
+      "code": 0,
+      "name": "Buena",
+      "color": "#00e400",
+      "ink": "#0b1f0b"
+    },
+    {
+      "code": 1,
+      "name": "Aceptable",
+      "color": "#ffff00",
+      "ink": "#262400"
+    },
+    {
+      "code": 2,
+      "name": "Mala",
+      "color": "#ff7e00",
+      "ink": "#2a1400"
+    },
+    {
+      "code": 3,
+      "name": "Muy Mala",
+      "color": "#ff0000",
+      "ink": "#1f0000"
+    },
+    {
+      "code": 4,
+      "name": "Extremadamente Mala",
+      "color": "#8f3f97",
+      "ink": "#ffffff"
+    }
+  ],
+  "model": {
+    "id": "C05",
+    "n": 6225,
+    "expected": 8784,
+    "coverage": 70.86748633879782,
+    "rawN": 8051,
+    "threshold": 114.0,
+    "features": 47,
+    "parameters": {
+      "loss": "squared_error",
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "max_bins": 255,
+      "max_features": 1.0,
+      "categorical_features": null,
+      "early_stopping": false,
+      "validation_fraction": null,
+      "warm_start": false,
+      "random_state": 20261108,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.05,
+      "max_iter": 150
+    },
+    "freezeSha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+    "metrics": [
+      {
+        "partition": "test",
+        "model": "diaria",
+        "horizon": 1,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 31.023935742971886,
+        "rmse": 51.992569750272466,
+        "r2": 0.07056631789235124,
+        "r2_reason": null,
+        "bias": -0.23967871485943776,
+        "over_fraction": 0.48562248995983937,
+        "under_fraction": 0.49670682730923693
+      },
+      {
+        "partition": "test",
+        "model": "diaria",
+        "horizon": 2,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 31.053654618473896,
+        "rmse": 51.99994284828493,
+        "r2": 0.0704209710308914,
+        "r2_reason": null,
+        "bias": -0.24305220883534137,
+        "over_fraction": 0.4854618473895582,
+        "under_fraction": 0.4970281124497992
+      },
+      {
+        "partition": "test",
+        "model": "diaria",
+        "horizon": 3,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 31.131887550200805,
+        "rmse": 52.187930408488945,
+        "r2": 0.06783517425817931,
+        "r2_reason": null,
+        "bias": -0.2820883534136546,
+        "over_fraction": 0.48530120481927713,
+        "under_fraction": 0.4970281124497992
+      },
+      {
+        "partition": "test",
+        "model": "HGB",
+        "horizon": 1,
+        "fit_period": "2015-2023",
+        "n": 6225,
+        "mae": 16.208401210712893,
+        "rmse": 27.71652287919225,
+        "r2": 0.7358726753618039,
+        "r2_reason": null,
+        "bias": -0.6189369043355617,
+        "over_fraction": 0.5537349397590361,
+        "under_fraction": 0.44626506024096385
+      },
+      {
+        "partition": "test",
+        "model": "HGB",
+        "horizon": 2,
+        "fit_period": "2015-2023",
+        "n": 6225,
+        "mae": 20.730924363867157,
+        "rmse": 33.98093131664452,
+        "r2": 0.6030359847311361,
+        "r2_reason": null,
+        "bias": -0.9340555861413573,
+        "over_fraction": 0.5816867469879518,
+        "under_fraction": 0.4183132530120482
+      },
+      {
+        "partition": "test",
+        "model": "HGB",
+        "horizon": 3,
+        "fit_period": "2015-2023",
+        "n": 6225,
+        "mae": 22.800691405853726,
+        "rmse": 36.938673020887116,
+        "r2": 0.5330018697104564,
+        "r2_reason": null,
+        "bias": -1.0527377637512472,
+        "over_fraction": 0.5831325301204819,
+        "under_fraction": 0.41686746987951806
+      },
+      {
+        "partition": "test",
+        "model": "persistencia",
+        "horizon": 1,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 18.546666666666667,
+        "rmse": 31.814701963780468,
+        "r2": 0.6519901317229184,
+        "r2_reason": null,
+        "bias": -0.09333333333333334,
+        "over_fraction": 0.4987951807228916,
+        "under_fraction": 0.46473895582329317
+      },
+      {
+        "partition": "test",
+        "model": "persistencia",
+        "horizon": 2,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 27.398393574297188,
+        "rmse": 45.05771577659054,
+        "r2": 0.3020586529585868,
+        "r2_reason": null,
+        "bias": -0.16240963855421686,
+        "over_fraction": 0.5061847389558233,
+        "under_fraction": 0.4718072289156626
+      },
+      {
+        "partition": "test",
+        "model": "persistencia",
+        "horizon": 3,
+        "fit_period": "sin_ajuste",
+        "n": 6225,
+        "mae": 33.08,
+        "rmse": 53.060397502586895,
+        "r2": 0.036407168568856285,
+        "r2_reason": null,
+        "bias": -0.2555823293172691,
+        "over_fraction": 0.5042570281124498,
+        "under_fraction": 0.4793574297188755
+      }
+    ]
+  },
+  "sources": [
+    {
+      "year": 2015,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2015.xlsx",
+      "sha256": "908158a36697dd8b89dda9feb2657aa31aad12d0f0fe9c65b2021326780976b7",
+      "bytes": 7583568,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2015.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2015.xlsx",
+      "descargado_en_utc": "2026-11-08T21:58:00.368288+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:57:38.331456+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7583568",
+        "Last-Modified": "Tue, 14 Oct 2025 20:15:24 GMT",
+        "ETag": "\"016f645473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2016,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2016.xlsx",
+      "sha256": "091384fbeefe7eba2926e663d4ef5cba2b9375468a8b289e2ebf39635d2f8de3",
+      "bytes": 7619590,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2016.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2016.xlsx",
+      "descargado_en_utc": "2026-11-08T21:58:41.518671+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:58:01.203286+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7619590",
+        "Last-Modified": "Tue, 14 Oct 2025 20:15:46 GMT",
+        "ETag": "\"051353473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2017,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2017.xlsx",
+      "sha256": "3bfd7d0b03d5280ebf94c19f9a6eec20cfe544f3fdeef0802e377ce09dcc314e",
+      "bytes": 7368147,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2017.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2017.xlsx",
+      "descargado_en_utc": "2026-11-08T21:59:15.105358+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:58:41.541736+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7368147",
+        "Last-Modified": "Tue, 14 Oct 2025 20:17:30 GMT",
+        "ETag": "\"0291091473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2018,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2018.xlsx",
+      "sha256": "a7578410cb57c467d93d7a441ef25e1b37689e63534e9b15a05e73194a37e361",
+      "bytes": 7066529,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2018.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2018.xlsx",
+      "descargado_en_utc": "2026-11-08T21:59:48.570375+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:59:15.107956+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7066529",
+        "Last-Modified": "Tue, 14 Oct 2025 20:17:58 GMT",
+        "ETag": "\"09fc0a1473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2019,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2019.xlsx",
+      "sha256": "070245aa1f35f98f764f86f2ee6af9b53b81b89d7687f851ff76f98c7bca6d6f",
+      "bytes": 7131653,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2019.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2019.xlsx",
+      "descargado_en_utc": "2026-11-08T22:00:28.357360+00:00",
+      "inicio_solicitud_utc": "2026-11-08T21:59:48.574383+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7131653",
+        "Last-Modified": "Tue, 14 Oct 2025 20:18:24 GMT",
+        "ETag": "\"0e83fb1473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2020,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2020.xlsx",
+      "sha256": "d27d488a7406138e8e25e8a8faccd58a3e572cfa466d790d7a1f04521d9d1ce8",
+      "bytes": 7192461,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2020.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2020.xlsx",
+      "descargado_en_utc": "2026-11-08T22:01:15.810061+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:00:28.366903+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7192461",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:04 GMT",
+        "ETag": "\"06c17c9473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2021,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2021.xlsx",
+      "sha256": "b6526e5a10062f22e58086f994a4a46c07b1a329e22859398643db49abe44daa",
+      "bytes": 7082633,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2021.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2021.xlsx",
+      "descargado_en_utc": "2026-11-08T22:01:59.895616+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:01:15.819595+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "7082633",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:28 GMT",
+        "ETag": "\"08865d7473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2022,
+      "status": "disponible",
+      "path": "data/source/sprint-3/originales/BD_2022.xlsx",
+      "sha256": "4f61ffec7b7257770d8cf41bdeea8a50fd49c340484de4907e55cb0af06fc7ed",
+      "bytes": 6304644,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2022.xlsx",
+      "url_final": "https://aire.jalisco.gob.mx/reportes/BD_2022.xlsx",
+      "descargado_en_utc": "2026-11-08T22:02:36.785266+00:00",
+      "inicio_solicitud_utc": "2026-11-08T22:01:59.901605+00:00",
+      "http_status": 200,
+      "http_headers": {
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "6304644",
+        "Last-Modified": "Tue, 14 Oct 2025 20:19:54 GMT",
+        "ETag": "\"0d1e4e6473ddc1:0\""
+      },
+      "origen": "Descarga oficial SEMADET para inventario Sprint 3",
+      "reutilizado_sprint2": false
+    },
+    {
+      "year": 2023,
+      "status": "disponible",
+      "path": "data/source/sprint-2/originales/BD_2023.xlsx",
+      "sha256": "f2a7f43b6e7c6aac276d58500b7fad2c7936ca8b29213330971ec952daadc5f6",
+      "bytes": 9418290,
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2023.xlsx",
+      "url_patron_solicitado": "https://aire.jalisco.gob.mx/reportes/BD_2023.xlsx",
+      "descargado_en_utc": null,
+      "origen": "Descarga oficial de SEMADET",
+      "reutilizado_sprint2": true,
+      "nota_fecha": "Fecha de descarga original no acreditada; no se sustituye por la fecha de inventario."
+    },
+    {
+      "year": 2024,
+      "status": "disponible",
+      "path": "data/source/sprint-2/originales/BD_2024.xlsx",
+      "sha256": "fe8e30b34cb64cfa3bfdaa52bcafb935c942b8e59de6132916497cf28a738e9c",
+      "bytes": 9173689,
+      "url": null,
+      "url_patron_solicitado": "https://aire.jalisco.gob.mx/reportes/BD_2024.xlsx",
+      "descargado_en_utc": null,
+      "origen": "Archivo suministrado en la conversación/asignatura",
+      "reutilizado_sprint2": true,
+      "nota_fecha": "Fecha de descarga original no acreditada; no se sustituye por la fecha de inventario."
+    }
+  ],
+  "downloads": [
+    {
+      "name": "horario.csv",
+      "url": "/descargas/sprint-3/horario.csv",
+      "sha256": "32899fd9c0fd5effb2b210d145fa5f3c141b32d11bfabf2ca01fafa32da86fdd",
+      "bytes": 11438766
+    },
+    {
+      "name": "diario.csv",
+      "url": "/descargas/sprint-3/diario.csv",
+      "sha256": "7cedb2b44a26982418156f9833bb13a8221461c91d971889ee813c94b8d869d5",
+      "bytes": 934872
+    },
+    {
+      "name": "periodos.csv",
+      "url": "/descargas/sprint-3/periodos.csv",
+      "sha256": "7ed2b48dd9f2a80df263ca711474c9ad5089a8c1d1190c773debc0cd2ab28e3b",
+      "bytes": 130865
+    },
+    {
+      "name": "perfiles.csv",
+      "url": "/descargas/sprint-3/perfiles.csv",
+      "sha256": "3c65947afad8fdde7fdddce8b4b997f262b5ae46b99fb305b1747445366f3af4",
+      "bytes": 163161
+    },
+    {
+      "name": "episodios.csv",
+      "url": "/descargas/sprint-3/episodios.csv",
+      "sha256": "d8131163eca7900556c6c193bd42b922ad85dd27897b2aeb4f1f8151c589f1ec",
+      "bytes": 12834
+    },
+    {
+      "name": "atipicos_horarios.csv",
+      "url": "/descargas/sprint-3/atipicos_horarios.csv",
+      "sha256": "05c0f4c5e27ee468a0c7154fab02d65984aec82dbe50a3461ec9a51a03c39fb2",
+      "bytes": 485592
+    },
+    {
+      "name": "meteorologia.csv",
+      "url": "/descargas/sprint-3/meteorologia.csv",
+      "sha256": "d8c6d291ddfc6a3a1034a0902f79a11361d047b39da1161ffafba066741a2f2f",
+      "bytes": 164598
+    },
+    {
+      "name": "pares_meteorologicos.csv",
+      "url": "/descargas/sprint-3/pares_meteorologicos.csv",
+      "sha256": "b846722ef56d10b368842679f34e1924a897088cd04eb2ff646316caed991775",
+      "bytes": 1946228
+    },
+    {
+      "name": "hallazgos.csv",
+      "url": "/descargas/sprint-3/hallazgos.csv",
+      "sha256": "4fd838e2927ebd60ba9f2a1cae13daaf68150ec7949a8aa178029a77ed18d03b",
+      "bytes": 1907
+    },
+    {
+      "name": "fuentes.json",
+      "url": "/descargas/sprint-3/fuentes.json",
+      "sha256": "fde54c5d9248117aa876ba656ddd9368ba34caa5fc82466d85dc6ff095371b98",
+      "bytes": 8703
+    },
+    {
+      "name": "criterios.md",
+      "url": "/descargas/sprint-3/criterios.md",
+      "sha256": "f314040403483e7d203f2caac57906ccfd4664649196b10ffb4539d6f8fd3fcc",
+      "bytes": 5111
+    },
+    {
+      "name": "modelo_metricas_globales.csv",
+      "url": "/descargas/sprint-3/modelo_metricas_globales.csv",
+      "sha256": "7bbfb052c8f06e1bd34cde13a59f8f3112868a9c09cb3273a87f4b03e2a90ad1",
+      "bytes": 4244
+    },
+    {
+      "name": "modelo_metricas_mensuales.csv",
+      "url": "/descargas/sprint-3/modelo_metricas_mensuales.csv",
+      "sha256": "05b4d5bb60bd2027537f72d52b3c729128b2aa8e7c1d98735dda6afb0ab41c5c",
+      "bytes": 49655
+    },
+    {
+      "name": "modelo_metricas_altas.csv",
+      "url": "/descargas/sprint-3/modelo_metricas_altas.csv",
+      "sha256": "ccfdba3d55b098e94cb7f4a5999010c492ced7e62b2217281644554b3064d883",
+      "bytes": 49588
+    },
+    {
+      "name": "modelo_2024_HGB.csv",
+      "url": "/descargas/sprint-3/modelo_2024_HGB.csv",
+      "sha256": "500d410a8fce8b01c8ddef21c8d6b6e94f0e95b66a4ad77e4dabe1557362b70f",
+      "bytes": 2024569
+    },
+    {
+      "name": "modelo_2024_persistencia.csv",
+      "url": "/descargas/sprint-3/modelo_2024_persistencia.csv",
+      "sha256": "212e16ce341a97b6bb2c2eaac560b28f2ed526410f500e79d6876ce893dc177b",
+      "bytes": 1613951
+    },
+    {
+      "name": "modelo_2024_diaria.csv",
+      "url": "/descargas/sprint-3/modelo_2024_diaria.csv",
+      "sha256": "21fd353c7ce62f3c025b10db7cf85896cc2d19315017f909fdf64a59013dc4fa",
+      "bytes": 1504108
+    }
+  ],
+  "warnings": [
+    "Referencia retrospectiva común de 2024; no reconstruye avisos oficiales de cada año.",
+    "Cobertura y criterios adicionales del proyecto no acreditan representatividad ni calibración.",
+    "SO₂ 2023 excluido por falta de calibración documentada; NO₂ 2024 exploratorio.",
+    "La predicción es una evaluación retrospectiva de 2024. No se convierte directamente en categoría."
+  ]
+}

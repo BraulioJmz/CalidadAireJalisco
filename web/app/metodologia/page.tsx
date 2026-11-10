@@ -4,7 +4,7 @@ import { REPOSITORIO } from "@/lib/site";
 import { getSprint2 } from "@/lib/sprint2";
 
 export const metadata: Metadata = {
-  title: "Metodología · análisis 2023–2024",
+  title: "Metodología · histórico 2015–2024 y evaluación",
   description: "Fuentes, indicadores de la NOM-172 y criterios adicionales de cobertura y comparación del análisis retrospectivo de Miravalle 2023–2024.",
 };
 export const dynamic = "force-static";
@@ -18,7 +18,7 @@ const NORMATIVA = [
 const PROYECTO = [
   ["Una referencia común", "Se eligen las bandas de 2024 de la NOM para clasificar ambos años. Es una comparación retrospectiva bajo la misma referencia; no reconstruye los avisos oficiales de 2023 ni utiliza umbrales posteriores."],
   ["Suficiencia diaria adicional", "Para los máximos diarios de gases se requieren al menos 18 lecturas crudas del día, como criterio conservador del proyecto. La exigencia normativa de 18/24 citada para partículas no se extiende a gases como si fuera la misma regla."],
-  ["Contexto de las ventanas", "Sin diciembre de 2022, se excluyen las primeras 11 horas de partículas y 7 horas de CO de 2023. Enero de 2024 sí utiliza diciembre de 2023. Es una precaución adicional a los mínimos de cada ventana."],
+  ["Contexto de las ventanas", "En la comparación archivada 2023–2024, sin diciembre de 2022, se excluyen las primeras 11 horas de partículas y 7 horas de CO de 2023. Enero de 2024 sí utiliza diciembre de 2023. Es una precaución adicional a los mínimos de cada ventana."],
   ["Fechas comparables", "Se parean fechas por mes y día con indicador válido en ambos años. El 29 de febrero de 2024 permanece en los descriptivos y no forma un par. Así hay 365 fechas anuales posibles; el pareamiento no controla día de semana ni meteorología."],
   ["Cobertura para comparar", "Se destaca un cambio mensual con al menos 75 % de fechas pareadas. Para el año se requiere además al menos 75 % de pares en cada trimestre. Los resúmenes descriptivos mensuales se señalan suficientes con al menos 75 % de días evaluables. Estos umbrales del proyecto no son reglas normativas de compleción de ventanas ni garantizan representatividad."],
   ["Dos alcances globales", "El global comparable exige indicadores válidos de PM₁₀, PM₂.₅, O₃ y CO. El máximo disponible considera los contaminantes presentes y señala su composición parcial. NO₂ puede afectar este último, pero no entra en el conjunto comparable. Se conservan todos los determinantes empatados; sus frecuencias pueden sumar más que los días."],
@@ -32,11 +32,23 @@ export default function Metodologia() {
     <div className="mx-auto max-w-5xl space-y-14 px-4 py-16 sm:px-6 lg:px-8">
       <header className="space-y-4">
         <p className="eyebrow">Metodología · Miravalle (MIR)</p>
-        <h1 className="display text-5xl font-medium leading-[1.05] text-ink sm:text-6xl">Cómo interpretar 2023–2024</h1>
-        <p className="max-w-3xl text-lg leading-relaxed text-ink-2">El análisis de Academia Miravalle compara mediciones de 2023 y 2024 con bandas de referencia de 2024. Distingue las reglas del Índice AIRE Y SALUD de las decisiones adicionales que permiten describir cobertura, fechas coincidentes y asociaciones meteorológicas.</p>
-        <p className="text-sm text-ink-2"><Link className="font-medium text-accent" href="/sprint-2">Explorar el análisis 2023–2024 →</Link></p>
+        <h1 className="display text-5xl font-medium leading-[1.05] text-ink sm:text-6xl">De la medición a la evidencia</h1>
+        <p className="text-ink-2 leading-relaxed">Todo el análisis corresponde a la estación de monitoreo Miravalle (MIR), durante 2015–2024. Los perfiles por mes describen temporadas del año, no otras estaciones de monitoreo. Las medias históricas mensuales requieren al menos 75 % de horas; las anuales exigen además ese mínimo por trimestre. Son criterios adicionales del proyecto, no garantías de representatividad. Las bandas retrospectivas de 2024 se mantienen explícitas.</p>
+        <p className="text-ink-2 leading-relaxed">La evaluación de PM10 usa 24 horas observadas hasta el origen t y calendario para predecir concentraciones horarias a +1, +2 y +3 horas. Entrena con 2015–2022, selecciona con 2023 y reajusta con 2015–2023 antes de evaluar 2024. Se conserva la exposición descriptiva previa de 2024, la población completa de 6,225 orígenes (70.9 %) y la subestimación de altas. Los pronósticos no se convierten directamente en categorías; 114 µg/m³ es un umbral diagnóstico de entrenamiento.</p>
+        <p className="text-ink-2 leading-relaxed">El histórico puede usar contexto de años previos a 2023 que no estaba disponible en la comparación archivada 2023–2024. Las diferencias de arranque no sustituyen sus resultados. Se mantienen SO₂ 2023 excluido por calibración y NO₂ 2024 exploratorio. Las reglas de 2023–2024 conservadas se detallan a continuación.</p>
+        <p className="text-ink-2 leading-relaxed">El modelo actual utiliza PM10 y calendario. Las fuentes contienen meteorología con disponibilidad discontinua; se conserva su análisis descriptivo reproducible. Se excluyó de esta primera muestra para no reducir su continuidad, sin demostrar que carezca de utilidad predictiva.</p>
+        <p><Link href="/#fuentes" className="underline text-accent">Fuentes de 2015–2024, hashes y descargas del panel integrado →</Link></p>
+        <p className="max-w-3xl text-lg leading-relaxed text-ink-2">La comparación pareada de 2023 y 2024 es una consulta dentro del histórico, bajo las mismas bandas retrospectivas de 2024. Distingue las reglas del Índice AIRE Y SALUD de las decisiones adicionales que permiten describir cobertura, fechas coincidentes y asociaciones meteorológicas.</p>
+        <p className="text-sm text-ink-2"><Link className="font-medium text-accent" href="/#historico/comparar">Comparar periodos →</Link></p>
       </header>
 
+      <section className="space-y-4 text-sm leading-relaxed text-ink-2" aria-labelledby="lectura-historica">
+        <h2 id="lectura-historica" className="display text-3xl text-ink">Qué se compara en 2015–2024</h2>
+        <p>Las medias históricas resumen concentraciones horarias crudas: no son categorías. Las categorías diarias usan promedios de partículas, máximo móvil de 8 horas de CO y máximo horario diario de O₃, NO₂ y SO₂, con bandas retrospectivas de 2024. NO y NOX no se clasifican.</p>
+        <p>El mínimo de 18 lecturas diarias de partículas es normativo. Exigir 18 lecturas crudas también para los máximos de gases, 75 % de cobertura mensual y cobertura trimestral adicional para el año son criterios del proyecto. Los huecos interrumpen las líneas y los episodios; no se imputan mediciones.</p>
+        <p>Para comparar se usan las mismas fechas mes/día y se exige 75 % de pares, además por trimestre si el periodo es anual. El 29 de febrero solo tiene par si ambos años son bisiestos. El histórico aprovecha contexto desde 2015; sus originales y resultados están disponibles en las descargas.</p>
+      </section>
+      <details className="space-y-8 border-t border-rule pt-5"><summary className="cursor-pointer display text-2xl text-ink">Reglas y evidencia de la comparación archivada 2023–2024</summary>
       <section className="space-y-5" aria-labelledby="fuentes">
         <h2 id="fuentes" className="display text-3xl font-medium text-ink">De la medición al resumen</h2>
         <div className="card space-y-4 p-5 text-sm leading-relaxed text-ink-2">
@@ -75,14 +87,20 @@ export default function Metodologia() {
         <div className="card space-y-4 p-5 text-sm leading-relaxed text-ink-2">
           <p>El periodo completo no alcanza el criterio de comparación anual del proyecto. Se muestran los datos y su cobertura, sin concluir una mejora o un deterioro anual representativo. El porcentaje de días Mala o peor divide entre días evaluables; la distribución de categorías incluye también los días sin datos del calendario. Una ausencia no representa cero ni Buena y los huecos no se conectan como si hubiera mediciones.</p>
           <p>Los archivos no contienen registros subhorarios para comprobar 45 de 60 minutos ni calibraciones o bitácoras instrumentales individuales. Pasar controles de software, plausibilidad y suficiencia no acredita validación instrumental. SO₂ de 2023 se excluye por invalidación documentada en el Informe Nacional de Calidad del Aire 2023 del INECC (p. 222); no hay datos de SO₂ de 2024.</p>
-          <p>NO₂ es un complemento exploratorio de 2024: hay lecturas desde el 16 de agosto, pero el catálogo Param de MIR no lo enumera. Los archivos no acreditan su procedencia instrumental, calibración ni un cambio de equipamiento. No se presenta como comparación con 2023.</p>
+          <p>En la comparación 2023–2024, NO₂ es un complemento exploratorio de 2024: hay lecturas desde el 16 de agosto, pero el catálogo Param de MIR no lo enumera. Los archivos no acreditan su procedencia instrumental, calibración ni un cambio de equipamiento. No se presenta como comparación con 2023.</p>
           <p>La cobertura desigual, la dependencia temporal, la estacionalidad y las variables omitidas limitan la interpretación. Una correlación no demuestra causalidad; un pico o el contaminante determinante de una categoría no identifica incendios, tráfico, inversión térmica ni otra fuente emisora. Las ventanas suficientes tampoco garantizan haber observado el verdadero máximo diario.</p>
         </div>
       </section>
 
+      </details>
+      <details className="space-y-4 border-t border-rule pt-5"><summary className="cursor-pointer display text-2xl text-ink">Cálculo y configuración reproducibles</summary>
+        <p className="text-sm leading-relaxed text-ink-2">Los indicadores históricos, sus categorías y los agregados se calculan en el pipeline Python y se exportan como resultados procesados. La aplicación consulta esas salidas; no recalcula normativa ni entrena modelos en el navegador.</p>
+        <p className="text-sm leading-relaxed text-ink-2">El experimento PM10 C05 utiliza HistGradientBoostingRegressor directo por horizonte. Se probaron ocho configuraciones prefijadas y se seleccionó por MAE medio en 2023. Configuración congelada: 31 hojas, tasa 0.05, 150 iteraciones, mínimo de 30 muestras por hoja, regularización L2=1 y sin early stopping automático. Los parámetros y predicciones no se ajustan con los errores de 2024.</p>
+        <p className="text-sm leading-relaxed text-ink-2">La referencia de persistencia repite PM10(t). La referencia diaria usa PM10(t+h−24), la misma hora objetivo del día anterior. El acercamiento del gráfico cambia la ventana visible, no las predicciones ni las muestras evaluadas.</p>
+      </details>
       <section className="space-y-5" aria-labelledby="evidencia">
         <h2 id="evidencia" className="display text-3xl font-medium text-ink">Evidencia y continuidad del análisis</h2>
-        <p className="text-sm leading-relaxed text-ink-2">El <Link className="font-medium text-accent" href="/sprint-2">tablero 2023–2024</Link> permite consultar y descargar los CSV y las figuras con fuentes, fechas y denominadores. El <Link className="font-medium text-accent" href="/sprint-1">Sprint 1 de marzo de 2024</Link> conserva su evidencia y metodología histórica; sus resultados no se sustituyen por los del análisis retrospectivo.</p>
+        <p className="text-sm leading-relaxed text-ink-2">El <Link className="font-medium text-accent" href="/#fuentes">archivo de datos y descargas</Link> conserva fuentes, fechas y denominadores. Las versiones anteriores están disponibles en el pie de página y mantienen su evidencia histórica.</p>
         <p className="text-sm leading-relaxed text-ink-2">Las decisiones detalladas, instrucciones de reproducción, desarrollo y organización del código se conservan en la documentación técnica del <a className="font-medium text-accent" href={REPOSITORIO}>repositorio del proyecto</a>.</p>
       </section>
     </div>

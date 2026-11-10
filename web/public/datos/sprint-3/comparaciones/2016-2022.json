@@ -1,0 +1,3075 @@
+[
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "PM10",
+    "n": 50,
+    "expected": 365,
+    "a": 73.45520099656254,
+    "b": 81.97254972906575,
+    "delta": 8.517348732503208,
+    "change_pct": 11.595297020427173,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 40
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 6
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 3
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-27",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31",
+      "02-01",
+      "02-02",
+      "02-03",
+      "02-04",
+      "02-12",
+      "02-13",
+      "02-14",
+      "02-15",
+      "02-16",
+      "02-26",
+      "02-27",
+      "02-28",
+      "03-01",
+      "03-02",
+      "03-03",
+      "03-04",
+      "03-05",
+      "03-06",
+      "03-07",
+      "03-08",
+      "03-09",
+      "03-10",
+      "03-11",
+      "03-12",
+      "03-13",
+      "03-14",
+      "03-15",
+      "04-07",
+      "04-08",
+      "04-09",
+      "04-29",
+      "05-13",
+      "05-14",
+      "07-31",
+      "08-04",
+      "09-18",
+      "10-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "PM10",
+    "n": 13,
+    "expected": 31,
+    "a": 95.28263069882065,
+    "b": 102.09864229972926,
+    "delta": 6.81601160090861,
+    "change_pct": 7.153467059965394,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 13
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-27",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "PM10",
+    "n": 12,
+    "expected": 28,
+    "a": 61.15458937198068,
+    "b": 82.59911616161617,
+    "delta": 21.44452678963549,
+    "change_pct": 35.06609562725765,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 12
+      }
+    ],
+    "dates": [
+      "02-01",
+      "02-02",
+      "02-03",
+      "02-04",
+      "02-12",
+      "02-13",
+      "02-14",
+      "02-15",
+      "02-16",
+      "02-26",
+      "02-27",
+      "02-28"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "PM10",
+    "n": 15,
+    "expected": 31,
+    "a": 72.66906016688625,
+    "b": 85.102256547165,
+    "delta": 12.433196380278744,
+    "change_pct": 17.109339726873593,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 15
+      }
+    ],
+    "dates": [
+      "03-01",
+      "03-02",
+      "03-03",
+      "03-04",
+      "03-05",
+      "03-06",
+      "03-07",
+      "03-08",
+      "03-09",
+      "03-10",
+      "03-11",
+      "03-12",
+      "03-13",
+      "03-14",
+      "03-15"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "PM10",
+    "n": 4,
+    "expected": 30,
+    "a": 72.625,
+    "b": 58.388586956521735,
+    "delta": -14.236413043478265,
+    "change_pct": -19.60263413904064,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 4
+      }
+    ],
+    "dates": [
+      "04-07",
+      "04-08",
+      "04-09",
+      "04-29"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "PM10",
+    "n": 2,
+    "expected": 31,
+    "a": 48.214285714285715,
+    "b": 59.966485507246375,
+    "delta": 11.75219979296066,
+    "change_pct": 24.374932903918406,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 2
+      }
+    ],
+    "dates": [
+      "05-13",
+      "05-14"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "PM10",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "PM10",
+    "n": 1,
+    "expected": 31,
+    "a": 36.083333333333336,
+    "b": 19.08695652173913,
+    "delta": -16.996376811594207,
+    "change_pct": -47.10312280349434,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "07-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "PM10",
+    "n": 1,
+    "expected": 31,
+    "a": 40.91304347826087,
+    "b": 54.38095238095238,
+    "delta": 13.467908902691512,
+    "change_pct": 32.91837457618542,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "08-04"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "PM10",
+    "n": 1,
+    "expected": 30,
+    "a": 47.791666666666664,
+    "b": 16.583333333333332,
+    "delta": -31.208333333333332,
+    "change_pct": -65.30078465562336,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "09-18"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "PM10",
+    "n": 1,
+    "expected": 31,
+    "a": 98.47826086956522,
+    "b": 60.083333333333336,
+    "delta": -38.39492753623188,
+    "change_pct": -38.98822663723326,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "10-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "PM10",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "PM10",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 365,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 0
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 28,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "PM2.5",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "O3",
+    "n": 214,
+    "expected": 365,
+    "a": 0.04240654205607476,
+    "b": 0.05727102803738318,
+    "delta": 0.01486448598130842,
+    "change_pct": 35.052341597796165,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 31
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 43
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 83
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 57
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10",
+      "01-12",
+      "01-13",
+      "01-21",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31",
+      "02-07",
+      "02-08",
+      "02-09",
+      "02-10",
+      "02-11",
+      "02-14",
+      "02-16",
+      "02-18",
+      "02-19",
+      "02-22",
+      "02-23",
+      "03-15",
+      "03-16",
+      "03-17",
+      "04-01",
+      "04-06",
+      "04-07",
+      "04-11",
+      "04-12",
+      "04-13",
+      "04-14",
+      "04-15",
+      "04-16",
+      "04-17",
+      "04-18",
+      "04-19",
+      "04-20",
+      "04-23",
+      "04-26",
+      "04-29",
+      "04-30",
+      "05-01",
+      "05-02",
+      "05-07",
+      "05-09",
+      "05-10",
+      "05-13",
+      "05-16",
+      "05-17",
+      "05-18",
+      "05-21",
+      "05-22",
+      "05-26",
+      "05-27",
+      "05-28",
+      "06-02",
+      "06-03",
+      "06-04",
+      "06-07",
+      "06-14",
+      "06-15",
+      "06-16",
+      "06-17",
+      "06-18",
+      "06-23",
+      "06-24",
+      "06-25",
+      "07-01",
+      "07-02",
+      "07-03",
+      "07-05",
+      "07-06",
+      "07-07",
+      "07-08",
+      "07-09",
+      "07-10",
+      "07-11",
+      "07-12",
+      "07-13",
+      "07-14",
+      "07-15",
+      "07-16",
+      "07-17",
+      "07-18",
+      "07-19",
+      "07-20",
+      "07-21",
+      "07-22",
+      "07-23",
+      "07-25",
+      "07-26",
+      "07-27",
+      "07-28",
+      "07-29",
+      "07-30",
+      "07-31",
+      "08-01",
+      "08-02",
+      "08-03",
+      "08-04",
+      "08-05",
+      "08-06",
+      "08-07",
+      "08-08",
+      "08-09",
+      "08-10",
+      "08-11",
+      "08-12",
+      "08-13",
+      "08-15",
+      "08-16",
+      "08-17",
+      "08-18",
+      "08-19",
+      "08-20",
+      "08-21",
+      "08-22",
+      "08-23",
+      "08-24",
+      "08-25",
+      "08-26",
+      "08-27",
+      "08-28",
+      "08-29",
+      "08-30",
+      "08-31",
+      "09-01",
+      "09-02",
+      "09-03",
+      "09-04",
+      "09-05",
+      "09-06",
+      "09-07",
+      "09-14",
+      "09-15",
+      "09-16",
+      "09-17",
+      "09-18",
+      "09-19",
+      "09-20",
+      "09-21",
+      "09-22",
+      "09-23",
+      "09-24",
+      "09-25",
+      "09-26",
+      "09-27",
+      "09-28",
+      "09-29",
+      "09-30",
+      "10-01",
+      "10-02",
+      "10-03",
+      "10-04",
+      "10-05",
+      "10-06",
+      "10-07",
+      "10-08",
+      "10-09",
+      "10-10",
+      "10-11",
+      "10-12",
+      "10-25",
+      "10-27",
+      "10-28",
+      "10-29",
+      "10-30",
+      "10-31",
+      "11-04",
+      "11-05",
+      "11-06",
+      "11-07",
+      "11-08",
+      "11-09",
+      "11-16",
+      "11-17",
+      "11-18",
+      "11-19",
+      "11-20",
+      "11-21",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29",
+      "12-02",
+      "12-03",
+      "12-04",
+      "12-05",
+      "12-06",
+      "12-10",
+      "12-11",
+      "12-13",
+      "12-14",
+      "12-15",
+      "12-16",
+      "12-17",
+      "12-18",
+      "12-19",
+      "12-20",
+      "12-21",
+      "12-22",
+      "12-23",
+      "12-24",
+      "12-25",
+      "12-26"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "O3",
+    "n": 17,
+    "expected": 31,
+    "a": 0.03764705882352942,
+    "b": 0.04605882352941176,
+    "delta": 0.00841176470588234,
+    "change_pct": 22.34374999999996,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 17
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10",
+      "01-12",
+      "01-13",
+      "01-21",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "O3",
+    "n": 11,
+    "expected": 28,
+    "a": 0.04672727272727273,
+    "b": 0.042545454545454546,
+    "delta": -0.004181818181818182,
+    "change_pct": -8.949416342412452,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 11
+      }
+    ],
+    "dates": [
+      "02-07",
+      "02-08",
+      "02-09",
+      "02-10",
+      "02-11",
+      "02-14",
+      "02-16",
+      "02-18",
+      "02-19",
+      "02-22",
+      "02-23"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "O3",
+    "n": 3,
+    "expected": 31,
+    "a": 0.043666666666666666,
+    "b": 0.045000000000000005,
+    "delta": 0.0013333333333333391,
+    "change_pct": 3.0534351145038303,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 3
+      }
+    ],
+    "dates": [
+      "03-15",
+      "03-16",
+      "03-17"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "O3",
+    "n": 17,
+    "expected": 30,
+    "a": 0.034705882352941184,
+    "b": 0.049529411764705884,
+    "delta": 0.0148235294117647,
+    "change_pct": 42.71186440677963,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 17
+      }
+    ],
+    "dates": [
+      "04-01",
+      "04-06",
+      "04-07",
+      "04-11",
+      "04-12",
+      "04-13",
+      "04-14",
+      "04-15",
+      "04-16",
+      "04-17",
+      "04-18",
+      "04-19",
+      "04-20",
+      "04-23",
+      "04-26",
+      "04-29",
+      "04-30"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "O3",
+    "n": 14,
+    "expected": 31,
+    "a": 0.05228571428571429,
+    "b": 0.059000000000000004,
+    "delta": 0.006714285714285714,
+    "change_pct": 12.841530054644808,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 14
+      }
+    ],
+    "dates": [
+      "05-01",
+      "05-02",
+      "05-07",
+      "05-09",
+      "05-10",
+      "05-13",
+      "05-16",
+      "05-17",
+      "05-18",
+      "05-21",
+      "05-22",
+      "05-26",
+      "05-27",
+      "05-28"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "O3",
+    "n": 12,
+    "expected": 30,
+    "a": 0.05983333333333333,
+    "b": 0.05016666666666667,
+    "delta": -0.009666666666666657,
+    "change_pct": -16.155988857938702,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 12
+      }
+    ],
+    "dates": [
+      "06-02",
+      "06-03",
+      "06-04",
+      "06-07",
+      "06-14",
+      "06-15",
+      "06-16",
+      "06-17",
+      "06-18",
+      "06-23",
+      "06-24",
+      "06-25"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "O3",
+    "n": 29,
+    "expected": 31,
+    "a": 0.04975862068965518,
+    "b": 0.0703448275862069,
+    "delta": 0.020586206896551724,
+    "change_pct": 41.37214137214137,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 29
+      }
+    ],
+    "dates": [
+      "07-01",
+      "07-02",
+      "07-03",
+      "07-05",
+      "07-06",
+      "07-07",
+      "07-08",
+      "07-09",
+      "07-10",
+      "07-11",
+      "07-12",
+      "07-13",
+      "07-14",
+      "07-15",
+      "07-16",
+      "07-17",
+      "07-18",
+      "07-19",
+      "07-20",
+      "07-21",
+      "07-22",
+      "07-23",
+      "07-25",
+      "07-26",
+      "07-27",
+      "07-28",
+      "07-29",
+      "07-30",
+      "07-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "O3",
+    "n": 30,
+    "expected": 31,
+    "a": 0.042966666666666674,
+    "b": 0.06733333333333333,
+    "delta": 0.024366666666666655,
+    "change_pct": 56.71062839410392,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 30
+      }
+    ],
+    "dates": [
+      "08-01",
+      "08-02",
+      "08-03",
+      "08-04",
+      "08-05",
+      "08-06",
+      "08-07",
+      "08-08",
+      "08-09",
+      "08-10",
+      "08-11",
+      "08-12",
+      "08-13",
+      "08-15",
+      "08-16",
+      "08-17",
+      "08-18",
+      "08-19",
+      "08-20",
+      "08-21",
+      "08-22",
+      "08-23",
+      "08-24",
+      "08-25",
+      "08-26",
+      "08-27",
+      "08-28",
+      "08-29",
+      "08-30",
+      "08-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "O3",
+    "n": 24,
+    "expected": 30,
+    "a": 0.023624999999999997,
+    "b": 0.04145833333333334,
+    "delta": 0.017833333333333343,
+    "change_pct": 75.48500881834221,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 24
+      }
+    ],
+    "dates": [
+      "09-01",
+      "09-02",
+      "09-03",
+      "09-04",
+      "09-05",
+      "09-06",
+      "09-07",
+      "09-14",
+      "09-15",
+      "09-16",
+      "09-17",
+      "09-18",
+      "09-19",
+      "09-20",
+      "09-21",
+      "09-22",
+      "09-23",
+      "09-24",
+      "09-25",
+      "09-26",
+      "09-27",
+      "09-28",
+      "09-29",
+      "09-30"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "O3",
+    "n": 18,
+    "expected": 31,
+    "a": 0.035222222222222224,
+    "b": 0.05538888888888889,
+    "delta": 0.020166666666666666,
+    "change_pct": 57.255520504731855,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 18
+      }
+    ],
+    "dates": [
+      "10-01",
+      "10-02",
+      "10-03",
+      "10-04",
+      "10-05",
+      "10-06",
+      "10-07",
+      "10-08",
+      "10-09",
+      "10-10",
+      "10-11",
+      "10-12",
+      "10-25",
+      "10-27",
+      "10-28",
+      "10-29",
+      "10-30",
+      "10-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "O3",
+    "n": 18,
+    "expected": 30,
+    "a": 0.04722222222222223,
+    "b": 0.06422222222222222,
+    "delta": 0.016999999999999994,
+    "change_pct": 35.999999999999986,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 18
+      }
+    ],
+    "dates": [
+      "11-04",
+      "11-05",
+      "11-06",
+      "11-07",
+      "11-08",
+      "11-09",
+      "11-16",
+      "11-17",
+      "11-18",
+      "11-19",
+      "11-20",
+      "11-21",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "O3",
+    "n": 21,
+    "expected": 31,
+    "a": 0.04604761904761906,
+    "b": 0.06628571428571428,
+    "delta": 0.02023809523809522,
+    "change_pct": 43.95036194415714,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 21
+      }
+    ],
+    "dates": [
+      "12-02",
+      "12-03",
+      "12-04",
+      "12-05",
+      "12-06",
+      "12-10",
+      "12-11",
+      "12-13",
+      "12-14",
+      "12-15",
+      "12-16",
+      "12-17",
+      "12-18",
+      "12-19",
+      "12-20",
+      "12-21",
+      "12-22",
+      "12-23",
+      "12-24",
+      "12-25",
+      "12-26"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "CO",
+    "n": 88,
+    "expected": 365,
+    "a": 2.279000946969697,
+    "b": 1.6412412067099567,
+    "delta": -0.6377597402597401,
+    "change_pct": -27.984180572971926,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 53
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 35
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10",
+      "01-11",
+      "01-12",
+      "01-13",
+      "01-20",
+      "01-21",
+      "01-22",
+      "01-23",
+      "01-24",
+      "01-25",
+      "01-26",
+      "01-27",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31",
+      "02-01",
+      "02-02",
+      "02-03",
+      "02-04",
+      "02-05",
+      "02-06",
+      "02-07",
+      "02-08",
+      "02-09",
+      "02-10",
+      "02-11",
+      "02-12",
+      "02-13",
+      "02-14",
+      "02-15",
+      "02-16",
+      "02-17",
+      "02-18",
+      "02-19",
+      "02-20",
+      "02-21",
+      "02-22",
+      "02-23",
+      "02-24",
+      "02-25",
+      "03-15",
+      "03-16",
+      "03-17",
+      "11-17",
+      "11-18",
+      "11-19",
+      "11-20",
+      "11-21",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29",
+      "12-02",
+      "12-03",
+      "12-04",
+      "12-05",
+      "12-06",
+      "12-10",
+      "12-11",
+      "12-15",
+      "12-16",
+      "12-17",
+      "12-18",
+      "12-19",
+      "12-20",
+      "12-21",
+      "12-22",
+      "12-23",
+      "12-24",
+      "12-25",
+      "12-26",
+      "12-27",
+      "12-28",
+      "12-29",
+      "12-30",
+      "12-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "CO",
+    "n": 25,
+    "expected": 31,
+    "a": 2.16008,
+    "b": 1.8805,
+    "delta": -0.2795799999999997,
+    "change_pct": -12.943039146698258,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 25
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10",
+      "01-11",
+      "01-12",
+      "01-13",
+      "01-20",
+      "01-21",
+      "01-22",
+      "01-23",
+      "01-24",
+      "01-25",
+      "01-26",
+      "01-27",
+      "01-28",
+      "01-29",
+      "01-30",
+      "01-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "CO",
+    "n": 25,
+    "expected": 28,
+    "a": 2.360895,
+    "b": 1.5725,
+    "delta": -0.7883950000000002,
+    "change_pct": -33.39390358317503,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 25
+      }
+    ],
+    "dates": [
+      "02-01",
+      "02-02",
+      "02-03",
+      "02-04",
+      "02-05",
+      "02-06",
+      "02-07",
+      "02-08",
+      "02-09",
+      "02-10",
+      "02-11",
+      "02-12",
+      "02-13",
+      "02-14",
+      "02-15",
+      "02-16",
+      "02-17",
+      "02-18",
+      "02-19",
+      "02-20",
+      "02-21",
+      "02-22",
+      "02-23",
+      "02-24",
+      "02-25"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "CO",
+    "n": 3,
+    "expected": 31,
+    "a": 1.5352916666666665,
+    "b": 1.1691666666666667,
+    "delta": -0.3661249999999998,
+    "change_pct": -23.847260292561124,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 3
+      }
+    ],
+    "dates": [
+      "03-15",
+      "03-16",
+      "03-17"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "CO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "CO",
+    "n": 11,
+    "expected": 30,
+    "a": 2.0177575757575763,
+    "b": 1.2760227272727271,
+    "delta": -0.7417348484848492,
+    "change_pct": -36.760355029585824,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 11
+      }
+    ],
+    "dates": [
+      "11-17",
+      "11-18",
+      "11-19",
+      "11-20",
+      "11-21",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "CO",
+    "n": 24,
+    "expected": 31,
+    "a": 2.5302708333333332,
+    "b": 1.690019841269841,
+    "delta": -0.8402509920634922,
+    "change_pct": -33.20794679344901,
+    "sufficient": true,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 24
+      }
+    ],
+    "dates": [
+      "12-02",
+      "12-03",
+      "12-04",
+      "12-05",
+      "12-06",
+      "12-10",
+      "12-11",
+      "12-15",
+      "12-16",
+      "12-17",
+      "12-18",
+      "12-19",
+      "12-20",
+      "12-21",
+      "12-22",
+      "12-23",
+      "12-24",
+      "12-25",
+      "12-26",
+      "12-27",
+      "12-28",
+      "12-29",
+      "12-30",
+      "12-31"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 365,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 0
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 28,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "NO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "SO2",
+    "n": 16,
+    "expected": 365,
+    "a": 0.007223125,
+    "b": 0.010624999999999999,
+    "delta": 0.0034018749999999986,
+    "change_pct": 47.09699749069826,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 8
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 8
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10",
+      "11-20",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29",
+      "12-02"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "SO2",
+    "n": 8,
+    "expected": 31,
+    "a": 0.010205,
+    "b": 0.008875000000000001,
+    "delta": -0.0013299999999999996,
+    "change_pct": -13.032827045565893,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 8
+      }
+    ],
+    "dates": [
+      "01-01",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "01-09",
+      "01-10"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 28,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "SO2",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "SO2",
+    "n": 7,
+    "expected": 30,
+    "a": 0.004155714285714286,
+    "b": 0.012428571428571428,
+    "delta": 0.00827285714285714,
+    "change_pct": 199.0718459951873,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 7
+      }
+    ],
+    "dates": [
+      "11-20",
+      "11-22",
+      "11-23",
+      "11-24",
+      "11-27",
+      "11-28",
+      "11-29"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "SO2",
+    "n": 1,
+    "expected": 31,
+    "a": 0.00484,
+    "b": 0.012,
+    "delta": 0.0071600000000000006,
+    "change_pct": 147.93388429752068,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 1
+      }
+    ],
+    "dates": [
+      "12-02"
+    ]
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 365,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 0
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 28,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "NO",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 0,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 365,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 90,
+        "n": 0
+      },
+      {
+        "quarter": 2,
+        "expected": 91,
+        "n": 0
+      },
+      {
+        "quarter": 3,
+        "expected": 92,
+        "n": 0
+      },
+      {
+        "quarter": 4,
+        "expected": 92,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 1,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 2,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 28,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 28,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 3,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 1,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 4,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 5,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 6,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 2,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 7,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 8,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 9,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 3,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 10,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 11,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 30,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 30,
+        "n": 0
+      }
+    ],
+    "dates": []
+  },
+  {
+    "year_a": 2016,
+    "year_b": 2022,
+    "month": 12,
+    "pollutant": "NOX",
+    "n": 0,
+    "expected": 31,
+    "a": null,
+    "b": null,
+    "delta": null,
+    "change_pct": null,
+    "sufficient": false,
+    "quarterly": [
+      {
+        "quarter": 4,
+        "expected": 31,
+        "n": 0
+      }
+    ],
+    "dates": []
+  }
+]

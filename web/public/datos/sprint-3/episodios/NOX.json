@@ -1,0 +1,932 @@
+{
+  "episodes": [],
+  "peaks": [
+    {
+      "pollutant": "NOX",
+      "year": 2024,
+      "date": "2024-12-05T07:00:00",
+      "value": 0.343,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NOX",
+      "year": 2024,
+      "date": "2024-11-27T06:00:00",
+      "value": 0.317,
+      "exploratory": true
+    },
+    {
+      "pollutant": "NOX",
+      "year": 2024,
+      "date": "2024-12-29T08:00:00",
+      "value": 0.308,
+      "exploratory": true
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2024-08-16T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.047,
+      "robust_z": 4.1312559017941455,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-16T20:00:00",
+      "pollutant": "NOX",
+      "value": 0.077,
+      "robust_z": 3.642250101173614,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-16T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.075,
+      "robust_z": 5.203214430248021,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.04,
+      "robust_z": 3.541076487252125,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.058,
+      "robust_z": 7.200000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T20:00:00",
+      "pollutant": "NOX",
+      "value": 0.093,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-17T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.101,
+      "robust_z": 7.7084658225896625,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T19:00:00",
+      "pollutant": "NOX",
+      "value": 0.108,
+      "robust_z": 5.299570253030392,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T20:00:00",
+      "pollutant": "NOX",
+      "value": 0.156,
+      "robust_z": 8.970727101038717,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.164,
+      "robust_z": 13.778882657879022,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T22:00:00",
+      "pollutant": "NOX",
+      "value": 0.137,
+      "robust_z": 6.9376192403306955,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-19T23:00:00",
+      "pollutant": "NOX",
+      "value": 0.104,
+      "robust_z": 4.289761230271145,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T00:00:00",
+      "pollutant": "NOX",
+      "value": 0.096,
+      "robust_z": 6.110092762317391,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T07:00:00",
+      "pollutant": "NOX",
+      "value": 0.088,
+      "robust_z": 4.098828461434692,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.063,
+      "robust_z": 4.0469445568595726,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-20T23:00:00",
+      "pollutant": "NOX",
+      "value": 0.133,
+      "robust_z": 5.854579792256847,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T00:00:00",
+      "pollutant": "NOX",
+      "value": 0.094,
+      "robust_z": 5.951389054205252,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T02:00:00",
+      "pollutant": "NOX",
+      "value": 0.051,
+      "robust_z": 4.04694455685957,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-21T03:00:00",
+      "pollutant": "NOX",
+      "value": 0.04,
+      "robust_z": 5.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-22T03:00:00",
+      "pollutant": "NOX",
+      "value": 0.032,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-22T04:00:00",
+      "pollutant": "NOX",
+      "value": 0.039,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-25T04:00:00",
+      "pollutant": "NOX",
+      "value": 0.033,
+      "robust_z": 3.6000000000000005,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-26T05:00:00",
+      "pollutant": "NOX",
+      "value": 0.07,
+      "robust_z": 4.136876658123118,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-26T07:00:00",
+      "pollutant": "NOX",
+      "value": 0.087,
+      "robust_z": 3.9950606522844465,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T05:00:00",
+      "pollutant": "NOX",
+      "value": 0.065,
+      "robust_z": 5.0280220251891645,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T06:00:00",
+      "pollutant": "NOX",
+      "value": 0.103,
+      "robust_z": 4.10559592724884,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-13T07:00:00",
+      "pollutant": "NOX",
+      "value": 0.107,
+      "robust_z": 3.8221143037007064,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-14T04:00:00",
+      "pollutant": "NOX",
+      "value": 0.055,
+      "robust_z": 6.0704168352893575,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-14T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.046,
+      "robust_z": 3.5748010252259546,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T05:00:00",
+      "pollutant": "NOX",
+      "value": 0.061,
+      "robust_z": 4.537483291024367,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.041,
+      "robust_z": 3.854232911294828,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.107,
+      "robust_z": 4.905387341647965,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T19:00:00",
+      "pollutant": "NOX",
+      "value": 0.163,
+      "robust_z": 6.900559308491321,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-17T20:00:00",
+      "pollutant": "NOX",
+      "value": 0.113,
+      "robust_z": 4.897389427503974,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-18T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.045,
+      "robust_z": 4.625079493553793,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-25T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.037,
+      "robust_z": 3.999999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T04:00:00",
+      "pollutant": "NOX",
+      "value": 0.044,
+      "robust_z": 4.215567246728719,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.04,
+      "robust_z": 3.6615212657300864,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.04,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T12:00:00",
+      "pollutant": "NOX",
+      "value": 0.039,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T13:00:00",
+      "pollutant": "NOX",
+      "value": 0.038,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-26T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.046,
+      "robust_z": 6.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-27T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.035,
+      "robust_z": 4.200000000000001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-27T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.052,
+      "robust_z": 7.226686708677806,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-27T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.046,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-06T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.04,
+      "robust_z": 4.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T09:00:00",
+      "pollutant": "NOX",
+      "value": 0.069,
+      "robust_z": 3.661521265730089,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.046,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T08:00:00",
+      "pollutant": "NOX",
+      "value": 0.147,
+      "robust_z": 4.067383670783104,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T09:00:00",
+      "pollutant": "NOX",
+      "value": 0.092,
+      "robust_z": 5.877705189724615,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.062,
+      "robust_z": 7.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T01:00:00",
+      "pollutant": "NOX",
+      "value": 0.171,
+      "robust_z": 5.106858607465649,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.037,
+      "robust_z": 3.5999999999999996,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T12:00:00",
+      "pollutant": "NOX",
+      "value": 0.039,
+      "robust_z": 4.3999999999999995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.036,
+      "robust_z": 3.799999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T09:00:00",
+      "pollutant": "NOX",
+      "value": 0.092,
+      "robust_z": 5.877705189724615,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.068,
+      "robust_z": 9.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.06,
+      "robust_z": 8.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T12:00:00",
+      "pollutant": "NOX",
+      "value": 0.046,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.036,
+      "robust_z": 3.899999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.042,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.044,
+      "robust_z": 5.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.048,
+      "robust_z": 4.1312559017941455,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T01:00:00",
+      "pollutant": "NOX",
+      "value": 0.147,
+      "robust_z": 4.18184270875489,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T02:00:00",
+      "pollutant": "NOX",
+      "value": 0.13,
+      "robust_z": 3.899399703224066,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T03:00:00",
+      "pollutant": "NOX",
+      "value": 0.113,
+      "robust_z": 3.733788132816865,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T04:00:00",
+      "pollutant": "NOX",
+      "value": 0.127,
+      "robust_z": 5.030576914429607,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T05:00:00",
+      "pollutant": "NOX",
+      "value": 0.151,
+      "robust_z": 3.666462589975338,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T07:00:00",
+      "pollutant": "NOX",
+      "value": 0.27,
+      "robust_z": 3.9140903163566056,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T08:00:00",
+      "pollutant": "NOX",
+      "value": 0.252,
+      "robust_z": 8.359597594725074,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T09:00:00",
+      "pollutant": "NOX",
+      "value": 0.187,
+      "robust_z": 15.031508354049837,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.115,
+      "robust_z": 18.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.086,
+      "robust_z": 13.399999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T12:00:00",
+      "pollutant": "NOX",
+      "value": 0.078,
+      "robust_z": 12.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T13:00:00",
+      "pollutant": "NOX",
+      "value": 0.069,
+      "robust_z": 10.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.068,
+      "robust_z": 10.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.067,
+      "robust_z": 10.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.068,
+      "robust_z": 9.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.077,
+      "robust_z": 9.02131390799946,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.096,
+      "robust_z": 3.709699177121274,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-01T08:00:00",
+      "pollutant": "NOX",
+      "value": 0.29,
+      "robust_z": 6.07041683528935,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-20T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.14,
+      "robust_z": 3.862992531547775,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T20:00:00",
+      "pollutant": "NOX",
+      "value": 0.214,
+      "robust_z": 3.6294026581359637,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.136,
+      "robust_z": 3.6177231644653762,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T19:00:00",
+      "pollutant": "NOX",
+      "value": 0.204,
+      "robust_z": 3.8339474749195923,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-23T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.23,
+      "robust_z": 4.336012025206683,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-25T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.122,
+      "robust_z": 3.5223406328222215,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.26,
+      "robust_z": 5.29957025303039,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T02:00:00",
+      "pollutant": "NOX",
+      "value": 0.243,
+      "robust_z": 6.348148324485601,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T06:00:00",
+      "pollutant": "NOX",
+      "value": 0.317,
+      "robust_z": 4.640496425198977,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.095,
+      "robust_z": 4.451639012545531,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.093,
+      "robust_z": 5.227303385943608,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T21:00:00",
+      "pollutant": "NOX",
+      "value": 0.233,
+      "robust_z": 4.432367847989053,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.091,
+      "robust_z": 3.912046404964254,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.093,
+      "robust_z": 5.227303385943608,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.114,
+      "robust_z": 3.6253878321867035,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.171,
+      "robust_z": 5.763830126436362,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T02:00:00",
+      "pollutant": "NOX",
+      "value": 0.181,
+      "robust_z": 3.8882408487474307,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T17:00:00",
+      "pollutant": "NOX",
+      "value": 0.113,
+      "robust_z": 3.5410764872521288,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T18:00:00",
+      "pollutant": "NOX",
+      "value": 0.148,
+      "robust_z": 4.35353126571257,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-04T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.086,
+      "robust_z": 3.6422501011736155,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T07:00:00",
+      "pollutant": "NOX",
+      "value": 0.343,
+      "robust_z": 3.9539113486559003,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T10:00:00",
+      "pollutant": "NOX",
+      "value": 0.218,
+      "robust_z": 3.6657106493293217,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T11:00:00",
+      "pollutant": "NOX",
+      "value": 0.2,
+      "robust_z": 6.022238923898172,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T12:00:00",
+      "pollutant": "NOX",
+      "value": 0.133,
+      "robust_z": 4.20023791128607,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T13:00:00",
+      "pollutant": "NOX",
+      "value": 0.105,
+      "robust_z": 3.9120464049642503,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.1,
+      "robust_z": 5.530824227708084,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.096,
+      "robust_z": 4.8563334682314885,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T16:00:00",
+      "pollutant": "NOX",
+      "value": 0.093,
+      "robust_z": 3.709699177121275,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-07T14:00:00",
+      "pollutant": "NOX",
+      "value": 0.09,
+      "robust_z": 4.181842708754893,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-07T15:00:00",
+      "pollutant": "NOX",
+      "value": 0.093,
+      "robust_z": 4.451639012545531,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-15T13:00:00",
+      "pollutant": "NOX",
+      "value": 0.004,
+      "robust_z": -5.171095822653894,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-29T08:00:00",
+      "pollutant": "NOX",
+      "value": 0.308,
+      "robust_z": 3.5651654429477175,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    }
+  ]
+}

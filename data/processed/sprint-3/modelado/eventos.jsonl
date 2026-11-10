@@ -1,0 +1,8 @@
+{"utc": "2026-11-09T02:32:39.279132+00:00", "event": "preparation_started", "protocol_sha256": "3833f883b244954690a43e2f933bb9c5920a0829a0a3750530678772cc4ecd08"}
+{"utc": "2026-11-09T02:33:37.809145+00:00", "event": "preparation_finished", "initial_windows": 53608, "boundary_excluded": 3, "comparison_windows": 53605, "comparison_counts": {"test": 6225, "train": 41844, "validation": 5536}, "final_refit_n": 47380}
+{"utc": "2026-11-09T02:36:36.796792+00:00", "event": "selection_started", "train_n": 41844, "validation_n": 5536, "test_metrics_accessed": false}
+{"utc": "2026-11-09T02:36:58.985209+00:00", "event": "selection_frozen", "selected": "C05", "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0", "mean_mae_2023": 18.107754347786067}
+{"utc": "2026-11-09T02:38:34.694167+00:00", "event": "refit_started", "n": 47380, "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0", "test_metrics_accessed": false}
+{"utc": "2026-11-09T02:38:37.012688+00:00", "event": "refit_finished", "last_train_target": "2023-12-31T23:00:00"}
+{"utc": "2026-11-09T02:38:37.013688+00:00", "event": "test_predictions_started", "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0", "n": 6225}
+{"utc": "2026-11-09T02:38:38.797852+00:00", "event": "test_evaluation_finished", "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0", "decision_changes": 0}

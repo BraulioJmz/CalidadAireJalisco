@@ -1,0 +1,60 @@
+{
+  "figures": [
+    {
+      "figure": "01_desarrollo",
+      "sources": [
+        "eda_perfiles_train.csv",
+        "eda_acf_train.csv"
+      ],
+      "selection": "Solo 2015–2022; ningún dato predictivo de 2024",
+      "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+      "png_sha256": "4c4cdd8ca1aa1fa44fcd3d8ad17dd9c966de0ccc933ef99240f2c09080894a36",
+      "svg_sha256": "64f674f0f730d686a718651e625af018748fa6e8e21af2420bd0a98ec7387796"
+    },
+    {
+      "figure": "02_observado_predicho",
+      "sources": [
+        "pm10_horario.csv",
+        "predicciones/test_*.csv"
+      ],
+      "selection": "Primera semana calendario de 2024; sin interpolar ni conectar huecos",
+      "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+      "png_sha256": "0bc0f0bd530f0e44c0922a19aa99ad2dc0db8e382e2d8f2d0be7e096c460cf7d",
+      "svg_sha256": "41a1dfe37283167af2af66841e3532be079cef4e5c76455b9469ea1d4ba2f46d"
+    },
+    {
+      "figure": "03_dispersion",
+      "sources": [
+        "predicciones/test_HGB.csv",
+        "metricas_globales.csv"
+      ],
+      "selection": "Todos los 6,225 orígenes de evaluación en cada horizonte",
+      "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+      "png_sha256": "e42f4deb89fe07e56310a26ef1f91dee94aa0c14150d12c730f2e36cece567a4",
+      "svg_sha256": "68c46f4e7397a64bc90a0cec21b95d705abe7b2b689e43c8ff027fb9711a6b8a"
+    },
+    {
+      "figure": "04_error_mensual",
+      "sources": [
+        "metricas_mensuales.csv"
+      ],
+      "selection": "Mes de fecha objetivo; n visible sin convertir ausencias en errores cero",
+      "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+      "png_sha256": "1e701cae03b82a905033d70be276321fa73a46915fbf5f5b9e440fd0b4e39183",
+      "svg_sha256": "ebf487c31e468ad982a1372af72988ee1182d8ecad546afaddb87d02c7e5f9ef"
+    },
+    {
+      "figure": "05_error_firmado",
+      "sources": [
+        "predicciones/test_HGB.csv",
+        "config_congelada.json"
+      ],
+      "selection": "Todas las predicciones; umbral aprendido solo de horas 2015–2022",
+      "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+      "png_sha256": "3693004765e0df6ba7dea8dd1b869dbdebf68d161db29e6c9d1849b791807be4",
+      "svg_sha256": "856cdaeecafcfadb94b75835b75a6ad7ccfbf33242b17c0e5fba935dec14ebdc"
+    }
+  ],
+  "source_run": "C:\\Users\\Im_JVallejo\\Documents\\Administracion\\Ingenieria\\5to Semestre\\Analisis y Vizualizacion de la informacion\\Codex\\CalidadAireJalisco\\data\\processed\\sprint-3\\modelado",
+  "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0"
+}

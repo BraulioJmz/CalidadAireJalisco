@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
-import { SiteFooter } from "@/components/SiteFooter";
-import { SiteHeader } from "@/components/SiteHeader";
+import { ApplicationShell } from "@/components/ApplicationShell";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { ACADEMIA } from "@/lib/site";
 import "./globals.css";
@@ -29,9 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="min-h-dvh">
-        <SiteHeader />
-        <main>{children}</main>
-        <SiteFooter />
+        <ApplicationShell>{children}</ApplicationShell>
       </body>
     </html>
   );

@@ -35,3 +35,6 @@ entregas/
 .env
 .env.*
 !.env.example
+
+# Salidas de consola temporales; se conserva la evidencia estructurada y visual.
+output/playwright/**/*.txt

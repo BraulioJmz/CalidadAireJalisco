@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ACADEMIA } from "@/lib/site";
-import { NavLinks } from "./NavLinks";
+import { ArchiveNavigation } from "./ArchiveNavigation";
 import { Seal } from "./Seal";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -16,7 +16,7 @@ export function SiteHeader() {
           </span>
         </Link>
         <div className="ml-auto flex min-w-0 items-center gap-2">
-          <NavLinks />
+          <ArchiveNavigation />
           <ThemeToggle />
         </div>
       </div>

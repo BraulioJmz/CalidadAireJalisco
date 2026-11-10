@@ -1,0 +1,6937 @@
+{
+  "episodes": [
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-06-01",
+      "end": "2018-06-03",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 50.0,
+      "n_hours": 70,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-06-05",
+      "end": "2018-06-07",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 48.0,
+      "n_hours": 69,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-11-20",
+      "end": "2018-11-21",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 38.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-11-23",
+      "end": "2018-11-24",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 51.0,
+      "n_hours": 44,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-12-11",
+      "end": "2018-12-12",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 37.0,
+      "n_hours": 45,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-12-16",
+      "end": "2018-12-17",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 43.0,
+      "n_hours": 45,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-12-22",
+      "end": "2018-12-25",
+      "days": 4,
+      "max_category": 4,
+      "max_indicator": 208.0,
+      "n_hours": 94,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2018-12-28",
+      "end": "2018-12-29",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 45.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2019-12-05",
+      "end": "2019-12-06",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 45.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2019-12-10",
+      "end": "2019-12-12",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 40.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2019-12-16",
+      "end": "2019-12-17",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 37.0,
+      "n_hours": 43,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2020-01-06",
+      "end": "2020-01-07",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 54.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2020-01-11",
+      "end": "2020-01-12",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 39.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2020-01-14",
+      "end": "2020-01-16",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 53.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2021-01-15",
+      "end": "2021-01-16",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 49.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2021-01-23",
+      "end": "2021-01-24",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 40.0,
+      "n_hours": 40,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2021-12-04",
+      "end": "2021-12-15",
+      "days": 12,
+      "max_category": 2,
+      "max_indicator": 69.0,
+      "n_hours": 287,
+      "expected_hours": 288
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2021-12-22",
+      "end": "2021-12-26",
+      "days": 5,
+      "max_category": 3,
+      "max_indicator": 102.0,
+      "n_hours": 120,
+      "expected_hours": 120
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2021-12-30",
+      "end": "2022-01-01",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 74.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-01-04",
+      "end": "2022-01-10",
+      "days": 7,
+      "max_category": 2,
+      "max_indicator": 55.0,
+      "n_hours": 166,
+      "expected_hours": 168
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-01-12",
+      "end": "2022-01-14",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 47.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-02-01",
+      "end": "2022-02-02",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 39.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-02-18",
+      "end": "2022-02-19",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 44.0,
+      "n_hours": 47,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-02-22",
+      "end": "2022-02-25",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 40.0,
+      "n_hours": 95,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-02-27",
+      "end": "2022-03-04",
+      "days": 6,
+      "max_category": 2,
+      "max_indicator": 45.0,
+      "n_hours": 144,
+      "expected_hours": 144
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-03-07",
+      "end": "2022-03-09",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 46.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-03-11",
+      "end": "2022-03-13",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 58.0,
+      "n_hours": 71,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-03-18",
+      "end": "2022-04-09",
+      "days": 23,
+      "max_category": 2,
+      "max_indicator": 68.0,
+      "n_hours": 523,
+      "expected_hours": 552
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-04-18",
+      "end": "2022-04-22",
+      "days": 5,
+      "max_category": 2,
+      "max_indicator": 56.0,
+      "n_hours": 115,
+      "expected_hours": 120
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-04-25",
+      "end": "2022-04-26",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 71.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-04-30",
+      "end": "2022-05-06",
+      "days": 7,
+      "max_category": 2,
+      "max_indicator": 50.0,
+      "n_hours": 162,
+      "expected_hours": 168
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-05-08",
+      "end": "2022-05-17",
+      "days": 10,
+      "max_category": 2,
+      "max_indicator": 52.0,
+      "n_hours": 233,
+      "expected_hours": 240
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-05-19",
+      "end": "2022-05-22",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 46.0,
+      "n_hours": 91,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-05-26",
+      "end": "2022-05-29",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 73.0,
+      "n_hours": 94,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-11-14",
+      "end": "2022-11-16",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 36.0,
+      "n_hours": 67,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-12-10",
+      "end": "2022-12-20",
+      "days": 11,
+      "max_category": 2,
+      "max_indicator": 73.0,
+      "n_hours": 254,
+      "expected_hours": 264
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-12-22",
+      "end": "2022-12-25",
+      "days": 4,
+      "max_category": 4,
+      "max_indicator": 170.0,
+      "n_hours": 89,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2022-12-27",
+      "end": "2022-12-28",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 41.0,
+      "n_hours": 45,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-01-04",
+      "end": "2023-01-07",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 58.0,
+      "n_hours": 91,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-01-13",
+      "end": "2023-01-14",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 40.0,
+      "n_hours": 47,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-01-17",
+      "end": "2023-01-21",
+      "days": 5,
+      "max_category": 2,
+      "max_indicator": 69.0,
+      "n_hours": 115,
+      "expected_hours": 120
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-02-05",
+      "end": "2023-02-06",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 57.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-02-09",
+      "end": "2023-02-10",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 37.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-02-14",
+      "end": "2023-02-15",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 49.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-02-17",
+      "end": "2023-02-18",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 44.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-02-23",
+      "end": "2023-02-25",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 78.0,
+      "n_hours": 68,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-03-06",
+      "end": "2023-03-08",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 34.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-03-27",
+      "end": "2023-03-30",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 52.0,
+      "n_hours": 96,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-04-29",
+      "end": "2023-04-30",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 37.0,
+      "n_hours": 46,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-05-02",
+      "end": "2023-05-06",
+      "days": 5,
+      "max_category": 2,
+      "max_indicator": 61.0,
+      "n_hours": 117,
+      "expected_hours": 120
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-06-18",
+      "end": "2023-06-19",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 36.0,
+      "n_hours": 47,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-06-21",
+      "end": "2023-06-22",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 41.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-11-06",
+      "end": "2023-11-07",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 38.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-11-25",
+      "end": "2023-11-27",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 66.0,
+      "n_hours": 63,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-12-20",
+      "end": "2023-12-23",
+      "days": 4,
+      "max_category": 2,
+      "max_indicator": 46.0,
+      "n_hours": 96,
+      "expected_hours": 96
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2023-12-31",
+      "end": "2024-01-01",
+      "days": 2,
+      "max_category": 3,
+      "max_indicator": 91.0,
+      "n_hours": 43,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-01-13",
+      "end": "2024-01-20",
+      "days": 8,
+      "max_category": 2,
+      "max_indicator": 73.0,
+      "n_hours": 185,
+      "expected_hours": 192
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-01-30",
+      "end": "2024-01-31",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 55.0,
+      "n_hours": 44,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-11-25",
+      "end": "2024-12-03",
+      "days": 9,
+      "max_category": 2,
+      "max_indicator": 74.0,
+      "n_hours": 216,
+      "expected_hours": 216
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-12-05",
+      "end": "2024-12-07",
+      "days": 3,
+      "max_category": 2,
+      "max_indicator": 73.0,
+      "n_hours": 72,
+      "expected_hours": 72
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-12-10",
+      "end": "2024-12-11",
+      "days": 2,
+      "max_category": 2,
+      "max_indicator": 41.0,
+      "n_hours": 48,
+      "expected_hours": 48
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-12-14",
+      "end": "2024-12-18",
+      "days": 5,
+      "max_category": 2,
+      "max_indicator": 62.0,
+      "n_hours": 120,
+      "expected_hours": 120
+    },
+    {
+      "pollutant": "PM2.5",
+      "start": "2024-12-27",
+      "end": "2024-12-31",
+      "days": 5,
+      "max_category": 2,
+      "max_indicator": 70.0,
+      "n_hours": 120,
+      "expected_hours": 120
+    }
+  ],
+  "peaks": [
+    {
+      "pollutant": "PM2.5",
+      "year": 2018,
+      "date": "2018-12-25T05:00:00",
+      "value": 550.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2018,
+      "date": "2018-12-31T23:00:00",
+      "value": 184.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2018,
+      "date": "2018-12-22T02:00:00",
+      "value": 179.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2019,
+      "date": "2019-12-08T02:00:00",
+      "value": 136.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2019,
+      "date": "2019-12-25T06:00:00",
+      "value": 136.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2019,
+      "date": "2019-12-14T02:00:00",
+      "value": 132.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2020,
+      "date": "2020-01-09T09:00:00",
+      "value": 162.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2020,
+      "date": "2020-01-14T08:00:00",
+      "value": 126.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2020,
+      "date": "2020-05-28T08:00:00",
+      "value": 112.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2021,
+      "date": "2021-12-25T08:00:00",
+      "value": 325.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2021,
+      "date": "2021-12-15T02:00:00",
+      "value": 194.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2021,
+      "date": "2021-12-23T06:00:00",
+      "value": 191.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2022,
+      "date": "2022-12-25T05:00:00",
+      "value": 417.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2022,
+      "date": "2022-04-26T22:00:00",
+      "value": 399.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2022,
+      "date": "2022-01-01T06:00:00",
+      "value": 280.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2023,
+      "date": "2023-01-17T08:00:00",
+      "value": 222.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2023,
+      "date": "2023-12-25T05:00:00",
+      "value": 203.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2023,
+      "date": "2023-02-14T07:00:00",
+      "value": 152.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2024,
+      "date": "2024-12-25T09:00:00",
+      "value": 470.0,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2024,
+      "date": "2024-01-01T07:00:00",
+      "value": 287.4,
+      "exploratory": false
+    },
+    {
+      "pollutant": "PM2.5",
+      "year": 2024,
+      "date": "2024-12-31T23:00:00",
+      "value": 283.0,
+      "exploratory": false
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2018-06-01T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 3.9950606522844487,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-01T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-01T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 92.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-01T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-03T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-05T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-07T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 5.480237420747336,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-07T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 4.598800632794967,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-06-07T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 5.733171455551059,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-19T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-19T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 3.8221143037007064,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-19T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-19T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 5.530824227708081,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-20T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 6.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 27.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-27T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-27T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-28T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-29T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-29T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 4.946265569495032,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 6.445133923887465,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 5.901794145420208,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-30T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-31T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-31T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-10-31T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-03T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.196831392298814,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-03T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-16T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 126.0,
+      "robust_z": 3.7193347593995107,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-23T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-11-26T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 3.579989415683467,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-21T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 121.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-22T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 179.0,
+      "robust_z": 4.134921612443476,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-22T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 174.0,
+      "robust_z": 3.985627215088972,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-22T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 6.070416835289357,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 129.0,
+      "robust_z": 3.7692130676633258,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 165.0,
+      "robust_z": 4.181842708754891,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 167.0,
+      "robust_z": 5.100836368541751,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 5.2610279239174425,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 7.4193983542425475,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 5.845586582130492,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-23T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 155.0,
+      "robust_z": 4.983737278354843,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-24T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 117.0,
+      "robust_z": 5.339718512523045,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-24T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 235.0,
+      "robust_z": 7.4923162741859635,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-24T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 331.0,
+      "robust_z": 11.57875803768155,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 376.0,
+      "robust_z": 10.984563797190265,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 360.0,
+      "robust_z": 12.934352211139414,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 403.0,
+      "robust_z": 10.703875096041621,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 455.0,
+      "robust_z": 12.60071373385821,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 377.0,
+      "robust_z": 9.146094698502631,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 550.0,
+      "robust_z": 17.165789828679348,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 523.0,
+      "robust_z": 13.929700467451424,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 531.0,
+      "robust_z": 18.023891961569017,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 523.0,
+      "robust_z": 20.108255766895994,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 223.0,
+      "robust_z": 5.941942404912862,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-25T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-31T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 146.0,
+      "robust_z": 4.247468836703964,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2018-12-31T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 184.0,
+      "robust_z": 6.070416835289357,
+      "action": "conservar_y_revisar",
+      "source_year": 2018
+    },
+    {
+      "date": "2019-09-05T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-09-09T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.661521265730088,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-09-11T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-09-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.239656202424313,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-10-02T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.0,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-11-24T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-11-24T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 6.205314987184676,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-11-29T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 3.8221143037007064,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-03T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 8.633481721300418,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-07T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 4.609020189756734,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-07T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 87.0,
+      "robust_z": 3.985627215088972,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-08T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 136.0,
+      "robust_z": 5.010502784683278,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-08T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 125.0,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-14T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 132.0,
+      "robust_z": 4.817791139118537,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-18T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-20T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 66.0,
+      "robust_z": 4.9289709346366575,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-20T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 4.5865371644408475,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 126.0,
+      "robust_z": 3.55981234168203,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2019-12-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 136.0,
+      "robust_z": 3.55981234168203,
+      "action": "conservar_y_revisar",
+      "source_year": 2019
+    },
+    {
+      "date": "2020-01-07T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 6.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-07T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 4.496605063177301,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-07T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 6.879805746661272,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-08T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 4.5287236707714245,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-08T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 27.0,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-09T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 136.0,
+      "robust_z": 3.727448933949605,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-09T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 162.0,
+      "robust_z": 5.290536894644544,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-09T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 89.0,
+      "robust_z": 3.5281055111083446,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-09T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-15T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 24.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-01-23T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-07T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-07T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 104.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-07T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 7.130330885895435,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-07T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 4.159359683439003,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-21T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.5287236707714245,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-21T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-02-21T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.991231620126805,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 5.845586582130491,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 68.0,
+      "robust_z": 3.9345294302801386,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-05T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.114393632807231,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-06T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-13T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-14T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.9505887340772006,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-03-30T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 82.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-02T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 66.0,
+      "robust_z": 5.2995702530303905,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-02T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 5.457243417583362,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-14T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-22T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-22T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.143300379641942,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-22T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 5.334608734042162,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-22T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 9.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-24T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 6.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-26T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-30T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 8.937002563064887,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-30T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 80.0,
+      "robust_z": 6.648551771983581,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-04-30T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 8.645745189654539,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-14T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-15T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-15T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 4.361706911281983,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-18T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-26T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-27T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-29T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 5.56454876568191,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-29T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 9.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-05-29T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 6.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-03T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 4.346718227738058,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-04T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-04T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-05T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-06T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-10T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-06-16T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-21T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-24T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-24T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.661521265730088,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 7.323042531460176,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 3.9120464049642525,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.239656202424313,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 4.890058006205315,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-31T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 6.55219594920121,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-10-31T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.0,
+      "robust_z": 4.239656202424313,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-11-04T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 5.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2020-11-08T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2020
+    },
+    {
+      "date": "2021-01-15T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 5.56454876568191,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-16T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 128.0,
+      "robust_z": 6.340213139079995,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-16T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 170.0,
+      "robust_z": 13.586171012314274,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-17T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 117.0,
+      "robust_z": 3.794010522055848,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-17T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 119.0,
+      "robust_z": 5.705067673906201,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-18T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 4.143300379641942,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-24T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 85.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-28T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 119.0,
+      "robust_z": 6.969737847924817,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-01-28T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 5.480237420747336,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-01T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 6.576284904896803,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-01T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 3.9120464049642525,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-02T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 4.914146961900908,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-02T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 6.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-03T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-03T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 4.844069999877366,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-07T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-07T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 5.57987810112456,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-07T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 127.0,
+      "robust_z": 3.655304761034451,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-12T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.757877088512459,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-12T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-19T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.991231620126805,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-19T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 7.4193983542425475,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-19T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 7.250775664373398,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 117.0,
+      "robust_z": 5.813467974536368,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 88.0,
+      "robust_z": 3.7710165188918734,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 87.0,
+      "robust_z": 7.296763670701348,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 147.0,
+      "robust_z": 7.388739683357247,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 132.0,
+      "robust_z": 5.292158266662517,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 4.66522775304645,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-20T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 6.239039525158506,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-22T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 5.2610279239174425,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-22T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 3.9505887340772006,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-02-25T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 3.990736993569855,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-11T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 78.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-29T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 25.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-31T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 3.822114303700706,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-31T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-03-31T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 6.5,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-01T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 11.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-02T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 13.0,
+      "robust_z": -3.801675189777173,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-03T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 3.0,
+      "robust_z": -4.1889426114862225,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-03T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 3.0,
+      "robust_z": -3.822114303700706,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-03T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 65.0,
+      "robust_z": 8.852691218130312,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-04-03T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 10.791852151625523,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-11T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 3.0,
+      "robust_z": -3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-15T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 193.0,
+      "robust_z": 3.6752863832704272,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-22T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 5.901794145420208,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-22T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-22T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-23T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 5.920529999850114,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-23T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 6.4076622150276545,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-24T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-24T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 190.0,
+      "robust_z": 3.991884086698217,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 252.0,
+      "robust_z": 5.963111487190808,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 325.0,
+      "robust_z": 3.7785987708312483,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 198.0,
+      "robust_z": 4.987143797342098,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2021-12-25T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2021
+    },
+    {
+      "date": "2022-01-01T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 131.0,
+      "robust_z": 5.845586582130491,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 147.0,
+      "robust_z": 5.82952727833343,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 110.0,
+      "robust_z": 4.20259627058494,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 244.0,
+      "robust_z": 8.810535545663026,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 280.0,
+      "robust_z": 7.08215297450425,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 193.0,
+      "robust_z": 4.017618871664937,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-01T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 159.0,
+      "robust_z": 3.7846425948408955,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-05T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-07T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 103.0,
+      "robust_z": 5.995473417569735,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-10T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-10T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 82.0,
+      "robust_z": 5.492281898595133,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-11T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 3.962633211924997,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-11T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 80.0,
+      "robust_z": 4.8057466612707405,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-12T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 95.0,
+      "robust_z": 4.856333468231486,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-12T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 66.0,
+      "robust_z": 3.6133433543389026,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-21T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 78.0,
+      "robust_z": 4.637123971401592,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-31T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 3.5223406328222193,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-01-31T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-04T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 170.0,
+      "robust_z": 5.016525023607177,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-05T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-12T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 66.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-19T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 3.9345294302801386,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-19T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-24T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 3.740357848006574,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-24T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-28T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-28T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 4.496605063177301,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-28T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 105.0,
+      "robust_z": 7.612109999807289,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-02-28T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 8.88079499977517,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-02T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 68.0,
+      "robust_z": 4.121887974579193,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-10T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 3.902410822686015,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-11T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-12T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-12T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 92.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-12T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 3.5972840505418415,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-12T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 4.239656202424313,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-12T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-18T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 6.239039525158506,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-18T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-18T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 3.625387832186699,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-19T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-19T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 82.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-19T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 4.496605063177301,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-23T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-23T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-24T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-24T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 79.0,
+      "robust_z": 9.250158987107591,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-24T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 90.0,
+      "robust_z": 8.363685417509782,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-25T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 4.159359683439003,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-25T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-25T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 85.0,
+      "robust_z": 6.315686202371755,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-25T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 6.937619240330694,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-26T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-26T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 85.0,
+      "robust_z": 6.315686202371755,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-26T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 4.817791139118537,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-31T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 4.1312559017941455,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-03-31T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 4.87132215177541,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-07T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 3.516987531556532,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-18T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 4.890058006205315,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-19T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-26T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 161.0,
+      "robust_z": 5.920529999850113,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-26T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 399.0,
+      "robust_z": 20.31903412923243,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-26T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 200.0,
+      "robust_z": 22.797787670308917,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-27T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 69.0,
+      "robust_z": 7.588021044111696,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-04-27T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-03T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 132.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-03T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 120.0,
+      "robust_z": 4.159359683439003,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-03T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 4.97436935113989,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-03T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 3.9987666454683857,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-10T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 69.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-10T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-11T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 124.0,
+      "robust_z": 7.515754177024918,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-12T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 3.5651654429477175,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-12T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 86.0,
+      "robust_z": 4.6250794935537956,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-14T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 4.880139024448306,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-14T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 211.0,
+      "robust_z": 9.994726708607729,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-21T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 3.625387832186699,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-24T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-26T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 3.794010522055848,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-26T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 5.435602002840796,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-26T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 272.0,
+      "robust_z": 14.26066177179087,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-26T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 187.0,
+      "robust_z": 13.586171012314274,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-05-27T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 78.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-01T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-14T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 11.0,
+      "robust_z": -3.7,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-16T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 10.0,
+      "robust_z": -3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-16T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 8.0,
+      "robust_z": -4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-16T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 12.0,
+      "robust_z": -3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-17T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 4.0,
+      "robust_z": -4.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-23T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-23T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 4.0,
+      "robust_z": -4.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-24T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 9.0,
+      "robust_z": -4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-24T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 11.0,
+      "robust_z": -4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-26T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 7.0,
+      "robust_z": -4.5,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-26T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 2.0,
+      "robust_z": -5.3,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-26T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 6.0,
+      "robust_z": -5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-06-27T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 11.0,
+      "robust_z": -3.7,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-02T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 6.359484303636469,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-09T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-11T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-20T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-22T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-22T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-07-23T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-02T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-02T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 4.410131888885431,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-03T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 35.0,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 8.903278025091057,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-04T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 5.126129772022124,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-08T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-08T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-11T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-11T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 6.7449075947659525,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-11T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-13T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 5.901794145420208,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-24T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-25T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-08-26T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-01T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.0,
+      "robust_z": 3.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-14T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 5.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-17T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-19T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-21T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 5.9,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-24T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-24T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 53.0,
+      "robust_z": 7.4193983542425475,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-24T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 6.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-09-29T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 3.9345294302801386,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-13T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-13T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-14T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-17T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 25.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-17T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-17T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 6.55219594920121,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-17T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-18T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-18T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 4.919814951476341,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-28T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 95.0,
+      "robust_z": 3.813466986271519,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-28T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 6.7449075947659525,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-10-30T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 4.072886509147133,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-11-13T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 66.0,
+      "robust_z": 3.9505887340772006,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-11-19T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-11-19T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 5.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-11-20T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 5.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-11-20T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 3.9720011391399495,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-08T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-09T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 86.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 152.0,
+      "robust_z": 4.4040279001118865,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 143.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 121.0,
+      "robust_z": 5.150656708730364,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 115.0,
+      "robust_z": 6.4076622150276545,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 159.0,
+      "robust_z": 9.864427357345205,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-10T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 185.0,
+      "robust_z": 5.890552632762265,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-16T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 108.0,
+      "robust_z": 5.817482800485633,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-16T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 224.0,
+      "robust_z": 8.363685417509782,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 250.0,
+      "robust_z": 13.060593797137708,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 219.0,
+      "robust_z": 15.176042088223392,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 354.0,
+      "robust_z": 26.305139619587212,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 417.0,
+      "robust_z": 16.322676379333604,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 394.0,
+      "robust_z": 8.379250588882318,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 237.0,
+      "robust_z": 3.772152025220958,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 286.0,
+      "robust_z": 7.883110751382707,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 268.0,
+      "robust_z": 5.044628805252035,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2022-12-25T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 179.0,
+      "robust_z": 3.9936952863745767,
+      "action": "conservar_y_revisar",
+      "source_year": 2022
+    },
+    {
+      "date": "2023-01-04T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 4.8057466612707405,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-05T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 102.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-05T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 147.0,
+      "robust_z": 11.803588290840416,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-05T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 126.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-05T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 7.0821529745042495,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-06T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 114.0,
+      "robust_z": 6.205314987184676,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-06T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 108.0,
+      "robust_z": 5.684993544159874,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-06T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 65.0,
+      "robust_z": 3.902410822686015,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-07T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 4.769613227727351,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-10T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 122.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-12T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 3.625387832186699,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-13T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 93.0,
+      "robust_z": 3.96600566572238,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-13T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 88.0,
+      "robust_z": 5.986105490354783,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-14T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 4.580916408111875,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 111.0,
+      "robust_z": 5.3652674049274625,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 183.0,
+      "robust_z": 15.272397911005763,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 130.0,
+      "robust_z": 5.084622648362026,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 119.0,
+      "robust_z": 3.516987531556532,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 222.0,
+      "robust_z": 4.376347020790002,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-17T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 190.0,
+      "robust_z": 3.651047806732005,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-19T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 93.0,
+      "robust_z": 6.600373860592396,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-01-19T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 122.0,
+      "robust_z": 3.661521265730088,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-04T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 4.239656202424313,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-04T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 5.2995702530303905,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-04T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 103.0,
+      "robust_z": 11.46634291110212,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-04T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 4.346718227738058,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-05T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 3.787525033983958,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-05T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 94.0,
+      "robust_z": 5.792685346093111,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-05T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 5.877705189724615,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-05T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 67.0,
+      "robust_z": 6.610009442870633,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-06T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-11T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 5.492281898595133,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-11T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 7.284500202347228,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-14T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-18T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 4.432367847989054,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-18T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 5.684993544159874,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-18T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 7.824092809928505,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-20T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-23T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 6.4076622150276545,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-23T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 80.0,
+      "robust_z": 7.194568101083682,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-23T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 6.475111290975314,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-23T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 14.838796708485095,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-23T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 135.0,
+      "robust_z": 21.077836233643602,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 85.0,
+      "robust_z": 5.56454876568191,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 115.0,
+      "robust_z": 9.909825773848437,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 118.0,
+      "robust_z": 7.697129843438792,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 5.040930939246133,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 131.0,
+      "robust_z": 4.098828461434694,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 139.0,
+      "robust_z": 11.46634291110212,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 145.0,
+      "robust_z": 14.838796708485093,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 9.555285759251765,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.856333468231486,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-24T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 3.7771482530689333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-25T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 4.946265569495031,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-25T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 6.475111290975314,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-02-25T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 88.0,
+      "robust_z": 7.033975063113064,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-18T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 5.508341202392194,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-20T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 4.833850442915598,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-28T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 3.962633211924997,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-29T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 5.2610279239174425,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-29T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.914146961900908,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-29T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 68.0,
+      "robust_z": 7.7191720251210345,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-29T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 4.159359683439003,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-03-30T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 152.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-13T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 3.740357848006574,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-16T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-17T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-22T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 6.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 82.0,
+      "robust_z": 5.142992041009038,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 123.0,
+      "robust_z": 9.038176176986376,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 98.0,
+      "robust_z": 8.206304240298575,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 104.0,
+      "robust_z": 6.154728180223931,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 115.0,
+      "robust_z": 3.572302911301967,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-25T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 3.5523179999100685,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-04-30T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-02T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 81.0,
+      "robust_z": 9.94873870227978,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-02T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-02T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-03T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-03T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 97.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-03T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 3.962633211924997,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-03T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 5.781349366942244,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-03T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 79.0,
+      "robust_z": 8.633481721300418,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 6.239039525158506,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 3.661521265730088,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 3.554047463395906,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 113.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-04T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-05T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 5.508341202392194,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-05T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 79.0,
+      "robust_z": 9.611493322541481,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-05T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.0,
+      "robust_z": 6.55219594920121,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-05T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 88.0,
+      "robust_z": 4.181842708754891,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-12T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-29T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 107.0,
+      "robust_z": 6.257775379588411,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-05-29T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 78.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-02T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-02T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-05T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 3.0,
+      "robust_z": -4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-18T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 4.451639012545528,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-18T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 3.55981234168203,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-21T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-21T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.21556724672872,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-22T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-22T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-22T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 125.0,
+      "robust_z": 9.173074328881695,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-24T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 93.0,
+      "robust_z": 6.295247088448223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-06-27T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-08T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 61.0,
+      "robust_z": 8.093889113719143,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-08T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 7.689194658033186,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-15T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 96.0,
+      "robust_z": 9.442870632672333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-15T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 10.285984082018077,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-17T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 3.7771482530689333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-17T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-19T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-07-27T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-05T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 3.7771482530689333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-06T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 6.359484303636469,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-06T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-10T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-21T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 4.5287236707714245,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 9.442870632672333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 7.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 3.9120464049642525,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-23T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-08-25T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-01T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-02T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-03T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 37.0,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-03T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-03T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 4.856333468231486,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-22T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-22T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-09-30T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-18T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 60.0,
+      "robust_z": 5.283510949233329,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 78.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 89.0,
+      "robust_z": 4.519088088493188,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 5.058680696074465,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 8.24954082744451,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-24T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-25T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 3.642250101173614,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-29T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 4.23089658217137,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-29T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 5.126129772022124,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-29T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 4.476165949253768,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-30T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 4.121887974579193,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-30T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 4.476165949253768,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-30T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 5.800620531498719,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-30T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 5.211974050500963,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-30T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-31T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 3.985627215088972,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-31T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 4.5865371644408475,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-31T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 5.211974050500963,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-31T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-10-31T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 3.6177231644653745,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-01T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 45.0,
+      "robust_z": 4.87132215177541,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-01T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 8.768379873195737,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-01T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 3.5748010252259546,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-04T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.788884392283826,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-04T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 5.126129772022124,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-05T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 7.621745582085526,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-05T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 68.0,
+      "robust_z": 4.5865371644408475,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-06T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 100.0,
+      "robust_z": 3.939026035343316,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-06T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 5.036197670758578,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-12T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.0,
+      "robust_z": 3.672227468261463,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-17T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 85.0,
+      "robust_z": 3.5651654429477175,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-19T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 3.8629925315477727,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-24T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 5.328476999865102,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-24T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 94.0,
+      "robust_z": 3.642250101173614,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 96.0,
+      "robust_z": 3.7231889923108055,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 121.0,
+      "robust_z": 3.6303473230652035,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 102.0,
+      "robust_z": 3.8912928431342033,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 79.0,
+      "robust_z": 4.196831392298814,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 124.0,
+      "robust_z": 6.070416835289357,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 133.0,
+      "robust_z": 4.351553286945776,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 96.0,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-25T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 5.7025127846657595,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-26T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-27T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-27T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 90.0,
+      "robust_z": 3.6534916138315574,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-27T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 86.0,
+      "robust_z": 3.6294026581359646,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-11-27T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 3.7771482530689333,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-08T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 5.56454876568191,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-08T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-12T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 3.516987531556532,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-13T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.507351949278295,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-13T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 81.0,
+      "robust_z": 3.556405822694775,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-20T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-21T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 4.5865371644408475,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-23T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 105.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 152.0,
+      "robust_z": 7.194568101083682,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 182.0,
+      "robust_z": 7.563932088416103,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 172.0,
+      "robust_z": 6.985797151721878,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 166.0,
+      "robust_z": 7.869058860560277,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 203.0,
+      "robust_z": 8.672024050413366,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 174.0,
+      "robust_z": 8.318719366878007,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 176.0,
+      "robust_z": 6.56504339223886,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 180.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 203.0,
+      "robust_z": 7.250775664373398,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 166.0,
+      "robust_z": 9.712666936462972,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-25T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 103.0,
+      "robust_z": 9.555285759251765,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-31T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 3.9987666454683857,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-31T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 106.0,
+      "robust_z": 5.6657223796034,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-31T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-31T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 94.0,
+      "robust_z": 4.3535312657125695,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2023-12-31T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 152.0,
+      "robust_z": 6.433604167315216,
+      "action": "conservar_y_revisar",
+      "source_year": 2023
+    },
+    {
+      "date": "2024-01-01T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 114.6,
+      "robust_z": 4.865179248683639,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 165.0,
+      "robust_z": 7.430104556773924,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 194.4,
+      "robust_z": 10.454606771887224,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 186.8,
+      "robust_z": 9.704159845802906,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 246.2,
+      "robust_z": 9.590704223790489,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 228.7,
+      "robust_z": 9.801193848644271,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-01T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 287.4,
+      "robust_z": 6.892822235002048,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-02T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 26.7,
+      "robust_z": 3.749375104149309,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-03T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 90.3,
+      "robust_z": 3.840343783686559,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-14T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 65.1,
+      "robust_z": 3.717728829019804,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-17T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 124.8,
+      "robust_z": 4.9682002283398,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-17T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.9,
+      "robust_z": 4.745814500413633,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-18T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.9,
+      "robust_z": 5.047312874285533,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-18T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.2,
+      "robust_z": 4.6996775499014385,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-18T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.4,
+      "robust_z": 4.754337304603317,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-18T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 29.7,
+      "robust_z": 3.575613664695203,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 115.0,
+      "robust_z": 4.88729369981402,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 116.5,
+      "robust_z": 4.833850442915599,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 104.5,
+      "robust_z": 4.703205836350312,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 134.3,
+      "robust_z": 5.542201180277567,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 119.8,
+      "robust_z": 3.7512773746232546,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 125.9,
+      "robust_z": 8.59975718332659,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 159.8,
+      "robust_z": 8.38647642947383,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-19T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 120.8,
+      "robust_z": 5.346573093412035,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-20T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 96.3,
+      "robust_z": 3.853443109468745,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-20T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 137.7,
+      "robust_z": 5.9687079112412995,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-20T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 118.6,
+      "robust_z": 5.720680885931121,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-21T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.2,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-30T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 94.3,
+      "robust_z": 3.8934019449461994,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-31T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.6,
+      "robust_z": 4.035887331294382,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-31T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 161.5,
+      "robust_z": 6.2601173613921475,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-31T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 3.6630880270761437,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-01-31T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.8,
+      "robust_z": 5.157870513644552,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-04T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 87.5,
+      "robust_z": 4.967738121763013,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-04T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 110.4,
+      "robust_z": 3.619767075857728,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-05T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.4,
+      "robust_z": 6.109180672040886,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-05T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.5,
+      "robust_z": 5.311614730878187,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-05T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 40.6,
+      "robust_z": 4.653986240388507,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-06T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.4,
+      "robust_z": 5.976301845594946,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-06T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 88.1,
+      "robust_z": 3.8712632427633418,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-06T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.9,
+      "robust_z": 4.279999999999999,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-06T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 42.7,
+      "robust_z": 4.605143806081582,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-07T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 68.6,
+      "robust_z": 5.350960025180988,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-07T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.3,
+      "robust_z": 8.900632963289189,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-07T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.1,
+      "robust_z": 3.726561446108189,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-09T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 173.9,
+      "robust_z": 5.345021112833396,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-12T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.54995136566629,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-12T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.887196745404588,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-21T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.54995136566629,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-21T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-21T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 50.0,
+      "robust_z": 6.239039525158506,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-23T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 5.12926693834527,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-23T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 54.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-23T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-02-26T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 35.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-06T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 175.0,
+      "robust_z": 3.7771482530689333,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-06T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 171.0,
+      "robust_z": 13.875238480661388,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-09T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 52.0,
+      "robust_z": 4.991231620126805,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-22T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.2,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-23T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 4.646491898616545,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-26T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 3.9120464049642525,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-28T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 5.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-28T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 26.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-03-28T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 26.0,
+      "robust_z": 4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-08T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 4.5865371644408475,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-10T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-11T15:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 3.8221143037007064,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-17T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-25T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 38.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-25T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 57.0,
+      "robust_z": 7.250775664373398,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-26T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 7.044681265644439,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-30T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 35.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-30T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 65.0,
+      "robust_z": 7.588021044111696,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-04-30T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-05-01T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 56.0,
+      "robust_z": 4.046944556859571,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-05-10T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 3.642250101173614,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-05-10T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 4.046944556859572,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-05-15T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-05-17T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 3.962633211924997,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-05T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 35.0,
+      "robust_z": 3.625387832186699,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-07T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-07T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 49.0,
+      "robust_z": 3.822114303700706,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-07T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 4.384189936597869,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-07T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 3.897057721420328,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-08T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 3.9987666454683857,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-12T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 5.058680696074464,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-12T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-06-13T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 5.171095822653896,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-07-05T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-08T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-08T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 43.0,
+      "robust_z": 3.740357848006574,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-08-08T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 30.0,
+      "robust_z": 4.1,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-09-19T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 81.0,
+      "robust_z": 5.480237420747336,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 86.0,
+      "robust_z": 4.788884392283826,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.0,
+      "robust_z": 8.768379873195737,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 75.0,
+      "robust_z": 4.196831392298814,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 3.9505887340772006,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-04T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 27.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 4.181842708754891,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 90.0,
+      "robust_z": 3.822114303700706,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-05T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 77.0,
+      "robust_z": 5.142992041009038,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 99.0,
+      "robust_z": 5.193578847969783,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 80.0,
+      "robust_z": 5.395926075812762,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-14T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 76.0,
+      "robust_z": 5.684993544159874,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 47.0,
+      "robust_z": 3.597284050541841,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 41.0,
+      "robust_z": 5.227303385943613,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-15T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 27.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 4.432367847989054,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 64.0,
+      "robust_z": 5.508341202392194,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-16T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 39.0,
+      "robust_z": 5.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-18T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 48.0,
+      "robust_z": 3.9345294302801386,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 91.0,
+      "robust_z": 4.1031521201492875,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 101.0,
+      "robust_z": 5.328476999865102,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 116.0,
+      "robust_z": 5.283510949233329,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 4.637123971401592,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 46.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 82.0,
+      "robust_z": 6.263128480854098,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 32.0,
+      "robust_z": 3.7096991771212737,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 33.0,
+      "robust_z": 4.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T13:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-29T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.8,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 102.0,
+      "robust_z": 8.190244936501513,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 6.632492468186519,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 44.0,
+      "robust_z": 5.73317145555106,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-30T11:00:00",
+      "pollutant": "PM2.5",
+      "value": 28.0,
+      "robust_z": 3.6,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 62.0,
+      "robust_z": 3.8783218669904223,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 4.271774810018436,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 6.359484303636469,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 74.0,
+      "robust_z": 6.632492468186519,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-10-31T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 6.913530284635101,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-11T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 31.0,
+      "robust_z": 3.5651654429477175,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-14T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 73.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-14T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 107.0,
+      "robust_z": 8.138855164350916,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 72.0,
+      "robust_z": 4.946265569495032,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 71.0,
+      "robust_z": 4.552812626467017,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-21T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 63.0,
+      "robust_z": 4.181842708754891,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T21:00:00",
+      "pollutant": "PM2.5",
+      "value": 58.0,
+      "robust_z": 3.687216151805387,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-22T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 59.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-23T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 161.0,
+      "robust_z": 11.347315130018012,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-23T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 4.65043628902284,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 97.0,
+      "robust_z": 6.829218939700526,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-26T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 69.0,
+      "robust_z": 4.721435316336167,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T00:00:00",
+      "pollutant": "PM2.5",
+      "value": 153.0,
+      "robust_z": 9.105625252934036,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T01:00:00",
+      "pollutant": "PM2.5",
+      "value": 176.0,
+      "robust_z": 12.537592940859064,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 150.0,
+      "robust_z": 9.40737111901567,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 144.0,
+      "robust_z": 10.791852151625523,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 129.0,
+      "robust_z": 3.556405822694775,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 34.0,
+      "robust_z": 3.8542329112948295,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T17:00:00",
+      "pollutant": "PM2.5",
+      "value": 35.0,
+      "robust_z": 4.4,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T18:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.5287236707714245,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 84.0,
+      "robust_z": 5.648860110616485,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-27T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 98.0,
+      "robust_z": 7.329466252979001,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 70.0,
+      "robust_z": 3.727448933949605,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-28T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 86.0,
+      "robust_z": 5.901794145420208,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-29T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 114.0,
+      "robust_z": 5.64119544289516,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-11-30T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 95.0,
+      "robust_z": 6.660596249831378,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-05T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 83.0,
+      "robust_z": 6.952443213066443,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-06T19:00:00",
+      "pollutant": "PM2.5",
+      "value": 55.0,
+      "robust_z": 3.7096991771212733,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-15T03:00:00",
+      "pollutant": "PM2.5",
+      "value": 155.0,
+      "robust_z": 3.556405822694775,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-16T16:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 4.0,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-17T02:00:00",
+      "pollutant": "PM2.5",
+      "value": 142.0,
+      "robust_z": 3.5854508793229534,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-18T20:00:00",
+      "pollutant": "PM2.5",
+      "value": 108.0,
+      "robust_z": 7.708465822589659,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-24T12:00:00",
+      "pollutant": "PM2.5",
+      "value": 51.0,
+      "robust_z": 3.63187332025859,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T04:00:00",
+      "pollutant": "PM2.5",
+      "value": 207.0,
+      "robust_z": 4.985366483087878,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T05:00:00",
+      "pollutant": "PM2.5",
+      "value": 281.0,
+      "robust_z": 5.238544898601557,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T06:00:00",
+      "pollutant": "PM2.5",
+      "value": 381.0,
+      "robust_z": 8.293738227638134,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T07:00:00",
+      "pollutant": "PM2.5",
+      "value": 355.0,
+      "robust_z": 6.7898736453977255,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T08:00:00",
+      "pollutant": "PM2.5",
+      "value": 379.0,
+      "robust_z": 8.327366684307195,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T09:00:00",
+      "pollutant": "PM2.5",
+      "value": 470.0,
+      "robust_z": 11.57875803768155,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-25T10:00:00",
+      "pollutant": "PM2.5",
+      "value": 287.0,
+      "robust_z": 6.5560501821125055,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-30T14:00:00",
+      "pollutant": "PM2.5",
+      "value": 36.0,
+      "robust_z": 3.5410764872521248,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-31T22:00:00",
+      "pollutant": "PM2.5",
+      "value": 153.0,
+      "robust_z": 6.4076622150276545,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    },
+    {
+      "date": "2024-12-31T23:00:00",
+      "pollutant": "PM2.5",
+      "value": 283.0,
+      "robust_z": 6.529070551733442,
+      "action": "conservar_y_revisar",
+      "source_year": 2024
+    }
+  ]
+}

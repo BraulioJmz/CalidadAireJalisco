@@ -7,7 +7,7 @@ export const ACADEMIA = {
   siglas: "AM",
   unidad: "Observatorio de Calidad del Aire",
   descripcion:
-    "Institución académica cercana a la estación Miravalle. Usamos los datos de SEMADET y la NOM-172-SEMARNAT-2023 para decidir cuándo y cómo realizar actividades al aire libre con nuestra comunidad.",
+    "Institución académica cercana a la estación Miravalle. Exploramos concentraciones, cobertura, categorías retrospectivas y evaluación predictiva con los datos de SEMADET, haciendo visibles sus límites.",
   comunidad: "estudiantes, docentes y personal",
   equipo: "Equipo 3",
   materia: "Análisis y Visualización de la Información",
@@ -26,6 +26,11 @@ export type Sprint = {
 
 /** Registro de entregas. Cada sprint nuevo agrega su fila y su ruta app/sprint-N. */
 export const SPRINTS: Sprint[] = [
+  {
+    slug: "sprint-3", numero: 3, titulo: "Histórico y evaluación de PM10", periodo: null,
+    resumen: "Miravalle 2015–2024: cobertura, patrones y evaluación retrospectiva del experimento PM10 C05 congelado.",
+    estado: "en curso", etiquetaPublica: "Histórico y evaluación retrospectiva",
+  },
   {
     slug: "sprint-1",
     numero: 1,

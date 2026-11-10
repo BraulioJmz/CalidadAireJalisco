@@ -7,3 +7,19 @@ docs/sprints/sprint-2/** -text whitespace=cr-at-eol
 web/data/sprint2.json -text whitespace=cr-at-eol
 web/public/descargas/sprint-2/** -text whitespace=cr-at-eol
 output/playwright/** -text whitespace=cr-at-eol
+
+# Sprint 3: preservar los bytes de insumos, resultados y evidencia congelada.
+config/fuentes_sprint3.json -text whitespace=cr-at-eol
+config/sprint3_modelado_protocolo.json -text whitespace=cr-at-eol
+data/source/sprint-3/** -text whitespace=cr-at-eol
+data/processed/sprint-3/** -text whitespace=cr-at-eol
+docs/sprints/sprint-3/** -text whitespace=cr-at-eol
+pipeline/*sprint3.py -text whitespace=cr-at-eol
+pipeline/pm10_modelado.py -text whitespace=cr-at-eol
+tests/*sprint3.py -text whitespace=cr-at-eol
+requirements-sprint3-modelado.txt -text whitespace=cr-at-eol
+web/data/academia.json -text whitespace=cr-at-eol
+web/public/datos/sprint-3/** -text whitespace=cr-at-eol
+web/public/descargas/sprint-3/** -text whitespace=cr-at-eol
+# SVG generados: conservar también los espacios de sus trazados firmados.
+docs/sprints/sprint-3/**/figuras/*.svg -text -whitespace

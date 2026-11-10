@@ -1,0 +1,62 @@
+[
+  {
+    "id": "H01",
+    "title": "Una rejilla completa puede ocultar mediciones ausentes",
+    "detail": "PM₁₀ tiene 2,100 / 8,784 horas utilizables en 2016 (23.9 %).",
+    "figure": "historico-cobertura",
+    "period": "2016",
+    "population": "Horas esperadas y PM10 del inventario",
+    "limitation": "No permite sostener un cambio anual representativo.",
+    "view": 1
+  },
+  {
+    "id": "H02",
+    "title": "PM₂.₅ empieza con una historia fragmentada",
+    "detail": "No hay mediciones numéricas de PM₂.₅ en 2015–2017. La cobertura mejora en 2022–2024.",
+    "figure": "historico-cobertura",
+    "period": "2015–2024",
+    "population": "Horas crudas PM2.5",
+    "limitation": "Ausencia de mediciones no significa aire favorable; no se rellena.",
+    "view": 1
+  },
+  {
+    "id": "H03",
+    "title": "El perfil horario de PM₁₀ tiene un máximo matutino",
+    "detail": "La media observada más alta aparece a las 08:00: 94.4 µg/m³, con 2,892 / 3,653 observaciones.",
+    "figure": "historico-horas",
+    "period": "2015–2024",
+    "population": "PM10 crudo observado, agrupado por hora",
+    "limitation": "Mezcla años y estaciones con cobertura desigual; no identifica fuentes emisoras.",
+    "view": 1
+  },
+  {
+    "id": "H04",
+    "title": "Diciembre de 2024 registra más días desfavorables de PM₁₀",
+    "detail": "15 / 31 frente a 27 / 31 días Mala o peor. La media diaria pareada cambia +65.2 % (31 / 31 pares).",
+    "figure": "comparacion-periodos",
+    "period": "Diciembre 2023 y 2024",
+    "population": "Fechas mes/día coincidentes con base diaria suficiente",
+    "limitation": "Referencia retrospectiva de 2024; el pareamiento no controla meteorología ni actividades.",
+    "view": 2
+  },
+  {
+    "id": "H05",
+    "title": "C05 mejora el error global y aún subestima los picos",
+    "detail": "En 2024, MAE de 16.21, 20.73 y 22.80 µg/m³ a +1, +2 y +3 h; subestimación en concentraciones altas.",
+    "figure": "evaluacion-error",
+    "period": "2024",
+    "population": "6,225 orígenes comunes; 70.9 % de las horas del año",
+    "limitation": "Evaluación retrospectiva; no acredita operación en tiempo real ni validez instrumental.",
+    "view": 5
+  },
+  {
+    "id": "H06",
+    "title": "Una secuencia desfavorable cruza de 2021 a 2022",
+    "detail": "52 días consecutivos de PM₁₀ Mala o peor: 2021-12-04 a 2022-01-24.",
+    "figure": "episodios-secuencia",
+    "period": "2021-12-04 — 2022-01-24",
+    "population": "Categorías de promedio diario PM10 con al menos 18 lecturas",
+    "limitation": "Criterio de episodio del proyecto y bandas retrospectivas; no demuestra una fuente o causa del evento.",
+    "view": 3
+  }
+]

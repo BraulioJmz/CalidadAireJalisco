@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-11-09T02:45:17.545013+00:00",
+  "checks_passed": 7727,
+  "prediction_rows_checked": 482445,
+  "old_files_verified": 294,
+  "old_files_changed": [],
+  "model_artifacts_reloaded": 6,
+  "same_origins_all_models_and_horizons": true,
+  "threshold_train_p90": 114.0,
+  "protocol_sha256": "3833f883b244954690a43e2f933bb9c5920a0829a0a3750530678772cc4ecd08",
+  "freeze_sha256": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+  "year_month_metric_rows_verified": 1080
+}
