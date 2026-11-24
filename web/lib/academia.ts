@@ -1,7 +1,7 @@
 export type Pol = "PM10" | "PM2.5" | "O3" | "CO" | "NO2" | "SO2" | "NO" | "NOX";
 export type Pollutant = { key: Pol; slug: string; label: string; unit: string; statistic: string; categoryApplicable: boolean };
 export type Finding = { id: string; title: string; detail: string; figure: string; period: string; population: string; limitation: string; view: number };
-export type Metric = { partition: string; model: string; horizon: number; n: number; mae: number | null; rmse: number | null; r2: number | null; r2_reason: string | null; bias: number | null; month?: number; threshold_train_p90?: number };
+export type Metric = { fit_period?: string; partition: string; model: string; horizon: number; n: number; mae: number | null; rmse: number | null; r2: number | null; r2_reason: string | null; bias: number | null; month?: number; threshold_train_p90?: number };
 export type Summary = { schema: string; years: number[]; findings: Finding[]; pollutants: Pollutant[];
   categories: { code: number; name: string; color: string; ink: string }[];
   model: { id: string; n: number; expected: number; coverage: number; rawN: number; threshold: number; features: number; parameters: Record<string, unknown>; freezeSha256: string; metrics: Metric[] };

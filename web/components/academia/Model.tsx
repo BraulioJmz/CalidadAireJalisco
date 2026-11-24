@@ -1,19 +1,57 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { EvaluationPoint, HourChunk, Metric, Metrics, Prediction, Summary } from "@/lib/academia";
 import { chunkUrls, dateLabel, fmt, hourGrid, mergeHours, MONTHS, pad, shiftHour } from "@/lib/academia";
-import { LineChart, Loading, MonthOptions, Motion, Panel, PointChart, Select, Table, useData } from "./Shared";
+import { LineChart, Loading, MonthOptions, Motion, Panel, PointChart, Sections, Select, Table, useData } from "./Shared";
+import { ForecastSeries } from "./ForecastSeries";
+import "./prediction.css";
 
-export function ModelScope({ summary }: { summary: Summary }) {
-  return <div className="am-model-scope"><b>PM₁₀ · evaluación retrospectiva de 2024</b><p>{summary.model.n.toLocaleString("es-MX")} orígenes evaluados / {summary.model.expected.toLocaleString("es-MX")} horas ({fmt(summary.model.coverage, 1)} %). No es un pronóstico operativo actual. El modelo tiende a subestimar concentraciones altas.</p><details><summary>Qué población se evaluó</summary><p>Hay {summary.model.rawN.toLocaleString("es-MX")} horas con PM10 observado (91.7 %). La comparación exige 24 observaciones previas y los tres objetivos disponibles. 2024 ya fue explorado descriptivamente; no es una prueba ciega. Los huecos condicionan las horas evaluadas.</p></details></div>;
+const STAGES = [
+  { title: "Entrenamiento inicial", period: "2015–2022", description: "Se ajustó un modelo para cada horizonte con los ejemplos de esos años." },
+  { title: "Validación y selección", period: "2023", description: "Se compararon configuraciones con las predicciones de 2023 y se eligió la de menor MAE medio entre horizontes." },
+  { title: "Reajuste final", period: "2015–2023", description: "Se volvió a ajustar la configuración elegida con los datos de ambas etapas." },
+  { title: "Evaluación retrospectiva", period: "2024", description: "Se contrastó con las mediciones de 2024 el modelo final ajustado con datos hasta 2023." },
+];
 
+function ModelProcess({ summary }: { summary: Summary }) {
+  return <Panel id="proceso-pm10" title="Cómo se preparó y evaluó el modelo" question="PM₁₀ · Estación Miravalle">
+    <p>Se predice la concentración horaria de PM₁₀ a +1, +2 y +3 horas, en µg/m³. Al emitir cada predicción, el modelo usa 24 lecturas consecutivas hasta la hora de origen, resúmenes de esas lecturas y el calendario del origen (hora, día de la semana y posición en el año).</p>
+    <ol className="am-model-stages">{STAGES.map(stage => <li key={stage.title}>
+      <span>{stage.period}</span><h3>{stage.title}</h3><p>{stage.description}</p>
+    </li>)}</ol>
+    <p className="am-note">La evaluación exige las tres mediciones objetivo disponibles. Abarca {summary.model.n.toLocaleString("es-MX")} de {summary.model.expected.toLocaleString("es-MX")} horas de origen de 2024 ({fmt(summary.model.coverage, 1)} %). El modelo tiende a subestimar concentraciones altas. La evaluación es retrospectiva. Ya se había explorado 2024 de forma descriptiva.</p>
+  </Panel>;
 }
 
-export function PredictionView({ summary }: { summary: Summary }) {
-  const [month, setMonth] = useState(12), [origin, setOrigin] = useState(""), [hours, setHours] = useState(48);
+export function PredictionSection({ summary, selection, navigate }: {
+  summary: Summary; selection: string; navigate: (path: string) => void;
+}) {
+  const [origin, setOrigin] = useState<string>();
+  const routes = ["prediccion", "prediccion/origen", "prediccion/evaluacion"];
+  const active = Math.max(0, routes.indexOf(selection));
+  return <>
+    <Sections labels={["Serie de 2024", "Explorar un origen", "Métricas y errores"]} active={active} label="Explorar la predicción"
+      change={index => { if (index === 1) setOrigin(undefined); navigate(routes[index]); }} />
+    {active === 2 ? <Evaluation summary={summary} /> : active === 1 ? <PredictionView key={origin} summary={summary} initialOrigin={origin} /> : <>
+      <ModelProcess summary={summary} />
+      <ForecastSeries openOrigin={value => { setOrigin(value); navigate("prediccion/origen"); }} />
+    </>}
+  </>;
+}
+
+function PredictionView({ summary, initialOrigin }: { summary: Summary; initialOrigin?: string }) {
+  const [month, setMonth] = useState(initialOrigin ? +initialOrigin.slice(5, 7) : 12);
+  const [origin, setOrigin] = useState(initialOrigin ?? ""), [hours, setHours] = useState(48);
+  const selectedHeading = useRef<HTMLParagraphElement>(null);
+  const focusedFromSeries = useRef(false);
   const result = useData<Prediction[]>(`/datos/sprint-3/predicciones/2024-${pad(month)}.json`);
   useEffect(() => { if (result.data && !origin) setOrigin(result.data[0]?.origin ?? ""); }, [result.data, origin]);
   const selected = result.data?.find(r => r.origin.slice(0, 16) === origin.slice(0, 16));
+  useEffect(() => {
+    if (!initialOrigin || selected?.origin !== initialOrigin || focusedFromSeries.current) return;
+    focusedFromSeries.current = true;
+    selectedHeading.current?.focus();
+  }, [initialOrigin, selected?.origin]);
   const normalized = origin.length === 16 ? `${origin}:00` : origin;
   const fullGrid = normalized ? hourGrid(shiftHour(normalized, -47), shiftHour(normalized, 3)) : [];
   const context = useData<HourChunk[]>(fullGrid.length ? chunkUrls(fullGrid[0], fullGrid[fullGrid.length - 1]) : null);
@@ -27,7 +65,7 @@ export function PredictionView({ summary }: { summary: Summary }) {
         <label className="am-select am-origin-input"><span>Origen t · hora local de los datos</span><input type="datetime-local" step={3600} value={origin.slice(0, 16)} min={`2024-${pad(month)}-01T00:00`} max={`2024-${pad(month)}-${pad(new Date(Date.UTC(2024, month, 0)).getUTCDate())}T23:00`} onChange={e => setOrigin(e.target.value)} /></label>
         <div className="am-origin-steps"><button type="button" aria-label="Origen disponible anterior" disabled={at <= 0} onClick={() => setOrigin(result.data![at - 1].origin)}>← Anterior</button><button type="button" aria-label="Siguiente origen disponible" disabled={at < 0 || at >= (result.data?.length ?? 0) - 1} onClick={() => setOrigin(result.data![at + 1].origin)}>Siguiente →</button></div></div>
       {!result.data ? <Loading error={result.error} /> : !selected ? <p className="am-status" role="status">Este origen no pertenece a la evaluación completa. No se imputan ni se generan pronósticos para las interrupciones. Elige otro origen disponible.</p> : <Motion signal={selected.origin} preset="detail">
-        <p className="am-origin"><span className="eyebrow">Origen de emisión</span><b>{dateLabel(selected.origin)}</b></p>
+        <p className="am-origin" ref={selectedHeading} tabIndex={-1}><span className="eyebrow">Origen de emisión</span><b>{dateLabel(selected.origin)}</b></p>
         <div className="am-forecast-summary" role="list" aria-label="Resumen de los tres horizontes">{[0, 1, 2].map(i => <article role="listitem" className="am-forecast-card" key={i} data-horizon={i + 1} data-target={selected.target[i]}><h3>+{i + 1} hora{i ? "s" : ""}</h3><p className="am-target-label">Fecha objetivo</p><time dateTime={selected.target[i]}><span>{selected.target[i].slice(0,10)}</span><b>{selected.target[i].slice(11,16)}</b></time><dl><div><dt>Concentración observada</dt><dd>{fmt(selected.observed[i])} <small>µg/m³</small></dd></div><div><dt>Predicción del modelo</dt><dd>{fmt(selected.models.HGB.predicted[i])} <small>µg/m³</small></dd></div><div><dt>Diferencia</dt><dd>{selected.models.HGB.error[i] > 0 ? "+" : ""}{fmt(selected.models.HGB.error[i])} <small>µg/m³</small></dd></div></dl></article>)}</div>
         <p className="am-note">Diferencia = predicción − observado. Un valor positivo indica sobreestimación; uno negativo, subestimación. Los observados posteriores al origen solo sirven para contrastar el resultado.</p>
         <details className="am-prediction-detail"><summary>Tabla ampliada y referencias</summary><Table label="Pronósticos de PM10 y observados"><thead><tr><th>Horizonte</th><th>Fecha objetivo</th><th>Observado</th><th>Predicción del modelo</th><th>Diferencia</th><th>Última lectura conocida</th><th>Misma hora del día anterior</th></tr></thead><tbody>{[0, 1, 2].map(i => <tr key={i}><th>+{i + 1} h</th><td>{dateLabel(selected.target[i])}</td><td>{fmt(selected.observed[i])}</td><td>{fmt(selected.models.HGB.predicted[i])}</td><td>{fmt(selected.models.HGB.error[i])}</td><td>{fmt(selected.models.persistencia.predicted[i])}</td><td>{fmt(selected.models.diaria.predicted[i])}</td></tr>)}</tbody></Table><p className="am-note">Concentraciones y diferencias en µg/m³. «Última lectura conocida» repite la concentración del origen en los tres horizontes (persistencia). «Misma hora del día anterior» usa la lectura de 24 horas antes de cada fecha objetivo.</p></details>
@@ -52,6 +90,35 @@ function MetricTable({ rows }: { rows: Metric[] }) {
   return <Table label="Métricas congeladas del modelo y referencias"><thead><tr><th>Modelo</th><th>Horizonte</th><th>n</th><th>MAE</th><th>RMSE</th><th>R²</th><th>Sesgo</th></tr></thead><tbody>{[1, 2, 3].flatMap(h => ["HGB", "persistencia", "diaria"].map(model => { const r = rows.find(r => r.horizon === h && r.model === model); return r ? <tr key={`${h}-${model}`}><th>{modelLabel[model]}</th><td>+{h} h</td><td>{r.n.toLocaleString("es-MX")}</td><td>{fmt(r.mae)}</td><td>{fmt(r.rmse)}</td><td title={r.r2_reason ?? ""}>{r.r2 == null ? `No calculable (${r.r2_reason})` : fmt(r.r2, 3)}</td><td>{fmt(r.bias)}</td></tr> : null; }))}</tbody></Table>;
 }
 
+type RefitMetrics = { fit_period: string; evaluation_period: string; metrics: Metric[] };
+
+function StageMetrics({ frozen, error }: { frozen?: Metric[]; error?: string }) {
+  const refit = useData<RefitMetrics>("/datos/sprint-3/complemento_reajuste.json");
+  const stages = [
+    { name: "Entrenamiento inicial · en muestra", partition: "train", period: "2015–2022" },
+    { name: "Validación · selección", partition: "validation", period: "2023" },
+    { name: "Reajuste final · en muestra", partition: "refit_in_sample", period: refit.data?.evaluation_period },
+    { name: "Evaluación retrospectiva", partition: "test", period: "2024" },
+  ];
+  return <Panel id="metricas-etapas" title="Errores por etapa" question="¿Con qué muestras se calculó cada métrica?">
+    <p>Los errores <strong>en muestra</strong> se calculan con los mismos ejemplos usados para ajustar cada versión del modelo. En validación, 2023 sirvió para elegir la configuración. Las métricas de 2024 corresponden al modelo final ajustado con 2015–2023.</p>
+    {!frozen || !refit.data ? <Loading error={error ?? refit.error} /> :
+      <div className="am-stage-metrics">{stages.map(stage => {
+        const rows = stage.partition === "refit_in_sample"
+          ? refit.data!.metrics : frozen.filter(row => row.partition === stage.partition && row.model === "HGB");
+        const fit = stage.partition === "refit_in_sample" ? refit.data!.fit_period : rows[0]?.fit_period?.replace("-", "–");
+        return <section key={stage.partition} data-stage={stage.partition}>
+          <h3>{stage.name}</h3>
+          <p className="am-note">Ajuste {fit} · Evaluado {stage.period} · n = {rows[0]?.n.toLocaleString("es-MX")} por horizonte</p>
+          <table aria-label={stage.name}><thead><tr><th scope="col">Horizonte</th><th scope="col">MAE</th><th scope="col">RMSE</th><th scope="col">R²</th></tr></thead>
+            <tbody>{rows.map(row => <tr key={row.horizon}><th scope="row">+{row.horizon} h</th><td>{fmt(row.mae)}</td><td>{fmt(row.rmse)}</td><td>{fmt(row.r2, 3)}</td></tr>)}</tbody>
+          </table>
+        </section>;
+      })}</div>}
+    <p className="am-note">MAE y RMSE en µg/m³. R² sin unidad. El error en muestra del reajuste se obtuvo con los modelos guardados y las 47,380 ventanas originales de reajuste. <a className="am-text-link" href="/datos/sprint-3/complemento_reajuste.json" download>Descargar el complemento y su procedencia</a>.</p>
+  </Panel>;
+}
+
 export function Evaluation({ summary }: { summary: Summary }) {
   const [month, setMonth] = useState(0), [horizon, setHorizon] = useState(1);
   const metrics = useData<Metrics>("/datos/sprint-3/metricas.json");
@@ -60,6 +127,7 @@ export function Evaluation({ summary }: { summary: Summary }) {
   const high = metrics.data?.altas.filter(r => r.partition === "test" && r.month === month) ?? [];
   const lineMetrics = metrics.data?.mensuales.filter(r => r.partition === "test" && r.horizon === horizon) ?? [];
   return <>
+    <StageMetrics frozen={metrics.data?.globales} error={metrics.error} />
     <Panel id="evaluacion-error" title="Evaluar frente a dos referencias" question="¿Cuánto error tiene cada horizonte sobre las mismas fechas evaluadas?">
       <div className="am-controls"><Select label="Mes de fecha objetivo · 2024" value={month} change={v => setMonth(+v)}><MonthOptions all /></Select><Select label="Horizonte de las gráficas" value={horizon} change={v => setHorizon(+v)}>{[1, 2, 3].map(h => <option key={h} value={h}>+{h} horas</option>)}</Select></div>
       {!metrics.data ? <Loading error={metrics.error} /> : <><MetricTable rows={rows} /><p className="am-note">Las referencias usan la última lectura del origen (persistencia) o la misma hora objetivo del día anterior. No necesitan observaciones futuras.</p><p className="am-note">MAE, RMSE y sesgo en µg/m³; R² adimensional y conservado aunque sea negativo. El filtro mensual usa la fecha objetivo; no el mes del origen. El conjunto global es idéntico entre horizontes y modelos. Los n mensuales pueden variar al cruzar un mes entre horizontes.</p>

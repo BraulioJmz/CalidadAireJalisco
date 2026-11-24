@@ -1,0 +1,59 @@
+{
+  "schema": "mir-pm10-reajuste-en-muestra-v1",
+  "partition": "refit_in_sample",
+  "configuration": "C05",
+  "fit_period": "2015–2023",
+  "evaluation_period": "2015–2023",
+  "method": "predict sobre refit_included de origenes.csv, en el orden de features.npy y targets.npy",
+  "source_root": "data/processed/sprint-3/modelado",
+  "sources_sha256": {
+    "config_congelada.json": "6d3962cfbd281fec25b0e85e2d2f0d7f04c48f3d8f0e2ed92801e2aaf16f48a0",
+    "datos_congelados.json": "6bfc7e0d8ae2614045fa82e981a66d9d9ab7b830056f5cbaaf47874a050035ed",
+    "origenes.csv": "ac7b341d45ef2533c5e18e5ee2d347e84d93e71e3bf2b0c9d1cb5d851496ce62",
+    "features.npy": "b47a5f38aa83f5f52d754eb5b7917cc465a4470660e0d55efb434bd421dcd2f0",
+    "targets.npy": "3a140531196ae78b1af8de2e54c03c223760d2b22424df4b2c90364de1d0a053",
+    "modelos/reajuste/pm10_h1.joblib": "b074e064cf938d80d366697de7a65c2d4d71f28cce7e7147a0c69a8410017062",
+    "modelos/reajuste/pm10_h2.joblib": "491b852cbbd69757eff46894d5f943806ac885780a79c57974aae5ab0e15d7a8",
+    "modelos/reajuste/pm10_h3.joblib": "826c3102b286cd31a2f88d5cb53a2bd5b87c216cee57553813c301879e288ba4"
+  },
+  "generator_sha256": "9b45000bab918ec804f9a3ac2b8f7d6f1d40e63570577afbda2f58958c48f9c8",
+  "protocol_sha256": "3833f883b244954690a43e2f933bb9c5920a0829a0a3750530678772cc4ecd08",
+  "sklearn_version": "1.9.1",
+  "first_origin": "2015-01-01T23:00:00",
+  "last_target": "2023-12-31T23:00:00",
+  "metrics": [
+    {
+      "horizon": 1,
+      "n": 47380,
+      "mae": 12.839041269734748,
+      "rmse": 21.475843989893907,
+      "r2": 0.8062652091108872,
+      "r2_reason": "",
+      "bias": -0.0017412582069286416,
+      "over_fraction": 0.5636344449134656,
+      "under_fraction": 0.4363655550865344
+    },
+    {
+      "horizon": 2,
+      "n": 47380,
+      "mae": 17.440709074069172,
+      "rmse": 27.463721463391337,
+      "r2": 0.68356847829158,
+      "r2_reason": "",
+      "bias": -0.002421306081964902,
+      "over_fraction": 0.5809202195018995,
+      "under_fraction": 0.41907978049810046
+    },
+    {
+      "horizon": 3,
+      "n": 47380,
+      "mae": 19.079131576822302,
+      "rmse": 29.240069699680898,
+      "r2": 0.6399709904665871,
+      "r2_reason": "",
+      "bias": -0.0030979566822948897,
+      "over_fraction": 0.5862178134233854,
+      "under_fraction": 0.4137821865766146
+    }
+  ]
+}
