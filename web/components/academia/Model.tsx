@@ -15,7 +15,7 @@ const STAGES = [
 
 function ModelProcess({ summary }: { summary: Summary }) {
   return <Panel id="proceso-pm10" title="Cómo se preparó y evaluó el modelo" question="PM₁₀ · Estación Miravalle">
-    <p>Se predice la concentración horaria de PM₁₀ a +1, +2 y +3 horas, en µg/m³. Al emitir cada predicción, el modelo usa 24 lecturas consecutivas hasta la hora de origen, resúmenes de esas lecturas y el calendario del origen (hora, día de la semana y posición en el año).</p>
+    <p>El modelo <strong>HistGradientBoostingRegressor (HGB)</strong> predice la concentración horaria de PM₁₀ a +1, +2 y +3 horas, en µg/m³. Al emitir cada predicción, usa 24 lecturas consecutivas hasta la hora de origen, resúmenes de esas lecturas y el calendario del origen (hora, día de la semana y posición en el año).</p>
     <ol className="am-model-stages">{STAGES.map(stage => <li key={stage.title}>
       <span>{stage.period}</span><h3>{stage.title}</h3><p>{stage.description}</p>
     </li>)}</ol>
